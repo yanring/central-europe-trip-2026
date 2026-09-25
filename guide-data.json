@@ -1,0 +1,3497 @@
+{
+  "meta": {
+    "title": "走慢一点，去中欧",
+    "subtitle": "Zijie & Hanyi · 2026 秋日旅行手册",
+    "dates": "2026.09.26 — 10.06",
+    "updated": "2026-09-25",
+    "version": "1.0",
+    "description": "三国、四个停留区、九晚。先守住已订交通，再按天气和胃口选择当天。"
+  },
+  "sources": {
+    "bookings": {
+      "label": "你提供的最新版住宿与交通行程",
+      "url": "",
+      "kind": "用户确认",
+      "note": "这是固定安排的唯一依据。未另行核验实时运行；替代旧的 Comfort 酒店及未订接驳方案。"
+    },
+    "bkk": {
+      "label": "BKK｜机场快线 100E",
+      "url": "https://bkk.hu/en/travel-information/airport-express/",
+      "kind": "交通运营方",
+      "note": "机场票 2,500 HUF；普通市内车票不能直接代替。"
+    },
+    "budtaxi": {
+      "label": "Budapest Airport｜Főtaxi",
+      "url": "https://www.bud.hu/en/parking-transport/transportation/taxi-uber/taxi/fotaxi.html",
+      "kind": "机场官方",
+      "note": "使用机场官方出租车柜台；按地址报价/计价，支持银行卡。"
+    },
+    "bartok": {
+      "label": "Budapest Info｜Bartók Béla Boulevard",
+      "url": "https://www.budapestinfo.hu/en/discover-bartok-bela-boulevard-the-locals-favourite",
+      "kind": "旅游局",
+      "note": "街区、画廊和咖啡馆线索；不是店铺逐一开门保证。"
+    },
+    "palace": {
+      "label": "Budapest 商业街组织｜Palace Quarter",
+      "url": "https://bevasarloutca.hu/en/streets/palace-quarter",
+      "kind": "街区组织",
+      "note": "Mikszáth tér、Krúdy Gyula 街等餐饮文化街区。"
+    },
+    "lumen": {
+      "label": "Lumen｜NagyLumen",
+      "url": "https://www.lumen.hu/nagylumen",
+      "kind": "商家官方",
+      "note": "Horánszky utca 5，餐饮店与 Mikszáth tér 的小店不同。"
+    },
+    "ruben": {
+      "label": "Ruben Restaurant",
+      "url": "https://rubenrestaurant.hu/",
+      "kind": "商家官方",
+      "note": "每日 12:00–22:00，厨房至 21:30；菜单以现场为准。"
+    },
+    "kelet": {
+      "label": "European Coffee Trip｜Kelet",
+      "url": "https://europeancoffeetrip.com/cafe/kelet-budapest/",
+      "kind": "咖啡专业目录",
+      "note": "营业时间属二级来源，前往前复查。"
+    },
+    "viennashops": {
+      "label": "Vienna Info｜商店营业时间",
+      "url": "https://www.wien.info/en/travel-info/frequently-asked-questions-346338",
+      "kind": "旅游局",
+      "note": "周日普通零售店多数关闭；车站、机场及部分博物馆店例外。"
+    },
+    "belvedere": {
+      "label": "Belvedere｜花园",
+      "url": "https://www.belvedere.at/en/belvedere/gardens",
+      "kind": "场馆官方",
+      "note": "主花园免费，9 月 06:30–20:00；植物园为另一套时间。"
+    },
+    "freihaus": {
+      "label": "Vienna Info｜Freihausviertel",
+      "url": "https://www.wien.info/en/see-do/neighborhoods/freihausviertel-469812",
+      "kind": "旅游局",
+      "note": ""
+    },
+    "serviten": {
+      "label": "Vienna Info｜Servitenviertel",
+      "url": "https://b2b.wien.info/en/newsroom/pressservice/en032024-french-graetzel-flair-in-the-servitenviertel-550958",
+      "kind": "旅游局",
+      "note": ""
+    },
+    "neubau": {
+      "label": "Vienna Info｜购物与独立店铺",
+      "url": "https://www.wien.info/en/see-do/shopping/flagship-stores-346030",
+      "kind": "旅游局",
+      "note": "作为购物区域与营业日背景；具体独立小店可能周一休息。"
+    },
+    "goldegg": {
+      "label": "Café Goldegg",
+      "url": "https://www.cafegoldegg.at/",
+      "kind": "商家官方",
+      "note": "地址已核验；未取得清晰的当前完整营业时刻表。"
+    },
+    "stockl": {
+      "label": "Stöckl im Park",
+      "url": "https://www.stoecklimpark.at/",
+      "kind": "商家官方",
+      "note": "每日 11:30–23:30，厨房至 22:30；官网列出 9/21–10/4 南瓜主题菜单。"
+    },
+    "josef": {
+      "label": "Weinstube Josefstadt",
+      "url": "https://www.weinstube-josefstadt.at/en",
+      "kind": "商家官方",
+      "note": "4–10 月每日 15:00–23:30，花园和厨房至 21:45；仅收现金。"
+    },
+    "mercerie": {
+      "label": "Servitenviertel｜La Mercerie",
+      "url": "https://servitenviertel.at/mitglied/cafe-bistrot-la-mercerie/",
+      "kind": "街区组织",
+      "note": "周一至周六 08:30–19:00。"
+    },
+    "schilling": {
+      "label": "Alt Wiener Gastwirtschaft Schilling",
+      "url": "https://www.schilling-wirt.at/",
+      "kind": "商家官方",
+      "note": "网页写 11:30–23:00，厨房至 22:00；具体日期需订位确认。"
+    },
+    "leopold": {
+      "label": "Leopold Museum｜开放时间",
+      "url": "https://www.leopoldmuseum.org/en/visit/opening-hours",
+      "kind": "场馆官方",
+      "note": "通常周二闭馆，其余 10:00–18:00；周一可作为雨天替代。"
+    },
+    "anzengruber": {
+      "label": "Café Anzengruber",
+      "url": "https://anzengruber.cafe/",
+      "kind": "商家官方",
+      "note": "周二至周六 16:00 起；这次维也纳停留期间不顺时段，因此排除。"
+    },
+    "winehike": {
+      "label": "Vienna Info｜2026 葡萄园徒步日",
+      "url": "https://www.wien.info/en/dine-drink/wine/wine-trail-366076",
+      "kind": "旅游局",
+      "note": "9/26–27；抵达维也纳当天不为赶活动牺牲休息。"
+    },
+    "wiener": {
+      "label": "Wiener Linien｜24 小时票",
+      "url": "https://tramwm.wienerlinien.at/web/guest/24-stunden-wien",
+      "kind": "交通运营方",
+      "note": "2026 数字 24 小时票 €9.70，纸票 €10.20；48/72 小时旧产品不再套用。"
+    },
+    "jeffs": {
+      "label": "Jeff’s｜联系",
+      "url": "https://www.jeffs.at/en/imprint/",
+      "kind": "酒店官方",
+      "note": "+43 660 6314777；infopoint.jeffs@gmail.com。"
+    },
+    "jeffsdistance": {
+      "label": "Dachstein Salzkammergut｜Jeff’s 位置",
+      "url": "https://dachstein.salzkammergut.at/en/oesterreich-unterkunft/detail/430026972/jeff-s.html",
+      "kind": "旅游局",
+      "note": "标注火车站约 2 公里、镇中心约 1 公里，不能当作站旁酒店。"
+    },
+    "taxigoisern": {
+      "label": "Bad Goisern 镇政府｜出租车",
+      "url": "https://www.bad-goisern.ooe.gv.at/Goiserer_TAXI_Service",
+      "kind": "地方政府",
+      "note": "+43 6135 4242；需预订接送，不是假设随时路边有车。"
+    },
+    "shuttle": {
+      "label": "Salzkammergut Shuttle",
+      "url": "https://www.salzkammergutshuttle.at/en/",
+      "kind": "当地公共接驳",
+      "note": "至少提前 1 小时预约，仅指定站点；常规成人每条线路 €6，跨线累加。部分公交平行路段 07–18 时不能使用。"
+    },
+    "gosau": {
+      "label": "Salzkammergut｜Gosausee 与当前关闭提示",
+      "url": "https://www.salzkammergut.at/en/search-accommodation/oesterreich-poi/detail/201041/lake-gosau.html",
+      "kind": "旅游局",
+      "note": "页面列出 2026/8/22–9/30 左岸落石封闭。10/1 是否重开必须重新确认，不能按结束日推定。"
+    },
+    "gosauloop": {
+      "label": "Dachstein Salzkammergut｜前湖环线",
+      "url": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/430000685/walk-around-the-lake-gosausee.html",
+      "kind": "旅游局",
+      "note": "通常全环约 4.2 公里；旧页面不足以证明本次左右两岸都开放。本版默认开放湖岸往返。"
+    },
+    "bus542": {
+      "label": "OÖVV｜542 公交时刻表",
+      "url": "https://www.ooevv.at/fileadmin/OOEVV/Downloads/Fahrplaene/542.pdf",
+      "kind": "交通运营方",
+      "note": "当前下载得到的是冬季表，页眉有效至 3/27 及 10/27 起，不用于 9/30、10/1。请在实时查询中选本次日期。"
+    },
+    "ooevv": {
+      "label": "OÖVV｜当地公交与火车查询",
+      "url": "https://www.ooevv.at/",
+      "kind": "交通运营方",
+      "note": "需选日期和站名；本站只给线路结构，未确认夏季具体发车时间。"
+    },
+    "oebb": {
+      "label": "ÖBB｜车次与运行信息",
+      "url": "https://www.oebb.at/en/",
+      "kind": "交通运营方",
+      "note": "已订火车时刻仍以车票和出发日运营通知为准。"
+    },
+    "untersee": {
+      "label": "Salzkammergut｜Untersee",
+      "url": "https://www.salzkammergutshuttle.at/en/oesterreich-poi/detail/430024649/parking-untersee.html",
+      "kind": "旅游局",
+      "note": "Steeg-Gosau 站步行约 25 分钟；湖岸不等于 Hallstatt 村。"
+    },
+    "steegwirt": {
+      "label": "Steegwirt｜联系与营业时间",
+      "url": "https://www.steegwirt.at/kontakt",
+      "kind": "商家官方",
+      "note": "周三至周日 10:00–22:00，热食 11:30–20:30；周一周二休息。"
+    },
+    "moser": {
+      "label": "Moserwirt｜餐厅",
+      "url": "https://www.moserwirt.at/gasthof/",
+      "kind": "商家官方",
+      "note": "周二晚餐可用；周三休息；周四是需预订的特定晚餐安排，不作随到随吃兜底。"
+    },
+    "zauner": {
+      "label": "Zauner｜两家门店",
+      "url": "https://zauner.at/en/contact/location-contact/",
+      "kind": "商家官方",
+      "note": "Pfarrgasse 7：08:30–18:00；Esplanade：09:30–20:00，热食 11:30–19:30。"
+    },
+    "sirius": {
+      "label": "Bad Ischl Tourism｜Siriuskogl 餐厅",
+      "url": "https://badischl.salzkammergut.at/en/oesterreich-gastronomie/detail/102092/gasthaus-siriuskogl.html",
+      "kind": "旅游局",
+      "note": "周三至周日 10:00–22:00，厨房 11:00–21:00；有上坡，不是平路餐厅。"
+    },
+    "traunkirchen": {
+      "label": "Salzkammergut｜Traunkirchen 历史步道",
+      "url": "https://www.salzkammergut.at/oesterreich-tour/detail/430001407/themenweg-via-historica-1-etappe-in-traunkirchen.html",
+      "kind": "旅游局",
+      "note": ""
+    },
+    "chapel": {
+      "label": "Salzkammergut｜Johannesberg",
+      "url": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430001876/johannesberg-with-johannesberg-chapel.html",
+      "kind": "旅游局",
+      "note": "页面提示只能到围挡位置，不保证可进入小教堂。"
+    },
+    "dachstein": {
+      "label": "Dachstein｜2026 夏秋运营时间",
+      "url": "https://www.dachstein-salzkammergut.com/en/summer/operation-times-summer",
+      "kind": "运营方",
+      "note": "Koppenbrüller 洞穴 9/27 结束；高山缆车受天气影响。"
+    },
+    "wolfgang": {
+      "label": "5 Schätze｜湖船与登山铁路",
+      "url": "https://www.5schaetze.at/en/Info_SchafbergBahn_and_WolfgangseeSchifffahrt.html",
+      "kind": "运营方",
+      "note": "Wolfgangsee 9/7–10/26 有秋季运营；不代表能赶上任意班次。"
+    },
+    "novysvet": {
+      "label": "Prague City Tourism｜Nový Svět",
+      "url": "https://prague.eu/en/objevujte/novy-svet-new-world/",
+      "kind": "旅游局",
+      "note": ""
+    },
+    "novycafe": {
+      "label": "Prague City Tourism｜Kavárna Nový Svět",
+      "url": "https://prague.eu/en/objevujte/kavarna-novy-svet-new-world-cafe/",
+      "kind": "旅游局",
+      "note": "周二至周六 10:00–19:00，周日 10:00–18:00。"
+    },
+    "strahov": {
+      "label": "Strahov 修道院｜参观规则",
+      "url": "https://www.strahovskyklaster.cz/en/for-visitors/visitors-rules",
+      "kind": "场馆官方",
+      "note": "展馆 09:00–17:00；图书馆票通常至 16:15，最后进入 16:30；庭院免费。"
+    },
+    "libraryexperience": {
+      "label": "Lonely Planet｜Strahov Library",
+      "url": "https://www.lonelyplanet.com/points-of-interest/strahov-library/1241366",
+      "kind": "旅行出版机构",
+      "note": "普通参观体验需要区分走廊和书厅；以购买时票种权限为准。"
+    },
+    "brewery": {
+      "label": "Pivovar Strahov｜联系",
+      "url": "https://www.klasterni-pivovar.cz/contact",
+      "kind": "商家官方",
+      "note": "每日 10:00–22:00，靠近酒店；知名酒馆，不包装为小众秘境。"
+    },
+    "brevnov": {
+      "label": "Prague City Tourism｜Břevnov 修道院",
+      "url": "https://prague.eu/en/objevujte/brevnov-monastery-brevnovsky-klaster/",
+      "kind": "旅游局",
+      "note": "下层花园通常 06:45–20:00；付费导览是另一安排，不等于随到随看内部。"
+    },
+    "senk": {
+      "label": "Klášterní šenk",
+      "url": "https://www.klasternisenk.cz/",
+      "kind": "商家官方",
+      "note": "每日 11:30–23:00，+420 220 406294；收到确认才算订位成功。"
+    },
+    "hvezda": {
+      "label": "Prague City Tourism｜Hvězda 森林公园",
+      "url": "https://prague.eu/cs/objevujte/obora-hvezda/",
+      "kind": "旅游局",
+      "note": "公园全年开放；宫殿内部另算，不为本版默认项目。"
+    },
+    "jirak": {
+      "label": "Prague City Tourism｜Jiřák 市集日期",
+      "url": "https://prague.eu/en/akce/farmers-martkets-at-jirak/",
+      "kind": "旅游局",
+      "note": "活动表列出 10/3 08:00–14:00。"
+    },
+    "jirakrules": {
+      "label": "Jiřák 市集｜2026 商户营业规则",
+      "url": "https://trhyjirak.cz/pravidla-trhu/prodejni-rad",
+      "kind": "主办方",
+      "note": "周六允许至 14:00，但保证营业窗口仅到 12:00。安排 10:30 抵达。"
+    },
+    "grebovka": {
+      "label": "Prague City Tourism｜Grébovka 公园",
+      "url": "https://prague.eu/en/objevujte/havlicek-gardens-grebovka-havlickovy-sady/",
+      "kind": "旅游局",
+      "note": "4–10 月通常 06:00–24:00；园内有坡和台阶。"
+    },
+    "altan": {
+      "label": "Prague City Tourism｜Altán Grébovka",
+      "url": "https://prague.eu/en/objevujte/altan-grebovka/",
+      "kind": "旅游局",
+      "note": "周末 11:00–22:00；景观葡萄酒/饮品停留，并非必须喝酒。"
+    },
+    "kolkovna": {
+      "label": "Prague City Tourism｜Výstaviště Kolkovna",
+      "url": "https://prague.eu/en/objevujte/kolkovna-brewery-and-restaurant/",
+      "kind": "旅游局",
+      "note": "每日 11:00–23:00；只适合北部公园备选路线，不跨城追餐。"
+    },
+    "pid": {
+      "label": "PID｜2026 新票价",
+      "url": "https://pid.cz/en/new-pid-tariff-from-1-january-2026-dont-pay-more-than-you-have-to/",
+      "kind": "交通运营方",
+      "note": "App 30/90 分钟为 36/46 CZK，24/72 小时为 140/340 CZK；纸票为 39/50/150/350 CZK。"
+    },
+    "prgtransport": {
+      "label": "Prague Airport｜公共交通",
+      "url": "https://www.prg.aero/en/public-transport-buses-to-airport",
+      "kind": "机场官方",
+      "note": "59 路无轨电车接 Nádraží Veleslavín 与 T1/T2；不是旧攻略的 119。"
+    },
+    "prgbud": {
+      "label": "Prague Airport｜Budapest 航线",
+      "url": "https://www.prg.aero/en/budapest",
+      "kind": "机场官方",
+      "note": "此目的地从 Terminal 2 出发；以当日登机牌为准。"
+    },
+    "ryanair": {
+      "label": "Ryanair｜非 EU/EEA 旅客证件验证",
+      "url": "https://help.ryanair.com/hc/en-ee/articles/35609684983057-I-am-a-non-EU-EEA-citizen-Do-I-need-to-allow-more-time-for-Visa-Documentation-checks",
+      "kind": "航司官方",
+      "note": "按 App 完成验证；无法完成时去机场柜台，不把线上值机视为证件检查完成。"
+    },
+    "tribe": {
+      "label": "Accor｜TRIBE Budapest Airport",
+      "url": "https://all.accor.com/hotel/B925/index.en.shtml",
+      "kind": "酒店官方",
+      "note": "T2 附近；+36 1 2960070，HB925@accor.com。"
+    },
+    "regiojet": {
+      "label": "RegioJet｜官方服务",
+      "url": "https://regiojet.com/",
+      "kind": "交通运营方",
+      "note": "用于查看已购车票与临时通知。"
+    },
+    "weather": {
+      "label": "Salzkammergut｜天气与摄像头",
+      "url": "https://www.salzkammergut.at/en/",
+      "kind": "旅游局",
+      "note": "进入 Webcams & Weather 查看实际云量与降水；本版不伪造远期逐日天气。"
+    },
+    "eu112": {
+      "label": "欧盟｜112 紧急电话",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/112",
+      "kind": "欧盟官方",
+      "note": "如遇紧急情况使用，不用于普通出行咨询。"
+    },
+    "foodimport": {
+      "label": "欧盟｜旅客携带动物产品",
+      "url": "https://food.ec.europa.eu/animals/animal-products-movements/personal-imports_en",
+      "kind": "欧盟官方",
+      "note": "从中国带入的肉及肉制品不作为旅行零食；泡面看真实成分。"
+    },
+    "parlament": {
+      "label": "Vinohradský Parlament｜营业与订位",
+      "url": "https://www.vinohradskyparlament.cz/",
+      "kind": "商家官方",
+      "note": "周六 11:30–24:00；工作日优惠套餐不能套到周末。"
+    },
+    "handwerk": {
+      "label": "HAND.WERK.HAUS｜官方日历与开放时间",
+      "url": "https://handwerkhaus.at/kalender/",
+      "kind": "场馆官方",
+      "note": "周一至周五 09:00–12:00、14:00–18:00；午间休息。"
+    }
+  },
+  "hotels": [
+    {
+      "id": "parisi",
+      "city": "布达佩斯",
+      "name": "Párisi Udvar Hotel Budapest",
+      "nights": "9/26–9/27 · 1 晚",
+      "address": "Petőfi Sándor utca 2–4, 1052 Budapest, Hungary",
+      "checkin": "9/26 15:00 起",
+      "checkout": "9/27 12:00 前",
+      "actual": "预计 9/26 12:00–13:15 到酒店；拿房前先询问寄存。9/27 建议 10:40 完成退房。",
+      "note": "提前入住和行李寄存均未确认，不当作既有权益。",
+      "refs": [
+        "bookings"
+      ]
+    },
+    {
+      "id": "hyatt",
+      "city": "维也纳",
+      "name": "Hyatt Regency Vienna",
+      "nights": "9/27–9/29 · 2 晚",
+      "address": "Arsenalstrasse 10, 1100 Vienna, Austria",
+      "checkin": "9/27 15:00 起",
+      "checkout": "9/29 12:00 前",
+      "actual": "原 Andaz Vienna Am Belvedere。14:32 火车抵达，约 15:00–15:30 入住；9/29 建议 11:30 退房。",
+      "note": "使用地址确认，不被地图旧名称带走；酒店到站步行计入找站台时间。",
+      "refs": [
+        "bookings"
+      ]
+    },
+    {
+      "id": "jeffs",
+      "city": "湖区",
+      "name": "Jeff’s – Rooms with a Mountain View",
+      "nights": "9/29–10/2 · 3 晚",
+      "address": "Bachlunzenweg 10, 4822 Bad Goisern, Austria",
+      "checkin": "9/29 14:00–19:00",
+      "checkout": "10/2 07:00–10:00",
+      "actual": "9/29 17:24 火车到站，预订接站，目标 17:45–18:15 入住；10/2 08:50 退房，09:00 预订车去站。",
+      "note": "站距约 2 公里。早餐是否包含、供应时间、晚到钥匙领取方式需确认。",
+      "phone": "+43 660 6314777",
+      "email": "infopoint.jeffs@gmail.com",
+      "refs": [
+        "bookings",
+        "jeffs",
+        "jeffsdistance"
+      ]
+    },
+    {
+      "id": "lindner",
+      "city": "布拉格",
+      "name": "Lindner Hotel Prague Castle",
+      "nights": "10/2–10/4 · 2 晚",
+      "address": "Strahovská 128, 118 00 Prague, Czech Republic",
+      "checkin": "10/2 15:00 起",
+      "checkout": "10/4 12:00 前",
+      "actual": "10/2 15:39 抵 Praha hl.n.，建议打车上城堡区，约 16:15–16:45 入住；10/4 11:15 退房并申请寄存。",
+      "note": "替代旧 Comfort 酒店。周日必须先回这家酒店取行李，再去机场。",
+      "refs": [
+        "bookings"
+      ]
+    },
+    {
+      "id": "tribe",
+      "city": "布达佩斯",
+      "name": "TRIBE Budapest Airport",
+      "nights": "10/4–10/5 · 1 晚",
+      "address": "Liszt Ferenc International Airport, Terminal 2, 1185 Budapest, Hungary",
+      "checkin": "10/4 15:00 起；实际深夜",
+      "checkout": "10/5 12:00 前；建议 09:00 离店",
+      "actual": "FR4033 22:45 抵达；预计 23:15–23:45 出航站楼后依酒店标识前往，延误时可能跨午夜。",
+      "note": "提前标注深夜抵达。按标识确认步行线路，不摸黑凭地图穿停车场。",
+      "phone": "+36 1 2960070",
+      "email": "HB925@accor.com",
+      "refs": [
+        "bookings",
+        "tribe"
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "date": "9/26 周六",
+      "mode": "飞机",
+      "name": "MU8639",
+      "route": "上海 PVG → 布达佩斯 BUD",
+      "time": "02:20 → 08:05",
+      "duration": "起飞北京时间，落地欧洲当地时间",
+      "legs": [
+        "MU8639 · PVG 02:20 → BUD 08:05"
+      ],
+      "seats": "座位未在你提供的文本中列出",
+      "before": "9/25 晚去浦东机场；建议按国际航班提前约 3 小时抵达办理手续。",
+      "after": "按你的要求，落地后留 3–4 小时，11:05–12:05 才预计出机场；再进城。",
+      "refs": [
+        "bookings"
+      ]
+    },
+    {
+      "date": "9/27 周日",
+      "mode": "火车",
+      "name": "RegioJet RJ1034",
+      "route": "Budapest-Kelenföld → Wien Hbf",
+      "time": "11:58 → 14:32",
+      "duration": "2 小时 34 分",
+      "legs": [
+        "RJ1034 · Budapest-Kelenföld 11:58 → Wien Hbf 14:32"
+      ],
+      "seats": "2 车厢 · 43、44 号",
+      "before": "10:40 前退房出发，目标 11:20 到 Kelenföld。不是 Keleti！当地交通以当天情况为准。",
+      "after": "下车、出站、去酒店预留约 30–60 分钟，15:00 起办理入住。",
+      "refs": [
+        "bookings",
+        "regiojet"
+      ]
+    },
+    {
+      "date": "9/29 周二",
+      "mode": "火车",
+      "name": "IC646 + R70",
+      "route": "Wien Hbf → Bad Goisern",
+      "time": "13:57 → 17:24",
+      "duration": "3 小时 27 分",
+      "legs": [
+        "IC646 · Wien Hbf 13:57 → Attnang-Puchheim 15:58",
+        "换乘 10 分钟",
+        "R70 · Attnang-Puchheim 16:08 → Bad Goisern 17:24"
+      ],
+      "seats": "IC646：5 车厢 35、36 号；R70：自由座",
+      "before": "12:00 前退房；目标 13:15 到 Wien Hbf。短换乘不在中转站买东西。",
+      "after": "预订 Bad Goisern 接站，确保 Jeff’s 19:00 前入住；延误立即联系房东。",
+      "refs": [
+        "bookings",
+        "oebb",
+        "jeffs"
+      ]
+    },
+    {
+      "date": "10/2 周五",
+      "mode": "火车",
+      "name": "REX70 + IC641 + EC334",
+      "route": "Bad Goisern → Praha hl.n.",
+      "time": "09:43 → 15:39",
+      "duration": "5 小时 56 分",
+      "legs": [
+        "REX70 · Bad Goisern 09:43 → Attnang-Puchheim 10:50",
+        "换乘 11 分钟",
+        "IC641 · Attnang-Puchheim 11:01 → Linz Hbf 11:30",
+        "换乘 24 分钟",
+        "EC334 · Linz Hbf 11:54 → Praha hl.n. 15:39"
+      ],
+      "seats": "REX70 自由座；IC641：4 车厢 132、133；EC334：367 车厢 111、113",
+      "before": "08:00 起床，08:50 退房，09:00 预订出租车，目标 09:20 到站；前晚打包。",
+      "after": "到布拉格主站后打车去 Lindner 城堡区；别再用旧 Comfort 地址。",
+      "refs": [
+        "bookings",
+        "oebb",
+        "taxigoisern"
+      ]
+    },
+    {
+      "date": "10/4 周日",
+      "mode": "飞机",
+      "name": "FR4033",
+      "route": "布拉格 PRG → 布达佩斯 BUD",
+      "time": "21:40 → 22:45",
+      "duration": "1 小时 05 分",
+      "legs": [
+        "FR4033 · PRG 21:40 → BUD 22:45"
+      ],
+      "seats": "行李额度和座位以 Ryanair 实际订单为准",
+      "before": "12:00 前退房、寄存；17:15 前取回行李，17:45–18:00 离店，目标 18:30–18:45 到 T2。",
+      "after": "机场酒店过夜，不再进布达佩斯市区。证件验证按 Ryanair App/登机牌提示完成。",
+      "refs": [
+        "bookings",
+        "prgbud",
+        "ryanair",
+        "tribe"
+      ]
+    },
+    {
+      "date": "10/5–10/6",
+      "mode": "飞机",
+      "name": "MU8640",
+      "route": "布达佩斯 BUD → 上海 PVG",
+      "time": "10/5 12:30 → 10/6 05:35",
+      "duration": "落地上海已是次日",
+      "legs": [
+        "MU8640 · BUD 10/5 12:30 → PVG 10/6 05:35"
+      ],
+      "seats": "座位未在你提供的文本中列出",
+      "before": "10/5 09:00 退房，目标 09:15–09:30 到值机区域；酒店 noon checkout 不代表能睡到 noon。",
+      "after": "上海时间 05:35 落地。不要当天上午安排重要工作或紧衔接的国内航班。",
+      "refs": [
+        "bookings"
+      ]
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-09-26",
+      "weekday": "周六",
+      "city": "布达佩斯",
+      "title": "先恢复，再认识一小片城市",
+      "wake": "航班日",
+      "pace": "很轻",
+      "hotel": "parisi",
+      "intro": "不安排上午景点。你们真正能开始使用的城市时间，是中午到酒店之后；下午只选一条街区路线。",
+      "anchors": [
+        "08:05 落地 BUD",
+        "11:05–12:05 预计出机场",
+        "15:00 起入住"
+      ],
+      "common": [
+        {
+          "time": "02:20",
+          "title": "MU8639 上海起飞",
+          "body": "北京时间；9/25 晚已去机场。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "08:05",
+          "title": "抵达布达佩斯",
+          "body": "此后全部用欧洲当地时间。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "11:05–12:05",
+          "title": "预计出机场",
+          "body": "按你要求保留落地后 3–4 小时；若更晚，删活动，不压缩休息。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "12:00–13:15",
+          "title": "前往酒店、询问寄存",
+          "body": "出租车可省搬行李；100E 是预算替代。进城和交通时间为预留，不是实时车程。",
+          "fixed": false,
+          "refs": [
+            "bkk",
+            "budtaxi"
+          ]
+        },
+        {
+          "time": "15:00–16:30",
+          "title": "办理入住，留出休息",
+          "body": "15:00 是入住起始，不保证房间一定提前准备好。",
+          "fixed": false,
+          "refs": [
+            "bookings"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "宫殿区短走 + 近处晚餐",
+          "fit": "默认 · 抵达日友好",
+          "steps": [
+            {
+              "time": "13:00",
+              "title": "酒店附近简单午餐",
+              "body": "Ruben 或前台推荐的近处餐馆；别专门跨城。",
+              "fixed": false,
+              "refs": [
+                "ruben"
+              ]
+            },
+            {
+              "time": "16:30",
+              "title": "Palace Quarter",
+              "body": "围绕 Mikszáth tér 与 Horánszky 街慢走。状态不好就只走半小时。",
+              "fixed": false,
+              "refs": [
+                "palace"
+              ]
+            },
+            {
+              "time": "18:30",
+              "title": "Ruben / NagyLumen 晚餐",
+              "body": "二选一；周六正式晚餐建议提前订。",
+              "fixed": false,
+              "refs": [
+                "ruben",
+                "lumen"
+              ]
+            },
+            {
+              "time": "20:00",
+              "title": "回酒店",
+              "body": "不为了夜景硬撑到深夜。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "bp-palace",
+            "bp-ruben",
+            "bp-lumen"
+          ],
+          "why": "少转车、少爬坡，晚餐与散步在同一区域。"
+        },
+        {
+          "id": "b",
+          "title": "Bartók 街区 + 书墙咖啡",
+          "fit": "替换 · 精神不错再选",
+          "steps": [
+            {
+              "time": "13:00",
+              "title": "酒店附近午餐",
+              "body": "吃完等待入住。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "16:30",
+              "title": "去 Bartók Béla Boulevard",
+              "body": "只走 Szent Gellért tér → Gárdonyi tér 的一小段。",
+              "fixed": false,
+              "refs": [
+                "bartok"
+              ]
+            },
+            {
+              "time": "17:15",
+              "title": "Kelet 坐一会儿",
+              "body": "满座就换附近店，不排队。",
+              "fixed": false,
+              "refs": [
+                "kelet"
+              ]
+            },
+            {
+              "time": "19:00",
+              "title": "回酒店一带吃晚餐",
+              "body": "进餐时间弹性，避免来回再跑城堡。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "bp-bartok",
+            "bp-kelet",
+            "bp-ruben"
+          ],
+          "why": "更偏当地咖啡与街区，但过河会增加移动；不要同时再做宫殿区。"
+        },
+        {
+          "id": "c",
+          "title": "只休息 + 一顿好好吃的晚饭",
+          "fit": "雨天 / 极累",
+          "steps": [
+            {
+              "time": "13:00",
+              "title": "简单午餐",
+              "body": "寄存后在附近解决，不远走。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "16:30",
+              "title": "继续休息",
+              "body": "把城市散步删掉，不必补回来。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "18:30",
+              "title": "Ruben 近处晚餐",
+              "body": "有位就吃，订不到请前台找步行可达替代。",
+              "fixed": false,
+              "refs": [
+                "ruben"
+              ]
+            }
+          ],
+          "spots": [
+            "bp-rest",
+            "bp-ruben"
+          ],
+          "why": "第一天恢复好，后面的湖区和维也纳更值得享受。"
+        }
+      ],
+      "watch": [
+        "早入住尚未确认。",
+        "不安排中央市场周六晚到店、热门咖啡馆排队或跨城连看三座地标。",
+        "机场到酒店的预留不是司机报价。"
+      ],
+      "food": "首选近处晚餐。Lumen 选 Horánszky utca 5 的 NagyLumen，不是另一家小咖啡店。",
+      "refs": [
+        "bookings",
+        "palace",
+        "bartok",
+        "lumen",
+        "ruben",
+        "bkk",
+        "budtaxi"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "weekday": "周日",
+      "city": "布达佩斯 → 维也纳",
+      "title": "换城之后，只散一个花园",
+      "wake": "08:30",
+      "pace": "很轻",
+      "hotel": "hyatt",
+      "intro": "上午只处理早餐、退房和上车。维也纳到店稍歇后，在酒店附近走走即可。",
+      "anchors": [
+        "10:40 建议退房出发",
+        "11:58 Kelenföld 上车",
+        "14:32 Wien Hbf 到达",
+        "15:00 起入住"
+      ],
+      "common": [
+        {
+          "time": "08:30",
+          "title": "起床、早餐",
+          "body": "前晚尽量整理好行李；不要加远处早午餐。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "10:40",
+          "title": "完成退房并出发去 Kelenföld",
+          "body": "用地址/车票确认车站；目标 11:20 到站，留找站台余量。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "11:58",
+          "title": "RJ1034 出发",
+          "body": "Budapest-Kelenföld；2 车厢 43、44 号。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "14:32",
+          "title": "抵达 Wien Hbf",
+          "body": "出站后步行/短程车到 Arsenalstrasse 10。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "15:00–16:15",
+          "title": "Hyatt 入住与休息",
+          "body": "地图可能仍显示旧 Andaz 名称，以地址为准。",
+          "fixed": false,
+          "refs": [
+            "bookings"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "美景宫外部花园 + Stöckl",
+          "fit": "默认 · 晴阴均可",
+          "steps": [
+            {
+              "time": "16:30",
+              "title": "Belvedere 花园短走",
+              "body": "只看外部和花园，不赶付费馆内参观。",
+              "fixed": false,
+              "refs": [
+                "belvedere"
+              ]
+            },
+            {
+              "time": "18:30",
+              "title": "Stöckl im Park 晚餐",
+              "body": "南瓜季菜单或常规奥地利菜，餐位待预约。",
+              "fixed": false,
+              "refs": [
+                "stockl"
+              ]
+            },
+            {
+              "time": "20:00",
+              "title": "回酒店",
+              "body": "没有强制夜景任务。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "vi-gardens",
+            "vi-stockl"
+          ],
+          "why": "景点虽经典，但离酒店近，留着是为了顺路与风景，不是打卡。"
+        },
+        {
+          "id": "b",
+          "title": "室内晚餐，花园延期",
+          "fit": "雨天 / 火车后累了",
+          "steps": [
+            {
+              "time": "16:30",
+              "title": "在酒店歇一会儿",
+              "body": "不为凑足景点赶着去关门前的博物馆。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "17:30–18:30",
+              "title": "Stöckl 室内晚餐",
+              "body": "早点吃，早点回；次日再逛街。",
+              "fixed": false,
+              "refs": [
+                "stockl"
+              ]
+            }
+          ],
+          "spots": [
+            "vi-stockl"
+          ],
+          "why": "周日下午不是采购日，雨天更没有必要硬排购物街。"
+        }
+      ],
+      "watch": [
+        "维也纳周日普通商店大多不开，购物放周一。",
+        "9/26–27 的葡萄园徒步活动不适合到店后再赶，主动舍弃。"
+      ],
+      "food": "Stöckl 是方便的第一晚选择；不追热门炸猪排长队。",
+      "refs": [
+        "bookings",
+        "belvedere",
+        "stockl",
+        "viennashops",
+        "winehike"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "weekday": "周一",
+      "city": "维也纳",
+      "title": "把一天花在小店、咖啡和庭院",
+      "wake": "09:00",
+      "pace": "轻至中等",
+      "hotel": "hyatt",
+      "intro": "维也纳唯一完整日，不以看完皇宫为目标。默认两个相邻方向的街区，午后随时可以缩短。",
+      "anchors": [
+        "没有固定交通",
+        "住宿无需换房",
+        "晚餐最多预订一家"
+      ],
+      "common": [
+        {
+          "time": "09:00",
+          "title": "起床、慢早餐",
+          "body": "吃完再出门，不把早餐也变成行军。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "20:30",
+          "title": "建议结束外出",
+          "body": "第二天还有火车；按体力可以更早回。",
+          "fixed": false,
+          "refs": []
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "Freihausviertel → Neubau → 庭院晚餐",
+          "fit": "默认 · 好逛好吃",
+          "steps": [
+            {
+              "time": "10:30",
+              "title": "Freihausviertel",
+              "body": "从 Schleifmühlgasse 开始，最多逛两三条街。",
+              "fixed": false,
+              "refs": [
+                "freihaus"
+              ]
+            },
+            {
+              "time": "12:45",
+              "title": "Schilling 午餐或附近临时选店",
+              "body": "移向 Neubau 后再吃，不来回穿城；订位时核对周一营业。",
+              "fixed": false,
+              "refs": [
+                "schilling"
+              ]
+            },
+            {
+              "time": "14:15",
+              "title": "Neubau / Spittelberg",
+              "body": "独立店、小巷、咖啡。15:30 起留一小时坐下或回酒店休息。",
+              "fixed": false,
+              "refs": [
+                "neubau"
+              ]
+            },
+            {
+              "time": "18:30",
+              "title": "Weinstube Josefstadt",
+              "body": "预订较早时段，带现金；不喝酒也可吃点东西。",
+              "fixed": false,
+              "refs": [
+                "josef"
+              ]
+            }
+          ],
+          "spots": [
+            "vi-freihaus",
+            "vi-neubau",
+            "vi-schilling",
+            "vi-josef"
+          ],
+          "why": "看店、吃饭、坐下来的密度高，不为了著名建筑反复跨区。"
+        },
+        {
+          "id": "b",
+          "title": "Servitenviertel 的慢一天",
+          "fit": "替换 · 更少步数",
+          "steps": [
+            {
+              "time": "10:45",
+              "title": "Servitenviertel",
+              "body": "教堂周边、步行街和街角，走累就停。",
+              "fixed": false,
+              "refs": [
+                "serviten"
+              ]
+            },
+            {
+              "time": "12:30",
+              "title": "La Mercerie 午餐 / 咖啡",
+              "body": "无需再找另一家网红咖啡馆。",
+              "fixed": false,
+              "refs": [
+                "mercerie"
+              ]
+            },
+            {
+              "time": "14:00–16:30",
+              "title": "午后留白",
+              "body": "继续附近短走或回酒店休息，二选一。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "18:30",
+              "title": "Josefstadt 庭院晚餐",
+              "body": "晚餐前查好交通；太累就换酒店附近 Stöckl。",
+              "fixed": false,
+              "refs": [
+                "josef",
+                "stockl"
+              ]
+            }
+          ],
+          "spots": [
+            "vi-serviten",
+            "vi-mercerie",
+            "vi-josef"
+          ],
+          "why": "把原本两片购物街区替换成一片住宅区，更适合只想自在逛的人。"
+        },
+        {
+          "id": "c",
+          "title": "Leopold 一个馆 + 一顿维也纳饭",
+          "fit": "雨天替换",
+          "steps": [
+            {
+              "time": "10:30–13:00",
+              "title": "Leopold Museum",
+              "body": "周一通常开放，只看感兴趣的部分。",
+              "fixed": false,
+              "refs": [
+                "leopold"
+              ]
+            },
+            {
+              "time": "13:15",
+              "title": "附近午餐",
+              "body": "Schilling 是候选，不为指定一家淋雨长走。",
+              "fixed": false,
+              "refs": [
+                "schilling"
+              ]
+            },
+            {
+              "time": "15:00",
+              "title": "咖啡 / 回酒店",
+              "body": "雨停才去 Spittelberg 走一小段。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "18:30",
+              "title": "室内晚餐",
+              "body": "Weinstube 室内位或 Stöckl，提前确认。",
+              "fixed": false,
+              "refs": [
+                "josef",
+                "stockl"
+              ]
+            }
+          ],
+          "spots": [
+            "vi-leopold",
+            "vi-schilling",
+            "vi-josef"
+          ],
+          "why": "坏天气直接替换主线，不在原有购物计划后额外加博物馆。"
+        }
+      ],
+      "watch": [
+        "Weinstube Josefstadt 仅收现金。",
+        "个别独立店周一休息，不把任何一家小店当硬预约。",
+        "Anzengruber 周二才营业且 16:00 才开，这次时间不适合。"
+      ],
+      "food": "两人吃两顿正式餐可能偏多；午餐可减量，把胃口留给庭院晚餐。",
+      "refs": [
+        "freihaus",
+        "serviten",
+        "neubau",
+        "josef",
+        "schilling",
+        "mercerie",
+        "leopold",
+        "anzengruber"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "weekday": "周二",
+      "city": "维也纳 → Bad Goisern",
+      "title": "准时退房，傍晚抵达湖区",
+      "wake": "08:45",
+      "pace": "交通日",
+      "hotel": "jeffs",
+      "intro": "今天最重要的是 10 分钟换乘与 Jeff’s 19:00 前入住。上午只做酒店附近的小事。",
+      "anchors": [
+        "12:00 前退房",
+        "13:57 Wien Hbf 发车",
+        "15:58 → 16:08 换乘",
+        "17:24 Bad Goisern 到站",
+        "19:00 前入住"
+      ],
+      "common": [
+        {
+          "time": "08:45",
+          "title": "起床、早餐",
+          "body": "Café Goldegg 作为可选；前晚先确认开门，未确认就酒店吃。",
+          "fixed": false,
+          "refs": [
+            "goldegg"
+          ]
+        },
+        {
+          "time": "11:30",
+          "title": "建议完成退房",
+          "body": "需要暂存行李就问前台；不能把退房拖到午饭后。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "12:15",
+          "title": "午饭并取回行李",
+          "body": "留意酒店与车站的步行时间。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "13:15",
+          "title": "目标到 Wien Hbf",
+          "body": "上车前买好水和简单零食，找对应车厢。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "13:57",
+          "title": "IC646 出发",
+          "body": "5 车厢 35、36 号。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "15:58",
+          "title": "到 Attnang-Puchheim",
+          "body": "下车直接换站台，以屏幕/运营通知为准；不要停下来购物。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "16:08",
+          "title": "R70 出发",
+          "body": "自由座。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "17:24",
+          "title": "到 Bad Goisern",
+          "body": "使用已提前预约的接站车；接站尚需你们确认。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "17:45–18:15",
+          "title": "Jeff’s 入住目标",
+          "body": "如错过前一段车，马上联系房东晚到与钥匙方案。",
+          "fixed": false,
+          "refs": [
+            "jeffs"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "只在镇里吃晚饭",
+          "fit": "默认",
+          "steps": [
+            {
+              "time": "18:30",
+              "title": "Moserwirt 晚餐",
+              "body": "以实际到店为准；周二晚可安排，建议预订并说明到站时间。",
+              "fixed": false,
+              "refs": [
+                "moser"
+              ]
+            },
+            {
+              "time": "20:00",
+              "title": "回房间，看看明天天气",
+              "body": "确认 542 去返程和湖岸封闭，不临睡前才想办法。",
+              "fixed": false,
+              "refs": [
+                "gosau",
+                "ooevv"
+              ]
+            }
+          ],
+          "spots": [
+            "lk-moser",
+            "lk-goisern"
+          ],
+          "why": "不加任何必须赶上的湖边夕阳，把精力留给两个完整湖区日。"
+        },
+        {
+          "id": "b",
+          "title": "晚点应对，不追加活动",
+          "fit": "误车 / 晚到",
+          "steps": [
+            {
+              "time": "18:00 起",
+              "title": "优先联系 Jeff’s",
+              "body": "说明新的预计抵达，确认晚到进门方式；不要等到 19:00 以后才联络。",
+              "fixed": false,
+              "refs": [
+                "jeffs"
+              ]
+            },
+            {
+              "time": "到店后",
+              "title": "附近晚餐或提前买好的食物",
+              "body": "餐厅厨房不一定等你。通知已订餐厅迟到或取消。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "lk-goisern"
+          ],
+          "why": "保住入住和睡眠比补回景点重要。"
+        }
+      ],
+      "watch": [
+        "接站不是已订，请提前确认。",
+        "Steegwirt 周二休息，不能作为今晚晚餐。",
+        "10 分钟换乘不留中途买水/洗手间任务；需要协助提前找乘务员。"
+      ],
+      "food": "Moserwirt 18:30 是建议订位，不是已订。随车带少量方便食物，以防晚点后厨房关门。",
+      "refs": [
+        "bookings",
+        "oebb",
+        "jeffs",
+        "taxigoisern",
+        "moser",
+        "steegwirt"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "weekday": "周三",
+      "city": "湖区",
+      "title": "把晴天留给 Gosausee",
+      "wake": "08:30",
+      "pace": "轻至中等",
+      "hotel": "jeffs",
+      "intro": "与 10/1 互换玩法都可以。当前湖岸有落石封闭提示，默认开放右岸往返，不把全环作为目标。",
+      "anchors": [
+        "前晚核对天气与开放路段",
+        "本地公交班次尚未确认",
+        "Steegwirt 18:00 为建议订位"
+      ],
+      "common": [
+        {
+          "time": "08:30",
+          "title": "起床、早餐",
+          "body": "先看实时云量与步道公告，再决定是否执行湖景日。",
+          "fixed": false,
+          "refs": [
+            "gosau",
+            "weather"
+          ]
+        },
+        {
+          "time": "17:00",
+          "title": "回房休息或直接赴餐",
+          "body": "餐前留出清理衣服、交通和休息时间。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "18:00",
+          "title": "Steegwirt 晚餐候选",
+          "body": "只在已确认餐位与交通时执行；周三营业。",
+          "fixed": false,
+          "refs": [
+            "steegwirt"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "Gosausee 开放湖岸 + 早回镇",
+          "fit": "默认 · 天气最好的一天",
+          "steps": [
+            {
+              "time": "09:30 左右",
+              "title": "前往 Gosausee",
+              "body": "这是出发窗口，不是公交时刻。查 Bad Goisern → Steeg-Gosau → Gosausee 的当日组合。",
+              "fixed": false,
+              "refs": [
+                "ooevv",
+                "bus542"
+              ]
+            },
+            {
+              "time": "10:45–12:15",
+              "title": "只走确认开放的湖岸",
+              "body": "默认右岸往返；被封闭的左岸不能为了环线进入。",
+              "fixed": false,
+              "refs": [
+                "gosau"
+              ]
+            },
+            {
+              "time": "12:15–13:15",
+              "title": "午餐或自带简餐",
+              "body": "湖边营业可能变化，出发前带好水与备用食物。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "13:15–14:30",
+              "title": "继续湖边坐坐或原路返回",
+              "body": "不用为了“走完”延伸后湖。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "15:00–16:30",
+              "title": "安排回程",
+              "body": "不要把最后一班车当唯一回程；公交错开就用提前确认的车。",
+              "fixed": false,
+              "refs": [
+                "ooevv",
+                "shuttle"
+              ]
+            }
+          ],
+          "spots": [
+            "lk-gosau",
+            "lk-steeg"
+          ],
+          "why": "景观优先但不冒险。路线开放状态比照片上的完整环湖更重要。"
+        },
+        {
+          "id": "b",
+          "title": "Untersee 湖岸 + 本地手工",
+          "fit": "替换 · 想少折腾",
+          "steps": [
+            {
+              "time": "10:00",
+              "title": "去 Untersee",
+              "body": "先查到 Steeg-Gosau 的车；也可预订出租车短途往返。",
+              "fixed": false,
+              "refs": [
+                "untersee"
+              ]
+            },
+            {
+              "time": "10:45–12:15",
+              "title": "湖岸短走",
+              "body": "只走公共开放段，坐下来看看山水。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "12:30",
+              "title": "午餐",
+              "body": "可把 Steegwirt 改午餐，但需与晚餐二选一并提前更改预约。",
+              "fixed": false,
+              "refs": [
+                "steegwirt"
+              ]
+            },
+            {
+              "time": "14:30",
+              "title": "HAND.WERK.HAUS",
+              "body": "午休后再去，不安排 12–14 时进入。",
+              "fixed": false,
+              "refs": [
+                "handwerk"
+              ]
+            }
+          ],
+          "spots": [
+            "lk-untersee",
+            "lk-handwerk",
+            "lk-steeg"
+          ],
+          "why": "不追远景，留更多时间给住宿地与晚餐。"
+        },
+        {
+          "id": "c",
+          "title": "Bad Ischl + 手工店的雨天日",
+          "fit": "雨天 · 与 10/1 换",
+          "steps": [
+            {
+              "time": "10:00",
+              "title": "去 Bad Ischl",
+              "body": "按当日火车；不为了固定时刻去等没有确认的班次。",
+              "fixed": false,
+              "refs": [
+                "oebb"
+              ]
+            },
+            {
+              "time": "11:00–13:00",
+              "title": "Zauner + 小镇午餐",
+              "body": "雨大以室内停留为主，不走 Siriuskogl 上坡。",
+              "fixed": false,
+              "refs": [
+                "zauner"
+              ]
+            },
+            {
+              "time": "14:00–15:30",
+              "title": "返回 Bad Goisern，手工店",
+              "body": "HAND.WERK.HAUS 14:00 后开门。",
+              "fixed": false,
+              "refs": [
+                "handwerk"
+              ]
+            }
+          ],
+          "spots": [
+            "lk-ischl",
+            "lk-zauner",
+            "lk-handwerk",
+            "lk-steeg"
+          ],
+          "why": "9/30 不看湖也没关系，把更好的天气让给 10/1。"
+        }
+      ],
+      "watch": [
+        "官方左岸封闭期写到 9/30；10/1 也不保证自动开放。",
+        "542 当前可下载 PDF 是冬季表，不使用它编造你们当天的发车时刻。",
+        "Moserwirt 周三不营业；不要临时只留这一家晚餐选择。"
+      ],
+      "food": "Steegwirt 是这两天最值得优先确认的一顿；交通去回一起问。若不订正式晚餐，请提前找好镇里当日开放替代。",
+      "refs": [
+        "gosau",
+        "gosauloop",
+        "ooevv",
+        "bus542",
+        "steegwirt",
+        "handwerk",
+        "shuttle",
+        "moser"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "weekday": "周四",
+      "city": "湖区",
+      "title": "小镇咖啡，或多看一片湖",
+      "wake": "09:00",
+      "pace": "轻松",
+      "hotel": "jeffs",
+      "intro": "第二个完整日可以按第一天的天气调换。默认不再坐很远的车，也不给明早 09:43 的火车制造疲劳。",
+      "anchors": [
+        "明早 09:43 固定火车",
+        "今晚必须打包",
+        "09:00 接站车需提前预约"
+      ],
+      "common": [
+        {
+          "time": "09:00",
+          "title": "起床、早餐",
+          "body": "先确认明早车辆和早餐安排。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "19:30–20:30",
+          "title": "回房打包",
+          "body": "把明早证件、车票、水和早餐单独放好。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "20:30",
+          "title": "确认明早 09:00 接送",
+          "body": "若尚未约好，今晚完成，不依赖明早临时叫车。",
+          "fixed": false,
+          "refs": [
+            "taxigoisern"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "Bad Ischl 咖啡与河岸",
+          "fit": "默认 · 恢复体力",
+          "steps": [
+            {
+              "time": "10:00 左右",
+              "title": "去 Bad Ischl",
+              "body": "以当天火车班次为准。",
+              "fixed": false,
+              "refs": [
+                "oebb"
+              ]
+            },
+            {
+              "time": "11:00",
+              "title": "Pfarrgasse 与镇中心",
+              "body": "慢走，不加购物任务。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "12:30",
+              "title": "Zauner Esplanade 午餐 / 甜点",
+              "body": "午餐和甜点按胃口二选或减量，不必全部点齐。",
+              "fixed": false,
+              "refs": [
+                "zauner"
+              ]
+            },
+            {
+              "time": "14:00–15:30",
+              "title": "河岸散步或回 Goisern",
+              "body": "天气不好就早点回，去 HAND.WERK.HAUS 看看。",
+              "fixed": false,
+              "refs": [
+                "handwerk"
+              ]
+            },
+            {
+              "time": "17:00",
+              "title": "早点吃晚饭",
+              "body": "可留在 Bad Ischl 吃，再按已查好的车返程；不把晚餐压到厨房关闭。",
+              "fixed": false,
+              "refs": [
+                "zauner"
+              ]
+            }
+          ],
+          "spots": [
+            "lk-ischl",
+            "lk-zauner",
+            "lk-handwerk"
+          ],
+          "why": "把完整的一天过得舒展一点，次日仍能 08:00 起床出发。"
+        },
+        {
+          "id": "b",
+          "title": "Siriuskogl 山顶午餐",
+          "fit": "晴天 · 愿意爬坡",
+          "steps": [
+            {
+              "time": "10:00 左右",
+              "title": "先到 Bad Ischl",
+              "body": "到镇后确认步行入口。",
+              "fixed": false,
+              "refs": [
+                "oebb"
+              ]
+            },
+            {
+              "time": "11:30",
+              "title": "上坡预留 30–45 分钟",
+              "body": "鞋底要防滑；不是平路 20 分钟随便走到。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "12:30–14:00",
+              "title": "Siriuskogl 午餐",
+              "body": "先确认餐位，才按这个时间出发。",
+              "fixed": false,
+              "refs": [
+                "sirius"
+              ]
+            },
+            {
+              "time": "14:15–16:30",
+              "title": "下山、镇里咖啡后返程",
+              "body": "前一晚没去 Steegwirt 的，可把晚餐预约放今天。",
+              "fixed": false,
+              "refs": [
+                "zauner",
+                "steegwirt"
+              ]
+            }
+          ],
+          "spots": [
+            "lk-sirius",
+            "lk-zauner",
+            "lk-steeg"
+          ],
+          "why": "用一次适度上坡换风景与美食；不合适就改默认线路。"
+        },
+        {
+          "id": "c",
+          "title": "Traunkirchen 半日湖镇",
+          "fit": "替换 · 更喜欢湖岸",
+          "steps": [
+            {
+              "time": "10:00 左右",
+              "title": "查车去 Traunkirchen Ort",
+              "body": "实际班次与停站决定出发，先看回程再上车。",
+              "fixed": false,
+              "refs": [
+                "oebb"
+              ]
+            },
+            {
+              "time": "11:30–14:30",
+              "title": "小镇、湖岸与午餐",
+              "body": "取历史步道短段；Johannesberg 有围挡就止步。",
+              "fixed": false,
+              "refs": [
+                "traunkirchen",
+                "chapel"
+              ]
+            },
+            {
+              "time": "15:00–17:00",
+              "title": "预留返程窗口",
+              "body": "不再继续 Gmunden 或另一个湖。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "lk-traunkirchen"
+          ],
+          "why": "比“湖区多看几个点”更合理的是，只加一个真正想看的镇。"
+        },
+        {
+          "id": "d",
+          "title": "把 Gosausee 放到今天",
+          "fit": "天气交换",
+          "steps": [
+            {
+              "time": "09:30 左右",
+              "title": "出发前复查开放与天气",
+              "body": "左岸公告到期不等于解除。确认开放后，仍可只做右岸往返。",
+              "fixed": false,
+              "refs": [
+                "gosau"
+              ]
+            },
+            {
+              "time": "10:45–14:30",
+              "title": "湖景 + 午餐",
+              "body": "完整安排参考 9/30 的 Gosausee 方案。",
+              "fixed": false,
+              "refs": [
+                "gosauloop"
+              ]
+            },
+            {
+              "time": "15:00–17:00",
+              "title": "返程",
+              "body": "早点回，不把环湖结束拖到天黑。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "lk-gosau",
+            "lk-steeg"
+          ],
+          "why": "9/30 下雨、今天更好时使用。只移动玩法，不自动移动餐厅订位。"
+        }
+      ],
+      "watch": [
+        "天气互换只移动游玩，不代表餐厅和交通预约自动跟着变。",
+        "Siriuskogl 不是雨天备选。",
+        "Moserwirt 周四有特定晚餐安排，需预订，不保证随到随点常规菜。"
+      ],
+      "food": "默认镇里午餐，早点吃晚饭；追求一顿特别的饭，就把 Siriuskogl 午餐或 Steegwirt 晚餐选一个。",
+      "refs": [
+        "zauner",
+        "sirius",
+        "handwerk",
+        "traunkirchen",
+        "gosau",
+        "steegwirt",
+        "moser",
+        "taxigoisern"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "weekday": "周五",
+      "city": "Bad Goisern → 布拉格",
+      "title": "火车日，傍晚就逛酒店旁边",
+      "wake": "08:00",
+      "pace": "交通日",
+      "hotel": "lindner",
+      "intro": "这是唯一需要认真卡住 08:00 起床的欧洲早晨。前晚打包、提前约车，就不需要 06 点起。",
+      "anchors": [
+        "08:50 建议退房",
+        "09:20 目标到站",
+        "09:43 首段火车",
+        "11 分钟 + 24 分钟换乘",
+        "15:39 抵达 Prague"
+      ],
+      "common": [
+        {
+          "time": "08:00",
+          "title": "起床，简单早餐",
+          "body": "Jeff’s 早餐时段未核实；必要时前晚准备，不现找早餐店。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "08:50",
+          "title": "完成退房",
+          "body": "酒店最迟 10:00 退房，但你们为了火车必须更早离开。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "09:00",
+          "title": "预约车出发",
+          "body": "目标 09:20 到 Bad Goisern 站；这是建议车时，还需确认。",
+          "fixed": false,
+          "refs": [
+            "taxigoisern"
+          ]
+        },
+        {
+          "time": "09:43",
+          "title": "REX70 出发",
+          "body": "自由座；10:50 到 Attnang-Puchheim。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "11:01",
+          "title": "IC641 出发",
+          "body": "11 分钟换乘；4 车厢 132、133；11:30 到 Linz。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "11:54",
+          "title": "EC334 出发",
+          "body": "Linz 换乘 24 分钟；367 车厢 111、113。先找到车再考虑买食物。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "15:39",
+          "title": "抵达 Praha hl.n.",
+          "body": "下车后打车去 Strahovská 128，不去旧 Comfort 酒店。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "16:15–16:45",
+          "title": "Lindner 入住目标",
+          "body": "包括出站、等车和上坡交通的规划窗口；堵车可更晚。",
+          "fixed": false,
+          "refs": []
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "Nový Svět + Strahov 晚餐",
+          "fit": "默认 · 酒店近邻",
+          "steps": [
+            {
+              "time": "17:15",
+              "title": "Nový Svět 短走",
+              "body": "小巷和咖啡；雨大就直接去吃饭。",
+              "fixed": false,
+              "refs": [
+                "novysvet",
+                "novycafe"
+              ]
+            },
+            {
+              "time": "18:30",
+              "title": "Pivovar Strahov 晚餐",
+              "body": "建议预订，晚点时通知调整。",
+              "fixed": false,
+              "refs": [
+                "brewery"
+              ]
+            },
+            {
+              "time": "20:00",
+              "title": "回酒店",
+              "body": "不用第一晚就下山去挤老城。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "pr-novysvet",
+            "pr-cafe",
+            "pr-brewery"
+          ],
+          "why": "新酒店的位置直接变成体验优势，走几分钟就能进入当天玩法。"
+        },
+        {
+          "id": "b",
+          "title": "只吃晚饭，不继续走",
+          "fit": "雨天 / 火车晚点",
+          "steps": [
+            {
+              "time": "18:00–19:00",
+              "title": "附近室内晚餐",
+              "body": "Pivovar Strahov 或酒店前台确认的开放餐馆。",
+              "fixed": false,
+              "refs": [
+                "brewery"
+              ]
+            },
+            {
+              "time": "20:00",
+              "title": "休息",
+              "body": "周六有完整时间，今晚不用补进度。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "pr-brewery"
+          ],
+          "why": "删掉散步不会损失关键体验。"
+        }
+      ],
+      "watch": [
+        "两个短换乘都先查站台；站台可能当天变。",
+        "没有替你们核验联程票合同形式，误车权益以具体票规和运营方处理为准。",
+        "图书馆 17:00 关闭，今天不赶末班入场。"
+      ],
+      "food": "车上有无餐饮不能当兜底，带水和午餐零食。晚餐优先酒店周边。",
+      "refs": [
+        "bookings",
+        "taxigoisern",
+        "oebb",
+        "novysvet",
+        "brewery",
+        "strahov"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "weekday": "周六",
+      "city": "布拉格",
+      "title": "市场只是开头，下午留给公园",
+      "wake": "09:00",
+      "pace": "轻至中等",
+      "hotel": "lindner",
+      "intro": "默认看一个市集、逛一个生活区、坐一座公园。不去挤老城广场也能过很完整的一天。",
+      "anchors": [
+        "Jiřák 建议 10:30 到",
+        "主办方保证摆摊至 12:00",
+        "没有必须预约的景点"
+      ],
+      "common": [
+        {
+          "time": "09:00",
+          "title": "起床、早餐",
+          "body": "不要为了市集牺牲睡眠。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "20:30",
+          "title": "建议结束外出",
+          "body": "乘车回城堡区，不强迫夜里长距离上坡走回去。",
+          "fixed": false,
+          "refs": []
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "Jiřák → Vinohrady → Grébovka",
+          "fit": "默认 · 生活区与风景",
+          "steps": [
+            {
+              "time": "09:45",
+              "title": "出发去 Jiřího z Poděbrad",
+              "body": "公共交通按当天地图查询；约 40–55 分钟是预留。",
+              "fixed": false,
+              "refs": [
+                "pid"
+              ]
+            },
+            {
+              "time": "10:30–11:30",
+              "title": "Jiřák 市集",
+              "body": "人多就少逛或绕开；不必凑到 14:00。",
+              "fixed": false,
+              "refs": [
+                "jirak",
+                "jirakrules"
+              ]
+            },
+            {
+              "time": "12:30",
+              "title": "Vinohradský Parlament 午餐",
+              "body": "正常周末菜单，不套用工作日特价。",
+              "fixed": false,
+              "refs": [
+                "parlament"
+              ]
+            },
+            {
+              "time": "14:00–16:00",
+              "title": "Grébovka 公园",
+              "body": "走一段、坐一会儿，Altán 是饮品停留候选。",
+              "fixed": false,
+              "refs": [
+                "grebovka",
+                "altan"
+              ]
+            },
+            {
+              "time": "17:00",
+              "title": "回酒店歇一会儿或就近早晚餐",
+              "body": "午餐很饱就晚餐减量，不继续追餐厅。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "pr-jirak",
+            "pr-parlament",
+            "pr-grebovka",
+            "pr-altan"
+          ],
+          "why": "市场是一个窗口，不是主角；把大部分时间给日常街道和公园。"
+        },
+        {
+          "id": "b",
+          "title": "Břevnov → Hvězda，彻底避开中心",
+          "fit": "替换 · 更少游客导向",
+          "steps": [
+            {
+              "time": "10:30",
+              "title": "Břevnov 花园",
+              "body": "只看外部，不绑定捷克语导览。",
+              "fixed": false,
+              "refs": [
+                "brevnov"
+              ]
+            },
+            {
+              "time": "12:30",
+              "title": "Klášterní šenk 午餐",
+              "body": "需确认桌位；吃完不着急走。",
+              "fixed": false,
+              "refs": [
+                "senk"
+              ]
+            },
+            {
+              "time": "14:30–16:00",
+              "title": "Hvězda 林荫道",
+              "body": "天气好才继续；否则直接回酒店。",
+              "fixed": false,
+              "refs": [
+                "hvezda"
+              ]
+            },
+            {
+              "time": "18:30",
+              "title": "酒店周边晚餐",
+              "body": "若周五已吃酒馆，今天可以只吃简单些。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "pr-brevnov",
+            "pr-senk",
+            "pr-hvezda"
+          ],
+          "why": "住城堡区就往西慢慢走，不每天都回游客核心。周日再改用小巷或图书馆。"
+        },
+        {
+          "id": "c",
+          "title": "Strahov Library + 室内午餐",
+          "fit": "雨天 / 想极简",
+          "steps": [
+            {
+              "time": "10:00–11:15",
+              "title": "Strahov Library",
+              "body": "购票前看清可进入区域，不期待普通票能随意走进书厅。",
+              "fixed": false,
+              "refs": [
+                "strahov"
+              ]
+            },
+            {
+              "time": "12:30",
+              "title": "Klášterní šenk 或近处餐厅",
+              "body": "雨势大就减少移动。",
+              "fixed": false,
+              "refs": [
+                "senk"
+              ]
+            },
+            {
+              "time": "14:30",
+              "title": "咖啡与休息",
+              "body": "小雨时 Nový Svět 走十几分钟，大雨直接删。",
+              "fixed": false,
+              "refs": [
+                "novycafe"
+              ]
+            }
+          ],
+          "spots": [
+            "pr-library",
+            "pr-senk",
+            "pr-cafe"
+          ],
+          "why": "把雨天做小，而不是为填满时长去很远的商场。"
+        }
+      ],
+      "watch": [
+        "Jiřák 很受欢迎，不能称为无人知道的市场。",
+        "不要在同一天串 Vinohrady、Břevnov 和北城酒馆，方向互相冲突。",
+        "公园有坡与石阶，穿防滑鞋。"
+      ],
+      "food": "市集零食只当零食，午餐可用 Vinohradský Parlament；想更静就改 Břevnov 的整套路线。",
+      "refs": [
+        "jirak",
+        "jirakrules",
+        "parlament",
+        "grebovka",
+        "altan",
+        "brevnov",
+        "senk",
+        "hvezda",
+        "strahov"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "weekday": "周日",
+      "city": "布拉格 → 布达佩斯",
+      "title": "退房后的半日，也可以从容",
+      "wake": "09:00",
+      "pace": "轻松 + 晚航班",
+      "hotel": "tribe",
+      "intro": "21:40 飞机并不意味着能逛到 19:00。把所有活动放在酒店附近/西侧，按时取行李，再去机场。",
+      "anchors": [
+        "12:00 前 Lindner 退房",
+        "17:15 前取行李",
+        "17:45–18:00 离店",
+        "18:30–18:45 目标到 PRG T2",
+        "21:40 飞机"
+      ],
+      "common": [
+        {
+          "time": "09:00",
+          "title": "起床、早餐",
+          "body": "收拾所有行李，不等午后才回房间打包。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "11:15",
+          "title": "退房、申请寄存",
+          "body": "寄存尚需酒店确认，最迟 12:00 退房。",
+          "fixed": false,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "16:45–17:15",
+          "title": "回 Lindner 取回行李",
+          "body": "当天活动无论如何变化，这个回酒店时间不后移。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "17:45–18:00",
+          "title": "从酒店出发去机场",
+          "body": "建议出租车；路况时间是预留，非实时保证。公共交通方案需要更早按导航出发。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "18:30–18:45",
+          "title": "目标抵达 PRG Terminal 2",
+          "body": "留值机、行李、Ryanair 证件验证与安检余量。",
+          "fixed": false,
+          "refs": [
+            "prgbud",
+            "ryanair"
+          ]
+        },
+        {
+          "time": "21:40",
+          "title": "FR4033 起飞",
+          "body": "PRG → BUD；以登机牌最新航站楼与登机口为准。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "22:45",
+          "title": "抵达布达佩斯",
+          "body": "这是申根区内航段，不再机械套用首次落地的 3–4 小时；实际以行李与机场流程为准。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        },
+        {
+          "time": "23:15–午夜后",
+          "title": "前往 TRIBE 办理入住",
+          "body": "机场出口时间仅估计。提前让酒店备注晚到，按现场步行标识走。",
+          "fixed": false,
+          "refs": [
+            "tribe"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "Břevnov 午餐 + 附近短走",
+          "fit": "默认 · 往机场方向的一侧",
+          "steps": [
+            {
+              "time": "11:30",
+              "title": "前往 Břevnov",
+              "body": "退房寄存后再走，不拖行李进花园。",
+              "fixed": false,
+              "refs": [
+                "brevnov"
+              ]
+            },
+            {
+              "time": "12:30",
+              "title": "Klášterní šenk 午餐",
+              "body": "若周六已吃这家，就改用方案 B。",
+              "fixed": false,
+              "refs": [
+                "senk"
+              ]
+            },
+            {
+              "time": "14:00–15:15",
+              "title": "花园或短程咖啡",
+              "body": "不临时加长线；Hvězda 只在时间充裕且没走过时替换此段。",
+              "fixed": false,
+              "refs": [
+                "brevnov",
+                "hvezda"
+              ]
+            }
+          ],
+          "spots": [
+            "pr-brevnov",
+            "pr-senk",
+            "pr-hvezda"
+          ],
+          "why": "不把离城日变成远郊一日游，最后仍能从容取行李。"
+        },
+        {
+          "id": "b",
+          "title": "Nový Svět / Strahov 周边留白",
+          "fit": "替换 · 周六已去 Břevnov",
+          "steps": [
+            {
+              "time": "12:00",
+              "title": "酒店周围午饭",
+              "body": "餐后慢走，不再奔赴另一个区。",
+              "fixed": false,
+              "refs": []
+            },
+            {
+              "time": "13:30–15:00",
+              "title": "小巷与咖啡",
+              "body": "Kavárna Nový Svět 周日 18:00 前营业，今天不必等到临关门。",
+              "fixed": false,
+              "refs": [
+                "novysvet",
+                "novycafe"
+              ]
+            },
+            {
+              "time": "15:15",
+              "title": "留空：坐下、回酒店或最后采购",
+              "body": "采购不买需要重新整理整箱行李的东西。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "pr-novysvet",
+            "pr-cafe",
+            "pr-brewery"
+          ],
+          "why": "行程后段留白很有价值，不一定要填入新景点。"
+        },
+        {
+          "id": "c",
+          "title": "Strahov 图书馆 + 室内午饭",
+          "fit": "雨天",
+          "steps": [
+            {
+              "time": "12:00–13:00",
+              "title": "Strahov Library",
+              "body": "没看过再去；已看过就只吃饭和休息。",
+              "fixed": false,
+              "refs": [
+                "strahov"
+              ]
+            },
+            {
+              "time": "13:30–15:00",
+              "title": "附近室内午餐 / 咖啡",
+              "body": "15:00 后不新增远处行程。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [
+            "pr-library",
+            "pr-brewery"
+          ],
+          "why": "全部留在酒店一带，天气恶劣也能守住机场余量。"
+        }
+      ],
+      "watch": [
+        "Lindner 的寄存与 TRIBE 深夜入住都需要留言确认。",
+        "Ryanair 随身/登机箱/托运行李额度以实际订单为准，不能套长途航司额度。",
+        "非 EU/EEA 护照按 App 指引做文件验证，失败时去柜台，不能只拿电子登机牌直接过安检。"
+      ],
+      "food": "午饭吃好，机场补一顿简单晚餐。布达佩斯到店很晚，不把深夜热食当保证。",
+      "refs": [
+        "bookings",
+        "brevnov",
+        "senk",
+        "novycafe",
+        "strahov",
+        "prgtransport",
+        "prgbud",
+        "ryanair",
+        "tribe"
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "weekday": "周一",
+      "city": "布达佩斯 → 上海",
+      "title": "机场酒店的价值，是不用赶路",
+      "wake": "08:00–08:15",
+      "pace": "返程日",
+      "hotel": "",
+      "intro": "没有进城计划。酒店到航站楼近，换来的是从容值机，不是把出门时间压到最后。",
+      "anchors": [
+        "09:00 建议退房",
+        "09:15–09:30 到值机区",
+        "12:30 MU8640 起飞"
+      ],
+      "common": [
+        {
+          "time": "08:00–08:15",
+          "title": "起床、早餐",
+          "body": "早餐时段和是否包含以前台/订单为准。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "09:00",
+          "title": "从 TRIBE 退房",
+          "body": "酒店标准 noon checkout 不影响今天应提前离开。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "09:15–09:30",
+          "title": "抵达航站楼值机区域",
+          "body": "留约 3 小时办理手续；购物退税或异常行李另加余量。",
+          "fixed": false,
+          "refs": []
+        },
+        {
+          "time": "12:30",
+          "title": "MU8640 飞往上海",
+          "body": "当地时间，抵达是次日。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "早餐、值机、回家",
+          "fit": "唯一建议",
+          "steps": [
+            {
+              "time": "10:00–12:00",
+              "title": "不再为采购冒险离开机场流程",
+              "body": "把证件、充电宝和常用物品留在随身包；行李规则看航司。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [],
+          "why": "不安排机场外的最后一站。"
+        }
+      ],
+      "watch": [
+        "带购物退税单时，先核对海关验货与托运顺序；本版未核验具体柜台营业与办理流程。"
+      ],
+      "food": "早餐 + 候机区简单餐饮即可。",
+      "refs": [
+        "bookings",
+        "tribe"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "weekday": "周二",
+      "city": "上海",
+      "title": "落地后，不补行程",
+      "wake": "机上过夜",
+      "pace": "恢复日",
+      "hotel": "",
+      "intro": "欧洲住宿已经在 10/5 结束，10/6 是北京时间抵达日。",
+      "anchors": [
+        "05:35 抵达上海 PVG（北京时间）"
+      ],
+      "common": [
+        {
+          "time": "05:35",
+          "title": "抵达上海浦东",
+          "body": "入境、取行李和回家用时另算；不写成 05:35 已能离开机场。",
+          "fixed": true,
+          "refs": [
+            "bookings"
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "id": "a",
+          "title": "回家与恢复",
+          "fit": "默认",
+          "steps": [
+            {
+              "time": "出机场后",
+              "title": "回家休息",
+              "body": "不安排当天上午重要会议或过紧的衔接。",
+              "fixed": false,
+              "refs": []
+            }
+          ],
+          "spots": [],
+          "why": "给旅程一个不用赶的结尾。"
+        }
+      ],
+      "watch": [
+        "上海日期与时区不要和欧洲当地时间混用。"
+      ],
+      "food": "按实际抵达情况安排早餐。",
+      "refs": [
+        "bookings"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "bp-palace",
+      "city": "布达佩斯",
+      "name": "Palace Quarter · 宫殿区小街",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "1.5–2 小时",
+      "budget": "散步免费",
+      "why": "比把半天塞给城堡、渔人堡和国会大厦更适合落地日：小广场、立面和咖啡，随时能坐下。",
+      "do": "以 Mikszáth Kálmán tér 为中心，逛 Krúdy Gyula utca 与 Horánszky utca；不追求走完全部街道。",
+      "access": "从 Párisi Udvar 出发，建议预留步行 20–30 分钟抵达街区，边走边停另算。",
+      "hours": "街道可自由走；餐馆、店铺各自营业。",
+      "caution": "不是没有游客的秘密区域；当天很累就缩成一顿晚饭。",
+      "refs": [
+        "palace"
+      ],
+      "map": "Mikszáth Kálmán tér Budapest",
+      "effort": "轻松"
+    },
+    {
+      "id": "bp-bartok",
+      "city": "布达佩斯",
+      "name": "Bartók Béla Boulevard · 咖啡与画廊",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "2–3 小时",
+      "budget": "散步免费，消费自选",
+      "why": "更生活化的布达一侧，适合喝咖啡、看小店，不必登高或抢摄影机位。",
+      "do": "选择 Szent Gellért tér → Gárdonyi tér 一段，再到 Kelet；长距离部分直接舍弃。",
+      "access": "从市中心跨河前往，地图核对当天公交；建议去回合计预留 45–70 分钟。",
+      "hours": "街区全天可走；周六小画廊不一定开到傍晚。",
+      "caution": "它在河对岸。9/26 只与 Palace Quarter 二选一，不两条都跑。",
+      "refs": [
+        "bartok"
+      ],
+      "map": "Gárdonyi tér Budapest",
+      "effort": "轻松"
+    },
+    {
+      "id": "bp-lumen",
+      "city": "布达佩斯",
+      "name": "NagyLumen · 庭院餐饮与咖啡",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 6,000–10,000 HUF（预算）",
+      "why": "把吃饭和街区散步放在同一处，少一次为了餐厅的跨城移动。",
+      "do": "早晚餐前后坐一会儿；菜单偏当代日常餐饮，不把它当精致正式晚宴。",
+      "access": "Horánszky utca 5，接 Palace Quarter 路线。",
+      "hours": "官网列每日 10:00–24:00；厨房实际接单时段需现场确认。",
+      "caution": "晚间可能有音乐活动。想安静就早点去；不是 Mikszáth tér 2 的 KisLumen。",
+      "refs": [
+        "lumen"
+      ],
+      "map": "NagyLumen Horánszky utca 5 Budapest",
+      "effort": "轻松"
+    },
+    {
+      "id": "bp-ruben",
+      "city": "布达佩斯",
+      "name": "Ruben · 酒店附近的匈牙利晚餐",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 8,000–14,000 HUF（预算）",
+      "why": "抵达日不值得为一顿饭再折腾。它是位置方便的本地菜选项，而不是所谓无人知道的店。",
+      "do": "鸭、炖菜或当季菜单按胃口选；两人不必把匈牙利菜一次吃全。",
+      "access": "Magyar utca 12–14；从 Párisi 步行前往。",
+      "hours": "每日 12:00–22:00，厨房至 21:30。",
+      "caution": "周六晚餐建议订位；网站菜单不等于当日有货。",
+      "refs": [
+        "ruben"
+      ],
+      "map": "Ruben Restaurant Budapest",
+      "effort": "轻松"
+    },
+    {
+      "id": "bp-kelet",
+      "city": "布达佩斯",
+      "name": "Kelet Kávézó · 书墙咖啡馆",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "45–90 分钟",
+      "budget": "每人约 2,500–5,000 HUF（预算）",
+      "why": "更符合慢慢坐、看街区的偏好；不必只去排队的宫殿咖啡馆。",
+      "do": "把它作为 Bartók 路线的休息点，喝咖啡或吃简单东西。",
+      "access": "Bartók Béla út 29；不要为了这一家专门跨河又马上折返。",
+      "hours": "专业咖啡目录列周六 09:00–23:00；非商家直接时刻，出发前复查。",
+      "caution": "周末同样可能满座；没有座位就换附近咖啡馆，不排长队。",
+      "refs": [
+        "bartok",
+        "kelet"
+      ],
+      "map": "Kelet Kávézó Budapest",
+      "effort": "轻松"
+    },
+    {
+      "id": "bp-rest",
+      "city": "布达佩斯",
+      "name": "Párisi 酒店休息 + 一顿近距离晚餐",
+      "kind": "放空",
+      "weather": "雨天可用",
+      "time": "半天也完全合理",
+      "budget": "按酒店及餐饮消费",
+      "why": "这不是浪费旅行日。长途红眼航班加 3–4 小时出机场，第一天最有价值的是恢复体力。",
+      "do": "寄存行李、吃饭，15:00 后入住；睡一小会儿，再决定是否走出酒店。",
+      "access": "不需要额外交通；提前到店不代表能提前拿房。",
+      "hours": "入住 15:00 起，依据你提供的安排。",
+      "caution": "大厅休息和行李寄存要问酒店，未提前确认；不把早入住写成已获批准。",
+      "refs": [
+        "bookings"
+      ],
+      "map": "Párisi Udvar Hotel Budapest",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-gardens",
+      "city": "维也纳",
+      "name": "Belvedere 花园 + Schweizergarten",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1–2 小时",
+      "budget": "主花园免费",
+      "why": "虽然美景宫很知名，但你们就住附近，只走花园比赶进宫看完整馆藏更自然。",
+      "do": "酒店出发走到上美景宫外部，花园里看水池、轴线和城市方向；不要顺手加一堆博物馆。",
+      "access": "从 Hyatt 酒店步行；建议穿过附近绿地慢慢走。",
+      "hours": "Belvedere 主花园 9 月 06:30–20:00；植物园不是同一开放时间。",
+      "caution": "这是顺路保留的经典，不标成 hidden gem。雨大就放弃花园。",
+      "refs": [
+        "belvedere"
+      ],
+      "map": "Upper Belvedere Gardens Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-freihaus",
+      "city": "维也纳",
+      "name": "Freihausviertel · 独立小店街区",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "2–3 小时",
+      "budget": "散步免费，购物另计",
+      "why": "艺术小店、设计、咖啡比在名店门口拍照更适合你们。",
+      "do": "Schleifmühlgasse 作为起点，围绕几条街随意逛；午饭和咖啡各留一个坐下来的时段。",
+      "access": "酒店出发乘公共交通或打车，第一段建议按 20–35 分钟规划。",
+      "hours": "优先安排 9/28 周一；个别小店周一仍可能休息。",
+      "caution": "不要把附近 Naschmarkt 也当必须完成的大项目。",
+      "refs": [
+        "freihaus",
+        "viennashops"
+      ],
+      "map": "Schleifmühlgasse Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-neubau",
+      "city": "维也纳",
+      "name": "Neubau / Spittelberg · 店铺与小巷",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "2–3 小时",
+      "budget": "散步免费，购物另计",
+      "why": "更适合没有清单地逛，有小巷、设计店和可以随时休息的餐馆。",
+      "do": "在 Neubaugasse、Kirchengasse 和 Spittelberg 周边选一小片，不走完整商圈。",
+      "access": "可接 Freihausviertel 午后的路线；累了用一小段公交。",
+      "hours": "9/28 周一比抵达的周日更适合看店；具体店铺未逐家确认。",
+      "caution": "这是受欢迎的街区，不保证人少；主购物大道不是本版重点。",
+      "refs": [
+        "neubau",
+        "viennashops"
+      ],
+      "map": "Spittelberg Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-serviten",
+      "city": "维也纳",
+      "name": "Servitenviertel · 小广场与咖啡",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "2–3 小时",
+      "budget": "散步免费",
+      "why": "适合把一天缩小到一个街区，生活感比帝国景点串联更强。",
+      "do": "Servitengasse 和教堂周围慢走，La Mercerie 坐下来吃点东西；不必再跑另一个远区。",
+      "access": "从酒店到街区先查 Wiener Linien；按单程约 30–45 分钟规划。",
+      "hours": "街道可走，La Mercerie 周一至周六营业。",
+      "caution": "与 Freihaus + Neubau 是替换关系，不是第三个加餐。",
+      "refs": [
+        "serviten",
+        "mercerie"
+      ],
+      "map": "Servitengasse Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-stockl",
+      "city": "维也纳",
+      "name": "Stöckl im Park · 花园里的奥地利菜",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1.5 小时",
+      "budget": "每人约 €30–50（预算）",
+      "why": "抵达维也纳后的近距离晚餐，不为热门炸猪排店排队。",
+      "do": "点当季菜或经典奥地利菜；官网这段日期有南瓜主题菜单。",
+      "access": "Prinz-Eugen-Straße 25，可与 Belvedere 花园衔接。",
+      "hours": "每日 11:30–23:30，厨房至 22:30。",
+      "caution": "花园位取决于天气；知名大餐厅，不保证安静。建议订 9/27 18:30。",
+      "refs": [
+        "stockl"
+      ],
+      "map": "Stöckl im Park Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-josef",
+      "city": "维也纳",
+      "name": "Weinstube Josefstadt · 城里的葡萄酒庭院",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1.5–2 小时",
+      "budget": "每人约 €25–45（预算）",
+      "why": "不用跑远郊葡萄园，也能安排一个慢晚餐的晚上。",
+      "do": "葡萄酒、无酒精饮料和自选冷/热食；想多坐一会儿就少点一个景点。",
+      "access": "Piaristengasse 27；适合接 Neubau/Josefstadt，不适合雨夜长走回酒店。",
+      "hours": "4–10 月每日 15:00–23:30；厨房、花园至 21:45。",
+      "caution": "仅收现金。建议预约早晚餐时段；不是所有食物都桌边点单。",
+      "refs": [
+        "josef"
+      ],
+      "map": "Weinstube Josefstadt Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-goldegg",
+      "city": "维也纳",
+      "name": "Café Goldegg · 酒店附近的老咖啡馆",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "45–75 分钟",
+      "budget": "每人约 €12–25（预算）",
+      "why": "用传统咖啡馆替代大型早餐打卡，9/29 火车前尤其顺路。",
+      "do": "早餐或咖啡选一个，不把这里和酒店早餐连吃两轮。",
+      "access": "Argentinierstraße 49；注意带行李时是否方便，优先吃完再回酒店取。",
+      "hours": "官网地址、联系方式已查；当前完整营业时间未清楚列出，前晚请酒店确认。",
+      "caution": "若当天不开，直接酒店早餐，不为找替代早餐影响退房和上车。",
+      "refs": [
+        "goldegg"
+      ],
+      "map": "Café Goldegg Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-mercerie",
+      "city": "维也纳",
+      "name": "La Mercerie · 法式面包与街角咖啡",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "45–90 分钟",
+      "budget": "每人约 €12–25（预算）",
+      "why": "适合 Servitenviertel 路线中途停留，重点是氛围，不是必须吃奥地利菜。",
+      "do": "咖啡、面包或简单午餐；把时间留给街区。",
+      "access": "Berggasse 25，接 Servitenviertel。",
+      "hours": "街区组织列周一至周六 08:30–19:00。",
+      "caution": "周日不纳入推荐；两家咖啡馆选一家即可。",
+      "refs": [
+        "mercerie"
+      ],
+      "map": "La Mercerie Berggasse 25 Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-schilling",
+      "city": "维也纳",
+      "name": "Schilling · 传统维也纳馆子",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 €30–50（预算）",
+      "why": "在逛街区域就近吃传统菜，作为不喝酒或不想去庭院的晚餐替代。",
+      "do": "根据现场菜单选炸肉排、炖菜或当季菜，不为一道菜跨区。",
+      "access": "Burggasse 周边，按官网/地图定位。",
+      "hours": "官网列 11:30–23:00，厨房至 22:00；目标日期在订位时确认。",
+      "caution": "尚未替你们订位。订不到就改 Stöckl 或附近餐馆，不排长队。",
+      "refs": [
+        "schilling"
+      ],
+      "map": "Alt Wiener Gastwirtschaft Schilling Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "vi-leopold",
+      "city": "维也纳",
+      "name": "Leopold Museum · 雨天只看一个馆",
+      "kind": "室内",
+      "weather": "雨天可用",
+      "time": "2–3 小时",
+      "budget": "门票按官网；预算约 €20–30/人",
+      "why": "不是隐藏景点，但它在周一通常开放，能实实在在替代雨中的逛街。",
+      "do": "重点看感兴趣的奥地利现代艺术，不追求全部展厅；随后在 MuseumsQuartier 附近吃饭。",
+      "access": "MuseumsQuartier，与 Neubau 方向衔接。",
+      "hours": "通常周二关闭，其余 10:00–18:00。",
+      "caution": "替代半天，不是在原路线后额外加 3 小时。特展和票价下单时核对。",
+      "refs": [
+        "leopold"
+      ],
+      "map": "Leopold Museum Vienna",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-gosau",
+      "city": "湖区",
+      "name": "Vorderer Gosausee · 开放湖岸慢走",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "在湖边 2–3 小时，门到门约 5–7 小时",
+      "budget": "湖岸免费；公交/出租车与午餐另计",
+      "why": "这趟最值得留给好天气的自然景观之一；但它本身知名，不承诺无人。",
+      "do": "默认只沿确认开放的右岸往返，找开阔位置看山和湖；不强制绕一圈，更不延伸后湖长线。",
+      "access": "先到 Steeg-Gosau，再接 542 向 Hintertal b.Gosau Gosausee。部分旧页写从 Bad Goisern 直达，不能据此假设无需换乘。也可提前询价出租车往返。",
+      "hours": "官网提示左岸 8/22–9/30 因落石关闭；10/1 是否恢复仍须当天确认。",
+      "caution": "最新封闭提示优先于旧版 4.2 公里环湖介绍。雨大、有新落石警报就不去；不越围挡。",
+      "refs": [
+        "gosau",
+        "gosauloop",
+        "ooevv",
+        "bus542"
+      ],
+      "map": "Vorderer Gosausee Austria",
+      "effort": "中等"
+    },
+    {
+      "id": "lk-untersee",
+      "city": "湖区",
+      "name": "Untersee · 不去 Hallstatt 村的湖岸",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "2–3 小时",
+      "budget": "散步免费，交通另计",
+      "why": "同一片山湖景观，却不把人流最密集的村中心作为目的地。",
+      "do": "在公共湖岸慢走、坐一会儿，按天气短程往返；不把私人草地、船屋当作可进入的景点。",
+      "access": "Steeg-Gosau 火车站往公共湖岸官方参考约 25 分钟步行；打车更省往返体力。",
+      "hours": "白天、天气适合时前往；不是安排秋季游泳。",
+      "caution": "接 Steegwirt 可以，但还需核对餐厅与湖岸之间的步行或车辆，不是同一个门口。",
+      "refs": [
+        "untersee"
+      ],
+      "map": "Untersee Bad Goisern",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-ischl",
+      "city": "湖区",
+      "name": "Bad Ischl · 咖啡、河岸与小镇",
+      "kind": "街区",
+      "weather": "雨天可用",
+      "time": "半天",
+      "budget": "逛街免费，餐饮另计",
+      "why": "适合云多或体力一般的那天，有地方坐、有餐饮，不必全程在山里淋雨。",
+      "do": "Pfarrgasse → Zauner → Esplanade；雨停再加公园，小雨就以店铺和咖啡为主。",
+      "access": "Bad Goisern 火车往 Bad Ischl；班次和门到门时间通过 ÖBB 查，不把列车用时当整段耗时。",
+      "hours": "咖啡两店营业时间见独立卡片；部分小店午间可能休息。",
+      "caution": "也是知名度假小镇，不假装绝对小众。当天不必再追另一个湖。",
+      "refs": [
+        "zauner",
+        "oebb"
+      ],
+      "map": "Esplanade Bad Ischl",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-steeg",
+      "city": "湖区",
+      "name": "Steegwirt · 留一顿湖区认真吃的饭",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1.5–2 小时",
+      "budget": "每人约 €45–80（预算，不含高价酒）",
+      "why": "比三天都随便凑合，更值得把一个晚上留给当地餐厅。",
+      "do": "按当天菜单考虑湖鱼或区域菜；有饮食禁忌在预订时说明。",
+      "access": "Au 12，Bad Goisern；从 Jeff’s 不是楼下就到，去回都安排交通。",
+      "hours": "周三至周日 10:00–22:00，热食 11:30–20:30；周一、周二休息。",
+      "caution": "建议 9/30 或 10/1 18:00。只先锁定一个日期，另一日留给天气，不同时占两个订位。",
+      "refs": [
+        "steegwirt"
+      ],
+      "map": "Steegwirt Au 12 Bad Goisern",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-moser",
+      "city": "湖区",
+      "name": "Moserwirt · 抵达当晚的稳妥晚餐",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 €25–45（预算）",
+      "why": "9/29 晚入住后就在镇里吃，不再赶另一个镇。",
+      "do": "订 18:30 左右，并说明列车 17:24 抵达；晚点时及时通知。",
+      "access": "Kirchengasse 6，镇中心。是否步行回 Jeff’s，按天黑与疲劳决定。",
+      "hours": "周二官网晚餐 17:30–21:00；周三休息，周四特殊餐需预订。",
+      "caution": "别拿它当每天都开的兜底店，尤其 9/30 周三。",
+      "refs": [
+        "moser"
+      ],
+      "map": "Moserwirt Bad Goisern",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-zauner",
+      "city": "湖区",
+      "name": "Zauner · 河岸甜点或老店咖啡",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "45–90 分钟",
+      "budget": "每人约 €12–25（咖啡甜点预算）",
+      "why": "经典而非小众；优势是与 Bad Ischl 的慢行节奏匹配。",
+      "do": "天气好去 Esplanade，雨天选 Pfarrgasse；两家不必都打卡。",
+      "access": "Pfarrgasse 7 / Esplanade（Hasnerallee 2），都是 Bad Ischl。",
+      "hours": "自家官网：Pfarrgasse 每日 08:30–18:00；Esplanade 09:30–20:00，热食 11:30–19:30。",
+      "caution": "甜点当休息，不必排长队；外带也是合理选择。",
+      "refs": [
+        "zauner"
+      ],
+      "map": "Zauner Esplanade Bad Ischl",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-sirius",
+      "city": "湖区",
+      "name": "Siriuskogl · 山顶午餐",
+      "kind": "吃喝",
+      "weather": "晴阴",
+      "time": "含上下坡约 2.5–3 小时",
+      "budget": "每人约 €30–55（餐饮预算）",
+      "why": "用一段真正的爬坡换观景与午餐，比一整天赶缆车更灵活。",
+      "do": "建议午餐位 12:30–13:00；上坡按 30–45 分钟慢走规划，不把旅游页面的最短步行时间当承诺。",
+      "access": "先到 Bad Ischl，再步行到登山入口；不是坐火车直接到餐厅门口。",
+      "hours": "旅游局列周三至周日 10:00–22:00，厨房 11:00–21:00。",
+      "caution": "有坡，湿滑、脚累或连续下雨就换 Zauner/镇里午餐。必须先确认桌位。",
+      "refs": [
+        "sirius"
+      ],
+      "map": "Gasthaus Siriuskogl Bad Ischl",
+      "effort": "有爬坡"
+    },
+    {
+      "id": "lk-traunkirchen",
+      "city": "湖区",
+      "name": "Traunkirchen · Traunsee 湖畔半日",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "门到门按大半天规划",
+      "budget": "散步免费，交通餐饮另计",
+      "why": "保留给更喜欢湖岸小镇、愿意多坐一段车的一天。",
+      "do": "在镇中心和湖边走，历史步道只取一小段；不要把小教堂内部当作必看。",
+      "access": "先查 Bad Goisern → Traunkirchen Ort 的日期班次；注意 Traunkirchen 与 Traunkirchen Ort 不是同一站。",
+      "hours": "湖岸白天走；Johannesberg 官方页面提示只能到围挡位置。",
+      "caution": "不与 Gosausee、Wolfgangsee 同天拼。它更适合作为 Bad Ischl 的替代，而非额外加项。",
+      "refs": [
+        "traunkirchen",
+        "chapel",
+        "oebb"
+      ],
+      "map": "Traunkirchen Ort",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-wolfgang",
+      "city": "湖区",
+      "name": "Wolfgangsee · 船上看湖",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "完整一天",
+      "budget": "船票按班次和区间，餐饮交通另计",
+      "why": "不想徒步但仍想看水面与村镇，可以把船本身当体验。",
+      "do": "只选一个村和一段来回衔接得上的船；不同时上 Schafberg、逛三个村。",
+      "access": "通常需先到 Bad Ischl，再接巴士往湖区；当地接驳和船时刻尚未锁定，出行成本高于 Bad Ischl。",
+      "hours": "运营方公布 9/7–10/26 秋季有船；具体航线、发船和风浪停航另查。",
+      "caution": "只作可替换整日方案。公共交通不顺、阴雨大风就删掉。",
+      "refs": [
+        "wolfgang",
+        "ooevv"
+      ],
+      "map": "Strobl Wolfgangsee Austria",
+      "effort": "中等"
+    },
+    {
+      "id": "lk-dachstein",
+      "city": "湖区",
+      "name": "Krippenstein / 5 Fingers · 好天气加码",
+      "kind": "风景",
+      "weather": "晴天限定",
+      "time": "完整一天",
+      "budget": "缆车票以官方为准，通常显著高于湖岸散步",
+      "why": "为想看高山大景的那天保留，但它不小众，也不属于轻松必选。",
+      "do": "当天看实时摄像头再决定；只做缆车加一段短步行，不再叠加多个洞穴。",
+      "access": "先到 Obertraun/缆车下站再乘缆车，接驳与缆车都要单独核对。",
+      "hours": "9 月中后工作日常规末班下山较早；官网显示上层约 17:00、下层约 17:10，必须当日复核。",
+      "caution": "云雾、风大、早雪或体力一般就不去。Koppenbrüller 洞穴季节已于 9/27 结束，不放进你们的湖区三晚。",
+      "refs": [
+        "dachstein"
+      ],
+      "map": "Dachstein Krippenstein Seilbahn",
+      "effort": "较费体力"
+    },
+    {
+      "id": "lk-goisern",
+      "city": "湖区",
+      "name": "Bad Goisern · 留一个不赶车的半天",
+      "kind": "放空",
+      "weather": "雨天可用",
+      "time": "1–3 小时",
+      "budget": "散步免费",
+      "why": "住三晚不代表每天都要去另一个景点。小镇午后和房间休息能把跨城疲劳降下来。",
+      "do": "镇中心短走，天气不好就少走、喝热饮，晚餐提前确认。",
+      "access": "Jeff’s 到镇中心官方标注约 1 公里；不是到湖边只有几步。",
+      "hours": "店铺各自营业，周三晚餐尤其要预先找好。",
+      "caution": "周三 Moserwirt 不营业，晚餐预先确认；雨天可换 HAND.WERK.HAUS，注意午间休息。",
+      "refs": [
+        "jeffsdistance",
+        "moser",
+        "handwerk"
+      ],
+      "map": "Bad Goisern Markt",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-novysvet",
+      "city": "布拉格",
+      "name": "Nový Svět · 酒店旁的城堡区小巷",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "1–1.5 小时",
+      "budget": "散步免费",
+      "why": "你们换到 Lindner 后，最有价值的就是不必每天从市区爬回山上。",
+      "do": "小巷短走 → Kavárna Nový Svět；回酒店附近吃饭。",
+      "access": "从 Lindner 步行往 Nový Svět，按地图取短线；有石板路。",
+      "hours": "街道可走，咖啡馆周五至周六 19:00 关、周日 18:00 关。",
+      "caution": "虽然比主轴安静，但有住户，请不探进私人院子、不大声拍照。",
+      "refs": [
+        "novysvet",
+        "novycafe"
+      ],
+      "map": "Nový Svět Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-cafe",
+      "city": "布拉格",
+      "name": "Kavárna Nový Svět · 小巷咖啡",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "45–75 分钟",
+      "budget": "每人约 200–400 CZK（预算）",
+      "why": "10/2 到店后不用穿越老城，就可以开始度假。",
+      "do": "17:15 左右喝点东西，之后晚饭，不把它当正餐保证。",
+      "access": "Nový Svět 2；与酒店周边短线衔接。",
+      "hours": "周二至周六 10:00–19:00，周日 10:00–18:00，周一休。",
+      "caution": "店不大，没位就外带或直接跳过。",
+      "refs": [
+        "novycafe"
+      ],
+      "map": "Kavárna Nový Svět Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-brewery",
+      "city": "布拉格",
+      "name": "Pivovar Strahov · 步行可回酒店的晚餐",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 550–900 CZK（预算）",
+      "why": "长途火车后的晚上，近比稀缺名气更有用。",
+      "do": "捷克菜、当日汤或当地啤酒任选；不喝酒也能吃饭。",
+      "access": "Strahovské nádvoří 301，Lindner 周边。",
+      "hours": "每日 10:00–22:00。",
+      "caution": "旅游者不少，绝不是 hidden gem。优点是方便；周五晚建议订位。",
+      "refs": [
+        "brewery"
+      ],
+      "map": "Klášterní pivovar Strahov Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-jirak",
+      "city": "布拉格",
+      "name": "Jiřák 农夫市集 + Vinohrady",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "2–3 小时",
+      "budget": "逛市集免费，消费另计",
+      "why": "适合周六看日常食物、面包、花和居民生活，但不应因为叫本地市场就假设人少。",
+      "do": "10:30 左右到 Jiřího z Poděbrad，买少量喜欢的食物，再逛 Vinohrady 街道。",
+      "access": "从酒店乘公共交通到 Jiřího z Poděbrad；建议单程预留 40–55 分钟，临时施工另算。",
+      "hours": "官方活动页列 10/3 08:00–14:00；主办方保证时段只到 12:00，所以别下午才来。",
+      "caution": "人太多就直接绕开摊区。无需为市场 07:00 起床。",
+      "refs": [
+        "jirak",
+        "jirakrules"
+      ],
+      "map": "Jiřího z Poděbrad Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-grebovka",
+      "city": "布拉格",
+      "name": "Grébovka · 葡萄园与公园",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1.5–2.5 小时",
+      "budget": "公园免费，饮品另计",
+      "why": "比把下午花在老城广场和查理大桥人群里，更适合慢散步。",
+      "do": "公园走一段，找葡萄园方向的视野；体力一般就不反复上下台阶。",
+      "access": "可接 Vinohrady 午后路线，步行或短程公交；不用全程从市集走到底。",
+      "hours": "旅游局列 4–10 月 06:00–24:00；本版只安排白天。",
+      "caution": "有坡，不是完全无障碍平地。下雨就换室内，不安排夜里穿林。",
+      "refs": [
+        "grebovka"
+      ],
+      "map": "Havlíčkovy sady Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-altan",
+      "city": "布拉格",
+      "name": "Altán Grébovka · 葡萄园旁坐下来",
+      "kind": "吃喝",
+      "weather": "晴阴",
+      "time": "45–90 分钟",
+      "budget": "每人约 250–500 CZK（预算）",
+      "why": "在风景里休息，而不是又找一个拍照点。",
+      "do": "一杯饮品加少量吃的即可；不作为唯一正式午餐来源。",
+      "access": "Havlíčkovy sady 内；与 Grébovka 公园同一区域。",
+      "hours": "旅游局列周末 11:00–22:00，工作日 12:00–22:00。",
+      "caution": "露台位看天气与到店情况；阴雨可舍弃。",
+      "refs": [
+        "altan"
+      ],
+      "map": "Altán Grébovka Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-brevnov",
+      "city": "布拉格",
+      "name": "Břevnov 修道院花园",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1–2 小时",
+      "budget": "花园散步免费，内部导览另计",
+      "why": "从城堡区往西，少进核心游客区，适合你们周日飞行前的半日。",
+      "do": "只逛花园与外部，再去 Klášterní šenk 午餐。",
+      "access": "从 Lindner 到 Břevnov 用公交/出租车，建议单程预留 20–35 分钟。",
+      "hours": "官方列下层花园 06:45–20:00；内部导览有固定班次，主要捷克语。",
+      "caution": "庭院开放不代表可自由走进全部宗教空间。不要为导览牺牲午后回酒店取行李时间。",
+      "refs": [
+        "brevnov"
+      ],
+      "map": "Břevnov Monastery Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-senk",
+      "city": "布拉格",
+      "name": "Klášterní šenk · 修道院里的捷克午餐",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 450–800 CZK（预算）",
+      "why": "与 Břevnov 花园自然拼成半日，没有为了饭店的跨城绕路。",
+      "do": "选传统捷克菜和汤，午饭后还可散步；避开临走前临时抢桌。",
+      "access": "Markétská 1/28，Břevnov 修道院内。",
+      "hours": "每日 11:30–23:00；电话 +420 220 406294。",
+      "caution": "线上表单只是申请，收到餐厅确认才算有位。建议 10/4 12:30。",
+      "refs": [
+        "senk"
+      ],
+      "map": "Klášterní šenk Břevnov Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-hvezda",
+      "city": "布拉格",
+      "name": "Hvězda · 真正留给散步的森林公园",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1.5–2 小时",
+      "budget": "公园免费",
+      "why": "不需要知名地标就能成立的活动，适合只想走走、坐坐的人。",
+      "do": "选林荫大道短线往返；宫殿只看外部，不强行加内部参观。",
+      "access": "在 Břevnov 以西，作为同方向延伸；公共交通回酒店先查好。",
+      "hours": "旅游局说明公园全年对公众开放。",
+      "caution": "雨后林地可能泥泞。10/4 若下午超过 15:00 才想去，就直接跳过。",
+      "refs": [
+        "hvezda"
+      ],
+      "map": "Obora Hvězda Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-library",
+      "city": "布拉格",
+      "name": "Strahov Library · 就近雨天备选",
+      "kind": "室内",
+      "weather": "雨天可用",
+      "time": "约 1 小时",
+      "budget": "票种和价格按官网",
+      "why": "住在旁边的优势是无需为了躲雨移动很远，但先对参观内容有合理预期。",
+      "do": "上午看图书馆与相关展陈；购票前核对普通票可进入的区域，不假设可在书厅书架间自由走。",
+      "access": "Lindner 周边步行。",
+      "hours": "馆内通常 09:00–17:00；图书馆单项售票至 16:15、最晚进入 16:30。",
+      "caution": "10/2 抵达后不赶最后入场。想深入看书厅，先向官方确认特殊参观权限。",
+      "refs": [
+        "strahov",
+        "libraryexperience"
+      ],
+      "map": "Strahov Library Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-kolkovna",
+      "city": "布拉格",
+      "name": "Výstaviště Kolkovna · 北城路线用餐",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 450–800 CZK（预算）",
+      "why": "给想换到北部城市公园方向的一天留餐饮选项，而不是为了酒馆跑一趟。",
+      "do": "只在当天本来就在 Výstaviště 一带时使用；捷克菜与当地啤酒/软饮。",
+      "access": "Výstaviště 415；与默认 Vinohrady 路线不是一个方向。",
+      "hours": "旅游局列每日 11:00–23:00。",
+      "caution": "它是一家较大的酒馆，不比安静花园更符合你们所有偏好，因此只在备选库保留。",
+      "refs": [
+        "kolkovna"
+      ],
+      "map": "Kolkovna Výstaviště Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "pr-parlament",
+      "city": "布拉格",
+      "name": "Vinohradský Parlament · 市集后的正餐",
+      "kind": "吃喝",
+      "weather": "雨天可用",
+      "time": "1–1.5 小时",
+      "budget": "每人约 450–800 CZK（预算）",
+      "why": "在 Vinohrady 吃一顿正餐，再去公园，不用靠市集零食当全天午饭。",
+      "do": "捷克菜、面团配菜和汤按当天菜单点；不是政治机构。",
+      "access": "Korunní 1，靠近 Náměstí Míru，与 Jiřák 和 Grébovka 方向衔接。",
+      "hours": "官网捷克文列周六 11:30–24:00，周日 11:30–23:00。",
+      "caution": "大店可能热闹，不是安静私房菜。工作日便宜午餐套餐不适用于这次周六。",
+      "refs": [
+        "parlament"
+      ],
+      "map": "Vinohradský Parlament Prague",
+      "effort": "轻松"
+    },
+    {
+      "id": "lk-handwerk",
+      "city": "湖区",
+      "name": "HAND.WERK.HAUS · 本地手工与小店",
+      "kind": "室内",
+      "weather": "雨天可用",
+      "time": "45–90 分钟",
+      "budget": "入场/展览收费现场确认，购物另计",
+      "why": "比在雨里硬追湖景更贴近地方生活，也就在住宿镇里。",
+      "do": "看当地工艺与小物，选择喜欢的手工作品；不假设有随到随参加的工作坊。",
+      "access": "Rudolf-von-Alt-Weg 6，Bad Goisern 中心。",
+      "hours": "官方列周一至周五 09:00–12:00、14:00–18:00，周六上午；适合周三周四。",
+      "caution": "12:00–14:00 午休不要扑空。具体展览/导览仍需询问。",
+      "refs": [
+        "handwerk"
+      ],
+      "map": "HAND.WERK.HAUS Bad Goisern",
+      "effort": "轻松"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "passport",
+      "group": "出发前",
+      "title": "证件与离线备份",
+      "detail": "护照、有效签证、保险、酒店/车票留离线副本。订单详情不要放在公开网站；两人各自保存一份。",
+      "refs": []
+    },
+    {
+      "id": "pvg",
+      "group": "出发前",
+      "title": "9/25 晚去浦东，不是 9/26 晚",
+      "detail": "MU8639 为 9/26 凌晨 02:20，出门日期最容易看错。",
+      "refs": [
+        "bookings"
+      ]
+    },
+    {
+      "id": "jeffarrive",
+      "group": "先预约",
+      "title": "Jeff’s 到店与晚到方案",
+      "detail": "告知 9/29 17:24 到站、预计 18 点前后入住。确认晚于 19:00 时如何拿钥匙、早餐时间与是否包含。",
+      "refs": [
+        "jeffs"
+      ]
+    },
+    {
+      "id": "taxiarrival",
+      "group": "先预约",
+      "title": "预约 9/29 Bad Goisern 站接酒店",
+      "detail": "把人数、行李、火车到站时间和 Bachlunzenweg 10 发给出租车；要求列车晚点时可调整。尚未预约。",
+      "refs": [
+        "taxigoisern"
+      ]
+    },
+    {
+      "id": "taxidepart",
+      "group": "先预约",
+      "title": "预约 10/2 09:00 Jeff’s → Bad Goisern 站",
+      "detail": "目标 09:20 到站，09:43 发车。不要当晨才找车。",
+      "refs": [
+        "taxigoisern",
+        "bookings"
+      ]
+    },
+    {
+      "id": "restaurants",
+      "group": "先预约",
+      "title": "只预订关键几顿，不锁死全部天气",
+      "detail": "优先 Steegwirt 9/30 或 10/1 18:00 二选一；再考虑 9/27 Stöckl、9/29 Moserwirt、10/2 Strahov。预约均未代为完成。",
+      "refs": [
+        "steegwirt",
+        "stockl",
+        "moser",
+        "brewery"
+      ]
+    },
+    {
+      "id": "cash",
+      "group": "出发前",
+      "title": "为现金店准备少量欧元",
+      "detail": "Weinstube Josefstadt 明确仅收现金。其他消费到店确认支付方式，不因有信用卡就假设处处可刷。",
+      "refs": [
+        "josef"
+      ]
+    },
+    {
+      "id": "maps",
+      "group": "出发前",
+      "title": "地图与通信",
+      "detail": "保存 5 家酒店完整地址与车站名；下载离线地图，确认手机在三国能联网。当地公交还需实时核对。",
+      "refs": []
+    },
+    {
+      "id": "shoes",
+      "group": "出发前",
+      "title": "防雨、防滑与分层穿衣",
+      "detail": "带防雨外层、保暖中层、可走石板路和湖岸的鞋、折叠伞。湖区温度/风雨以出发前预报决定加减衣物。",
+      "refs": []
+    },
+    {
+      "id": "snacks",
+      "group": "出发前",
+      "title": "火车备用食物",
+      "detail": "带水和少量能独立成餐的零食。由中国携入的食品避开肉及肉包；泡面不能只看“风味”字样，要看成分。",
+      "refs": [
+        "foodimport"
+      ]
+    },
+    {
+      "id": "gosaucheck",
+      "group": "出发前一晚复查",
+      "title": "Gosausee 左岸封闭与回程",
+      "detail": "左岸公告到 9/30，10/1 也要确认是否解除；默认开放右岸往返。先找到回程车，再出发。",
+      "refs": [
+        "gosau",
+        "ooevv"
+      ]
+    },
+    {
+      "id": "busconfirm",
+      "group": "出发前一晚复查",
+      "title": "542 必须查本次日期的时刻",
+      "detail": "手头官网下载 PDF 是冬季表，不能用于 9/30 或 10/1。填起终点与日期，核对是否在 Steeg-Gosau 换车。",
+      "refs": [
+        "bus542",
+        "ooevv"
+      ]
+    },
+    {
+      "id": "luggage",
+      "group": "先预约",
+      "title": "Lindner 10/4 退房后寄存",
+      "detail": "确认可以寄存至 17 点前后，避免全下午拖箱子。未获得酒店确认前，不视为已安排。",
+      "refs": [
+        "bookings"
+      ]
+    },
+    {
+      "id": "ryanair",
+      "group": "出发前一晚复查",
+      "title": "FR4033 值机、证件与行李额度",
+      "detail": "核对实际购买的登机箱/托运行李，在 App 完成要求的非 EU/EEA 证件验证；无法完成则早点去柜台。",
+      "refs": [
+        "ryanair"
+      ]
+    },
+    {
+      "id": "tribelate",
+      "group": "先预约",
+      "title": "TRIBE 备注 10/4 深夜抵达",
+      "detail": "说明航班 22:45 抵达，入住可能 23:30 或午夜后；延误及时更新。",
+      "refs": [
+        "tribe"
+      ]
+    },
+    {
+      "id": "trains",
+      "group": "每日复查",
+      "title": "列车运行、站台和车厢",
+      "detail": "票面时刻与实际运行分开看。短换乘在到站前查下一段站台；有问题先找工作人员，不自行假设车票能换乘任意列车。",
+      "refs": [
+        "oebb",
+        "regiojet"
+      ]
+    },
+    {
+      "id": "exports",
+      "group": "网站使用",
+      "title": "把修改后的攻略分享给同行人",
+      "detail": "编辑只存在当前浏览器。用“导出可分享网页”保存新的 HTML，再发给对方；不是云端实时同步。",
+      "refs": []
+    }
+  ],
+  "practical": [
+    {
+      "title": "先读：哪些是已确认，哪些仍待落实",
+      "items": [
+        "酒店、长途交通与座位均按你最新提供的文字保留，未用旧文件反向覆盖。酒店更名也按你确认的名称显示。",
+        "所有起床时间、短途车程、到店窗口、步行时长和每人餐饮预算都是规划建议，不是已订接驳或实时保证。",
+        "餐厅与景点采用官方公开营业信息；仍可能临时包场、满位、天气停业。这里没有代订任何餐厅、出租车或新门票。",
+        "本版不提供未经核实的 542 夏季精确发车时刻，也不声称知道 10/1 左岸一定重开。最重要的待办已单列。"
+      ],
+      "refs": [
+        "bookings",
+        "gosau",
+        "bus542"
+      ]
+    },
+    {
+      "title": "布达佩斯：机场只选一种简单进城方式",
+      "items": [
+        "省体力：机场官方 Főtaxi 柜台按酒店地址安排车辆，出发前看清报价/计价；不要把网上旧的固定价格当现价。",
+        "省预算：100E 机场快线，官方专用票 2,500 HUF/人，两人 5,000 HUF。到市区站后还有到酒店的一段，普通市内车票不直接适用。",
+        "9/27 前往 Kelenföld 优先按“10:40 酒店出发、11:20 到站”留余量；出租车最省搬行李。公共交通要把步行、买票、换乘和站内找车都加进去。"
+      ],
+      "refs": [
+        "bkk",
+        "budtaxi",
+        "bookings"
+      ]
+    },
+    {
+      "title": "维也纳：别照搬旧的 48/72 小时票攻略",
+      "items": [
+        "2026 公开价格：数字 24 小时票 €9.70，纸票 €10.20；过去的 48/72 小时产品不再沿用。购票前仍按 App 当日显示核对。",
+        "你们周日主要步行，周一才频繁坐车。可考虑周一上午开始一张 24 小时票，覆盖到周二上午；比为了两晚住宿自动买长票更合理。",
+        "周日普通零售大多关闭，城市散步和餐饮可以安排，但不要把采购任务全留到抵达日。"
+      ],
+      "refs": [
+        "wiener",
+        "viennashops"
+      ]
+    },
+    {
+      "title": "湖区：要把“最后一公里”当成路线的一部分",
+      "items": [
+        "Jeff’s 官方旅游资料标注火车站约 2 公里。拖箱子不等于轻松散步，因此接站和离站车是优先预约项。",
+        "Gosausee 以 Bad Goisern → Steeg-Gosau → 542 的结构查询；旧攻略与季节性时刻变化容易混淆，不能假定从镇上任意公交站直达。",
+        "Salzkammergut Shuttle 是指定站点之间的预约服务，不是 €6 随意门到门出租车。至少提前 1 小时；跨多条线路另计，一些平行公交站间在 07:00–18:00 不适用。",
+        "公交回程未接上时，有提前预留的车辆联系人比现场盲等末班可靠。湖岸日不要用“最后一班车”作为唯一方案。"
+      ],
+      "refs": [
+        "jeffsdistance",
+        "ooevv",
+        "bus542",
+        "shuttle",
+        "taxigoisern"
+      ]
+    },
+    {
+      "title": "布拉格：酒店在城堡区，路线要重新按西侧安排",
+      "items": [
+        "10/2 从主站到 Lindner，建议第一次带行李打车上去；报价看 App 或正规司机，本站 25–40 分钟级别的接驳预留并非实时车程。",
+        "2026 PID App：30 分钟 36 CZK、90 分钟 46 CZK、24 小时 140 CZK、72 小时 340 CZK。纸票依次 39、50、150、350 CZK。以买票界面和启用时间为准。",
+        "不要仅凭“两晚”就买 72 小时票。一天短程乘坐 4 次约 144 CZK，24 小时票可能更省；只坐两次则未必。机场长程要按实际所需有效时长选票。",
+        "机场公共交通参考 Metro A 到 Nádraží Veleslavín 接 59 路；这是 59，不是旧的 119。你们从酒店出发的第一段要当天查询，不默认这一方案一定比出租车好。"
+      ],
+      "refs": [
+        "bookings",
+        "pid",
+        "prgtransport"
+      ]
+    },
+    {
+      "title": "预算：先留余量，不把估算当报价",
+      "items": [
+        "以下是每人规划区间：咖啡/甜点约 €10–20 等值；普通坐下吃饭约 €25–45 等值；Steegwirt 这样的特别一餐可预留 €45–80，不含高价酒。",
+        "完整游玩日两人额外消费可先按 €130–220 等值留预算，覆盖一般餐饮、少量市内交通和零星门票；不含已付住宿、长途车票、购物、大量出租车、高山缆车与高价餐。",
+        "预算是给取舍用的，不需要为了“用完预算”加活动。真的要额外花钱，优先买接站便利和想吃的一顿饭，而不是不感兴趣的景点套票。",
+        "三地付款货币不同：奥地利 EUR、匈牙利 HUF、捷克 CZK；看清菜单、收据与支付币种。信用卡返现活动未在本版重做核验。"
+      ],
+      "refs": [
+        "bkk",
+        "pid",
+        "wiener",
+        "josef"
+      ]
+    },
+    {
+      "title": "坏天气与身体状态：直接换，不补作业",
+      "items": [
+        "湖区：最好天气给 Gosausee；雨天换 Bad Ischl、Zauner 和 HAND.WERK.HAUS。后者中午 12:00–14:00 休息。",
+        "维也纳：周一雨天可用 Leopold；逛馆替换逛街，不是额外加 3 小时。",
+        "布拉格：Strahov 图书馆、近处餐厅和咖啡构成半天就够。买普通票前看清书厅权限，不能把网络全景照当作能自由走入的保证。",
+        "连续下雨、鞋子湿透或睡眠不足时，把户外压到 30–60 分钟。已有车票决定移动日，未订的景点不必强行完成。"
+      ],
+      "refs": [
+        "handwerk",
+        "leopold",
+        "strahov",
+        "gosau"
+      ]
+    },
+    {
+      "title": "紧急联系与安全",
+      "items": [
+        "紧急救援：欧盟通用号码 112。非紧急出行问题联系酒店、运营方或当地旅游办公室，不占用紧急线路。",
+        "Jeff’s：+43 660 6314777；Goiserer Taxi：+43 6135 4242；Salzkammergut Shuttle：+43 50 422422。",
+        "TRIBE：+36 1 2960070。手机保存酒店地址、保险紧急热线与同行人电话；电话拨号链接在住宿页。",
+        "湖岸或山地封闭时不越围挡。落石提醒优先于旧游记和导航；不为补全环线冒险。"
+      ],
+      "refs": [
+        "eu112",
+        "jeffs",
+        "taxigoisern",
+        "shuttle",
+        "tribe",
+        "gosau"
+      ]
+    },
+    {
+      "title": "可复制的英文预约留言",
+      "items": [
+        "给 Jeff’s：Hi, we’re arriving at Bad Goisern station at 17:24 on September 29 and expect to reach the property around 18:00. Could you confirm the check-in arrangements, what to do if the train is delayed, and your breakfast hours? We leave on October 2 for the 09:43 train. Thank you!",
+        "给出租车：Hi, could we book a taxi for two people with luggage from Jeff’s, Bachlunzenweg 10, to Bad Goisern station at 09:00 on October 2? Our train leaves at 09:43. Please confirm availability and the fare. Thank you!",
+        "给餐厅：Hi, could we reserve a table for two on [date] at [time]? Please let us know whether you have availability. Thank you!",
+        "给 TRIBE：Hi, we’ll arrive on FR4033 from Prague at 22:45 on October 4, so we expect a late check-in around 23:30 or after midnight if delayed. Could you please note this on our booking? Thank you!"
+      ],
+      "refs": []
+    }
+  ]
+}
