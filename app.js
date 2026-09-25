@@ -171,7 +171,7 @@ function renderPrepare(){
 function renderMine(){
   const notedDays=D.days.filter(d=>state.dayNotes[d.date]||state.edits[d.date]||state.dayTitles[d.date]||state.routes[d.date]);
   return heading("YOUR EDITION","我的调整与备份","所有修改只存在当前浏览器。换设备、清缓存或分享给同行人前，请先导出。")+
-  `<div class="grid2"><div class="card"><h2>保存与分享</h2><p class="muted" style="font-size:13px">“可分享网页”包含攻略、已选路线、收藏和笔记，对方打开后可继续编辑。“备份 JSON”便于导入此版本或后续交给 ChatGPT 继续修改。</p><div class="actions"><button class="primary" data-action="export-html">导出可分享网页</button><button data-action="export-json">备份 JSON</button><button data-action="import">导入备份</button></div><p class="tiny muted" style="margin-top:15px">网页公开可访问，个人修改仍只存此浏览器，不会自动同步到同行人的设备。实景图片、地图和来源链接需要联网。</p></div>
+  `<div class="grid2"><div class="card"><h2>保存与分享</h2><p class="muted" style="font-size:13px">只导出已收藏地点：按城市整理介绍、看点、预约、地图与个人备注，生成可发给对方或 Codex 的 Markdown 清单。</p><div class="actions" style="margin-bottom:18px"><button class="primary" data-action="export-favorites" ${state.favorites.length?"":"disabled"}>导出收藏清单（${state.favorites.length}）</button></div><p class="muted" style="font-size:13px">“可分享网页”包含攻略、已选路线、收藏和笔记，对方打开后可继续编辑。“备份 JSON”便于导入此版本或后续交给 ChatGPT 继续修改。</p><div class="actions"><button class="primary" data-action="export-html">导出可分享网页</button><button data-action="export-json">备份 JSON</button><button data-action="import">导入备份</button></div><p class="tiny muted" style="margin-top:15px">网页公开可访问，个人修改仍只存此浏览器，不会自动同步到同行人的设备。实景图片、地图和来源链接需要联网。</p></div>
   <div class="card"><h2>共同约定</h2><textarea id="global-note" data-global-note placeholder="例如：饭店不用每顿预订。下雨不爬山。每天下午至少坐下来休息一次。">${esc(state.globalNote)}</textarea><p class="tiny muted" style="margin-top:9px">不用按“保存”，输入即存。导出给同行人后各自的修改不会自动合并。</p></div></div>
   <section class="section"><div class="section-head"><h2>已经选好的玩法与笔记</h2><button class="small" data-action="view" data-view="days">去改行程</button></div><div class="card">${D.days.map(d=>{const r=getRoute(d);return `<div class="mine-day"><h4>${dateShort(d.date)} ${esc(d.city)} · ${esc(r.title)} ${state.edits[d.date]?.[r.id]?'<span class="chip warm">已改时刻</span>':""}</h4>${state.dayNotes[d.date]?`<p>${esc(state.dayNotes[d.date])}</p>`:'<p class="tiny muted">还没有当天备注。</p>'}<button class="small ghost" data-action="day" data-day="${d.date}">打开这一天 →</button></div>`;}).join("")}</div></section>
   <section class="section"><div class="section-head"><h2>收藏的地点 <span class="muted">${state.favorites.length}</span></h2><button class="small" data-action="add-place">＋ 新增备选</button></div><div class="place-grid">${allPlaces().filter(p=>state.favorites.includes(p.id)).map(p=>placeCard(p)).join("")||'<div class="empty">还没有收藏。在备选卡片点 ☆，这里就会出现。</div>'}</div></section>
@@ -229,6 +229,37 @@ function download(name,text,type){
 }
 function safeJSON(o){return JSON.stringify(o).replace(/</g,"\\u003c");}
 function exportJSON(){save();download("slow-europe-backup-"+new Date().toISOString().slice(0,10)+".json",JSON.stringify({schema:"slow-europe-v1",exportedAt:new Date().toISOString(),data:D,state},null,2),"application/json;charset=utf-8");toast("备份已生成，包含攻略资料与个人修改。");}
+function exportFavorites(){
+  const places=allPlaces().filter(p=>state.favorites.includes(p.id));
+  if(!places.length){toast("还没有收藏，先在地点卡片上点 ☆。");return;}
+  save();
+  const text=s=>String(s??"").replace(/\r\n?/g,"\n").replace(/[\\`*_{}\[\]<>#]/g,"\\$&");
+  const link=(label,url)=>`[${text(label)}](<${url}>)`;
+  const lines=["# 我的中欧旅行收藏","",`导出时间：${new Date().toLocaleString("zh-CN",{hour12:false})}`,`共 ${places.length} 个收藏地点；这是候选清单，不代表已经预约。`,""];
+  for(const city of [...new Set(places.map(p=>p.city))]){
+    lines.push(`## ${text(city)}`,"");
+    for(const p of places.filter(p=>p.city===city)){
+      lines.push(`### ${text(p.name)}`,"",`- 类型：${text(p.kind)}；建议停留：${text(p.time)}；体力：${text(p.effort)}`);
+      for(const [label,value] of [["是什么",p.intro],["长什么样",p.appearance],["主要看点",p.highlights?.join("；")],["去了做什么",p.do],["推荐理由",p.why],["建议时段",p.bestTime],["不足与取舍",p.tradeoff],["提醒",p.caution]])if(value)lines.push(`- ${label}：${text(value).replace(/\n/g,"\n  ")}`);
+      if(p.booking)lines.push(`- 预约：${text(p.booking.status)}。${text(p.booking.detail)}`,...(p.booking.url?[`- ${link("预约 / 官方说明",p.booking.url)}`]:[]));
+      lines.push(`- ${link("地图位置",mapURL(p.map))}`);
+      if(p.coordinateNote)lines.push(`- 地图标记说明：${text(p.coordinateNote)}`);
+      for(const m of p.relatedMaps||[])lines.push(`- ${link(m.label,mapURL(m.query))}`);
+      if(p.photo?.page||p.photoPage)lines.push(`- ${link("实景照片来源",p.photo?.page||p.photoPage)}`);
+      if(p.trail){
+        lines.push("","**步道资料**","");
+        for(const [key,label] of [["distance","距离"],["ascent","累计爬升"],["duration","参考时长"],["difficulty","难度"],["routeType","路线类型"],["terrain","路面"],["note","说明"]])if(p.trail[key])lines.push(`- ${label}：${text(p.trail[key])}`);
+      }
+      if(state.placeNotes[p.id])lines.push("","**我的备注**","",...text(state.placeNotes[p.id]).split("\n").map(line=>"> "+line));
+      const sources=(p.refs||[]).map(id=>D.sources[id]).filter(s=>s?.url);
+      if(sources.length)lines.push("","资料来源：",...sources.map(s=>`- ${link(s.label,s.url)}`));
+      lines.push("", "---", "");
+    }
+  }
+  download("slow-europe-favorites-"+new Date().toISOString().slice(0,10)+".md",lines.join("\n"),"text/markdown;charset=utf-8");
+  toast(`已导出 ${places.length} 个收藏地点和对应备注。`);
+}
+
 function exportHTML(){
   save();
   const clone=document.documentElement.cloneNode(true);
@@ -279,6 +310,7 @@ document.addEventListener("click",e=>{
   }
   else if(action==="delete-place"){if(confirm("删除这个个人新增备选？")){state.customPlaces=state.customPlaces.filter(p=>p.id!==b.dataset.place);state.favorites=state.favorites.filter(x=>x!==b.dataset.place);delete state.placeNotes[b.dataset.place];save();render();}}
   else if(action==="lake-swap"){state.routes["2026-09-30"]="c";state.routes["2026-10-01"]="d";save();render();toast("已把湖景玩法移到 10/1。餐厅与车辆预约需要另行调整。");}
+  else if(action==="export-favorites")exportFavorites();
   else if(action==="export-json")exportJSON();
   else if(action==="export-html")exportHTML();
   else if(action==="import")document.getElementById("import-file").click();

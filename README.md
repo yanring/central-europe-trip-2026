@@ -79,3 +79,7 @@ Use a separate localhost origin for browser testing. Do not clear or reset the l
 Seven trail cards show route length, accumulated ascent, indicative duration, difficulty, terrain, and route type. They distinguish one-way figures, estimated returns, approach walking, and transport. Missing official ascent figures remain explicitly unknown. The Divoká Šárka short variant has no measured total distance; it does not reuse the separate 9.3 km trail's figures. Search includes trail details, so searching for 徒步 can find the trail cards.
 
 Important operating details were checked against primary sources: the Erzsébet lookout closure is preserved on the Normafa card; the Petřín funicular card uses the operator's September 2026 restart notice; the forest railway and seasonal garden/boat operations have their own cautions. Future opening and reservation availability are not guaranteed.
+
+## Favorites-only export
+
+In 收藏与调整, 导出收藏清单 downloads a Markdown file grouped by city. It contains only selected places (including personal additions), place notes, experience/booking/trail details, map links, and relevant sources. It excludes unrelated places, full booking records, daily edits, and global notes. The full HTML and JSON backups remain available separately. The Markdown shortlist is for reading/sharing/planning; importing personal state still uses the original JSON backup.

@@ -1,3 +1,12 @@
+# Favorites export verification — 2026-09-25
+
+- The real export handler and download Blob were executed with three selected records across three cities, including a custom place and multiline notes. The Markdown contained the selected records, escaped note text, trail details, map/photo/source links, and city groups. Unselected places, global notes, and daily notes were excluded. Empty selection produced no download.
+- In an isolated localhost browser, the export button was disabled for zero favorites and enabled after selecting Normafa. Clicking it created an actual Markdown file in Downloads; its contents were verified to contain exactly one selected record plus trail figures and map/source links. The browser automation download event timed out, so verification used the actual filesystem artifact. The test file was moved to Trash after verification.
+- The test favorite was individually toggled off and the isolated tab was closed; live-site browser storage was not reset.
+- JavaScript syntax and standalone HTML synchronization checks passed. Existing full HTML/JSON backup paths were retained.
+
+---
+
 # Candidate expansion verification — 2026-09-25
 
 - Added 22 candidates from four destination-specific research agents: Budapest +5, Vienna +6, lake region +5, Prague +6. Total: 77 candidates and 76 real-place photographs.
