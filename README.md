@@ -80,6 +80,6 @@ Seven trail cards show route length, accumulated ascent, indicative duration, di
 
 Important operating details were checked against primary sources: the Erzsébet lookout closure is preserved on the Normafa card; the Petřín funicular card uses the operator's September 2026 restart notice; the forest railway and seasonal garden/boat operations have their own cautions. Future opening and reservation availability are not guaranteed.
 
-## Favorites-only export
+## Favorites-only copy
 
-In 收藏与调整, 导出收藏清单 downloads a Markdown file grouped by city. It contains only selected places (including personal additions), place notes, experience/booking/trail details, map links, and relevant sources. It excludes unrelated places, full booking records, daily edits, and global notes. The full HTML and JSON backups remain available separately. The Markdown shortlist is for reading/sharing/planning; importing personal state still uses the original JSON backup.
+In 收藏与调整, 复制收藏清单 writes Markdown text grouped by city directly to the clipboard. It contains only selected places (including personal additions), place notes, experience/booking/trail details, map links, and relevant sources. It excludes unrelated places, full booking records, daily edits, and global notes. The full HTML and JSON backups remain available separately. If automatic clipboard access is unavailable or denied, a dialog selects the same text for manual copying. Favorites copy never starts a file download. The shortlist is for reading/sharing/planning; importing personal state still uses the original JSON backup.

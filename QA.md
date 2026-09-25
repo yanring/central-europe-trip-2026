@@ -1,3 +1,12 @@
+# Favorites clipboard update — 2026-09-25
+
+- Favorites now copies Markdown text directly with the Clipboard API. Success is announced only after the write completes.
+- Executed the real copy handler with an isolated clipboard adapter: selected records, custom places, notes, trail data, and map/source links were preserved; unrelated state was excluded.
+- Rejected clipboard access and missing API both opened selected, read-only text for manual copying. Empty selection did not write. No favorites path invoked the download helper.
+- Validation did not read or overwrite the user's system clipboard. JavaScript syntax, bundle synchronization, and whitespace checks passed.
+
+---
+
 # Favorites export verification — 2026-09-25
 
 - The real export handler and download Blob were executed with three selected records across three cities, including a custom place and multiline notes. The Markdown contained the selected records, escaped note text, trail details, map/photo/source links, and city groups. Unselected places, global notes, and daily notes were excluded. Empty selection produced no download.
