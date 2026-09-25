@@ -1,3 +1,13 @@
+# Compact layout verification — 2026-09-25
+
+- CSS-only product change: removing the main stylesheet from the previous and new HTML leaves identical documents, including guide data, scripts, and the personal-state seed.
+- At the same 1440×900 viewport, the home page height changed from 1525 to 901 px and the city entry grid from 619 to 210 px. The weather page changed from 4777 to 2435 px (about 49% shorter). The first Budapest place card changed from 1123 to 947 px after final image sizing.
+- Inspected desktop home, explorer, and chronological weather rows, plus 390×844 mobile home/weather screenshots. Checked explorer/weather at 1000 px and 320 px widths. No horizontal overflow was observed.
+- A favorite was toggled on and back off in an isolated localhost preview; card-to-map highlighting still selected one matching marker. No JavaScript console errors were observed. The temporary viewport override was reset.
+- Standalone HTML synchronization and whitespace checks passed. Live-site browser storage was not reset or cleared.
+
+---
+
 # Daily weather and branding verification — 2026-09-25
 
 - Retrieved six Open-Meteo locations in one batch and saved 15 matching local-date forecasts for all 11 itinerary days. Time zones, coordinate proximity, returned units, array lengths, temperature order, precipitation probabilities, and nonnegative wind/precipitation values were validated.

@@ -103,3 +103,7 @@ Dates are interpreted in each location's time zone. Each forecast stores its lea
 To refresh manually, run `python3 scripts/update_weather.py`, followed by `python3 scripts/build.py` and `python3 scripts/build.py --check`. The update script validates location order, time zones, units, dates, and numeric ranges before replacing the data file. It preserves the prior file on retrieval/validation failure. If some itinerary dates leave the provider's current forecast range, those dates show as unavailable; no historical normals or fabricated values are substituted.
 
 The site title, subtitle, sidebar, and README now use neutral travel-guide branding. The browser-state seed and local-storage identity are unchanged.
+
+## Compact layout
+
+Spacing and image height are reduced while keeping the original text and controls. Wide desktop screens show the four destination entry cards in one row. The weather page uses chronological rows above 1000 px so transfer days do not create empty neighboring grid cells. Smaller screens retain stacked weather cards with a compact four-column metric strip. Body text keeps its prior font sizes.
