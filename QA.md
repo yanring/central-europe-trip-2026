@@ -109,3 +109,13 @@ localStorage 的保存和重新读取逻辑使用内存 Storage 测试替身验�
 不允许本地保存的浏览器会显示导出提醒；使用时建议先做一次修改与导出。
 未验证每个外部链接在用户设备上的连通性。
 景点营业、交通运行和预约可用性不是软件测试可以保证的内容。
+
+## 2026-09-25: AllTrails coverage and dining ratings
+
+- All 78 candidates have an AllTrails status: 29 rated-route comparisons, 22 unconfirmed, and 27 not applicable. Provider route IDs and dated scores/counts/difficulty are retained. Existing short walks do not inherit full-route measurements.
+- Added Fuschlsee's full loop and an optional Altaussee full loop within its existing card. Strict selection checks cover rating >= 4.8, reviews > 100 (100 fails, 101 passes), Easy/Moderate only, and matching/optional full routes rather than reference variants.
+- Browser QA on a separate localhost origin checked all four cities, high-rating and normal categories, map/list synchronization, hotel markers, favoriting and preservation after reload, new route photo loading, and no horizontal overflow at desktop and 390 px widths. Fuschl's tourism photo returned 403; the working AllTrails route-cover thumbnail is used with attribution and its original watermark setting.
+- All 18 dining candidates have Google ratings for 19 distinct branches. Zauner's two addresses and scores render separately. The market has a non-applicable notice. All Yelp values remain unconfirmed; old cached scores are absent. Combined hotel/restaurant scores are explicitly labeled.
+- Real clipboard-copy code ran in a Node VM using a fake clipboard adapter: selected-only output, separate Zauner branches and exact counts, Moserwirt caveat, AllTrails difficulty/match/date, missing-score handling, personal notes, denied/missing clipboard fallback, no download, and success only after the clipboard promise resolves. The user's clipboard was not touched.
+- Data checks preserve every prior place ID and existing trail measurement, itinerary, hotel/transport data, weather snapshot, and embedded personal-state seed. Existing references remain; all references resolve. No internal audit paths are published.
+- Passed `node --check app.js`, `python3 scripts/build.py --check`, semantic data/filter checks, and clipboard checks. No live-site storage was reset or cleared. Yelp access and full nearby-route search completeness remain limitations, not successful verifications.

@@ -1002,38 +1002,326 @@
     "alltrails-vi-kahlenberg": {
       "label": "AllTrails｜Vienna City Hiking Trail 1",
       "url": "https://www.alltrails.com/trail/austria/vienna/wiener-stadtwanderweg-1?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-      "kind": "路线社区评分",
-      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。与攻略路线基本对应。"
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
     },
     "alltrails-vi-lainzer": {
       "label": "AllTrails｜Naturlehrpfad Hermesvillapark",
       "url": "https://www.alltrails.com/trail/austria/vienna/naturlehrpfad-hermesvillapark?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-      "kind": "路线社区评分",
-      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。与攻略路线基本对应。"
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
     },
     "alltrails-bp-normafa": {
       "label": "AllTrails｜Normafa - János Hill Loop",
       "url": "https://www.alltrails.com/trail/hungary/budapest--2/normafa-janoshegy-kortura?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-      "kind": "路线社区评分",
-      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。这是其他走法的评分，不能直接套用到攻略中的短线。"
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
     },
     "alltrails-lk-ewige": {
       "label": "AllTrails｜Anzenauer Ewige Wand Tour",
-      "url": "https://www.alltrails.com/trail/austria/upper-austria/anzenauer-ewige-wand-tour?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-      "kind": "路线社区评分",
-      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。这是其他走法的评分，不能直接套用到攻略中的短线。"
+      "url": "https://www.alltrails.com/trail/austria/upper-austria/anzenauer-ewige-wand-tour",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
     },
     "alltrails-pr-divoka-sarka": {
       "label": "AllTrails｜Divoká Šárka - Nebušická skála",
       "url": "https://www.alltrails.com/trail/czech-republic/prague/divoka-sarka-nebusicka-skala?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-      "kind": "路线社区评分",
-      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。这是其他走法的评分，不能直接套用到攻略中的短线。"
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
     },
     "daily-weather": {
       "label": "Open-Meteo｜逐日天气预报",
       "url": "https://open-meteo.com/en/docs",
       "kind": "天气预报",
       "note": "气温、降水与风速采用同一提供方的逐日预报；更新时间见每日天气页。日期按地点当地时区划分，远期预报仅供趋势参考，镇里预报不代表山顶天气。"
+    },
+    "alltrails-bp-citypark": {
+      "label": "AllTrails｜Walk in Városliget",
+      "url": "https://www.alltrails.com/trail/hungary/budapest--2/varosligeti-seta?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-vi-stadtpark": {
+      "label": "AllTrails｜Vienna: City Park - State Opera - Stephansplatz Square",
+      "url": "https://www.alltrails.com/trail/austria/vienna/wien-stadtpark-staatsoper-stephansplatz?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-vi-augarten": {
+      "label": "AllTrails｜Durch den Augarten",
+      "url": "https://www.alltrails.com/trail/austria/vienna/durch-den-augarten?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-vi-old-danube": {
+      "label": "AllTrails｜Old Danube",
+      "url": "https://www.alltrails.com/trail/austria/vienna/alte-donau?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-stromovka": {
+      "label": "AllTrails｜Královská obora",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/kralovska-obora?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-petrin": {
+      "label": "AllTrails｜Kučer's Palace - Petřín Gardens",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/kuceruv-palac-zahrady-petrina?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-troja-botanical": {
+      "label": "AllTrails｜Prague Botanical Garden Loop",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/okruh-botanicka-zahrada-praha?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-vi-gardens": {
+      "label": "AllTrails｜Belvedere - Schweizergarten",
+      "url": "https://www.alltrails.com/trail/austria/vienna/belvedere-schweizergarten?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-lk-gosau": {
+      "label": "AllTrails｜Vorderer Gosausee Lake",
+      "url": "https://www.alltrails.com/trail/austria/upper-austria/vorderer-gosausee",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-lk-traunkirchen": {
+      "label": "AllTrails｜Stadtspaziergang Traunkirchen",
+      "url": "https://www.alltrails.com/trail/austria/upper-austria/stadtspaziergang-traunkirchen",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-lk-dachstein": {
+      "label": "AllTrails｜Krippenstein",
+      "url": "https://www.alltrails.com/trail/austria/upper-austria/wanderung-am-krippenstein",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-hvezda": {
+      "label": "AllTrails｜Obora Hvězda Loop",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/obora-hvezda?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-charles-kampa": {
+      "label": "AllTrails｜Prague Old Town Square - Church of St. Nicholas",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/praha-staromestske-namesti-kostel-sv-mikulase?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-letna": {
+      "label": "AllTrails｜Letenské sady Loop",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/okruh-letenske-sady?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-vysehrad": {
+      "label": "AllTrails｜Walking Tour Vyšehrad - Josefov",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/vysehrad-josefov-pesky-podel-vltavy?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-pr-oldtown": {
+      "label": "AllTrails｜Prague Old Town Square - Church of St. Nicholas",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/praha-staromestske-namesti-kostel-sv-mikulase?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-lk-altaussee": {
+      "label": "AllTrails｜Lake Altaussee Loop",
+      "url": "https://www.alltrails.com/trail/austria/styria/um-den-altausseer-see",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-bp-castle": {
+      "label": "AllTrails｜Buda Castle Walk in Budapest",
+      "url": "https://www.alltrails.com/trail/hungary/budapest--2/budavari-seta?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-bp-danube": {
+      "label": "AllTrails｜Budapest Danube Walk",
+      "url": "https://www.alltrails.com/trail/hungary/dunaparti-seta-budapesten?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-bp-margaret": {
+      "label": "AllTrails｜Margaret Island Loop",
+      "url": "https://www.alltrails.com/trail/hungary/budapest--2/margitsziget-kor?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-vi-schonbrunn": {
+      "label": "AllTrails｜Schönbrunn Palace Gardens",
+      "url": "https://www.alltrails.com/trail/austria/vienna/schloss-schonbrunn-gartenanlagen?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-vi-prater": {
+      "label": "AllTrails｜Praterrunde",
+      "url": "https://www.alltrails.com/trail/austria/vienna/praterrunde?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "alltrails-vi-danube": {
+      "label": "AllTrails｜Canal Path (Donaukanal)",
+      "url": "https://www.alltrails.com/trail/austria/vienna/am-donaukanal?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线评分",
+      "note": "2026-09-25 评分快照；仅对应链接中的完整路线，具体匹配情况见卡片。"
+    },
+    "outdoors-lk-fuschl-loop-0": {
+      "label": "Fuschlsee｜官方环湖路线",
+      "url": "https://www.salzkammergut.at/en/oesterreich-tour/detail/100236/walk-round-lake-fuschlsee.html",
+      "kind": "官方来源",
+      "note": "2026-09-25 核对；实际开放与现场公告优先。"
+    },
+    "outdoors-lk-fuschl-loop-1": {
+      "label": "Fuschlseebad｜联系方式",
+      "url": "https://www.fuschlseebad.at/kontakt",
+      "kind": "官方来源",
+      "note": "2026-09-25 核对；实际开放与现场公告优先。"
+    },
+    "outdoors-lk-fuschl-loop-2": {
+      "label": "Fuschlseebad｜季节公告",
+      "url": "https://www.fuschlseebad.at/aktuelles",
+      "kind": "官方来源",
+      "note": "2026-09-25 核对；实际开放与现场公告优先。"
+    },
+    "outdoors-lk-fuschl-loop-3": {
+      "label": "旅游局｜Fuschlseebad 位置",
+      "url": "https://www.salzkammergut.at/oesterreich-poi/detail/430010152/fuschlseebad.html",
+      "kind": "官方来源",
+      "note": "2026-09-25 核对；实际开放与现场公告优先。"
+    },
+    "alltrails-lk-fuschl-loop": {
+      "label": "AllTrails｜Lake Fuschl Loop",
+      "url": "https://www.alltrails.com/trail/austria/salzburg/rund-um-den-fuschlsee",
+      "kind": "路线评分",
+      "note": "2026-09-25 快照；完整环湖。"
+    },
+    "outdoors-lk-altaussee-loop": {
+      "label": "施蒂利亚旅游局｜Altaussee 环湖路线",
+      "url": "https://www.steiermark.com/de/Erzberg-Leoben/Aktivitaeten/Aktiv-im-Sommer/Tourenportal/Altausseer-Seerundweg_tour_853564",
+      "kind": "官方来源",
+      "note": "旅游局路线起于 Kurpark，7.6 km / 6 m；与 AllTrails 起点和计量不同，不能混用。"
+    },
+    "dining-google-bp-lumen-0": {
+      "label": "Google Maps｜Lumen Café",
+      "url": "https://www.google.com/maps/place/Lumen+Caf%C3%A9/@47.492479,19.0674694,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc5be9d08f1f:0x6feef706371983b4!8m2!3d47.492479!4d19.0674694!16s%2Fg%2F11xp58qp2",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-bp-ruben-0": {
+      "label": "Google Maps｜Ruben Étterem",
+      "url": "https://www.google.com/maps/place/Ruben+%C3%89tterem/@47.4930758,19.0599624,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc452d2b6cf3:0x2028745205a1140d!8m2!3d47.4930758!4d19.0599624!16s%2Fg%2F1tkb3x0h",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-bp-kelet-0": {
+      "label": "Google Maps｜Kelet Kávézó és Galéria",
+      "url": "https://www.google.com/maps/place/Kelet+K%C3%A1v%C3%A9z%C3%B3+%C3%A9s+Gal%C3%A9ria/@47.4797724,19.0508635,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc4d40b3f759:0xa17b393422a70caa!8m2!3d47.4797724!4d19.0508635!16s%2Fg%2F11b6d0016_",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-lk-steeg-0": {
+      "label": "Google Maps｜Welterbe-Wirtshaus Steegwirt",
+      "url": "https://www.google.com/maps/place/Welterbe-Wirtshaus+Steegwirt/@47.6121245,13.6322453,17z/data=!4m9!3m8!1s0x47714a3885756ced:0xcf912ff79fe86824!5m2!4m1!1i2!8m2!3d47.6121245!4d13.6322453!16s%2Fg%2F1tdmz9tl",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-lk-moser-0": {
+      "label": "Google Maps｜Gasthof Hotel Moserwirt",
+      "url": "https://www.google.com/maps/place/Gasthof+Hotel+Moserwirt/data=!4m10!3m9!1s0x47714b0a36bbf949:0xf5e1a1fc0fd1dfa0!5m2!4m1!1i2!8m2!3d47.642577!4d13.617033!16s%2Fg%2F1tffb_lr!19sChIJSfm7NgpLcUcRoN_RD_yh4fU",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-lk-zauner-0": {
+      "label": "Google Maps｜Konditorei Zauner · Pfarrgasse 老店",
+      "url": "https://www.google.com/maps/place/Konditorei+Zauner/@47.7109457,13.6218537,17z/data=!3m1!4b1!4m6!3m5!1s0x47714d216311c357:0xb89df724f0d3db60!8m2!3d47.7109457!4d13.6218537!16s%2Fg%2F121qy3hw",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-lk-zauner-1": {
+      "label": "Google Maps｜Grand Café Restaurant Zauner · Esplanade 河岸店",
+      "url": "https://www.google.com/maps/place/Grand+Caf%C3%A9+Restaurant+Zauner+Esplanade/@47.7095134,13.6184241,17z/data=!3m1!4b1!4m6!3m5!1s0x47714d26d6e7040d:0x319454af4b2fbf8d!8m2!3d47.7095134!4d13.6184241!16s%2Fg%2F1td7xxb_",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-lk-sirius-0": {
+      "label": "Google Maps｜Ausflugs Restaurant Siriuskogl",
+      "url": "https://www.google.com/maps/place/Ausflugs+Restaurant+Siriuskogl/@47.704703,13.617844,17z/data=!3m1!4b1!4m6!3m5!1s0x47714cdf231e388f:0x190120d72f29832!8m2!3d47.704703!4d13.617844!16s%2Fg%2F1tnmqjgc",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-pr-cafe-0": {
+      "label": "Google Maps｜Kavárna Nový Svět",
+      "url": "https://www.google.com/maps/place/Kav%C3%A1rna+Nov%C3%BD+Sv%C4%9Bt/@50.09117,14.3904033,17z/data=!3m1!4b1!4m6!3m5!1s0x470b9519945a2d81:0xc8bc728eb744ea68!8m2!3d50.09117!4d14.3904033!16s%2Fg%2F1ptxwzyjf",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-pr-brewery-0": {
+      "label": "Google Maps｜Strahov Monastery Brewery",
+      "url": "https://www.google.com/maps/place/Strahov+Monastery+Brewery/@50.0868543,14.3883612,17z/data=!3m1!4b1!4m6!3m5!1s0x470b951aee50c97b:0x173e21c6d39843dc!8m2!3d50.0868543!4d14.3883612!16s%2Fg%2F1tf56llq",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-pr-altan-0": {
+      "label": "Google Maps｜Altán Grebovka",
+      "url": "https://www.google.com/maps/place/Alt%C3%A1n+Grebovka/@50.0686083,14.4442778,17z/data=!3m1!4b1!4m6!3m5!1s0x470b9481245c2c03:0xd917b453e83758bd!8m2!3d50.0686083!4d14.4442778!16s%2Fg%2F1thxzh_y",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-pr-senk-0": {
+      "label": "Google Maps｜Klášterní šenk",
+      "url": "https://www.google.com/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+%C5%A1enk/@50.0840465,14.356618,17z/data=!3m1!4b1!4m6!3m5!1s0x470b9570b47f4b49:0x5a82fae25c880b3f!8m2!3d50.0840465!4d14.356618!16s%2Fg%2F1tp0cd3m",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-pr-kolkovna-0": {
+      "label": "Google Maps｜Pivovar Kolkovna",
+      "url": "https://www.google.com/maps/place/Pivovar+Kolkovna/@50.1055389,14.4293924,17z/data=!3m1!4b1!4m6!3m5!1s0x470b950053b80ec7:0x860e21a14dd3908b!8m2!3d50.1055389!4d14.4293924!16s%2Fg%2F11w1n228r9",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-pr-parlament-0": {
+      "label": "Google Maps｜Vinohradský Parlament Restaurant",
+      "url": "https://www.google.com/maps/place/Vinohradsk%C3%BD+Parlament+Restaurant/@50.0754229,14.438329,17z/data=!3m1!4b1!4m6!3m5!1s0x470b948f64950725:0x2b0c9fd88c7ce511!8m2!3d50.0754229!4d14.438329!16s%2Fg%2F1q5bl40yn",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-vi-stockl-0": {
+      "label": "Google Maps｜Stöckl im Park",
+      "url": "https://www.google.com/maps/place/St%C3%B6ckl+im+Park/@48.1927226,16.3788014,17z/data=!3m1!4b1!4m6!3m5!1s0x476d077c4317033f:0x2cba53b38ece37cc!8m2!3d48.1927226!4d16.3788014!16s%2Fg%2F1tcztrg3",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-vi-josef-0": {
+      "label": "Google Maps｜Weinstube Josefstadt",
+      "url": "https://www.google.com/maps/place/Weinstube+Josefstadt/@48.2086004,16.3506281,17z/data=!3m1!4b1!4m6!3m5!1s0x476d0794af471bc3:0xd1ac14c2812785e7!8m2!3d48.2086004!4d16.3506281!16s%2Fg%2F1v6wn341",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-vi-goldegg-0": {
+      "label": "Google Maps｜Café Goldegg",
+      "url": "https://www.google.com/maps?cid=10585646173378557294",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-vi-mercerie-0": {
+      "label": "Google Maps｜La Mercerie",
+      "url": "https://www.google.com/maps/place/La+Mercerie/@48.2191197,16.3644177,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07bbcd4e3045:0x4b09187d952269ff!8m2!3d48.2191197!4d16.3644177!16s%2Fg%2F11cs9yngpf",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
+    },
+    "dining-google-vi-schilling-0": {
+      "label": "Google Maps｜Gastwirtschaft Schilling",
+      "url": "https://www.google.com/maps/place/Gastwirtschaft+Schilling/@48.2042287,16.3414581,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07f208cbe6c3:0x447bf524573e4191!8m2!3d48.2042287!4d16.3414581!16s%2Fg%2F1trqg002",
+      "kind": "餐饮评分",
+      "note": "2026-09-25 当前平台核对；评分与评论数可能变化，分店分别统计。"
     }
   },
   "hotels": [
@@ -3203,7 +3491,8 @@
       "refs": [
         "outdoors-bp-citypark-0",
         "outdoors-bp-citypark-1",
-        "outdoors-bp-citypark-2"
+        "outdoors-bp-citypark-2",
+        "alltrails-bp-citypark"
       ],
       "map": "Vajdahunyad Castle Budapest",
       "effort": "轻松",
@@ -3231,6 +3520,22 @@
         "page": "https://ligetbudapest.hu/en/visitor-information",
         "caption": "城市公园官方航拍：城堡、林地与新建筑的分布",
         "credit": "Liget Budapest 官方网站，页面未标单独摄影者"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于 Városliget 3.2 km 公园环线；本卡是城堡周边自由散步，没有固定轨迹，不能当作城堡或整个公园的景点评分。",
+        "route": {
+          "id": 10862640,
+          "name": "Walk in Városliget",
+          "url": "https://www.alltrails.com/trail/hungary/budapest--2/varosligeti-seta?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.4,
+          "reviewCount": 60,
+          "distanceKm": 3.2,
+          "ascentMeters": 32,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -3286,21 +3591,22 @@
         "difficulty": "官方难度 1，平缓易走",
         "terrain": "稳定碎石铺面、路面较平整",
         "routeType": "线形路线；可原路往返",
-        "note": "35 米与 30 分钟仅指官方单程，不是往返数据；返程累计爬升未核实。未包含登塔及缆车。",
-        "alltrails": {
-          "checkedAt": "2026-09-25",
-          "match": "variant",
-          "note": "这个评分属于 5.1 km 的 Normafa–János Hill 环线，累计爬升约 117 m。我们的方案是官方山脊步道单程 2 km、原路往返约 4 km，走法不同，不能把此评分当作短线评分。瞭望塔关闭提醒仍然有效。",
-          "route": {
-            "id": 11149558,
-            "name": "Normafa - János Hill Loop",
-            "url": "https://www.alltrails.com/trail/hungary/budapest--2/normafa-janoshegy-kortura?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-            "rating": 4.7,
-            "reviewCount": 280,
-            "distanceKm": 5.1,
-            "ascentMeters": 117,
-            "routeType": "环线"
-          }
+        "note": "35 米与 30 分钟仅指官方单程，不是往返数据；返程累计爬升未核实。未包含登塔及缆车。"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于 5.1 km、累计爬升约 117 m 的 Normafa–János Hill 环线，AllTrails 标 Easy。本卡为官方山脊短线单程 2 km、往返约 4 km，走法不同。Erzsébet 瞭望塔关闭提醒仍保留。",
+        "route": {
+          "id": 11149558,
+          "name": "Normafa - János Hill Loop",
+          "url": "https://www.alltrails.com/trail/hungary/budapest--2/normafa-janoshegy-kortura?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.7,
+          "reviewCount": 280,
+          "distanceKm": 5.1,
+          "ascentMeters": 117,
+          "routeType": "环线",
+          "difficulty": "Easy"
         }
       }
     },
@@ -3349,6 +3655,11 @@
         "page": "https://visithungary.com/articles/spring-activities-by-the-water-from-budapest-to-the-danube-bend",
         "caption": "Kopaszi 河湾的临水步道；官方旅游文章封面标注为此地",
         "credit": "Visit Hungary，页面未标单独摄影者"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已搜索 Kopaszi-gát 名称与地点周边 1.5 km；未确认匹配的河湾公园短步行路线。返回的其他地区同名结果和从附近出发的长线不适合套分。"
       }
     },
     {
@@ -3393,6 +3704,11 @@
         "page": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
         "caption": "Pál-völgyi 洞穴已建设参观段，可见真实通道宽度",
         "credit": "Berentés Ágnes / Duna–Ipoly National Park"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是预约／现场购票的洞穴内部导览，附近经过洞口的徒步路线不能给洞穴导览评分。"
       }
     },
     {
@@ -3439,6 +3755,11 @@
         "page": "https://gyermekvasut.hu/en/home/",
         "caption": "儿童铁路官方照片：林间车站与红白列车",
         "credit": "MÁV / Children’s Railway 官方网站，页面未标单独摄影者"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是乘坐儿童铁路的体验，AllTrails 步行线路不能代替铁路体验评分。"
       }
     },
     {
@@ -3492,21 +3813,22 @@
         "duration": "约 3.5–4 小时，未含长时间用餐",
         "difficulty": "有持续上坡；官方未给难度等级",
         "terrain": "葡萄园道路、林间步道与部分铺装路",
-        "routeType": "环线；Nußdorf 起终点",
-        "alltrails": {
-          "checkedAt": "2026-09-25",
-          "match": "close",
-          "note": "对应从 Nußdorf / Beethovengang 出发的官方 City Hiking Path 1 环线。AllTrails 记录约 11.1 km，和原攻略的 11 km 基本一致；轨迹与测量口径仍以来源为准。",
-          "route": {
-            "id": 10963577,
-            "name": "Vienna City Hiking Trail 1",
-            "url": "https://www.alltrails.com/trail/austria/vienna/wiener-stadtwanderweg-1?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-            "rating": 4.7,
-            "reviewCount": 926,
-            "distanceKm": 11.1,
-            "ascentMeters": 366,
-            "routeType": "环线"
-          }
+        "routeType": "环线；Nußdorf 起终点"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "close",
+        "note": "对应 Nußdorf / Beethovengang 起终点的 City Hiking Trail 1 完整环线；AllTrails 11.1 km 与官方约 11 km 基本一致，AllTrails 标 Moderate，累计爬升约 366 m。",
+        "route": {
+          "id": 10963577,
+          "name": "Vienna City Hiking Trail 1",
+          "url": "https://www.alltrails.com/trail/austria/vienna/wiener-stadtwanderweg-1?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.7,
+          "reviewCount": 926,
+          "distanceKm": 11.1,
+          "ascentMeters": 366,
+          "routeType": "环线",
+          "difficulty": "Moderate"
         }
       }
     },
@@ -3563,21 +3885,22 @@
         "duration": "约 45 分钟纯步行",
         "difficulty": "官方说明可无障碍通行的自然步道",
         "terrain": "全程有维护的硬化路面",
-        "routeType": "环线；Lainzer Tor 游客中心起终点",
-        "alltrails": {
-          "checkedAt": "2026-09-25",
-          "match": "close",
-          "note": "对应 Hermesvillapark 自然教育环线。AllTrails 记录约 2.4 km，和官方约 2.5 km 的短环线基本对应；下列爬升来自 AllTrails，并非补写为官方数值。",
-          "route": {
-            "id": 10970049,
-            "name": "Naturlehrpfad Hermesvillapark",
-            "url": "https://www.alltrails.com/trail/austria/vienna/naturlehrpfad-hermesvillapark?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-            "rating": 4.2,
-            "reviewCount": 18,
-            "distanceKm": 2.4,
-            "ascentMeters": 63,
-            "routeType": "环线"
-          }
+        "routeType": "环线；Lainzer Tor 游客中心起终点"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "close",
+        "note": "对应 Hermesvillapark 自然教育短环线；AllTrails 2.4 km 与官方约 2.5 km 基本一致，AllTrails 标 Easy，累计爬升约 63 m。",
+        "route": {
+          "id": 10970049,
+          "name": "Naturlehrpfad Hermesvillapark",
+          "url": "https://www.alltrails.com/trail/austria/vienna/naturlehrpfad-hermesvillapark?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.2,
+          "reviewCount": 18,
+          "distanceKm": 2.4,
+          "ascentMeters": 63,
+          "routeType": "环线",
+          "difficulty": "Easy"
         }
       }
     },
@@ -3596,7 +3919,8 @@
       "caution": "雕像前可能有旅行团；公园不大，别预期荒野徒步或大片湖泊。",
       "refs": [
         "outdoors-vi-stadtpark-0",
-        "outdoors-vi-stadtpark-1"
+        "outdoors-vi-stadtpark-1",
+        "alltrails-vi-stadtpark"
       ],
       "map": "Stadtpark Vienna Johann Strauss Monument",
       "effort": "轻松",
@@ -3624,6 +3948,22 @@
         "page": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/stadtpark-955832",
         "caption": "Stadtpark 池塘与秋季树影实景",
         "credit": "© WienTourismus/Julius Hirtzberger"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于 Stadtpark–State Opera–Stephansplatz 的 4.3 km 城市环线，还会离开公园去歌剧院和老城；本卡只逛公园，不能当作公园本身的评分。",
+        "route": {
+          "id": 11377382,
+          "name": "Vienna: City Park - State Opera - Stephansplatz Square",
+          "url": "https://www.alltrails.com/trail/austria/vienna/wien-stadtpark-staatsoper-stephansplatz?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 8,
+          "distanceKm": 4.3,
+          "ascentMeters": 103,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -3641,7 +3981,8 @@
       "caution": "防空塔不是可默认进入的观景楼；本项不含瓷器馆或音乐会。",
       "refs": [
         "outdoors-vi-augarten-0",
-        "outdoors-vi-augarten-1"
+        "outdoors-vi-augarten-1",
+        "alltrails-vi-augarten"
       ],
       "map": "Augartenspitz Vienna",
       "effort": "轻松",
@@ -3669,6 +4010,22 @@
         "page": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/augarten-955840",
         "caption": "Augarten 林荫道与防空塔实景；秋色不代表出行当天",
         "credit": "© WienTourismus / Paul Bauer"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于穿行 Augarten 的 3.9 km 完整环线；本卡可自由挑选林荫道和塔楼外观，路线未固定。100 条评价不是超过 100 条，且评分 4.5 未达新增筛选线。",
+        "route": {
+          "id": 11074402,
+          "name": "Durch den Augarten",
+          "url": "https://www.alltrails.com/trail/austria/vienna/durch-den-augarten?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 100,
+          "distanceKm": 3.9,
+          "ascentMeters": 49,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -3688,7 +4045,8 @@
         "outdoors-vi-old-danube-0",
         "outdoors-vi-old-danube-1",
         "outdoors-vi-old-danube-2",
-        "outdoors-vi-old-danube-3"
+        "outdoors-vi-old-danube-3",
+        "alltrails-vi-old-danube"
       ],
       "map": "Marina Hofbauer Wagramer Strasse 49 Vienna",
       "effort": "轻松",
@@ -3716,6 +4074,22 @@
         "page": "https://www.wien.info/en/livable-vienna/water-in-vienna/summer-at-old-danube-360430",
         "caption": "Alte Donau 小船实景，夏季拍摄；秋季是否开租取决于天气",
         "credit": "© WienTourismus/Paul Bauer"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于环绕上、下老多瑙河的 13.8 km 岸线徒步；本卡只是任意短段湖边散步及可选划船，不是完整环线，更不是租船体验评分。",
+        "route": {
+          "id": 10578234,
+          "name": "Old Danube",
+          "url": "https://www.alltrails.com/trail/austria/vienna/alte-donau?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 77,
+          "distanceKm": 13.8,
+          "ascentMeters": 164,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -3761,6 +4135,84 @@
         "page": "https://www.wien.info/de/sehen-erleben/sehenswuerdigkeiten-a-z/zentralfriedhof-366576",
         "caption": "中央公墓主轴大道与 Karl Borromäus 教堂实景",
         "credit": "© WienTourismus/Gregor Hofbauer"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已搜索 Zentralfriedhof 名称与主门周边 1.5 km；未找到维也纳中央公墓对应路线，德国 Hamburg 的 Zentralfriedhof Ohlsdorf 是另一地点。"
+      }
+    },
+    {
+      "id": "lk-fuschl-loop",
+      "city": "湖区",
+      "name": "Fuschlsee · 完整环湖步道",
+      "kind": "徒步",
+      "weather": "晴阴",
+      "intro": "一条绕 Fuschlsee 整圈的湖岸步道，走过森林、草地和湖湾，适合专门留出半天认真走路。",
+      "appearance": "蓝绿色湖水贴着林木和草岸，视野在近水小路、树林与远处山坡间切换。",
+      "time": "步行与停留约 4–5 小时，往返交通另计",
+      "budget": "步道无需门票；交通、停车和餐饮另计",
+      "why": "想选一条有较多评论支撑、难度中等、又能持续看湖景的完整路线时，可以与 Altaussee 环湖比较。",
+      "do": "从 Fuschlseebad 停车场一带接入环湖步道，沿湖岸和林间小路走一整圈，在北岸观景处休息；西端经过自然保护区。",
+      "highlights": [
+        "森林和湖湾交替，不是一直沿公路走。",
+        "完整环线回到同一处，适合想走得尽兴、又不想登高山的人。"
+      ],
+      "bestTime": "干燥天气上午开始，留足白天和回程时间；大雨、结冰或有封闭公告时取消。",
+      "access": "地图标在 Fuschlseebad／起点停车场附近。距 Bad Goisern 较远；公交经 Bad Ischl 方向的接驳和末班需选定后核对，不宜顺手塞进行程。",
+      "hours": "旅游局列四季可走，但天气与临时封闭优先；Fuschlseebad 与 Das See 本季营业至 2026-09-27，本次湖区停留不承诺泳池和该餐厅开放。",
+      "caution": "11 公里不是轻松饭后散步，部分起伏和湿滑路面需要合适鞋；自带饮水，不把季节性营业点当作补给保证。",
+      "effort": "中等（完整环湖约 11 km）",
+      "tradeoff": "往返住宿地成本高；西端有一段离开湖边，也有短道路段，不能期待每一步都有开阔湖景。",
+      "booking": {
+        "status": "步道无需预约",
+        "detail": "泳池、餐饮和交通另查；此选项只包含公共环湖步行。",
+        "url": "https://www.salzkammergut.at/en/oesterreich-tour/detail/100236/walk-round-lake-fuschlsee.html"
+      },
+      "map": "Fuschlseebad Dorfstraße 30 Fuschl am See",
+      "coordinates": {
+        "lat": 47.7936401,
+        "lng": 13.2992096,
+        "sourceUrl": "https://www.salzkammergut.at/oesterreich-poi/detail/430010152/fuschlseebad.html"
+      },
+      "coordinateNote": "Fuschlseebad 设施与环湖起点停车场附近；精确入口按现场标识。",
+      "photo": {
+        "url": "https://www.alltrails.com/api/alltrails/trails/10490968/profile_photo?size=medium&show_watermark=true&key=3p0t5s6b5g4g0e8k3c1j3w7y5c3m4t8i",
+        "page": "https://www.alltrails.com/trail/austria/salzburg/rund-um-den-fuschlsee",
+        "caption": "Lake Fuschl Loop 路线封面：湖岸实景",
+        "credit": "AllTrails 路线封面，保留原水印；未提供单独摄影者"
+      },
+      "refs": [
+        "outdoors-lk-fuschl-loop-0",
+        "outdoors-lk-fuschl-loop-1",
+        "outdoors-lk-fuschl-loop-2",
+        "outdoors-lk-fuschl-loop-3",
+        "alltrails-lk-fuschl-loop"
+      ],
+      "trail": {
+        "distance": "11.3 km（AllTrails 完整环湖）",
+        "ascent": "275 m（AllTrails 累计爬升）",
+        "duration": "AllTrails 3–3.5 小时；含停留建议 4–5 小时",
+        "difficulty": "Moderate / 中等",
+        "terrain": "湖岸步道、林间路与短道路段",
+        "routeType": "环线",
+        "note": "旅游局版本为 11 km / 115 m；数字来源不同，不拼接成同一套指标。"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "close",
+        "route": {
+          "id": 10490968,
+          "name": "Lake Fuschl Loop",
+          "url": "https://www.alltrails.com/trail/austria/salzburg/rund-um-den-fuschlsee",
+          "rating": 4.8,
+          "reviewCount": 381,
+          "distanceKm": 11.3,
+          "ascentMeters": 275,
+          "routeType": "环线",
+          "difficulty": "Moderate"
+        },
+        "note": "评分对应完整环湖，而非湖边短走。以下里程和爬升采用 AllTrails；旅游局版本为 11 km / 115 m，起点与高度计算可能不同，不混用。"
       }
     },
     {
@@ -3808,28 +4260,29 @@
         "duration": "官方单程 37 分钟；往返建议留 1.5–2 小时含停留",
         "difficulty": "官方 easy；有临崖段，恐高需谨慎",
         "terrain": "林间自然路面、树根、石块、岩壁通道与短隧道",
-        "routeType": "往返线，不含山脚到起点的接近路",
-        "alltrails": {
-          "checkedAt": "2026-09-25",
-          "match": "variant",
-          "note": "这个评分属于 9.3 km、累计爬升约 507 m 的 Anzenauer 环线。我们选的是从 Rathlucken Hütte 出发约 2.2–3 km 的岩壁短线往返，体力和路线差别明显，仅供了解同一区域。",
-          "route": {
-            "id": 11081595,
-            "name": "Anzenauer Ewige Wand Tour",
-            "url": "https://www.alltrails.com/trail/austria/upper-austria/anzenauer-ewige-wand-tour?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-            "rating": 4.2,
-            "reviewCount": 16,
-            "distanceKm": 9.3,
-            "ascentMeters": 507,
-            "routeType": "环线"
-          }
-        }
+        "routeType": "往返线，不含山脚到起点的接近路"
       },
       "photo": {
         "url": "https://assets.tourdata.at/x550/247458/FBAED0B82F26BF74D0A73B91803104C5AB892C84DF13E5C8224B284DEF9FC6F1/die-ewige-wand-ist-perfekt-um-die-sonne-bis-abends-zu-geniessen.jpg",
         "page": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/430007280/bad-goisern-mountain-and-legend-trail.html",
         "caption": "Ewige Wand 岩壁步道实景",
         "credit": "Best of Wandern Thomas Bichler"
+      },
+      "alltrails": {
+        "match": "variant",
+        "note": "评分属于 Anzenauer 的 9.3 km 环线、爬升约 507 m；本卡片从 Rathlucken Hütte 往返岩壁仅约 2.2–3 km。不能把长线评分当作短线的独立评分。",
+        "checkedAt": "2026-09-25",
+        "route": {
+          "id": 11081595,
+          "name": "Anzenauer Ewige Wand Tour",
+          "url": "https://www.alltrails.com/trail/austria/upper-austria/anzenauer-ewige-wand-tour",
+          "rating": 4.2,
+          "reviewCount": 16,
+          "distanceKm": 9.3,
+          "ascentMeters": 507,
+          "routeType": "环线",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -3876,18 +4329,18 @@
         "duration": "官方纯步行 2 小时 19 分；含停留建议 3–3.5 小时",
         "difficulty": "官方 easy，体能要求 medium",
         "terrain": "部分柏油路、林间步道、林道与河岸路",
-        "routeType": "环线，起终点均为 Obertraun Dachsteinhöhlen 站",
-        "alltrails": {
-          "checkedAt": "2026-09-25",
-          "match": "unconfirmed",
-          "note": "按路线名称及 Obertraun 起点周边检索，尚未确认到与这条 8.3 km 官方环线一致的 AllTrails 条目。附近存在其他环线，但不能据此借用评分。"
-        }
+        "routeType": "环线，起终点均为 Obertraun Dachsteinhöhlen 站"
       },
       "photo": {
         "url": "https://assets.tourdata.at/x550/237802/ED0BA34EED5BF56D7663B4D62690FEE8B74FC7997DAD9DF013FB14575E02211F/koppenwinklsee.jpg",
         "page": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/100359/through-the-koppenwinkel.html",
         "caption": "Koppenwinkelsee 丰水时实景，水量会随季节变化",
         "credit": "RudiKainPhotografie"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "已查 Koppenwinkel 名称及 Obertraun 起点周边 5 km，尚未找到与本卡片森林溪流环线对应的 AllTrails 条目；不套用湖对岸 Echerntal 的评分。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -3933,18 +4386,18 @@
         "duration": "官方 1 小时 54 分；含停留建议 2.5–3 小时",
         "difficulty": "官方 medium；含辅助绳与陡坡",
         "terrain": "柏油接近段、砾石林道和山径；下坡多折返",
-        "routeType": "环线，Jainzen 起点出发并返回",
-        "alltrails": {
-          "checkedAt": "2026-09-25",
-          "match": "unconfirmed",
-          "note": "按 Jainzen 名称及 Bad Ischl 起点周边检索，尚未确认到与这条 3.9 km 官方环线一致的 AllTrails 条目。同名近似搜索返回过其他地区路线，已排除。"
-        }
+        "routeType": "环线，Jainzen 起点出发并返回"
       },
       "photo": {
         "url": "https://assets.tourdata.at/x550/242665/E59CA19C695D81E9D06B400FD60CA9B8F120678FAA709A5E53E0C0C008ADD4FE/ueber-den-jainzen.jpg",
         "page": "https://badischl.salzkammergut.at/oesterreich-tour/detail/430002396/rundweg-ueber-den-jainzen-814-m.html",
         "caption": "官方 Jainzen 徒步线路实景",
         "credit": "www.badischl.at"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "已查 Jainzen 名称及 Bad Ischl 周边 5 km；未找到与官方 13 号 Jainzen 环线对应的 AllTrails 条目。模糊搜索的 Kainzenbad 在德国，已排除。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -3990,6 +4443,11 @@
         "page": "https://badischl.salzkammergut.at/oesterreich-poi/detail/430002121/kaiservilla.html",
         "caption": "Kaiservilla 与园林外观实景（广角全景照片）",
         "credit": "Oberösterreich Tourismus/Steininger"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "这是 Kaiserpark 园内自由散步，尚未确认园内对应的 AllTrails 路线；不采用园外的河岸或登山路线评分。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -4037,6 +4495,11 @@
         "page": "https://en.katrinseilbahn.com/",
         "caption": "Katrin 缆车官方山景实景；非保证上站每处都有同一视角",
         "credit": "Bettina Gangl / Katrin Seilbahn"
+      },
+      "alltrails": {
+        "match": "not-applicable",
+        "note": "本项是缆车与上站附近看景，没有选定徒步轨迹。七湖环线或从山下登顶是另一个体力项目，不能套用其评分。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -4068,7 +4531,8 @@
       },
       "city": "布拉格",
       "refs": [
-        "outdoors-pr-stromovka-0"
+        "outdoors-pr-stromovka-0",
+        "alltrails-pr-stromovka"
       ],
       "coordinates": {
         "lat": 50.106494451475,
@@ -4081,6 +4545,22 @@
         "page": "https://prague.eu/cs/objevujte/kralovska-obora-stromovka/",
         "caption": "Stromovka 的池塘、草坪与树木倒影；秋叶颜色随天气变化",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于从 Troja 人行桥经岛屿到 Stromovka 展览场一带的 3.9 km 往返线；我们的推荐是在园内随意散步，不等于这条完整线路。",
+        "route": {
+          "id": 10882197,
+          "name": "Královská obora",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/kralovska-obora?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.4,
+          "reviewCount": 20,
+          "distanceKm": 3.9,
+          "ascentMeters": 54,
+          "routeType": "往返线",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -4135,21 +4615,22 @@
         "difficulty": "谷底短线较轻松，有坡和不平整路面；不含岩顶线路",
         "terrain": "沿溪标记步道，部分硬化路及自然路面",
         "routeType": "往返，可随时提前折返",
-        "note": "市政府资料推荐从电车站沿红色步道入溪谷；本候选仅取一段往返，不把保护区约 2 km 长度或另一条 9.3 km 全线当成此路线里程。选中后再定折返点、测距与爬升。",
-        "alltrails": {
-          "checkedAt": "2026-09-25",
-          "match": "variant",
-          "note": "这个评分属于走到 Nebušická skála 的 8.4 km 往返线。我们的方案只取谷底一段，折返点未定且不包含岩顶走法，因此不能直接套用该评分或里程。",
-          "route": {
-            "id": 10860732,
-            "name": "Divoká Šárka - Nebušická skála",
-            "url": "https://www.alltrails.com/trail/czech-republic/prague/divoka-sarka-nebusicka-skala?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
-            "rating": 4.5,
-            "reviewCount": 136,
-            "distanceKm": 8.4,
-            "ascentMeters": 151,
-            "routeType": "往返"
-          }
+        "note": "市政府资料推荐从电车站沿红色步道入溪谷；本候选仅取一段往返，不把保护区约 2 km 长度或另一条 9.3 km 全线当成此路线里程。选中后再定折返点、测距与爬升。"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于走到 Nebušická skála 的 8.4 km 往返线；当前谷底短走未定折返点且不含岩顶，因此不能套用它的评分、难度和里程作为短线指标。",
+        "route": {
+          "id": 10860732,
+          "name": "Divoká Šárka - Nebušická skála",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/divoka-sarka-nebusicka-skala?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 136,
+          "distanceKm": 8.4,
+          "ascentMeters": 151,
+          "routeType": "往返线",
+          "difficulty": "Moderate"
         }
       }
     },
@@ -4184,7 +4665,8 @@
       "refs": [
         "outdoors-pr-petrin-0",
         "outdoors-pr-petrin-1",
-        "outdoors-pr-petrin-2"
+        "outdoors-pr-petrin-2",
+        "alltrails-pr-petrin"
       ],
       "coordinates": {
         "lat": 50.082931915424,
@@ -4197,6 +4679,22 @@
         "page": "https://prague.eu/en/objevujte/petrin-gardens-petrinske-sady/",
         "caption": "Petřín 山坡果树与园路，远处是布拉格城堡",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于 Kučer 宫经 Strahovská 街、天文台和玫瑰园的 2.7 km 往返线；当前推荐为山坡花园自由散步，入口和走法不同。",
+        "route": {
+          "id": 10889093,
+          "name": "Kučer's Palace - Petřín Gardens",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/kuceruv-palac-zahrady-petrina?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 3.9,
+          "reviewCount": 17,
+          "distanceKm": 2.7,
+          "ascentMeters": 68,
+          "routeType": "往返线",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -4242,6 +4740,11 @@
         "page": "https://prague.eu/en/objevujte/wallenstein-garden-valdstejnska-zahrada/",
         "caption": "Waldstein 花园的几何绿篱、雕像与高拱廊",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已查 Wallenstein Garden 名称与西岸 2 km 周边；没有核实到以该花园为主体的步行路线，搜索返回的别处植物园或德国同名线路不采用。"
       }
     },
     {
@@ -4276,7 +4779,8 @@
         "outdoors-pr-troja-botanical-0",
         "outdoors-pr-troja-botanical-1",
         "outdoors-pr-troja-botanical-2",
-        "outdoors-pr-troja-botanical-3"
+        "outdoors-pr-troja-botanical-3",
+        "alltrails-pr-troja-botanical"
       ],
       "coordinates": {
         "lat": 50.12424118818707,
@@ -4289,6 +4793,22 @@
         "page": "https://prague.eu/cs/objevujte/botanicka-zahrada-hl-m-prahy-sklenik-fata-morgana/",
         "caption": "Fata Morgana 温室里的植物与步道；不是室外日本园照片",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于植物园一条 3.7 km 环线，只有 5 条评论；不代表植物园整体，也不保证含热带温室或当前想看的园区。",
+        "route": {
+          "id": 10884507,
+          "name": "Prague Botanical Garden Loop",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/okruh-botanicka-zahrada-praha?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.1,
+          "reviewCount": 5,
+          "distanceKm": 3.7,
+          "ascentMeters": 129,
+          "routeType": "环线",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -4333,6 +4853,11 @@
         "page": "https://prague.eu/en/objevujte/naplavka-farmers-market/",
         "caption": "Náplavka 河岸的市集摊位与停泊船只；市集并非每天举办",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已查 Náplavka 名称；没有核实到这段河岸和市场对应的独立路线。沿伏尔塔瓦河的跨城区线路不作为市场评分。"
       }
     },
     {
@@ -4377,6 +4902,11 @@
         "lng": 19.0664949,
         "sourceUrl": "https://www.openstreetmap.org/relation/18802516",
         "label": "Mikszáth Kálmán tér, Palotanegyed, VIII. kerület, Budapest, Közép-Magyarország, Magyarország"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已搜索 Palotanegyed 名称与地点周边 1.5 km；未确认覆盖 Mikszáth Kálmán tér、Krúdy Gyula utca、Horánszky utca 这段街区散步的独立路线。"
       }
     },
     {
@@ -4422,6 +4952,11 @@
         "lng": 19.0513112,
         "sourceUrl": "https://www.openstreetmap.org/way/144653796",
         "label": "Gárdonyi tér, Lágymányos, XI. kerület, Budapest, Közép-Magyarország, Magyarország"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已搜索 Bartók Béla 名称与地点周边 1.5 km；未确认 Szent Gellért tér 至 Gárdonyi tér 的咖啡街区短线。同名外国路线与附近盖勒特山线路已剔除。"
       }
     },
     {
@@ -4438,7 +4973,8 @@
       "hours": "官网列每日 10:00–24:00；厨房实际接单时段需现场确认。",
       "caution": "晚间可能有音乐活动。想安静就早点去；不是 Mikszáth tér 2 的 KisLumen。",
       "refs": [
-        "lumen"
+        "lumen",
+        "dining-google-bp-lumen-0"
       ],
       "map": "NagyLumen Horánszky utca 5 Budapest",
       "effort": "轻松",
@@ -4465,6 +5001,32 @@
         "status": "建议订位",
         "detail": "这是订位建议，不是已订成功；想在固定时间吃饭，先联系餐厅并收到确认。",
         "url": "https://www.lumen.hu/nagylumen"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Lumen Café",
+            "address": "Budapest, Horánszky u. 5, 1085 Hungary",
+            "google": {
+              "status": "verified",
+              "rating": 4.4,
+              "reviewCount": 2860,
+              "url": "https://www.google.com/maps/place/Lumen+Caf%C3%A9/@47.492479,19.0674694,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc5be9d08f1f:0x6feef706371983b4!8m2!3d47.492479!4d19.0674694!16s%2Fg%2F11xp58qp2",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=NagyLumen+%28Google+Maps%3A+LUMEN%29&find_loc=Hor%C3%A1nszky+utca+5%2C+Budapest"
+            }
+          }
+        ]
       }
     },
     {
@@ -4481,7 +5043,8 @@
       "hours": "每日 12:00–22:00，厨房至 21:30。",
       "caution": "周六晚餐建议订位；网站菜单不等于当日有货。",
       "refs": [
-        "ruben"
+        "ruben",
+        "dining-google-bp-ruben-0"
       ],
       "map": "Ruben Restaurant Budapest",
       "effort": "轻松",
@@ -4509,6 +5072,32 @@
         "lng": 19.0598978,
         "sourceUrl": "https://www.openstreetmap.org/node/3232789024",
         "label": "Ruben Étterem, 12-14, Magyar utca, Pest, Belváros, V. kerület, Budapest, Közép-Magyarország, 1053, Magyarország"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Ruben Étterem",
+            "address": "Budapest, Magyar u. 12-14, 1053 Hungary",
+            "google": {
+              "status": "verified",
+              "rating": 4.6,
+              "reviewCount": 3472,
+              "url": "https://www.google.com/maps/place/Ruben+%C3%89tterem/@47.4930758,19.0599624,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc452d2b6cf3:0x2028745205a1140d!8m2!3d47.4930758!4d19.0599624!16s%2Fg%2F1tkb3x0h",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Ruben+Restaurant&find_loc=Magyar+utca+12%E2%80%9314%2C+Budapest"
+            }
+          }
+        ]
       }
     },
     {
@@ -4529,7 +5118,8 @@
         "kelet",
         "visual-bp-kelet-0",
         "visual-bp-kelet-2",
-        "visual-bp-kelet-3"
+        "visual-bp-kelet-3",
+        "dining-google-bp-kelet-0"
       ],
       "map": "Kelet Kávézó Budapest",
       "effort": "轻松",
@@ -4552,6 +5142,32 @@
         "status": "通常可直接前往",
         "detail": "咖啡短停可现场看座位；人数多或一定要坐下时先联系店家，不保证随到有桌。",
         "url": "https://bevasarloutca.hu/en/shops/kelet-cafe-and-gallery"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Kelet Kávézó és Galéria",
+            "address": "Budapest, Bartók Béla út 29, 1114 Hungary",
+            "google": {
+              "status": "verified",
+              "rating": 4.7,
+              "reviewCount": 4213,
+              "url": "https://www.google.com/maps/place/Kelet+K%C3%A1v%C3%A9z%C3%B3+%C3%A9s+Gal%C3%A9ria/@47.4797724,19.0508635,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc4d40b3f759:0xa17b393422a70caa!8m2!3d47.4797724!4d19.0508635!16s%2Fg%2F11b6d0016_",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Kelet+K%C3%A1v%C3%A9z%C3%B3+%C3%A9s+Gal%C3%A9ria&find_loc=Bart%C3%B3k+B%C3%A9la+%C3%BAt+29%2C+Budapest"
+            }
+          }
+        ]
       }
     },
     {
@@ -4598,6 +5214,11 @@
         "lng": 19.0549016,
         "sourceUrl": "https://www.openstreetmap.org/way/24324025",
         "label": "Párizsi udvar, 2-4, Petőfi Sándor utca, Pest, Belváros, V. kerület, Budapest, Közép-Magyarország, 1052, Magyarország"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
       }
     },
     {
@@ -4614,7 +5235,8 @@
       "hours": "Belvedere 主花园 9 月 06:30–20:00；植物园不是同一开放时间。",
       "caution": "这是顺路保留的经典，不标成 hidden gem。雨大就放弃花园。",
       "refs": [
-        "belvedere"
+        "belvedere",
+        "alltrails-vi-gardens"
       ],
       "map": "Upper Belvedere Gardens Vienna",
       "effort": "轻松",
@@ -4642,6 +5264,22 @@
         "lng": 16.3808882,
         "sourceUrl": "https://www.openstreetmap.org/way/5887599",
         "label": "Oberes Belvedere, 27, Prinz-Eugen-Straße, Wieden, Katastralgemeinde Landstraße, Landstraße, Wien, 1030, Österreich"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "AllTrails 有同名 Belvedere–Schweizergarten 3.4 km 点到点路线，标 Moderate；本卡从酒店出发自由逛花园，起终点和轨迹没有固定，故仅作参考。",
+        "route": {
+          "id": 11380319,
+          "name": "Belvedere - Schweizergarten",
+          "url": "https://www.alltrails.com/trail/austria/vienna/belvedere-schweizergarten?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 26,
+          "distanceKm": 3.4,
+          "ascentMeters": 69,
+          "routeType": "点到点",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -4687,6 +5325,11 @@
         "lng": 16.3664198,
         "sourceUrl": "https://www.openstreetmap.org/way/195664624",
         "label": "Schleifmühlgasse, Freihausviertel, Wieden, Wien, 1040, Österreich"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已搜索 Freihausviertel 名称与街区周边 1.5 km；未确认 Schleifmühlgasse 周围短街区散步路线，不用附近老城或环城大道的评分替代。"
       }
     },
     {
@@ -4732,6 +5375,11 @@
         "status": "户外散步无需预约",
         "detail": "仅指街道或公共花园的开放部分；店铺、餐厅与付费内部参观另算。",
         "url": "https://www.wien.info/en/dine-drink/markets/spittelberg-wining-dining-359532"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已搜索 Spittelberg 名称与街区周边 1.5 km；未确认 Neubau / Spittelberg 对应短线，同名异地山地线路和附近老城大环线不代替本条。"
       }
     },
     {
@@ -4777,6 +5425,11 @@
         "lng": 16.363638,
         "sourceUrl": "https://www.openstreetmap.org/way/116761153",
         "label": "Servitenkirche, 9, Servitengasse, Roßau, Katastralgemeinde Alsergrund, Alsergrund, Wien, 1090, Österreich"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已搜索 Servitenviertel 名称与街区周边 1.5 km；未确认 Servitengasse 教堂周围的独立短线，不把附近运河或 Augarten 路线当作此街区评分。"
       }
     },
     {
@@ -4794,7 +5447,8 @@
       "caution": "花园位取决于天气；知名大餐厅，不保证安静。建议订 9/27 18:30。",
       "refs": [
         "stockl",
-        "visual-vi-stockl-1"
+        "visual-vi-stockl-1",
+        "dining-google-vi-stockl-0"
       ],
       "map": "Stöckl im Park Vienna",
       "effort": "轻松",
@@ -4822,6 +5476,32 @@
         "lng": 16.3789812,
         "sourceUrl": "https://www.openstreetmap.org/node/7297115939",
         "label": "Stöckl im Park, 25, Prinz-Eugen-Straße, Wieden, Katastralgemeinde Landstraße, Landstraße, Wien, 1030, Österreich"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Stöckl im Park",
+            "address": "Prinz-Eugen-Straße 25, 1030 Wien, Austria",
+            "google": {
+              "status": "verified",
+              "rating": 4.1,
+              "reviewCount": 4405,
+              "url": "https://www.google.com/maps/place/St%C3%B6ckl+im+Park/@48.1927226,16.3788014,17z/data=!3m1!4b1!4m6!3m5!1s0x476d077c4317033f:0x2cba53b38ece37cc!8m2!3d48.1927226!4d16.3788014!16s%2Fg%2F1tcztrg3",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=St%C3%B6ckl+im+Park&find_loc=Prinz-Eugen-Stra%C3%9Fe+25%2C+1030+Wien"
+            }
+          }
+        ]
       }
     },
     {
@@ -4838,7 +5518,8 @@
       "hours": "4–10 月每日 15:00–23:30；厨房、花园至 21:45。",
       "caution": "仅收现金。建议预约早晚餐时段；不是所有食物都桌边点单。",
       "refs": [
-        "josef"
+        "josef",
+        "dining-google-vi-josef-0"
       ],
       "map": "Weinstube Josefstadt Vienna",
       "effort": "轻松",
@@ -4866,6 +5547,32 @@
         "lng": 16.3504207,
         "sourceUrl": "https://www.openstreetmap.org/node/7468401023",
         "label": "Weinstube Josefstadt, 27, Piaristengasse, Strozzigrund, Josefstadt, Katastralgemeinde Josefstadt, Josefstadt, Wien, 1080, Österreich"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Weinstube Josefstadt",
+            "address": "Piaristengasse 27, 1080 Wien, Austria",
+            "google": {
+              "status": "verified",
+              "rating": 4.4,
+              "reviewCount": 535,
+              "url": "https://www.google.com/maps/place/Weinstube+Josefstadt/@48.2086004,16.3506281,17z/data=!3m1!4b1!4m6!3m5!1s0x476d0794af471bc3:0xd1ac14c2812785e7!8m2!3d48.2086004!4d16.3506281!16s%2Fg%2F1v6wn341",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Weinstube+Josefstadt&find_loc=Piaristengasse+27%2C+1080+Wien"
+            }
+          }
+        ]
       }
     },
     {
@@ -4882,7 +5589,8 @@
       "hours": "官网地址、联系方式已查；当前完整营业时间未清楚列出，前晚请酒店确认。",
       "caution": "若当天不开，直接酒店早餐，不为找替代早餐影响退房和上车。",
       "refs": [
-        "goldegg"
+        "goldegg",
+        "dining-google-vi-goldegg-0"
       ],
       "map": "Café Goldegg Vienna",
       "effort": "轻松",
@@ -4910,6 +5618,32 @@
         "lng": 16.3761259,
         "sourceUrl": "https://www.openstreetmap.org/node/1711057804",
         "label": "Café Goldegg, 49, Argentinierstraße, Wieden, Wien, 1040, Österreich"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Café Goldegg",
+            "address": "Argentinierstraße 49, 1040 Wien",
+            "google": {
+              "status": "verified",
+              "rating": 4.4,
+              "reviewCount": 3829,
+              "url": "https://www.google.com/maps?cid=10585646173378557294",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Caf%C3%A9+Goldegg&find_loc=Argentinierstra%C3%9Fe+49%2C+1040+Wien"
+            }
+          }
+        ]
       }
     },
     {
@@ -4926,7 +5660,8 @@
       "hours": "街区组织列周一至周六 08:30–19:00。",
       "caution": "周日不纳入推荐；两家咖啡馆选一家即可。",
       "refs": [
-        "mercerie"
+        "mercerie",
+        "dining-google-vi-mercerie-0"
       ],
       "map": "La Mercerie Berggasse 25 Vienna",
       "effort": "轻松",
@@ -4953,6 +5688,32 @@
         "status": "通常可直接前往",
         "detail": "咖啡短停可现场看座位；人数多或一定要坐下时先联系店家，不保证随到有桌。",
         "url": "https://servitenviertel.at/mitglied/cafe-bistrot-la-mercerie/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "La Mercerie",
+            "address": "Berggasse 25, 1090 Wien, Austria",
+            "google": {
+              "status": "verified",
+              "rating": 4.4,
+              "reviewCount": 1441,
+              "url": "https://www.google.com/maps/place/La+Mercerie/@48.2191197,16.3644177,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07bbcd4e3045:0x4b09187d952269ff!8m2!3d48.2191197!4d16.3644177!16s%2Fg%2F11cs9yngpf",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=La+Mercerie&find_loc=Berggasse+25%2C+1090+Wien"
+            }
+          }
+        ]
       }
     },
     {
@@ -4969,7 +5730,8 @@
       "hours": "官网列 11:30–23:00，厨房至 22:00；目标日期在订位时确认。",
       "caution": "尚未替你们订位。订不到就改 Stöckl 或附近餐馆，不排长队。",
       "refs": [
-        "schilling"
+        "schilling",
+        "dining-google-vi-schilling-0"
       ],
       "map": "Alt Wiener Gastwirtschaft Schilling Vienna",
       "effort": "轻松",
@@ -4996,6 +5758,32 @@
         "status": "建议订位",
         "detail": "这是订位建议，不是已订成功；想在固定时间吃饭，先联系餐厅并收到确认。",
         "url": "https://www.schilling-wirt.at/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Gastwirtschaft Schilling",
+            "address": "Burggasse 103, 1070 Wien, Austria",
+            "google": {
+              "status": "verified",
+              "rating": 4.6,
+              "reviewCount": 2459,
+              "url": "https://www.google.com/maps/place/Gastwirtschaft+Schilling/@48.2042287,16.3414581,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07f208cbe6c3:0x447bf524573e4191!8m2!3d48.2042287!4d16.3414581!16s%2Fg%2F1trqg002",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Alt+Wiener+Gastwirtschaft+Schilling&find_loc=Burggasse+103%2C+1070+Wien"
+            }
+          }
+        ]
       }
     },
     {
@@ -5040,6 +5828,11 @@
         "lng": 16.3590667,
         "sourceUrl": "https://www.openstreetmap.org/way/20411606",
         "label": "Leopold Museum, 1, Museumsplatz, Sankt Ulrich, Spittelberg, Katastralgemeinde Neubau, Neubau, Wien, 1070, Österreich"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
       }
     },
     {
@@ -5059,7 +5852,8 @@
         "gosau",
         "gosauloop",
         "ooevv",
-        "bus542"
+        "bus542",
+        "alltrails-lk-gosau"
       ],
       "map": "Vorderer Gosausee Austria",
       "effort": "中等",
@@ -5086,6 +5880,22 @@
         "status": "无需预约",
         "detail": "只在公共开放湖岸散步，无需预约；接驳车另约。先确认封闭公告，不能把预约与步道开放混为一谈。",
         "url": "https://www.salzkammergut.at/en/search-accommodation/oesterreich-poi/detail/201041/lake-gosau.html"
+      },
+      "alltrails": {
+        "match": "variant",
+        "note": "评分属于 AllTrails 的约 8.0 km 前湖环线，不是本卡片确认开放湖岸的短程往返，也不同于旅游局约 4.2 km 环湖；不要按评分自动完成整圈，出发前确认落石警示和围挡。",
+        "checkedAt": "2026-09-25",
+        "route": {
+          "id": 10408484,
+          "name": "Vorderer Gosausee Lake",
+          "url": "https://www.alltrails.com/trail/austria/upper-austria/vorderer-gosausee",
+          "rating": 4.7,
+          "reviewCount": 551,
+          "distanceKm": 8.0,
+          "ascentMeters": 207,
+          "routeType": "环线",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -5130,6 +5940,11 @@
         "status": "无需预约",
         "detail": "公共湖岸短走无需预约；不含私人草地、船屋或包船。秋季不默认泳场服务仍开放。",
         "url": "https://dachstein.salzkammergut.at/oesterreich-poi/detail/200188/strandbad-untersee.html"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "本项是在 Untersee 公共湖岸自由往返，没有确认独立对应条目。AllTrails 的 9.8 km 东岸长线包含其他岸段且仍提示落石封闭，不用其评分代表这里。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -5177,6 +5992,11 @@
         "lng": 13.6198181,
         "sourceUrl": "https://www.openstreetmap.org/way/4613187",
         "label": "Esplanade, Steinbruch, Kaltenbach, Bad Ischl, Bezirk Gmunden, Oberösterreich, 4820, Österreich"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "本卡片是 Pfarrgasse、Zauner、Esplanade 的自由小镇散步，未确认对应 AllTrails 条目；6.9 km Dammweg 环线属于不同路线。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -5194,7 +6014,8 @@
       "caution": "建议 9/30 或 10/1 18:00。只先锁定一个日期，另一日留给天气，不同时占两个订位。",
       "refs": [
         "steegwirt",
-        "visual-lk-steeg-0"
+        "visual-lk-steeg-0",
+        "dining-google-lk-steeg-0"
       ],
       "map": "Steegwirt Au 12 Bad Goisern",
       "effort": "轻松",
@@ -5221,6 +6042,32 @@
         "status": "建议预约",
         "detail": "建议先确认两人桌位，收到回复才算订位。未替你们预约；午餐与晚餐按兴趣选一次。",
         "url": "https://www.steegwirt.at/speis--trank/tischanfrage"
+      },
+      "alltrails": {
+        "match": "not-applicable",
+        "note": "本项为餐厅用餐，不是徒步路线；AllTrails 路线评分不适用。",
+        "checkedAt": "2026-09-25"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Welterbe-Wirtshaus Steegwirt",
+            "address": "Au 12, 4822 Bad Goisern am Hallstättersee",
+            "google": {
+              "status": "verified",
+              "rating": 4.5,
+              "reviewCount": 3556,
+              "url": "https://www.google.com/maps/place/Welterbe-Wirtshaus+Steegwirt/@47.6121245,13.6322453,17z/data=!4m9!3m8!1s0x47714a3885756ced:0xcf912ff79fe86824!5m2!4m1!1i2!8m2!3d47.6121245!4d13.6322453!16s%2Fg%2F1tdmz9tl",
+              "note": "此 Google 条目同时包含餐厅与住宿，评分未单独区分餐饮。"
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Welterbe-Wirtshaus%20Steegwirt&find_loc=Au%2012%2C%204822%20Bad%20Goisern%20am%20Hallst%C3%A4ttersee"
+            }
+          }
+        ]
       }
     },
     {
@@ -5237,7 +6084,8 @@
       "hours": "周二官网晚餐 17:30–21:00；周三休息，周四特殊餐需预订。",
       "caution": "别拿它当每天都开的兜底店，尤其 9/30 周三。",
       "refs": [
-        "moser"
+        "moser",
+        "dining-google-lk-moser-0"
       ],
       "map": "Moserwirt Bad Goisern",
       "effort": "轻松",
@@ -5264,6 +6112,32 @@
         "status": "建议预约",
         "detail": "正式晚餐建议联系店家确认桌位；周四特定晚餐尤其先问，不默认可以直接到店。",
         "url": "https://www.moserwirt.at/kontakt/"
+      },
+      "alltrails": {
+        "match": "not-applicable",
+        "note": "本项为餐厅用餐，不是徒步路线；AllTrails 路线评分不适用。",
+        "checkedAt": "2026-09-25"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Gasthof Hotel Moserwirt",
+            "address": "Kirchengasse 6, 4822 Bad Goisern am Hallstättersee",
+            "google": {
+              "status": "verified",
+              "rating": 4.4,
+              "reviewCount": 695,
+              "url": "https://www.google.com/maps/place/Gasthof+Hotel+Moserwirt/data=!4m10!3m9!1s0x47714b0a36bbf949:0xf5e1a1fc0fd1dfa0!5m2!4m1!1i2!8m2!3d47.642577!4d13.617033!16s%2Fg%2F1tffb_lr!19sChIJSfm7NgpLcUcRoN_RD_yh4fU",
+              "note": "这是旅馆与餐厅合并条目，包含住宿体验，并非餐厅独立评分。"
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Gasthof%20Hotel%20Moserwirt&find_loc=Kirchengasse%206%2C%204822%20Bad%20Goisern%20am%20Hallst%C3%A4ttersee"
+            }
+          }
+        ]
       }
     },
     {
@@ -5280,7 +6154,9 @@
       "hours": "自家官网：Pfarrgasse 每日 08:30–18:00；Esplanade 09:30–20:00，热食 11:30–19:30。",
       "caution": "甜点当休息，不必排长队；外带也是合理选择。",
       "refs": [
-        "zauner"
+        "zauner",
+        "dining-google-lk-zauner-0",
+        "dining-google-lk-zauner-1"
       ],
       "map": "Konditorei Zauner Pfarrgasse 7 Bad Ischl",
       "effort": "轻松",
@@ -5314,7 +6190,49 @@
           "label": "Esplanade 河岸分店",
           "query": "Zauner Esplanade Bad Ischl"
         }
-      ]
+      ],
+      "alltrails": {
+        "match": "not-applicable",
+        "note": "本项为咖啡与甜点，不是徒步路线；AllTrails 路线评分不适用。",
+        "checkedAt": "2026-09-25"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Konditorei Zauner · Pfarrgasse 老店",
+            "address": "Pfarrgasse 7, 4820 Bad Ischl",
+            "google": {
+              "status": "verified",
+              "rating": 4.4,
+              "reviewCount": 2078,
+              "url": "https://www.google.com/maps/place/Konditorei+Zauner/@47.7109457,13.6218537,17z/data=!3m1!4b1!4m6!3m5!1s0x47714d216311c357:0xb89df724f0d3db60!8m2!3d47.7109457!4d13.6218537!16s%2Fg%2F121qy3hw",
+              "note": "Pfarrgasse 老店；与河岸分店分开统计。"
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Konditorei%20%26%20Caf%C3%A9%20Zauner%20%C2%B7%20Pfarrgasse%20%E8%80%81%E5%BA%97&find_loc=Pfarrgasse%207%2C%204820%20Bad%20Ischl"
+            }
+          },
+          {
+            "label": "Grand Café Restaurant Zauner · Esplanade 河岸店",
+            "address": "Hasnerallee 2, 4820 Bad Ischl",
+            "google": {
+              "status": "verified",
+              "rating": 4.5,
+              "reviewCount": 4945,
+              "url": "https://www.google.com/maps/place/Grand+Caf%C3%A9+Restaurant+Zauner+Esplanade/@47.7095134,13.6184241,17z/data=!3m1!4b1!4m6!3m5!1s0x47714d26d6e7040d:0x319454af4b2fbf8d!8m2!3d47.7095134!4d13.6184241!16s%2Fg%2F1td7xxb_",
+              "note": "Hasnerallee 2 河岸分店；不是 Pfarrgasse 老店。"
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Grand%20Caf%C3%A9%20%26%20Restaurant%20Zauner%20%C2%B7%20Esplanade&find_loc=Hasnerallee%202%2C%204820%20Bad%20Ischl"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "lk-sirius",
@@ -5330,7 +6248,8 @@
       "hours": "旅游局列周三至周日 10:00–22:00，厨房 11:00–21:00。",
       "caution": "有坡，湿滑、脚累或连续下雨就换 Zauner/镇里午餐。必须先确认桌位。",
       "refs": [
-        "sirius"
+        "sirius",
+        "dining-google-lk-sirius-0"
       ],
       "map": "Gasthaus Siriuskogl Bad Ischl",
       "effort": "有爬坡",
@@ -5357,6 +6276,32 @@
         "status": "建议预约",
         "detail": "上山前先联系餐厅确认桌位与营业，避免走到山顶才发现满座或包场；未替你们预约。",
         "url": "https://badischl.salzkammergut.at/en/oesterreich-gastronomie/detail/102092/gasthaus-siriuskogl.html"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "本项包含上山到 Siriuskogl 餐厅的短走，但未查到对应 AllTrails 条目；名称搜索的 Siriskolten 在挪威，已排除。",
+        "checkedAt": "2026-09-25"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Ausflugs Restaurant Siriuskogl",
+            "address": "Sulzbach 70, 4820 Bad Ischl",
+            "google": {
+              "status": "verified",
+              "rating": 4.7,
+              "reviewCount": 806,
+              "url": "https://www.google.com/maps/place/Ausflugs+Restaurant+Siriuskogl/@47.704703,13.617844,17z/data=!3m1!4b1!4m6!3m5!1s0x47714cdf231e388f:0x190120d72f29832!8m2!3d47.704703!4d13.617844!16s%2Fg%2F1tnmqjgc",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Gasthaus%20Siriuskogl&find_loc=Sulzbach%2070%2C%204820%20Bad%20Ischl"
+            }
+          }
+        ]
       }
     },
     {
@@ -5375,7 +6320,8 @@
       "refs": [
         "traunkirchen",
         "chapel",
-        "oebb"
+        "oebb",
+        "alltrails-lk-traunkirchen"
       ],
       "map": "Traunkirchen Ort",
       "effort": "轻松",
@@ -5403,7 +6349,23 @@
         "detail": "公共湖岸与镇中心散步无需预约；教堂内部与围挡范围另看现场，不视为预约后即可进入。",
         "url": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430001876/johannesberg-with-johannesberg-chapel.html"
       },
-      "coordinateNote": "坐标代表 Johannesberg 湖畔景观点，不代表可越过围挡或进入教堂。"
+      "coordinateNote": "坐标代表 Johannesberg 湖畔景观点，不代表可越过围挡或进入教堂。",
+      "alltrails": {
+        "match": "variant",
+        "note": "此评分属于名为 Stadtspaziergang Traunkirchen 的固定 1.1 km 小镇环线；本卡片允许自由湖边散步和历史步道短段，路线不完全相同。仅 4 条评价，样本很少。",
+        "checkedAt": "2026-09-25",
+        "route": {
+          "id": 11130104,
+          "name": "Stadtspaziergang Traunkirchen",
+          "url": "https://www.alltrails.com/trail/austria/upper-austria/stadtspaziergang-traunkirchen",
+          "rating": 5.0,
+          "reviewCount": 4,
+          "distanceKm": 1.1,
+          "ascentMeters": 18,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
+      }
     },
     {
       "id": "lk-wolfgang",
@@ -5449,7 +6411,12 @@
         "detail": "运营方称少于 20 人无需团体预约，可船上或线上买票；仍要先查本次日期航线和回程，不能视为保证有任意班次。",
         "url": "https://www.5schaetze.at/en/wolfgangseeschifffahrt.html"
       },
-      "coordinateNote": "图钉为 Strobl 上船点，用来判断湖区位置；不同村镇有其他码头，选好后再核对船班。"
+      "coordinateNote": "图钉为 Strobl 上船点，用来判断湖区位置；不同村镇有其他码头，选好后再核对船班。",
+      "alltrails": {
+        "match": "not-applicable",
+        "note": "本项是游船体验与村镇停留，没有指定步行轨迹；不套用沿湖徒步的评分。",
+        "checkedAt": "2026-09-25"
+      }
     },
     {
       "id": "lk-dachstein",
@@ -5466,7 +6433,8 @@
       "caution": "云雾、风大、早雪或体力一般就不去。Koppenbrüller 洞穴季节已于 9/27 结束，不放进你们的湖区三晚。",
       "refs": [
         "dachstein",
-        "visual-lk-dachstein-0"
+        "visual-lk-dachstein-0",
+        "alltrails-lk-dachstein"
       ],
       "map": "5 Fingers Dachstein Krippenstein Obertraun",
       "effort": "较费体力",
@@ -5501,7 +6469,23 @@
           "label": "缆车山下站",
           "query": "Dachstein Krippenstein Seilbahn Talstation Obertraun"
         }
-      ]
+      ],
+      "alltrails": {
+        "match": "variant",
+        "note": "评分属于缆车上站出发、含 5 Fingers 和 World Heritage Spiral 的完整 7.9 km 单程高山路线；本卡片只做缆车加短步行，不代表需要走完全程。",
+        "checkedAt": "2026-09-25",
+        "route": {
+          "id": 11183400,
+          "name": "Krippenstein",
+          "url": "https://www.alltrails.com/trail/austria/upper-austria/wanderung-am-krippenstein",
+          "rating": 4.8,
+          "reviewCount": 85,
+          "distanceKm": 7.9,
+          "ascentMeters": 108,
+          "routeType": "单程线",
+          "difficulty": "Moderate"
+        }
+      }
     },
     {
       "id": "lk-goisern",
@@ -5548,6 +6532,11 @@
         "status": "无需预约",
         "detail": "镇中心公共街道散步无需预约；吃饭和手工体验各自确认。",
         "url": "https://presseservice.salzkammergut.at/en/oesterreich-stadt-ort/detail/430000966/bad-goisern-at-lake-hallstatt.html"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "本项是在住宿镇中心自由短走，没有确定路线；Rassingbach 4.3 km 环线是另一个项目，不能代表镇中心休闲半天。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -5592,6 +6581,11 @@
         "status": "无需预约",
         "detail": "公共街巷散步不用订票；住户庭院不是开放参观点。",
         "url": "https://prague.eu/en/objevujte/novy-svet-new-world/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已查 Nový Svět 及西岸 2 km 周边；返回城堡、Petřín 等城市长线，未证实走过本推荐的小巷，不借用。"
       }
     },
     {
@@ -5608,7 +6602,8 @@
       "hours": "周二至周六 10:00–19:00，周日 10:00–18:00，周一休。",
       "caution": "店不大，没位就外带或直接跳过。",
       "refs": [
-        "novycafe"
+        "novycafe",
+        "dining-google-pr-cafe-0"
       ],
       "map": "Kavárna Nový Svět Prague",
       "effort": "轻松",
@@ -5635,6 +6630,32 @@
         "status": "预约规则待确认",
         "detail": "咖啡馆席位不保证；若一定要在特定时间坐下，先通过官方联系渠道询问。",
         "url": "https://prague.eu/en/objevujte/kavarna-novy-svet-new-world-cafe/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "这是餐饮或室内参观地点，不是定义好的步行路线；不使用附近徒步线路的评分代替场所评价。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Kavárna Nový Svět",
+            "address": "Nový Svět 87/2, 118 00 Praha 1-Hradčany, Czechia",
+            "google": {
+              "status": "verified",
+              "rating": 4.7,
+              "reviewCount": 1719,
+              "url": "https://www.google.com/maps/place/Kav%C3%A1rna+Nov%C3%BD+Sv%C4%9Bt/@50.09117,14.3904033,17z/data=!3m1!4b1!4m6!3m5!1s0x470b9519945a2d81:0xc8bc728eb744ea68!8m2!3d50.09117!4d14.3904033!16s%2Fg%2F1ptxwzyjf",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Kav%C3%A1rna+Nov%C3%BD+Sv%C4%9Bt&find_loc=Prague%2C+Czech+Republic"
+            }
+          }
+        ]
       }
     },
     {
@@ -5652,7 +6673,8 @@
       "caution": "旅游者不少，绝不是 hidden gem。优点是方便；周五晚建议订位。",
       "refs": [
         "brewery",
-        "visual-pr-brewery-0"
+        "visual-pr-brewery-0",
+        "dining-google-pr-brewery-0"
       ],
       "map": "Klášterní pivovar Strahov Prague",
       "effort": "轻松",
@@ -5679,6 +6701,32 @@
         "status": "建议预约",
         "detail": "建议为周末正餐提前订桌；联系邮箱见官网，提交申请不等于已确认。",
         "url": "https://www.klasterni-pivovar.cz/contact"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "这是餐饮或室内参观地点，不是定义好的步行路线；不使用附近徒步线路的评分代替场所评价。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Strahov Monastery Brewery",
+            "address": "Strahovské nádvoří 301, 118 00 Praha 1-Hradčany, Czechia",
+            "google": {
+              "status": "verified",
+              "rating": 4.5,
+              "reviewCount": 6645,
+              "url": "https://www.google.com/maps/place/Strahov+Monastery+Brewery/@50.0868543,14.3883612,17z/data=!3m1!4b1!4m6!3m5!1s0x470b951aee50c97b:0x173e21c6d39843dc!8m2!3d50.0868543!4d14.3883612!16s%2Fg%2F1tf56llq",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Strahov+Monastery+Brewery&find_loc=Prague%2C+Czech+Republic"
+            }
+          }
+        ]
       }
     },
     {
@@ -5723,6 +6771,11 @@
         "status": "无需预约",
         "detail": "逛露天市集不用订位；需要按举办日期和实际营业时段前往。",
         "url": "https://prague.eu/en/akce/farmers-martkets-at-jirak/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已查 Vinohrady 与坐标附近 2 km；结果多为别处同名葡萄园或周边公园，未核实到 Jiřák 市场与本街区散步的对应路线。"
       }
     },
     {
@@ -5766,6 +6819,11 @@
         "status": "无需预约",
         "detail": "公共公园散步不用订票，园内餐饮另算。",
         "url": "https://prague.eu/en/objevujte/havlicek-gardens-grebovka-havlickovy-sady/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已查 Havlíčkovy sady 名称及附近 2 km；未找到匹配 Grébovka 园内路线，Letná 等其他公园结果不采用。"
       }
     },
     {
@@ -5782,7 +6840,8 @@
       "hours": "旅游局列周末 11:00–22:00，工作日 12:00–22:00。",
       "caution": "露台位看天气与到店情况；阴雨可舍弃。",
       "refs": [
-        "altan"
+        "altan",
+        "dining-google-pr-altan-0"
       ],
       "map": "Altán Grébovka Prague",
       "effort": "轻松",
@@ -5809,6 +6868,32 @@
         "status": "建议预约",
         "detail": "有确定用餐时段或想坐景观位时，建议提前联系；不保证能指定露台席位。",
         "url": "https://prague.eu/en/objevujte/altan-grebovka/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "这是餐饮或室内参观地点，不是定义好的步行路线；不使用附近徒步线路的评分代替场所评价。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Altán Grebovka",
+            "address": "Havlíčkovy sady 1369, 120 00 Praha 2-Vinohrady, Czechia",
+            "google": {
+              "status": "verified",
+              "rating": 4.4,
+              "reviewCount": 1270,
+              "url": "https://www.google.com/maps/place/Alt%C3%A1n+Grebovka/@50.0686083,14.4442778,17z/data=!3m1!4b1!4m6!3m5!1s0x470b9481245c2c03:0xd917b453e83758bd!8m2!3d50.0686083!4d14.4442778!16s%2Fg%2F1thxzh_y",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Alt%C3%A1n+Grebovka&find_loc=Prague%2C+Czech+Republic"
+            }
+          }
+        ]
       }
     },
     {
@@ -5852,6 +6937,11 @@
         "status": "花园无需预约",
         "detail": "这里的候选是花园和外观；内部导览另有固定班次，英文导览需事先安排。",
         "url": "https://prague.eu/en/objevujte/brevnov-monastery-brevnovsky-klaster/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "unconfirmed",
+        "note": "已查 Břevnov 名称及附近 2 km；结果为 Ladronka、Hvězda 等其他绿地，没有核实到本修道院花园路线。"
       }
     },
     {
@@ -5868,7 +6958,8 @@
       "hours": "每日 11:30–23:00；电话 +420 220 406294。",
       "caution": "线上表单只是申请，收到餐厅确认才算有位。建议 10/4 12:30。",
       "refs": [
-        "senk"
+        "senk",
+        "dining-google-pr-senk-0"
       ],
       "map": "Klášterní šenk Břevnov Prague",
       "effort": "轻松",
@@ -5895,6 +6986,32 @@
         "status": "建议预约",
         "detail": "官网要求收到餐厅电话或邮件确认才算订位成功；当天订位请致电，网上表单用于提前至少 24 小时申请。",
         "url": "https://www.klasternisenk.cz/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "这是餐饮或室内参观地点，不是定义好的步行路线；不使用附近徒步线路的评分代替场所评价。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Klášterní šenk",
+            "address": "28, Markétská 1, 169 00 Praha 6, Czechia",
+            "google": {
+              "status": "verified",
+              "rating": 4.6,
+              "reviewCount": 2978,
+              "url": "https://www.google.com/maps/place/Kl%C3%A1%C5%A1tern%C3%AD+%C5%A1enk/@50.0840465,14.356618,17z/data=!3m1!4b1!4m6!3m5!1s0x470b9570b47f4b49:0x5a82fae25c880b3f!8m2!3d50.0840465!4d14.356618!16s%2Fg%2F1tp0cd3m",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Kl%C3%A1%C5%A1tern%C3%AD+%C5%A1enk&find_loc=Prague%2C+Czech+Republic"
+            }
+          }
+        ]
       }
     },
     {
@@ -5911,7 +7028,8 @@
       "hours": "旅游局说明公园全年对公众开放。",
       "caution": "雨后林地可能泥泞。10/4 若下午超过 15:00 才想去，就直接跳过。",
       "refs": [
-        "hvezda"
+        "hvezda",
+        "alltrails-pr-hvezda"
       ],
       "map": "Obora Hvězda Prague",
       "effort": "轻松",
@@ -5938,6 +7056,22 @@
         "status": "公园无需预约",
         "detail": "森林公园全年自由进入；夏宫内部参观不包含在这项散步候选里。",
         "url": "https://prague.eu/cs/objevujte/obora-hvezda/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于从 Na Klášterním / Zeyerova alej 一带出发的 4.3 km 公园环线；当前方案只是自由选择森林小路，不是完整复刻该线。",
+        "route": {
+          "id": 10821465,
+          "name": "Obora Hvězda Loop",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/obora-hvezda?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.6,
+          "reviewCount": 5,
+          "distanceKm": 4.3,
+          "ascentMeters": 84,
+          "routeType": "环线",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -5983,6 +7117,11 @@
         "status": "需购票",
         "detail": "普通参观从入口观看两座历史书厅，不能走入书架间；票种、开放情况以购票时官网为准。",
         "url": "https://www.strahovskyklaster.cz/en/for-visitors/visitors-rules"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "这是餐饮或室内参观地点，不是定义好的步行路线；不使用附近徒步线路的评分代替场所评价。"
       }
     },
     {
@@ -5999,7 +7138,8 @@
       "hours": "旅游局列每日 11:00–23:00。",
       "caution": "它是一家较大的酒馆，不比安静花园更符合你们所有偏好，因此只在备选库保留。",
       "refs": [
-        "kolkovna"
+        "kolkovna",
+        "dining-google-pr-kolkovna-0"
       ],
       "map": "Kolkovna Výstaviště Prague",
       "effort": "轻松",
@@ -6026,6 +7166,32 @@
         "status": "建议预约",
         "detail": "周末正餐建议先联系餐厅订桌；酿酒厂导览是额外活动，需单独确认场次。",
         "url": "https://prague.eu/en/objevujte/kolkovna-brewery-and-restaurant/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "这是餐饮或室内参观地点，不是定义好的步行路线；不使用附近徒步线路的评分代替场所评价。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Pivovar Kolkovna",
+            "address": "Výstaviště 415, 170 00 Praha 7-Bubeneč, Czechia",
+            "google": {
+              "status": "verified",
+              "rating": 3.9,
+              "reviewCount": 388,
+              "url": "https://www.google.com/maps/place/Pivovar+Kolkovna/@50.1055389,14.4293924,17z/data=!3m1!4b1!4m6!3m5!1s0x470b950053b80ec7:0x860e21a14dd3908b!8m2!3d50.1055389!4d14.4293924!16s%2Fg%2F11w1n228r9",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Pivovar+Kolkovna&find_loc=Prague%2C+Czech+Republic"
+            }
+          }
+        ]
       }
     },
     {
@@ -6043,7 +7209,8 @@
       "caution": "大店可能热闹，不是安静私房菜。工作日便宜午餐套餐不适用于这次周六。",
       "refs": [
         "parlament",
-        "visual-pr-parlament-0"
+        "visual-pr-parlament-0",
+        "dining-google-pr-parlament-0"
       ],
       "map": "Vinohradský Parlament Prague",
       "effort": "轻松",
@@ -6070,6 +7237,32 @@
         "status": "建议预约",
         "detail": "若选作固定午餐，建议通过官网订桌；未取得餐厅确认前不视为已经预订。",
         "url": "https://www.vinohradskyparlament.cz/"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "这是餐饮或室内参观地点，不是定义好的步行路线；不使用附近徒步线路的评分代替场所评价。"
+      },
+      "diningRatings": {
+        "checkedAt": "2026-09-25",
+        "branches": [
+          {
+            "label": "Vinohradský Parlament Restaurant",
+            "address": "Korunní 1, 120 00 Vinohrady, Czechia",
+            "google": {
+              "status": "verified",
+              "rating": 4.5,
+              "reviewCount": 9806,
+              "url": "https://www.google.com/maps/place/Vinohradsk%C3%BD+Parlament+Restaurant/@50.0754229,14.438329,17z/data=!3m1!4b1!4m6!3m5!1s0x470b948f64950725:0x2b0c9fd88c7ce511!8m2!3d50.0754229!4d14.438329!16s%2Fg%2F1q5bl40yn",
+              "note": ""
+            },
+            "yelp": {
+              "status": "unconfirmed",
+              "note": "暂未核实当前门店评分，不采用旧缓存或其他分店的分数。",
+              "url": "https://www.yelp.com/search?find_desc=Vinohradsk%C3%BD+Parlament+Restaurant&find_loc=Prague%2C+Czech+Republic"
+            }
+          }
+        ]
       }
     },
     {
@@ -6115,6 +7308,11 @@
         "status": "小店可到访，导览另约",
         "detail": "只逛小店可按营业时段到访；展览门票与导览另确认，工作坊不能默认随到随参加。",
         "url": "https://handwerkhaus.at/"
+      },
+      "alltrails": {
+        "match": "not-applicable",
+        "note": "本项为手工艺店与室内参观，不是徒步路线；AllTrails 路线评分不适用。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -6142,7 +7340,8 @@
       "city": "布拉格",
       "refs": [
         "city-pr-charles-kampa-0",
-        "city-pr-charles-kampa-1"
+        "city-pr-charles-kampa-1",
+        "alltrails-pr-charles-kampa"
       ],
       "coordinates": {
         "lat": 50.086500914579,
@@ -6159,6 +7358,22 @@
         "page": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/",
         "caption": "查理大桥的石拱与河景；Kampa 是桥西侧的延伸散步区",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于老城广场经查理大桥到圣尼古拉教堂的 1.6 km 单程步行；与查理大桥有重叠，但不等于本条桥加 Kampa 的走法，不能当作 Kampa 的景点评分。",
+        "route": {
+          "id": 10593504,
+          "name": "Prague Old Town Square - Church of St. Nicholas",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/praha-staromestske-namesti-kostel-sv-mikulase?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 64,
+          "distanceKm": 1.6,
+          "ascentMeters": 49,
+          "routeType": "单程线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6185,7 +7400,8 @@
       "tradeoff": "更擅长看城市全景，近处细节不如 Grébovka 的岩洞和葡萄园丰富；两座公园可按兴趣择一。",
       "city": "布拉格",
       "refs": [
-        "city-pr-letna-0"
+        "city-pr-letna-0",
+        "alltrails-pr-letna"
       ],
       "coordinates": {
         "lat": 50.09575877163,
@@ -6202,6 +7418,22 @@
         "page": "https://prague.eu/en/objevujte/letna-park-letenske-sady/",
         "caption": "Letná 公园的草坪、林荫与 Hanavský 亭楼",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于 Letenské sady 的 3.4 km 园内环线；当前推荐只选河景观景点与一段公园散步，不要求走完整圈。",
+        "route": {
+          "id": 10883735,
+          "name": "Letenské sady Loop",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/okruh-letenske-sady?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 35,
+          "distanceKm": 3.4,
+          "ascentMeters": 45,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6229,7 +7461,8 @@
       "city": "布拉格",
       "refs": [
         "city-pr-vysehrad-0",
-        "city-pr-vysehrad-1"
+        "city-pr-vysehrad-1",
+        "alltrails-pr-vysehrad"
       ],
       "coordinates": {
         "lat": 50.064673621092,
@@ -6246,6 +7479,22 @@
         "page": "https://prague.eu/en/objevujte/vysehrad-gardens-vysehradske-sady/",
         "caption": "Vyšehrad 城墙、绿地与教堂双尖塔",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于从 Vyšehrad 沿河一直走到 Josefov 的 3.9 km 单程城市线；不是高堡城墙公园本身的评分，当前推荐也未包含这段跨城区路线。",
+        "route": {
+          "id": 10593503,
+          "name": "Walking Tour Vyšehrad - Josefov",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/vysehrad-josefov-pesky-podel-vltavy?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.6,
+          "reviewCount": 61,
+          "distanceKm": 3.9,
+          "ascentMeters": 92,
+          "routeType": "单程线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6272,7 +7521,8 @@
       "tradeoff": "典型、集中，但安静程度不如 Nový Svět；与查理大桥都是热门老城体验，不用为了打卡同时选满。",
       "city": "布拉格",
       "refs": [
-        "city-pr-oldtown-0"
+        "city-pr-oldtown-0",
+        "alltrails-pr-oldtown"
       ],
       "coordinates": {
         "lat": 50.087524890749,
@@ -6289,6 +7539,22 @@
         "page": "https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/",
         "caption": "老城广场与泰恩教堂双塔，旅游局高处视角",
         "credit": "Prague City Tourism"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于老城广场到圣尼古拉教堂的 1.6 km 步行线；当前条目只是老城广场参观，不能把整条路线评分当作广场评分。",
+        "route": {
+          "id": 10593504,
+          "name": "Prague Old Town Square - Church of St. Nicholas",
+          "url": "https://www.alltrails.com/trail/czech-republic/prague/praha-staromestske-namesti-kostel-sv-mikulase?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 64,
+          "distanceKm": 1.6,
+          "ascentMeters": 49,
+          "routeType": "单程线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6335,6 +7601,11 @@
         "page": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430003908/marketplace-hallstatt.html",
         "caption": "Hallstatt 市场广场实景",
         "credit": "Thomas Bichler"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "本项为村内公共湖岸与市场广场散步，尚未确认同一条 AllTrails 路线；盐山、瀑布、整湖长线都不是本卡片。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -6346,12 +7617,14 @@
       "time": "湖岸约 2–3 小时，来回接驳另留余量",
       "budget": "湖岸散步为主，交通餐饮另计；不含船或盐矿",
       "why": "喜欢山湖、想与 Gosausee 或 Hallstättersee 比较不同景色时，可收藏这一处；不是必去的第二个湖。",
-      "do": "从村边找公共湖岸走一小段，看看清水、岩山与船屋，坐下来休息；不要求完成环湖。",
+      "do": "从村边找公共湖岸走一小段，看看清水、岩山与船屋，坐下来休息；不要求完成环湖。 也可选择完整环湖：沿公共湖岸接入 Lake Altaussee Loop，走约 6.9 km 再回到村边；完整路线资料见 AllTrails 链接。",
       "access": "从 Bad Goisern 前往需另查到 Altaussee 的完整接驳或询价预约车；不要把 Bad Aussee 车站当成湖边。",
       "hours": "白天按天气与湖岸开放情况游览；餐饮、船与盐矿营业另查。",
       "caution": "别占私人船屋和草地；低云会遮山，不为了多打卡一个湖付出过长往返。",
       "refs": [
-        "city-lk-altaussee-0"
+        "city-lk-altaussee-0",
+        "alltrails-lk-altaussee",
+        "outdoors-lk-altaussee-loop"
       ],
       "map": "Altaussee Austria",
       "effort": "中等（主要是往返交通）",
@@ -6362,7 +7635,7 @@
         "把时间花在一片湖边坐看景色，不需要再加盐矿或登山。"
       ],
       "bestTime": "建议选云层较高、无持续降雨的白天；先确认回程接驳，再决定在湖边停多久。",
-      "tradeoff": "从住宿地的接驳比留在 Bad Goisern 或 Untersee 更费事；如果只是想坐着看水，未必值得专程换湖。",
+      "tradeoff": "从住宿地的接驳比留在 Bad Goisern 或 Untersee 更费事；如果只是想坐着看水，未必值得专程换湖。 完整环湖仍需走近 7 公里，雨后湿滑；不能用 Easy 理解成不费体力。",
       "booking": {
         "status": "湖岸散步无需预约",
         "detail": "只走公共湖岸通常无需预约；如加船、盐矿、餐厅或接送车，分别确认，不合并成免费开放承诺。",
@@ -6379,6 +7652,22 @@
         "page": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001787/altaussee.html",
         "caption": "Altaussee 湖岸与山景",
         "credit": "Tourismusverband Ausseerland - Salzkammergut"
+      },
+      "alltrails": {
+        "match": "option",
+        "note": "可选完整环湖：Lake Altaussee Loop，6.9 km / 爬升 128 m，Easy，纯步行约 1.5–2 小时，含停留建议 2.5–3 小时。想少走仍可保留村边短线；短线没有独立评分。地图标记仍是村镇入口，不是 AllTrails 精确起点。",
+        "checkedAt": "2026-09-25",
+        "route": {
+          "id": 10509529,
+          "name": "Lake Altaussee Loop",
+          "url": "https://www.alltrails.com/trail/austria/styria/um-den-altausseer-see",
+          "rating": 4.8,
+          "reviewCount": 218,
+          "distanceKm": 6.9,
+          "ascentMeters": 128,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6424,6 +7713,11 @@
         "page": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001365/st-gilgen.html",
         "caption": "St. Gilgen 镇中心与 Wolfgangsee 的高处全景（来源缩略图）",
         "credit": "Mirja Geh / Wolfgangsee Tourismus"
+      },
+      "alltrails": {
+        "match": "unconfirmed",
+        "note": "本项为村镇与湖边短走，没有确认同一路线；8.7 km Panoramaweg 是村庄上方的登高环线，不用其评分代表湖畔散步。",
+        "checkedAt": "2026-09-25"
       }
     },
     {
@@ -6456,7 +7750,8 @@
       },
       "refs": [
         "city-bp-castle-0",
-        "city-bp-castle-1"
+        "city-bp-castle-1",
+        "alltrails-bp-castle"
       ],
       "coordinates": {
         "lat": 47.5023053,
@@ -6469,6 +7764,22 @@
         "page": "https://www.budapestinfo.hu/en/10-best-viewpoints-in-budapest",
         "caption": "渔人堡的石拱廊与塔楼，黎明时拍摄",
         "credit": "Krisztián Bódis / Budapestinfo"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于从 Batthyány Square 开始的 3.5 km 布达城堡环线，包含教堂及渔人堡一带；本卡是在渔人堡和城堡区自由散步，不等于这条完整路线。",
+        "route": {
+          "id": 10598983,
+          "name": "Buda Castle Walk in Budapest",
+          "url": "https://www.alltrails.com/trail/hungary/budapest--2/budavari-seta?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 93,
+          "distanceKm": 3.5,
+          "ascentMeters": 78,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6502,7 +7813,8 @@
       "refs": [
         "city-bp-danube-0",
         "city-bp-danube-1",
-        "city-bp-castle-1"
+        "city-bp-castle-1",
+        "alltrails-bp-danube"
       ],
       "coordinates": {
         "lat": 47.4957076,
@@ -6515,6 +7827,22 @@
         "page": "https://www.budapestinfo.hu/en/best-photo-spots-in-budapest",
         "caption": "佩斯多瑙河岸步道、黄色电车与河对岸山景",
         "credit": "Budapestinfo；页面未标独立摄影者"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "仅供长线参考：评分属于 16.1 km 的多瑙河环线，还经过玛格丽特岛和布达城堡。本卡只是 Vigadó tér 附近河岸短走或乘 2 路电车，长度、体力和玩法均不同；不是电车或河岸景点评分。",
+        "route": {
+          "id": 11153048,
+          "name": "Budapest Danube Walk",
+          "url": "https://www.alltrails.com/trail/hungary/dunaparti-seta-budapesten?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.9,
+          "reviewCount": 18,
+          "distanceKm": 16.1,
+          "ascentMeters": 319,
+          "routeType": "环线",
+          "difficulty": "Moderate"
+        }
       }
     },
     {
@@ -6546,7 +7874,8 @@
         "url": "https://www.budapestinfo.hu/en/margaret-island"
       },
       "refs": [
-        "city-bp-margaret-0"
+        "city-bp-margaret-0",
+        "alltrails-bp-margaret"
       ],
       "coordinates": {
         "lat": 47.5266408,
@@ -6566,7 +7895,23 @@
           "label": "南端音乐喷泉",
           "query": "Margaret Island Musical Fountain Budapest"
         }
-      ]
+      ],
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于约 5.3 km 的玛格丽特岛完整环线；本卡只建议任选一小段，不要求绕岛，不能把完整环线评分当作短线评分。",
+        "route": {
+          "id": 11019825,
+          "name": "Margaret Island Loop",
+          "url": "https://www.alltrails.com/trail/hungary/budapest--2/margitsziget-kor?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.7,
+          "reviewCount": 203,
+          "distanceKm": 5.3,
+          "ascentMeters": 81,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
+      }
     },
     {
       "id": "bp-szechenyi",
@@ -6611,6 +7956,11 @@
         "page": "https://www.szechenyibath.hu/en/",
         "caption": "塞切尼温泉露天池与黄色历史建筑",
         "credit": "Széchenyi Thermal Bath 官网；未标独立摄影者"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是购票泡温泉体验，城市公园步行线路不能代替浴场评分。"
       }
     },
     {
@@ -6642,7 +7992,8 @@
         "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/gardens"
       },
       "refs": [
-        "city-vi-schonbrunn-0"
+        "city-vi-schonbrunn-0",
+        "alltrails-vi-schonbrunn"
       ],
       "coordinates": {
         "lat": 48.1849894,
@@ -6655,6 +8006,22 @@
         "page": "https://www.schoenbrunn.at/en/about-schoenbrunn/gardens",
         "caption": "美泉宫大花坛与远处 Gloriette，高处俯视角度",
         "credit": "Schloß Schönbrunn Kultur- und Betriebsges.m.b.H. / Alexander Eugen Koller"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于美泉宫花园 6.3 km 完整环线；本卡可只走主花园并按体力决定上坡，不等于完整环线，也不是宫殿室内参观评分。",
+        "route": {
+          "id": 10709986,
+          "name": "Schönbrunn Palace Gardens",
+          "url": "https://www.alltrails.com/trail/austria/vienna/schloss-schonbrunn-gartenanlagen?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.7,
+          "reviewCount": 110,
+          "distanceKm": 6.3,
+          "ascentMeters": 116,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6698,6 +8065,16 @@
         "page": "https://www.wien.info/en/dine-drink/markets/naschmarkt-353536",
         "caption": "Naschmarkt 蔬果摊位",
         "credit": "WienTourismus / Julius Hirtzberger"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "not-applicable",
+        "note": "此项是餐饮、咖啡、室内或休息体验，AllTrails 徒步路线评分不适用。"
+      },
+      "diningRatings": {
+        "status": "not-applicable",
+        "checkedAt": "2026-09-25",
+        "note": "Naschmarkt 是整个市场，不是单家餐厅；选定具体摊位后再比较餐饮评分。"
       }
     },
     {
@@ -6730,7 +8107,8 @@
       },
       "refs": [
         "city-vi-prater-0",
-        "city-vi-prater-1"
+        "city-vi-prater-1",
+        "alltrails-vi-prater"
       ],
       "coordinates": {
         "lat": 48.21626278936696,
@@ -6742,6 +8120,22 @@
         "page": "https://www.wien.info/en/see-do/prater/experience-prater-345598",
         "caption": "Prater 历史摩天轮与游乐区，夕照高处视角",
         "credit": "WienTourismus / Peter Rigaud"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "仅作绿地徒步备选：评分属于从 Wasserwiese 出发、经过林地和水面的 6.6 km Praterrunde。它与本卡摩天轮和游乐园散步不同，不是游乐设施评分。",
+        "route": {
+          "id": 10512859,
+          "name": "Praterrunde",
+          "url": "https://www.alltrails.com/trail/austria/vienna/praterrunde?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.5,
+          "reviewCount": 33,
+          "distanceKm": 6.6,
+          "ascentMeters": 88,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     },
     {
@@ -6774,7 +8168,8 @@
       },
       "refs": [
         "city-vi-danube-0",
-        "city-vi-danube-1"
+        "city-vi-danube-1",
+        "alltrails-vi-danube"
       ],
       "coordinates": {
         "lat": 48.2121101,
@@ -6787,6 +8182,22 @@
         "page": "https://www.wien.gv.at/umwelt/donaukanal",
         "caption": "多瑙运河滨水步道、桥梁与露天餐饮，暖季傍晚场景",
         "credit": "Wiener Gewässer (MA 45) / Christian Fürthner"
+      },
+      "alltrails": {
+        "checkedAt": "2026-09-25",
+        "match": "variant",
+        "note": "评分属于 Aspern Bridge 一带的 4.7 km 运河环线；本卡从 Schwedenplatz 附近任选短段散步，起点与长度不同，不能当作固定短线评分。",
+        "route": {
+          "id": 10508020,
+          "name": "Canal Path (Donaukanal)",
+          "url": "https://www.alltrails.com/trail/austria/vienna/am-donaukanal?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+          "rating": 4.2,
+          "reviewCount": 55,
+          "distanceKm": 4.7,
+          "ascentMeters": 81,
+          "routeType": "环线",
+          "difficulty": "Easy"
+        }
       }
     }
   ],

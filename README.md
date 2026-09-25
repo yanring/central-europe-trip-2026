@@ -29,8 +29,8 @@ The guide is published on GitHub Pages at https://yanring.github.io/central-euro
 
 ## 内容范围
 
-11 天；77 个地点；27 个原日方案参考；5 家酒店；6 段已提供的长途交通；
-17 项准备事项；9 组实用信息；171 条来源或用户依据。
+11 天；78 个地点；27 个原日方案参考；5 家酒店；6 段已提供的长途交通；
+17 项准备事项；9 组实用信息；219 条来源或用户依据。
 所有酒店和长途交通以用户最新版文字为准，没有假装重新读取订单。
 游玩时刻、接驳耗时、预算均为建议，不是实时预订或运营保证。
 
@@ -62,11 +62,11 @@ Edit `guide-data.json`, `styles.css`, `app.js`, and `map.js`, then run `python3 
 
 ## City selection and map
 
-The main flow is destination → place comparison → favorites. It does not assign new places to dates or automatically plan routes. There are 77 candidates across Budapest (15), Vienna (20), the lake region (20), and Prague (22), including food and rest stops. Outdoors, neighborhoods, and local experiences take priority; the existing art museum is optional.
+The main flow is destination → place comparison → favorites. It does not assign new places to dates or automatically plan routes. There are 78 candidates across Budapest (15), Vienna (20), the lake region (21), and Prague (22), including food and rest stops. Outdoors, neighborhoods, and local experiences take priority; the existing art museum is optional.
 
 Every place has an introduction, appearance, highlights, recommendation, tradeoffs, suggested timing, booking guidance, and a sourced representative map position. All five booked hotels have coordinates. Hovering or focusing a card highlights the matching marker; selecting a marker scrolls to the card. On mobile, use the map-location and return-to-card buttons. Hotel distances are explicitly straight-line distances, not walking/driving routes. Subvenues such as Zauner's branches and the Krippenstein cable-car base have distinct labels and map links.
 
-76 places have visually checked real photos from venue or tourism sources. Kelet uses a photo-page link. Photos remain external URLs with source links and credits; no redistribution license is claimed. One St. Gilgen image is a small source thumbnail. Maps use OpenStreetMap standard tiles with visible attribution, default browser caching, and ordinary browser referrers. Only the visible viewport is requested; no tile prefetch or offline tile download is implemented. Static coordinates come from venue/tourism sources or a cached, rate-limited, one-time OpenStreetMap lookup; the website does not call a geocoding API.
+77 places have visually checked real photos from venue, tourism, or AllTrails sources. Kelet uses a photo-page link. Photos remain external URLs with source links and credits; no redistribution license is claimed. One St. Gilgen image is a small source thumbnail. Maps use OpenStreetMap standard tiles with visible attribution, default browser caching, and ordinary browser referrers. Only the visible viewport is requested; no tile prefetch or offline tile download is implemented. Static coordinates come from venue/tourism sources or a cached, rate-limited, one-time OpenStreetMap lookup; the website does not call a geocoding API.
 
 The HTML embeds Leaflet, application code, styles, and guide data. Images, map tiles, and external pages require internet access. Image or map failure leaves the written guide and external source links usable. Personal edits remain local to each browser, with the original storage key and backup format preserved. New shared editing or cloud synchronization is outside this change.
 
@@ -86,11 +86,17 @@ In 收藏与调整, 复制收藏清单 writes Markdown text grouped by city dire
 
 ## AllTrails rating comparison
 
-Seven hiking cards include an AllTrails comparison checked on 25 September 2026 through the official remote MCP service. This is a dated data snapshot; the website does not query AllTrails automatically or require a visitor account. The five matched provider records retain their exact trail IDs, URLs, ratings, review counts, length, ascent, and route type.
+All 78 candidates have an explicit AllTrails status checked on 25 September 2026 through its official remote MCP service: 29 cards link to rated routes (3 broadly matching routes, 25 different itineraries, and 1 optional full loop), 22 remain unconfirmed, and 27 are not applicable to trail ratings. Venue, restaurant, boat, and cable-car experiences do not inherit scores from nearby walks. The website displays a dated snapshot and does not query AllTrails automatically or require a visitor account.
 
-Two entries broadly correspond to the described walks: Vienna City Hiking Trail 1 and Naturlehrpfad Hermesvillapark. Three are explicitly labeled different itineraries: Normafa's 5.1 km loop, the 9.3 km Anzenauer Ewige Wand loop, and the 8.4 km Divoká Šárka–Nebušická skála out-and-back. Their ratings must not be presented as ratings for this guide's shorter variants. Koppenwinkel and Jainzen remain unconfirmed and have no numeric rating, rather than zero stars or a borrowed nearby score.
+Each rated route retains its provider ID, URL, score, review count, Easy/Moderate/Hard difficulty, distance, ascent, and route type. The comparison is stored at the place level so city and park walks are covered as well as dedicated hiking cards. Different-route explanations are expandable to keep cards compact. Missing matches have no numeric rating. The original official trail measurements remain unchanged.
 
-Favorites copied to the clipboard include the provider route, rating/count, match explanation, and verification date. The original official trail measurements and booking warnings remain unchanged.
+The high-rated route filter accepts only matching routes or explicit full-route options with score >= 4.8, review count strictly > 100, and Easy or Moderate difficulty. A high-scoring reference variant alone does not qualify. It currently shows Fuschlsee's full loop (4.8, 381 reviews, Moderate, 11.3 km, 275 m ascent) and the optional Altaussee full loop on the existing card (4.8, 218 reviews, Easy, 6.9 km, 128 m ascent). The original Altaussee short walk remains available and has no independent score.
+
+Fuschlsee has a sourced representative marker near Fuschlseebad, an attributed AllTrails route-cover photo, booking guidance, transport tradeoffs, and seasonal restrictions. Fuschlseebad and Das See close after 27 September, so these facilities are not promised for this trip. Provider and tourism-office route measurements are kept separate.
+
+Rám Gorge meets the numerical threshold but was not added: it involves narrow ladders and slippery rock, and the manager's current access notice could not be verified. Echerntal's waterfall approach conflicts with the desired difficulty ceiling in official trail guidance; full Gosausee routes have unresolved access/track alignment. They were not added as medium-or-easier recommendations. Bounded nearby searches found no additional qualifying Vienna or Prague candidate; provider result caps mean this is not an exhaustive claim.
+
+Favorites copied to the clipboard include all available ratings, review counts, difficulty, route links, match explanations, and verification dates. The original state storage, IDs, notes, maps, daily routes, and weather snapshot are preserved.
 
 ## Daily weather
 
@@ -107,3 +113,9 @@ The site title, subtitle, sidebar, and README now use neutral travel-guide brand
 ## Compact layout
 
 Spacing and image height are reduced while keeping the original text and controls. Wide desktop screens show the four destination entry cards in one row. The weather page uses chronological rows above 1000 px so transfer days do not create empty neighboring grid cells. Smaller screens retain stacked weather cards with a compact four-column metric strip. Body text keeps its prior font sizes.
+
+## Dining ratings
+
+All 18 restaurant/cafe candidates now have verified Google Maps scores and review counts across 19 branches. Zauner's Pfarrgasse 7 and Hasnerallee 2 locations are shown separately. Exact venue identities were checked against addresses. Steegwirt and Moserwirt explicitly retain a combined lodging/dining rating caveat. Naschmarkt is a market, so no market-wide score is presented as a restaurant rating.
+
+Scores were read on 25 September 2026 from current Google Maps venue pages; Café Goldegg was verified through the official Google map embedded by its own website. Yelp pages could not be verified under current access restrictions. Yelp entries therefore show an unconfirmed state and a labeled lookup link, without copying stale search snippets or third-party scores. The two platforms are never averaged. Clipboard shortlists retain branch addresses, both platform states, verified numbers, links, and snapshot dates.

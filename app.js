@@ -6,7 +6,8 @@ const STORE = "slow-central-europe-v1-" + (SEED.revision || "original");
 const dates = new Set(D.days.map(x=>x.date));
 const knownPlaces = new Set(D.places.map(x=>x.id));
 const allowedViews = ["overview","days","explore","logistics","prepare","mine","sources","weather"];
-const ALLTRAILS_MATCH_LABELS={close:"路线基本对应",variant:"不同走法 · 仅供参考",unconfirmed:"未确认对应路线"};
+const ALLTRAILS_MATCH_LABELS={close:"路线基本对应",option:"可选完整路线",variant:"不同走法 · 仅供参考",unconfirmed:"未确认对应路线","not-applicable":"非步行路线 · 不适用"};
+const ALLTRAILS_DIFFICULTY={Easy:"简单 / Easy",Moderate:"中等 / Moderate",Hard:"困难 / Hard"};
 const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const clean = (s,n=6000) => typeof s==="string" ? s.slice(0,n) : "";
 function normalize(raw) {
@@ -165,10 +166,23 @@ function renderDay(){
   <div class="card aside-card note-card"><label class="label" for="day-note">今天的共同决定 / 预约记录</label><textarea id="day-note" class="note-field" data-note-day="${d.date}" placeholder="例如：18:00 餐厅已经确认。下雨就取消湖边，改咖啡馆。">${esc(state.dayNotes[d.date]||"")}</textarea><p class="tiny muted" style="margin-top:9px">输入即保存到此浏览器。换设备请导出。</p></div></aside></div>
   <div class="section actions"><button data-action="day" data-day="${D.days[Math.max(0,D.days.indexOf(d)-1)].date}" ${D.days.indexOf(d)===0?"disabled":""}>← 前一天</button><button data-action="day" data-day="${D.days[Math.min(D.days.length-1,D.days.indexOf(d)+1)].date}" ${D.days.indexOf(d)===D.days.length-1?"disabled":""}>后一天 →</button></div>`;
 }
+function isHighlyRatedTrail(p){
+  const a=p.alltrails,r=a?.route;
+  return !!(r&&["close","option"].includes(a.match)&&["Easy","Moderate"].includes(r.difficulty)&&r.rating>=4.8&&r.reviewCount>100);
+}
 function allTrailsHTML(a){
   if(!a)return "";
+  if(a.match==="not-applicable")return `<details class="alltrails-na"><summary>AllTrails：非步行路线，不适用</summary><p>${esc(a.note)}</p></details>`;
   const r=a.route;
-  return `<section class="alltrails-info ${esc(a.match)}" aria-label="AllTrails 路线与评分对照"><div class="alltrails-heading"><strong>AllTrails 评分对照</strong><span>${esc(ALLTRAILS_MATCH_LABELS[a.match])}</span></div>${r?`<a class="alltrails-route" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.name)} ↗</a><div class="alltrails-score"><b>★ ${r.rating.toFixed(1)}<small> / 5</small></b><span>${r.reviewCount} 条评价</span></div><p class="alltrails-route-stats">该 AllTrails 条目：${r.distanceKm.toFixed(1)} km · 累计爬升 ${r.ascentMeters} m · ${esc(r.routeType)}</p>`:'<p class="alltrails-missing">暂无可确认的对应评分</p>'}<p class="alltrails-match-note">${esc(a.note)}</p><small class="alltrails-date">AllTrails · 核对于 ${esc(a.checkedAt)}，评分及评价数可能变化${r?'；评分仅属于上方链接的路线。':'。'}</small></section>`;
+  return `<section class="alltrails-info ${esc(a.match)}" aria-label="AllTrails 路线与评分对照"><div class="alltrails-heading"><strong>AllTrails 评分对照</strong><span>${esc(ALLTRAILS_MATCH_LABELS[a.match])}</span></div>${r?`<a class="alltrails-route" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.name)} ↗</a><div class="alltrails-score"><b>★ ${r.rating.toFixed(1)}<small> / 5</small></b><span>${r.reviewCount} 条评价</span><span>${esc(ALLTRAILS_DIFFICULTY[r.difficulty]||r.difficulty)}</span></div><p class="alltrails-route-stats">该链接路线：${r.distanceKm.toFixed(1)} km · 爬升 ${r.ascentMeters} m · ${esc(r.routeType)}</p>`:'<p class="alltrails-missing">暂无可确认的对应评分</p>'}${a.match==="variant"?`<details class="alltrails-explanation"><summary>走法不同，评分不能直接代表本卡片</summary><p class="alltrails-match-note">${esc(a.note)}</p></details>`:`<p class="alltrails-match-note">${esc(a.note)}</p>`}<small class="alltrails-date">核对 ${esc(a.checkedAt)}${r?' · 分数仅属于链接路线，可能变化。':' · 不以附近路线分数代替。'}</small></section>`;
+}
+function diningRatingText(r){
+  return r?.status==="verified"?`★ ${r.rating.toFixed(1)} / 5 · ${r.reviewCount.toLocaleString("zh-CN")} 条评价`:"暂未核实";
+}
+function diningRatingsHTML(a){
+  if(!a)return "";
+  if(a.status==="not-applicable")return `<p class="dining-rating-note">${esc(a.note)}</p>`;
+  return `<section class="dining-ratings" aria-label="餐饮平台评分"><div class="dining-ratings-heading"><strong>餐饮评分</strong><small>核对 ${esc(a.checkedAt)}</small></div>${a.branches.map(b=>`<div class="dining-rating-branch"><b>${esc(b.label)}</b>${b.address?`<small>${esc(b.address)}</small>`:""}<div class="dining-rating-platforms">${[["google","Google Maps"],["yelp","Yelp"]].map(([key,label])=>{const r=b[key];return `<div><strong>${label}</strong><span>${esc(diningRatingText(r))}</span>${r?.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${r.status==="verified"?"查看店铺":"查询店铺"} ↗</a>`:""}${r?.note?`<small>${esc(r.note)}</small>`:""}</div>`;}).join("")}</div></div>`).join("")}<p class="dining-rating-note">两个平台分别展示，不合并评分；评论数和评分可能变化。</p></section>`;
 }
 function placeCard(p,compact=false,mapIndex=null){
   const fav=state.favorites.includes(p.id);
@@ -176,22 +190,22 @@ function placeCard(p,compact=false,mapIndex=null){
   return `<article class="place-card visual-place" id="place-${esc(p.id)}" data-place-id="${esc(p.id)}" tabindex="0">${mapIndex?`<span class="place-map-number">${String(mapIndex).padStart(2,"0")}</span>`:""}${!p.custom?placePhoto(p):""}<div class="place-content"><div class="place-top"><div><div class="eyebrow">${esc(p.city)} / ${esc(p.kind)}</div><h3>${esc(p.name)}</h3></div><button class="fav ${fav?"active":""}" data-action="favorite" data-place="${esc(p.id)}" aria-label="${fav?"取消收藏":"收藏"} ${esc(p.name)}" aria-pressed="${fav}">${fav?"★":"☆"}</button></div><div class="chips"><span class="chip">${esc(p.weather)}</span><span class="chip outline">停留 ${esc(p.time)}</span><span class="chip outline">${esc(p.effort)}</span>${p.custom?'<span class="chip warm">个人新增 · 未核验</span>':""}</div>
   ${p.booking?`<div class="booking-info"><span class="booking-status">${esc(p.booking.status)}</span><p>${esc(p.booking.detail)}</p>${p.booking.url?`<a href="${esc(p.booking.url)}" target="_blank" rel="noopener noreferrer">预约 / 官方说明 ↗</a>`:""}</div>`:""}${p.intro?`<p class="place-intro">${esc(p.intro)}</p>`:""}${p.appearance?`<p class="place-appearance">${esc(p.appearance)}</p>`:""}${p.highlights?.length?`<div class="place-highlights">${p.highlights.map(t=>`<span>${esc(t)}</span>`).join("")}</div>`:""}
   ${p.trail?`<section class="trail-facts" aria-label="步道资料"><div class="trail-heading">这条步道需要多少体力</div><dl>${[["distance","全程距离"],["ascent","累计爬升"],["duration","线路参考时长"],["difficulty","难度"],["routeType","路线类型"],["terrain","路面"]].filter(([key])=>p.trail[key]).map(([key,label])=>`<div><dt>${label}</dt><dd>${esc(p.trail[key])}</dd></div>`).join("")}</dl>${p.trail.note?`<p>${esc(p.trail.note)}</p>`:""}<small>这些数字对应上述线路，不包含从酒店往返的交通。地图标记的起点与现场步道标识一起核对。</small></section>`:""}
-  ${allTrailsHTML(p.trail?.alltrails)}
+  ${diningRatingsHTML(p.diningRatings)}${p.diningRatings&&p.alltrails?.match==="not-applicable"?"":allTrailsHTML(p.alltrails)}
   <div class="place-experience"><div><span>去了做什么</span><p>${esc(p.do)}</p></div><div><span>为什么推荐给你们</span><p>${esc(p.why)}</p></div>${p.bestTime?`<div class="best-time"><span>建议什么时候去</span><p>${esc(p.bestTime)}</p></div>`:""}${p.tradeoff?`<div class="place-tradeoff"><span>不足 / 可能不喜欢</span><p>${esc(p.tradeoff)}</p></div>`:""}</div>
   ${p.coordinateNote?`<p class="coordinate-note">地图标记：${esc(p.coordinateNote)}</p>`:""}<details><summary>营业、预算与我的备注</summary><dl><dt>原交通参考（选好后再规划）</dt><dd>${esc(p.access)}</dd><dt>营业 / 季节限制</dt><dd>${esc(p.hours)}</dd><dt>预算</dt><dd>${esc(p.budget)}。标为预算的数字不是实时菜单价。</dd><dt>提醒</dt><dd>${esc(p.caution)}</dd></dl>${sourceLinks(p.refs)}<div class="form-field" style="margin-top:16px"><label class="label" for="note-${esc(p.id)}">我的备注</label><textarea class="place-note" id="note-${esc(p.id)}" data-note-place="${esc(p.id)}" placeholder="要吃什么、想坐哪里、已订时间……">${esc(state.placeNotes[p.id]||"")}</textarea></div>${p.custom?`<button class="small danger" data-action="delete-place" data-place="${esc(p.id)}">删除这个个人备选</button>`:""}</details><div class="actions">${currentView==="explore"?`<button class="small map-locate" data-action="show-place-map" data-place="${esc(p.id)}">地图定位 ↗</button>`:""}${mapLink(p.map,"外部地图 / 实景 ↗")}${(p.relatedMaps||[]).map(m=>mapLink(m.query,m.label+" ↗")).join("")}${hotelForCity&&currentView!=="explore"?`<a class="link-button" href="${esc(directionsURL(hotelForCity.address,p.map))}" target="_blank" rel="noopener noreferrer">从住宿地规划交通 ↗</a>`:""}</div></div></article>`;
 }
 function filterPlaces(){
   const q=filter.query.trim().toLowerCase();
-  return allPlaces().filter(p=>p.city===filter.city&&(filter.category==="全部"||(filter.category==="游玩"?!(p.kind==="吃喝"||p.id==="bp-rest"):(p.kind==="吃喝"||p.id==="bp-rest")))&&(filter.kind==="全部类型"||p.kind===filter.kind)&&(filter.weather==="全部天气"||p.weather===filter.weather)&&(!filter.favorites||state.favorites.includes(p.id))&&(!q||[p.name,p.city,p.intro,p.appearance,...(p.highlights||[]),p.bestTime,p.tradeoff,p.why,p.do,p.access,p.hours,p.caution,p.kind,p.trail?"徒步 步道 散步":"",...Object.values(p.trail||{}).filter(v=>typeof v==="string"),p.trail?.alltrails?.route?.name].join(" ").toLowerCase().includes(q)));
+  return allPlaces().filter(p=>p.city===filter.city&&(filter.category==="全部"||(filter.category==="高分"?isHighlyRatedTrail(p):filter.category==="游玩"?!(p.kind==="吃喝"||p.id==="bp-rest"):(p.kind==="吃喝"||p.id==="bp-rest")))&&(filter.kind==="全部类型"||p.kind===filter.kind)&&(filter.weather==="全部天气"||p.weather===filter.weather)&&(!filter.favorites||state.favorites.includes(p.id))&&(!q||[p.name,p.city,p.intro,p.appearance,...(p.highlights||[]),p.bestTime,p.tradeoff,p.why,p.do,p.access,p.hours,p.caution,p.kind,p.trail?"徒步 步道 散步":"",...Object.values(p.trail||{}).filter(v=>typeof v==="string"),p.alltrails?.route?.name].join(" ").toLowerCase().includes(q)));
 }
 function resultHTML(){
   const items=filterPlaces();
-  return `<div class="result-count"><span role="status">${items.length} 个选择 · 先看实景与体验，再决定要不要去</span><button class="small ${filter.favorites?"primary":""}" data-action="filter-favorites">${filter.favorites?"★ 只看收藏":"☆ 只看收藏"}</button></div><div class="place-grid">${items.length?items.map((p,i)=>placeCard(p,false,i+1)).join(""):'<div class="empty">没有匹配结果。换一个城市、天气或关键词试试。</div>'}</div>`;
+  return `<div class="result-count"><span role="status">${items.length} 个选择 · ${filter.category==="高分"?"简单 / 中等 · 超过 100 条评价 · 仅对应完整路线":"先看实景与体验，再决定要不要去"}</span><button class="small ${filter.favorites?"primary":""}" data-action="filter-favorites">${filter.favorites?"★ 只看收藏":"☆ 只看收藏"}</button></div><div class="place-grid">${items.length?items.map((p,i)=>placeCard(p,false,i+1)).join(""):'<div class="empty">没有匹配结果。换一个城市、天气或关键词试试。</div>'}</div>`;
 }
 function renderExplore(){
   const options=(values,selected)=>values.map(x=>`<option ${x===selected?"selected":""}>${esc(x)}</option>`).join("");
   const city=CITY_GUIDES[filter.city];
-  return `<div class="city-tabs" aria-label="选择目的地">${Object.keys(CITY_GUIDES).map(name=>`<button data-action="city" data-city="${name}" aria-pressed="${filter.city===name}" class="${filter.city===name?"active":""}">${name}<small>${D.places.filter(p=>p.city===name).length} 个候选</small></button>`).join("")}</div><div class="city-heading"><div><div class="eyebrow">${esc(city.label)}</div><h1>${esc(filter.city)}，有哪些值得去？</h1><p>${esc(city.intro)}</p></div><button class="small" data-action="add-place">＋ 新增备选</button></div><div class="category-tabs" aria-label="候选类型">${[["游玩","风景与游玩"],["吃喝","吃喝与休息"],["全部","全部候选"]].map(([id,label])=>`<button data-action="category" data-category="${id}" aria-pressed="${filter.category===id}" class="${filter.category===id?"active":""}">${label}</button>`).join("")}</div><div class="explore-layout"><section class="explore-list"><div class="filterbar city-filter"><label class="search-filter">搜地点或体验<input id="search-places" data-filter="query" value="${esc(filter.query)}" placeholder="例如：湖景、市集、咖啡"></label><label>天气<select data-filter="weather">${options(["全部天气","晴阴","雨天可用","晴天限定"],filter.weather)}</select></label></div><div id="explore-results" class="explore-results">${resultHTML()}</div></section>${mapPanel()}</div>`;
+  return `<div class="city-tabs" aria-label="选择目的地">${Object.keys(CITY_GUIDES).map(name=>`<button data-action="city" data-city="${name}" aria-pressed="${filter.city===name}" class="${filter.city===name?"active":""}">${name}<small>${D.places.filter(p=>p.city===name).length} 个候选</small></button>`).join("")}</div><div class="city-heading"><div><div class="eyebrow">${esc(city.label)}</div><h1>${esc(filter.city)}，有哪些值得去？</h1><p>${esc(city.intro)}</p></div><button class="small" data-action="add-place">＋ 新增备选</button></div><div class="category-tabs" aria-label="候选类型">${[["游玩","风景与游玩"],["吃喝","吃喝与休息"],["高分","高分路线 ≥4.8"],["全部","全部候选"]].map(([id,label])=>`<button data-action="category" data-category="${id}" aria-pressed="${filter.category===id}" class="${filter.category===id?"active":""}">${label}</button>`).join("")}</div><div class="explore-layout"><section class="explore-list"><div class="filterbar city-filter"><label class="search-filter">搜地点或体验<input id="search-places" data-filter="query" value="${esc(filter.query)}" placeholder="例如：湖景、市集、咖啡"></label><label>天气<select data-filter="weather">${options(["全部天气","晴阴","雨天可用","晴天限定"],filter.weather)}</select></label></div><div id="explore-results" class="explore-results">${resultHTML()}</div></section>${mapPanel()}</div>`;
 }
 function renderLogistics(){
   return heading("THE FIXED PART","先保住交通，再自由安排","以下票面与酒店规则来自你的最新版文本。站台、登机口、临时变更以运营通知为准。",'<button class="small" data-action="print">打印当前页</button>')+
@@ -293,13 +307,26 @@ async function copyFavorites(){
         lines.push("","**步道资料**","");
         for(const [key,label] of [["distance","距离"],["ascent","累计爬升"],["duration","参考时长"],["difficulty","难度"],["routeType","路线类型"],["terrain","路面"],["note","说明"]])if(p.trail[key])lines.push(`- ${label}：${text(p.trail[key])}`);
       }
-      const at=p.trail?.alltrails;
+      if(p.diningRatings){
+        const a=p.diningRatings;
+        lines.push("","**餐饮平台评分**","");
+        if(a.status==="not-applicable")lines.push(`- ${text(a.note)}`);
+        for(const b of a.branches||[]){
+          lines.push(`- 分店：${text(b.label)}${b.address?`（${text(b.address)}）`:""}`);
+          for(const [key,label] of [["google","Google Maps"],["yelp","Yelp"]]){
+            const r=b[key];
+            lines.push(`  - ${r?.url?link(label,r.url):label}：${text(diningRatingText(r))}${r?.note?`；${text(r.note)}`:""}`);
+          }
+        }
+        lines.push(`- 核对日期：${text(a.checkedAt)}；两平台分开统计，评分及评价数可能变化。`);
+      }
+      const at=p.alltrails;
       if(at){
         lines.push("","**AllTrails 评分对照**","",`- 匹配情况：${text(ALLTRAILS_MATCH_LABELS[at.match])}`);
         if(at.route){
           const r=at.route;
-          lines.push(`- ${link(r.name,r.url)}`,`- 该链接路线评分：${r.rating.toFixed(1)} / 5（${r.reviewCount} 条评价）`,`- 该链接路线：${r.distanceKm.toFixed(1)} km；累计爬升 ${r.ascentMeters} m；${text(r.routeType)}`);
-        }else lines.push("- 暂无可确认的对应评分");
+          lines.push(`- ${link(r.name,r.url)}`,`- 该链接路线评分：${r.rating.toFixed(1)} / 5（${r.reviewCount} 条评价）`,`- 该链接路线：${r.distanceKm.toFixed(1)} km；累计爬升 ${r.ascentMeters} m；${text(r.routeType)}；${text(ALLTRAILS_DIFFICULTY[r.difficulty]||r.difficulty)}`);
+        }else lines.push(at.match==="not-applicable"?"- 非步行路线，不适用 AllTrails 路线评分":"- 暂无可确认的对应评分");
         lines.push(`- 对照说明：${text(at.note)}`,`- AllTrails 核对日期：${text(at.checkedAt)}；评分及评价数可能变化。`);
       }
       if(state.placeNotes[p.id])lines.push("","**我的备注**","",...text(state.placeNotes[p.id]).split("\n").map(line=>"> "+line));
