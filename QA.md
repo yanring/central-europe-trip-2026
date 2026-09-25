@@ -1,3 +1,14 @@
+# AllTrails comparison verification — 2026-09-25
+
+- Official MCP search and detail tools provided five exact provider IDs and their current returned rating/count values. Route names, descriptions and lengths were compared with this guide before classifying matches.
+- Seven records: 2 close matches, 3 clearly identified alternative itineraries, and 2 unconfirmed entries without numeric scores. All original place fields and official trail facts remain unchanged after stripping the new comparison fields and added references; bookings and daily routes were unchanged.
+- Real browser at an isolated localhost origin rendered all seven statuses and dates, with scores only on the five provider records. No JavaScript errors were observed.
+- At 390×844, inspected the Ewige Wand alternative-route panel: its 9.3 km provider route, 4.2/16 score/count, and distinction from the guide's 2.2–3 km short walk were readable without horizontal overflow. The viewport override was reset.
+- The real clipboard handler was exercised with an isolated adapter. It preserved the match labels, scores/counts, provider lengths and URLs, and snapshot dates. Unconfirmed entries remained unrated. The user's clipboard was not read or modified.
+- JavaScript syntax, standalone bundle synchronization and whitespace checks passed. The displayed data are a snapshot and may differ from subsequently refreshed provider pages.
+
+---
+
 # Favorites clipboard update — 2026-09-25
 
 - Favorites now copies Markdown text directly with the Clipboard API. Success is announced only after the write completes.

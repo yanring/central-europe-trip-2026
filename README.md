@@ -30,7 +30,7 @@ The guide is published on GitHub Pages at https://yanring.github.io/central-euro
 ## 内容范围
 
 11 天；77 个地点；27 个原日方案参考；5 家酒店；6 段已提供的长途交通；
-17 项准备事项；9 组实用信息；165 条来源或用户依据。
+17 项准备事项；9 组实用信息；170 条来源或用户依据。
 所有酒店和长途交通以用户最新版文字为准，没有假装重新读取订单。
 游玩时刻、接驳耗时、预算均为建议，不是实时预订或运营保证。
 
@@ -83,3 +83,11 @@ Important operating details were checked against primary sources: the Erzsébet 
 ## Favorites-only copy
 
 In 收藏与调整, 复制收藏清单 writes Markdown text grouped by city directly to the clipboard. It contains only selected places (including personal additions), place notes, experience/booking/trail details, map links, and relevant sources. It excludes unrelated places, full booking records, daily edits, and global notes. The full HTML and JSON backups remain available separately. If automatic clipboard access is unavailable or denied, a dialog selects the same text for manual copying. Favorites copy never starts a file download. The shortlist is for reading/sharing/planning; importing personal state still uses the original JSON backup.
+
+## AllTrails rating comparison
+
+Seven hiking cards include an AllTrails comparison checked on 25 September 2026 through the official remote MCP service. This is a dated data snapshot; the website does not query AllTrails automatically or require a visitor account. The five matched provider records retain their exact trail IDs, URLs, ratings, review counts, length, ascent, and route type.
+
+Two entries broadly correspond to the described walks: Vienna City Hiking Trail 1 and Naturlehrpfad Hermesvillapark. Three are explicitly labeled different itineraries: Normafa's 5.1 km loop, the 9.3 km Anzenauer Ewige Wand loop, and the 8.4 km Divoká Šárka–Nebušická skála out-and-back. Their ratings must not be presented as ratings for this guide's shorter variants. Koppenwinkel and Jainzen remain unconfirmed and have no numeric rating, rather than zero stars or a borrowed nearby score.
+
+Favorites copied to the clipboard include the provider route, rating/count, match explanation, and verification date. The original official trail measurements and booking warnings remain unchanged.

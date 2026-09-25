@@ -4,7 +4,7 @@
     "subtitle": "Zijie & Hanyi · 2026 秋日旅行手册",
     "dates": "2026.09.26 — 10.06",
     "updated": "2026-09-25",
-    "version": "1.3",
+    "version": "1.4",
     "description": "三国、四个停留区、九晚。先守住已订交通，再按天气和胃口选择当天。",
     "visualUpdated": "2026-09-25"
   },
@@ -998,6 +998,36 @@
       "url": "https://prague.eu/en/objevujte/naplavka-farmers-market/",
       "kind": "场馆 / 官方旅游资料",
       "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "alltrails-vi-kahlenberg": {
+      "label": "AllTrails｜Vienna City Hiking Trail 1",
+      "url": "https://www.alltrails.com/trail/austria/vienna/wiener-stadtwanderweg-1?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线社区评分",
+      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。与攻略路线基本对应。"
+    },
+    "alltrails-vi-lainzer": {
+      "label": "AllTrails｜Naturlehrpfad Hermesvillapark",
+      "url": "https://www.alltrails.com/trail/austria/vienna/naturlehrpfad-hermesvillapark?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线社区评分",
+      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。与攻略路线基本对应。"
+    },
+    "alltrails-bp-normafa": {
+      "label": "AllTrails｜Normafa - János Hill Loop",
+      "url": "https://www.alltrails.com/trail/hungary/budapest--2/normafa-janoshegy-kortura?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线社区评分",
+      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。这是其他走法的评分，不能直接套用到攻略中的短线。"
+    },
+    "alltrails-lk-ewige": {
+      "label": "AllTrails｜Anzenauer Ewige Wand Tour",
+      "url": "https://www.alltrails.com/trail/austria/upper-austria/anzenauer-ewige-wand-tour?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线社区评分",
+      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。这是其他走法的评分，不能直接套用到攻略中的短线。"
+    },
+    "alltrails-pr-divoka-sarka": {
+      "label": "AllTrails｜Divoká Šárka - Nebušická skála",
+      "url": "https://www.alltrails.com/trail/czech-republic/prague/divoka-sarka-nebusicka-skala?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+      "kind": "路线社区评分",
+      "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。这是其他走法的评分，不能直接套用到攻略中的短线。"
     }
   },
   "hotels": [
@@ -3131,7 +3161,8 @@
       "refs": [
         "outdoors-bp-normafa-0",
         "outdoors-bp-normafa-1",
-        "outdoors-bp-normafa-2"
+        "outdoors-bp-normafa-2",
+        "alltrails-bp-normafa"
       ],
       "map": "Normafa Budapest",
       "effort": "轻松",
@@ -3167,7 +3198,22 @@
         "difficulty": "官方难度 1，平缓易走",
         "terrain": "稳定碎石铺面、路面较平整",
         "routeType": "线形路线；可原路往返",
-        "note": "35 米与 30 分钟仅指官方单程，不是往返数据；返程累计爬升未核实。未包含登塔及缆车。"
+        "note": "35 米与 30 分钟仅指官方单程，不是往返数据；返程累计爬升未核实。未包含登塔及缆车。",
+        "alltrails": {
+          "checkedAt": "2026-09-25",
+          "match": "variant",
+          "note": "这个评分属于 5.1 km 的 Normafa–János Hill 环线，累计爬升约 117 m。我们的方案是官方山脊步道单程 2 km、原路往返约 4 km，走法不同，不能把此评分当作短线评分。瞭望塔关闭提醒仍然有效。",
+          "route": {
+            "id": 11149558,
+            "name": "Normafa - János Hill Loop",
+            "url": "https://www.alltrails.com/trail/hungary/budapest--2/normafa-janoshegy-kortura?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+            "rating": 4.7,
+            "reviewCount": 280,
+            "distanceKm": 5.1,
+            "ascentMeters": 117,
+            "routeType": "环线"
+          }
+        }
       }
     },
     {
@@ -3322,7 +3368,8 @@
       "caution": "雨后林地可能泥滑；晴天山顶仍可能有风。不要为了日落走到天黑才下山。",
       "refs": [
         "outdoors-vi-kahlenberg-0",
-        "outdoors-vi-kahlenberg-1"
+        "outdoors-vi-kahlenberg-1",
+        "alltrails-vi-kahlenberg"
       ],
       "map": "Nußdorf Beethovengang tram D Vienna",
       "effort": "中等",
@@ -3357,7 +3404,22 @@
         "duration": "约 3.5–4 小时，未含长时间用餐",
         "difficulty": "有持续上坡；官方未给难度等级",
         "terrain": "葡萄园道路、林间步道与部分铺装路",
-        "routeType": "环线；Nußdorf 起终点"
+        "routeType": "环线；Nußdorf 起终点",
+        "alltrails": {
+          "checkedAt": "2026-09-25",
+          "match": "close",
+          "note": "对应从 Nußdorf / Beethovengang 出发的官方 City Hiking Path 1 环线。AllTrails 记录约 11.1 km，和原攻略的 11 km 基本一致；轨迹与测量口径仍以来源为准。",
+          "route": {
+            "id": 10963577,
+            "name": "Vienna City Hiking Trail 1",
+            "url": "https://www.alltrails.com/trail/austria/vienna/wiener-stadtwanderweg-1?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+            "rating": 4.7,
+            "reviewCount": 926,
+            "distanceKm": 11.1,
+            "ascentMeters": 366,
+            "routeType": "环线"
+          }
+        }
       }
     },
     {
@@ -3377,7 +3439,8 @@
         "outdoors-vi-lainzer-0",
         "outdoors-vi-lainzer-1",
         "outdoors-vi-lainzer-2",
-        "outdoors-vi-lainzer-3"
+        "outdoors-vi-lainzer-3",
+        "alltrails-vi-lainzer"
       ],
       "map": "Lainzer Tor Vienna",
       "effort": "轻松",
@@ -3412,7 +3475,22 @@
         "duration": "约 45 分钟纯步行",
         "difficulty": "官方说明可无障碍通行的自然步道",
         "terrain": "全程有维护的硬化路面",
-        "routeType": "环线；Lainzer Tor 游客中心起终点"
+        "routeType": "环线；Lainzer Tor 游客中心起终点",
+        "alltrails": {
+          "checkedAt": "2026-09-25",
+          "match": "close",
+          "note": "对应 Hermesvillapark 自然教育环线。AllTrails 记录约 2.4 km，和官方约 2.5 km 的短环线基本对应；下列爬升来自 AllTrails，并非补写为官方数值。",
+          "route": {
+            "id": 10970049,
+            "name": "Naturlehrpfad Hermesvillapark",
+            "url": "https://www.alltrails.com/trail/austria/vienna/naturlehrpfad-hermesvillapark?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+            "rating": 4.2,
+            "reviewCount": 18,
+            "distanceKm": 2.4,
+            "ascentMeters": 63,
+            "routeType": "环线"
+          }
+        }
       }
     },
     {
@@ -3612,7 +3690,8 @@
       "caution": "有树根、岩石和临崖段，栏索不等于封闭护栏；恐高、湿滑、冰雪天跳过，不进入同名攀岩线路。木雕维修期间别攀爬木雕。",
       "refs": [
         "outdoors-lk-ewige-0",
-        "outdoors-lk-ewige-1"
+        "outdoors-lk-ewige-1",
+        "alltrails-lk-ewige"
       ],
       "map": "Rathlucken Hütte Bad Goisern",
       "effort": "轻至中等（需接送）",
@@ -3641,7 +3720,22 @@
         "duration": "官方单程 37 分钟；往返建议留 1.5–2 小时含停留",
         "difficulty": "官方 easy；有临崖段，恐高需谨慎",
         "terrain": "林间自然路面、树根、石块、岩壁通道与短隧道",
-        "routeType": "往返线，不含山脚到起点的接近路"
+        "routeType": "往返线，不含山脚到起点的接近路",
+        "alltrails": {
+          "checkedAt": "2026-09-25",
+          "match": "variant",
+          "note": "这个评分属于 9.3 km、累计爬升约 507 m 的 Anzenauer 环线。我们选的是从 Rathlucken Hütte 出发约 2.2–3 km 的岩壁短线往返，体力和路线差别明显，仅供了解同一区域。",
+          "route": {
+            "id": 11081595,
+            "name": "Anzenauer Ewige Wand Tour",
+            "url": "https://www.alltrails.com/trail/austria/upper-austria/anzenauer-ewige-wand-tour?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+            "rating": 4.2,
+            "reviewCount": 16,
+            "distanceKm": 9.3,
+            "ascentMeters": 507,
+            "routeType": "环线"
+          }
+        }
       },
       "photo": {
         "url": "https://assets.tourdata.at/x550/247458/FBAED0B82F26BF74D0A73B91803104C5AB892C84DF13E5C8224B284DEF9FC6F1/die-ewige-wand-ist-perfekt-um-die-sonne-bis-abends-zu-geniessen.jpg",
@@ -3694,7 +3788,12 @@
         "duration": "官方纯步行 2 小时 19 分；含停留建议 3–3.5 小时",
         "difficulty": "官方 easy，体能要求 medium",
         "terrain": "部分柏油路、林间步道、林道与河岸路",
-        "routeType": "环线，起终点均为 Obertraun Dachsteinhöhlen 站"
+        "routeType": "环线，起终点均为 Obertraun Dachsteinhöhlen 站",
+        "alltrails": {
+          "checkedAt": "2026-09-25",
+          "match": "unconfirmed",
+          "note": "按路线名称及 Obertraun 起点周边检索，尚未确认到与这条 8.3 km 官方环线一致的 AllTrails 条目。附近存在其他环线，但不能据此借用评分。"
+        }
       },
       "photo": {
         "url": "https://assets.tourdata.at/x550/237802/ED0BA34EED5BF56D7663B4D62690FEE8B74FC7997DAD9DF013FB14575E02211F/koppenwinklsee.jpg",
@@ -3746,7 +3845,12 @@
         "duration": "官方 1 小时 54 分；含停留建议 2.5–3 小时",
         "difficulty": "官方 medium；含辅助绳与陡坡",
         "terrain": "柏油接近段、砾石林道和山径；下坡多折返",
-        "routeType": "环线，Jainzen 起点出发并返回"
+        "routeType": "环线，Jainzen 起点出发并返回",
+        "alltrails": {
+          "checkedAt": "2026-09-25",
+          "match": "unconfirmed",
+          "note": "按 Jainzen 名称及 Bad Ischl 起点周边检索，尚未确认到与这条 3.9 km 官方环线一致的 AllTrails 条目。同名近似搜索返回过其他地区路线，已排除。"
+        }
       },
       "photo": {
         "url": "https://assets.tourdata.at/x550/242665/E59CA19C695D81E9D06B400FD60CA9B8F120678FAA709A5E53E0C0C008ADD4FE/ueber-den-jainzen.jpg",
@@ -3921,7 +4025,8 @@
       "city": "布拉格",
       "refs": [
         "outdoors-pr-divoka-sarka-0",
-        "outdoors-pr-divoka-sarka-1"
+        "outdoors-pr-divoka-sarka-1",
+        "alltrails-pr-divoka-sarka"
       ],
       "coordinates": {
         "lat": 50.0926979,
@@ -3942,7 +4047,22 @@
         "difficulty": "谷底短线较轻松，有坡和不平整路面；不含岩顶线路",
         "terrain": "沿溪标记步道，部分硬化路及自然路面",
         "routeType": "往返，可随时提前折返",
-        "note": "市政府资料推荐从电车站沿红色步道入溪谷；本候选仅取一段往返，不把保护区约 2 km 长度或另一条 9.3 km 全线当成此路线里程。选中后再定折返点、测距与爬升。"
+        "note": "市政府资料推荐从电车站沿红色步道入溪谷；本候选仅取一段往返，不把保护区约 2 km 长度或另一条 9.3 km 全线当成此路线里程。选中后再定折返点、测距与爬升。",
+        "alltrails": {
+          "checkedAt": "2026-09-25",
+          "match": "variant",
+          "note": "这个评分属于走到 Nebušická skála 的 8.4 km 往返线。我们的方案只取谷底一段，折返点未定且不包含岩顶走法，因此不能直接套用该评分或里程。",
+          "route": {
+            "id": 10860732,
+            "name": "Divoká Šárka - Nebušická skála",
+            "url": "https://www.alltrails.com/trail/czech-republic/prague/divoka-sarka-nebusicka-skala?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
+            "rating": 4.5,
+            "reviewCount": 136,
+            "distanceKm": 8.4,
+            "ascentMeters": 151,
+            "routeType": "往返"
+          }
+        }
       }
     },
     {
