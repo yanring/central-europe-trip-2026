@@ -41,7 +41,7 @@ let storageOkay=true;
 try { const stored=localStorage.getItem(STORE); if(stored) state=normalize(JSON.parse(stored)); } catch(e) { storageOkay=false; }
 let currentView=state.view;
 let currentDay=state.day;
-let filter={query:"",city:"全部城市",kind:"全部类型",weather:"全部天气",favorites:false};
+let filter={query:"",city:"布达佩斯",kind:"全部类型",weather:"全部天气",favorites:false,category:"游玩"};
 let editorContext=null;
 let toastTimer=null;
 const app=document.getElementById("app");
@@ -88,29 +88,29 @@ function setView(v,scroll=true){
 function openDay(id){if(dates.has(id))currentDay=id;setView("days");}
 function heading(k,title,sub,action=""){return `<div class="page-head"><div><div class="eyebrow">${esc(k)}</div><h1>${esc(title)}</h1><p>${esc(sub)}</p></div>${action?`<div class="head-actions">${action}</div>`:""}</div>`;}
 function render(){
+  removeCityMap();
+  app.classList.toggle("explorer-content",currentView==="explore");
   document.querySelectorAll("[data-nav]").forEach(b=>b.classList.toggle("active",b.dataset.nav===currentView));
   const renders={overview:renderHome,days:renderDay,explore:renderExplore,logistics:renderLogistics,prepare:renderPrepare,mine:renderMine,sources:renderSources};
   app.innerHTML=renders[currentView]()+footer();
   updateStatus();
+  if(currentView==="explore")setupCityMap();
   if(currentView==="days") {
     const active=document.querySelector(".date-tab.active");
     if(active)active.scrollIntoView({block:"nearest",inline:"center",behavior:"instant"});
   }
 }
 function renderHome(){
-  const done=D.checklist.filter(i=>state.checks[i.id]).length;
-  return `<section class="hero" aria-label="旅行总览"><div class="hero-copy"><div class="eyebrow">A SLOWER AUTUMN · 2026</div><h1>走慢一点，<br>去中欧。</h1><p class="intro">小街、湖岸、咖啡和一顿好饭。<br>先守住已订交通，再把当天交给天气与胃口。</p><div class="chips"><span class="chip">大多 08:30–09:00 起床</span><span class="chip">每一天都有退路</span><span class="chip">不以打卡数量计分</span></div><div class="actions"><button class="primary" data-action="day" data-day="${D.days[0].date}">从第一天开始 →</button><button data-action="view" data-view="explore">看 ${D.places.length} 个备选</button></div></div><aside class="hero-side"><div class="edition">ZIJIE & HANYI / FIELD NOTES</div><div class="hero-stats"><div class="hero-stat"><b>03</b><small>国家</small></div><div class="hero-stat"><b>09</b><small>欧洲住宿夜</small></div><div class="hero-stat"><b>04</b><small>主要停留区</small></div></div><div class="route-stops"><div class="route-stop"><div>布达佩斯<small>9/26–27</small></div></div><div class="route-stop"><div>维也纳<small>9/27–29</small></div></div><div class="route-stop"><div>Bad Goisern 湖区<small>9/29–10/2</small></div></div><div class="route-stop"><div>布拉格<small>10/2–4 · Lindner</small></div></div><div class="route-stop"><div>布达佩斯机场 → 上海<small>10/4–6</small></div></div></div></aside></section>
-  <div class="inline-note">2026.09.26 — 10.06 · 欧洲段均为当地时间，比上海慢 6 小时；上海起降时刻用北京时间。固定住宿与交通按你最新提供的版本。</div>
-  <section class="callout"><h3>出发前最重要的新信息：Gosausee 不能按“完整环湖”安排。</h3><p>官方页面列出左岸落石封闭至 9/30。10/1 也不能推定自动恢复。本版默认只走确认开放的右岸并原路返回；晴天湖景日与小镇日可以互换。</p>${sourceLinks(["gosau"])}<div class="actions" style="margin-top:13px"><button class="small" data-action="lake-swap">把湖景日改到 10/1</button><button class="small" data-action="day" data-day="2026-09-30">查看湖区安排</button></div></section>
-  <section class="section"><div class="grid3"><div class="card compact"><div class="eyebrow">FIRST ARRIVAL</div><h3 style="margin-top:8px">落地不等于开始逛</h3><p class="tiny muted">9/26 08:05 抵达，但按你的要求到 11:05–12:05 才预计出机场。中午到店，15:00 后入住，再决定要不要散步。</p></div><div class="card compact"><div class="eyebrow">LOCAL LOGISTICS</div><h3 style="margin-top:8px">先把湖区接送约好</h3><p class="tiny muted">Jeff’s 不在火车站旁。优先确认 9/29 接站、10/2 09:00 去站的车，以及晚到钥匙方案。</p>${sourceLinks(["jeffsdistance"])}</div><div class="card compact"><div class="eyebrow">THE RIGHT BASE</div><h3 style="margin-top:8px">布拉格已改用 Lindner</h3><p class="tiny muted">默认从城堡区开始，先逛 Nový Svět，再选生活街区或西侧公园。已删除旧 Comfort 酒店的路线假设。</p></div></div></section>
-  <section class="section"><div class="section-head"><h2>每天只选一条主线</h2><span class="tiny muted">共 ${D.days.length} 天 · ${D.days.reduce((n,d)=>n+d.routes.length,0)} 种日方案</span></div><div class="day-grid">${D.days.map(d=>{
-    const r=getRoute(d);return `<button class="day-teaser" data-action="day" data-day="${d.date}"><span class="teaser-date">${dateShort(d.date)} · ${d.weekday}<span>${esc(dayWake(d))}</span></span><h3>${esc(d.city)}</h3><p>${esc(dayTitle(d))}</p><small>${esc(r.title)} →</small></button>`;
-  }).join("")}</div></section>
-  <section class="section grid2"><div class="card"><div class="section-head"><h2>还有哪些要落实</h2><span class="tiny muted">${done}/${D.checklist.length}</span></div><p class="muted" style="font-size:13px">接送、关键餐厅、行李寄存、Ryanair 证件验证。这里的推荐不是已经替你预订。</p><div class="progress-bar"><span style="width:${done/D.checklist.length*100}%"></span></div><div class="actions" style="margin-top:17px"><button data-action="view" data-view="prepare">打开准备清单 →</button></div></div><div class="card"><h2>这份攻略可以边走边改</h2><p class="muted" style="font-size:13px">切换当天玩法、编辑游玩时刻、收藏地点、写笔记和新增备选。固定车票信息与个人安排分开，避免误改。</p><div class="actions"><button data-action="view" data-view="mine">我的调整</button><button data-action="export-html">导出可分享网页</button></div><p class="tiny muted" style="margin-top:12px">只存此浏览器，不自动同步；导出后可发给同行人。</p></div></section>`;
+  return `<section class="selection-hero"><div class="eyebrow">CENTRAL EUROPE · YOUR SHORTLIST</div><h1>先挑喜欢的地方，<br>再把它们串成旅程。</h1><p>不急着填满每一天。先看看四个地方有什么好玩的、需要接受什么取舍，收藏你们真正想去的。</p><div class="selection-steps"><span><b>01</b> 看实景与亮点</span><span><b>02</b> 对照地图和酒店</span><span><b>03</b> 收藏，再安排交通</span></div></section><section class="city-door-grid">${Object.entries(CITY_GUIDES).map(([city,c])=>{const p=D.places.find(p=>p.id===c.cover),count=D.places.filter(p=>p.city===city).length;return `<button class="city-door" data-action="city" data-city="${city}">${p?.photo?.url?`<img src="${esc(p.photo.url)}" alt="${esc(p.photo.caption)}" loading="lazy" referrerpolicy="no-referrer">`:""}<span class="city-door-copy"><small>${esc(c.label)}</small><strong>${city}</strong><span>${count} 个游玩、吃喝与休息候选</span><b>打开地点与地图 ↗</b></span></button>`}).join("")}</section><div class="selection-note"><strong>你们先做选择，我们再排路线。</strong><p>公共花园、小镇、街区、湖景与当地体验优先；艺术馆只是少量可跳过的备选。已订酒店与交通继续保留在侧栏，原有日程仅作参考。</p><button data-action="view" data-view="mine">看已经收藏的 ${state.favorites.length} 个地点 →</button></div>`;
 }
 function timeValue(s){const m=/(\d{1,2}):(\d{2})/.exec(s);return m?Number(m[1])*60+Number(m[2]):1500;}
 function timelineHTML(events){
   return `<div class="timeline">${events.map(e=>`<div class="timeline-event ${e.fixed?"fixed":""}"><div class="event-time">${esc(e.time)}${e.fixed?'<br><span class="chip fixed" style="font-size:9px;padding:2px 5px;margin-top:5px">票面时间</span>':""}</div><div><h4>${esc(e.title)}</h4><p>${esc(e.body)}</p>${sourceLinks(e.refs)}</div></div>`).join("")}</div>`;
+}
+function placePhoto(p, variant="card") {
+  const photo=p?.photo;
+  if(!photo?.url) return `<div class="photo-unavailable"><span>实景照片待补</span>${p?`<a class="link-button" href="${esc(p.photoPage||mapURL(p.map))}" target="_blank" rel="noopener noreferrer">查看该地点实景 ↗</a>`:""}</div>`;
+  return `<figure class="place-photo photo-${variant}"><div class="photo-frame"><img src="${esc(photo.url)}" alt="${esc(photo.caption||p.name)}" loading="lazy" decoding="async" referrerpolicy="no-referrer"><div class="photo-fallback">图片暂时无法加载，请打开图片来源看实景。</div></div><figcaption><span>${esc(photo.caption||p.name)}</span><a href="${esc(photo.page)}" target="_blank" rel="noopener noreferrer">${esc(photo.credit||"图片来源")} ↗</a></figcaption></figure>`;
 }
 function renderDay(){
   const d=getDay(),r=getRoute(d),hotel=D.hotels.find(h=>h.id===d.hotel);
@@ -128,24 +128,26 @@ function renderDay(){
   <div class="card aside-card note-card"><label class="label" for="day-note">今天的共同决定 / 预约记录</label><textarea id="day-note" class="note-field" data-note-day="${d.date}" placeholder="例如：18:00 餐厅已经确认。下雨就取消湖边，改咖啡馆。">${esc(state.dayNotes[d.date]||"")}</textarea><p class="tiny muted" style="margin-top:9px">输入即保存到此浏览器。换设备请导出。</p></div></aside></div>
   <div class="section actions"><button data-action="day" data-day="${D.days[Math.max(0,D.days.indexOf(d)-1)].date}" ${D.days.indexOf(d)===0?"disabled":""}>← 前一天</button><button data-action="day" data-day="${D.days[Math.min(D.days.length-1,D.days.indexOf(d)+1)].date}" ${D.days.indexOf(d)===D.days.length-1?"disabled":""}>后一天 →</button></div>`;
 }
-function placeCard(p,compact=false){
+function placeCard(p,compact=false,mapIndex=null){
   const fav=state.favorites.includes(p.id);
   const hotelForCity=D.hotels.find(h=>h.city===p.city&&h.id!=="tribe");
-  return `<article class="place-card" data-place-id="${esc(p.id)}"><div class="place-top"><div><div class="eyebrow">${esc(p.city)} / ${esc(p.kind)}</div><h3>${esc(p.name)}</h3></div><button class="fav ${fav?"active":""}" data-action="favorite" data-place="${esc(p.id)}" aria-label="${fav?"取消收藏":"收藏"} ${esc(p.name)}" aria-pressed="${fav}">${fav?"★":"☆"}</button></div><div class="chips"><span class="chip">${esc(p.weather)}</span><span class="chip outline">${esc(p.effort)}</span>${p.custom?'<span class="chip warm">个人新增 · 未核验</span>':""}</div><p class="why">${esc(p.why)}</p><div class="place-mini">${esc(p.time)}</div>
-  <details><summary>怎么逛、怎么去、营业与预算</summary><dl><dt>怎么安排</dt><dd>${esc(p.do)}</dd><dt>抵达方式</dt><dd>${esc(p.access)}</dd><dt>营业 / 季节限制</dt><dd>${esc(p.hours)}</dd><dt>预算</dt><dd>${esc(p.budget)}。标为预算的数字不是实时菜单价。</dd><dt>取舍与提醒</dt><dd>${esc(p.caution)}</dd></dl>${sourceLinks(p.refs)}<div class="form-field" style="margin-top:16px"><label class="label" for="note-${esc(p.id)}">我的备注</label><textarea class="place-note" id="note-${esc(p.id)}" data-note-place="${esc(p.id)}" placeholder="要吃什么、想坐哪里、已订时间……">${esc(state.placeNotes[p.id]||"")}</textarea></div>${p.custom?`<button class="small danger" data-action="delete-place" data-place="${esc(p.id)}">删除这个个人备选</button>`:""}</details><div class="actions">${mapLink(p.map)}${hotelForCity?`<a class="link-button" href="${esc(directionsURL(hotelForCity.address,p.map))}" target="_blank" rel="noopener noreferrer">从住宿地规划交通 ↗</a>`:""}</div></article>`;
+  return `<article class="place-card visual-place" id="place-${esc(p.id)}" data-place-id="${esc(p.id)}" tabindex="0">${mapIndex?`<span class="place-map-number">${String(mapIndex).padStart(2,"0")}</span>`:""}${!p.custom?placePhoto(p):""}<div class="place-content"><div class="place-top"><div><div class="eyebrow">${esc(p.city)} / ${esc(p.kind)}</div><h3>${esc(p.name)}</h3></div><button class="fav ${fav?"active":""}" data-action="favorite" data-place="${esc(p.id)}" aria-label="${fav?"取消收藏":"收藏"} ${esc(p.name)}" aria-pressed="${fav}">${fav?"★":"☆"}</button></div><div class="chips"><span class="chip">${esc(p.weather)}</span><span class="chip outline">停留 ${esc(p.time)}</span>${p.custom?'<span class="chip warm">个人新增 · 未核验</span>':""}</div>
+  ${p.booking?`<div class="booking-info"><span class="booking-status">${esc(p.booking.status)}</span><p>${esc(p.booking.detail)}</p>${p.booking.url?`<a href="${esc(p.booking.url)}" target="_blank" rel="noopener noreferrer">预约 / 官方说明 ↗</a>`:""}</div>`:""}${p.intro?`<p class="place-intro">${esc(p.intro)}</p>`:""}${p.appearance?`<p class="place-appearance">${esc(p.appearance)}</p>`:""}${p.highlights?.length?`<div class="place-highlights">${p.highlights.map(t=>`<span>${esc(t)}</span>`).join("")}</div>`:""}
+  <div class="place-experience"><div><span>去了做什么</span><p>${esc(p.do)}</p></div><div><span>为什么推荐给你们</span><p>${esc(p.why)}</p></div>${p.bestTime?`<div class="best-time"><span>建议什么时候去</span><p>${esc(p.bestTime)}</p></div>`:""}${p.tradeoff?`<div class="place-tradeoff"><span>不足 / 可能不喜欢</span><p>${esc(p.tradeoff)}</p></div>`:""}</div>
+  ${p.coordinateNote?`<p class="coordinate-note">地图标记：${esc(p.coordinateNote)}</p>`:""}<details><summary>营业、预算与我的备注</summary><dl><dt>原交通参考（选好后再规划）</dt><dd>${esc(p.access)}</dd><dt>营业 / 季节限制</dt><dd>${esc(p.hours)}</dd><dt>预算</dt><dd>${esc(p.budget)}。标为预算的数字不是实时菜单价。</dd><dt>提醒</dt><dd>${esc(p.caution)}</dd></dl>${sourceLinks(p.refs)}<div class="form-field" style="margin-top:16px"><label class="label" for="note-${esc(p.id)}">我的备注</label><textarea class="place-note" id="note-${esc(p.id)}" data-note-place="${esc(p.id)}" placeholder="要吃什么、想坐哪里、已订时间……">${esc(state.placeNotes[p.id]||"")}</textarea></div>${p.custom?`<button class="small danger" data-action="delete-place" data-place="${esc(p.id)}">删除这个个人备选</button>`:""}</details><div class="actions">${currentView==="explore"?`<button class="small map-locate" data-action="show-place-map" data-place="${esc(p.id)}">地图定位 ↗</button>`:""}${mapLink(p.map,"外部地图 / 实景 ↗")}${(p.relatedMaps||[]).map(m=>mapLink(m.query,m.label+" ↗")).join("")}${hotelForCity&&currentView!=="explore"?`<a class="link-button" href="${esc(directionsURL(hotelForCity.address,p.map))}" target="_blank" rel="noopener noreferrer">从住宿地规划交通 ↗</a>`:""}</div></div></article>`;
 }
 function filterPlaces(){
   const q=filter.query.trim().toLowerCase();
-  return allPlaces().filter(p=>(filter.city==="全部城市"||p.city===filter.city)&&(filter.kind==="全部类型"||p.kind===filter.kind)&&(filter.weather==="全部天气"||p.weather===filter.weather)&&(!filter.favorites||state.favorites.includes(p.id))&&(!q||[p.name,p.city,p.why,p.do,p.access,p.hours,p.caution,p.kind].join(" ").toLowerCase().includes(q)));
+  return allPlaces().filter(p=>p.city===filter.city&&(filter.category==="全部"||(filter.category==="游玩"?!(p.kind==="吃喝"||p.id==="bp-rest"):(p.kind==="吃喝"||p.id==="bp-rest")))&&(filter.kind==="全部类型"||p.kind===filter.kind)&&(filter.weather==="全部天气"||p.weather===filter.weather)&&(!filter.favorites||state.favorites.includes(p.id))&&(!q||[p.name,p.city,p.intro,p.appearance,...(p.highlights||[]),p.bestTime,p.tradeoff,p.why,p.do,p.access,p.hours,p.caution,p.kind].join(" ").toLowerCase().includes(q)));
 }
 function resultHTML(){
   const items=filterPlaces();
-  return `<div class="result-count"><span role="status">${items.length} 个选择 · 点开卡片再看营业时间</span><button class="small ${filter.favorites?"primary":""}" data-action="filter-favorites">${filter.favorites?"★ 只看收藏":"☆ 只看收藏"}</button></div><div class="place-grid">${items.length?items.map(p=>placeCard(p)).join(""):'<div class="empty">没有匹配结果。换一个城市、天气或关键词试试。</div>'}</div>`;
+  return `<div class="result-count"><span role="status">${items.length} 个选择 · 先看实景与体验，再决定要不要去</span><button class="small ${filter.favorites?"primary":""}" data-action="filter-favorites">${filter.favorites?"★ 只看收藏":"☆ 只看收藏"}</button></div><div class="place-grid">${items.length?items.map((p,i)=>placeCard(p,false,i+1)).join(""):'<div class="empty">没有匹配结果。换一个城市、天气或关键词试试。</div>'}</div>`;
 }
 function renderExplore(){
   const options=(values,selected)=>values.map(x=>`<option ${x===selected?"selected":""}>${esc(x)}</option>`).join("");
-  return heading("CHOOSE YOUR OWN DAY","备选，不是待完成清单","一座城选一片街区，一个湖区日选一片水。卡片中的预算、移动时间均为规划估算。",'<button data-action="add-place" class="primary">＋ 新增自己的备选</button>')+
-    `<div class="filterbar"><label class="search-filter">搜名字 / 食物 / 关键词<input id="search-places" data-filter="query" value="${esc(filter.query)}" placeholder="例如：咖啡、雨天、湖岸"></label><label>城市<select data-filter="city">${options(["全部城市","布达佩斯","维也纳","湖区","布拉格"],filter.city)}</select></label><label>类型<select data-filter="kind">${options(["全部类型","街区","吃喝","风景","室内","放空"],filter.kind)}</select></label><label class="weather-filter">天气<select data-filter="weather">${options(["全部天气","晴阴","雨天可用","晴天限定"],filter.weather)}</select></label></div><div id="explore-results">${resultHTML()}</div>`;
+  const city=CITY_GUIDES[filter.city];
+  return `<div class="city-tabs" aria-label="选择目的地">${Object.keys(CITY_GUIDES).map(name=>`<button data-action="city" data-city="${name}" aria-pressed="${filter.city===name}" class="${filter.city===name?"active":""}">${name}<small>${D.places.filter(p=>p.city===name).length} 个候选</small></button>`).join("")}</div><div class="city-heading"><div><div class="eyebrow">${esc(city.label)}</div><h1>${esc(filter.city)}，有哪些值得去？</h1><p>${esc(city.intro)}</p></div><button class="small" data-action="add-place">＋ 新增备选</button></div><div class="category-tabs" aria-label="候选类型">${[["游玩","风景与游玩"],["吃喝","吃喝与休息"],["全部","全部候选"]].map(([id,label])=>`<button data-action="category" data-category="${id}" aria-pressed="${filter.category===id}" class="${filter.category===id?"active":""}">${label}</button>`).join("")}</div><div class="explore-layout"><section class="explore-list"><div class="filterbar city-filter"><label class="search-filter">搜地点或体验<input id="search-places" data-filter="query" value="${esc(filter.query)}" placeholder="例如：湖景、市集、咖啡"></label><label>天气<select data-filter="weather">${options(["全部天气","晴阴","雨天可用","晴天限定"],filter.weather)}</select></label></div><div id="explore-results" class="explore-results">${resultHTML()}</div></section>${mapPanel()}</div>`;
 }
 function renderLogistics(){
   return heading("THE FIXED PART","先保住交通，再自由安排","以下票面与酒店规则来自你的最新版文本。站台、登机口、临时变更以运营通知为准。",'<button class="small" data-action="print">打印当前页</button>')+
@@ -168,7 +170,7 @@ function renderPrepare(){
 function renderMine(){
   const notedDays=D.days.filter(d=>state.dayNotes[d.date]||state.edits[d.date]||state.dayTitles[d.date]||state.routes[d.date]);
   return heading("YOUR EDITION","我的调整与备份","所有修改只存在当前浏览器。换设备、清缓存或分享给同行人前，请先导出。")+
-  `<div class="grid2"><div class="card"><h2>保存与分享</h2><p class="muted" style="font-size:13px">“可分享网页”包含攻略、已选路线、收藏和笔记，对方打开后可继续编辑。“备份 JSON”便于导入此版本或后续交给 ChatGPT 继续修改。</p><div class="actions"><button class="primary" data-action="export-html">导出可分享网页</button><button data-action="export-json">备份 JSON</button><button data-action="import">导入备份</button></div><p class="tiny muted" style="margin-top:15px">这是单机文件版，不是多人同时编辑的云站点。没有账号、后台、跟踪脚本或外部字体；地图/来源链接需要联网。</p></div>
+  `<div class="grid2"><div class="card"><h2>保存与分享</h2><p class="muted" style="font-size:13px">“可分享网页”包含攻略、已选路线、收藏和笔记，对方打开后可继续编辑。“备份 JSON”便于导入此版本或后续交给 ChatGPT 继续修改。</p><div class="actions"><button class="primary" data-action="export-html">导出可分享网页</button><button data-action="export-json">备份 JSON</button><button data-action="import">导入备份</button></div><p class="tiny muted" style="margin-top:15px">网页公开可访问，个人修改仍只存此浏览器，不会自动同步到同行人的设备。实景图片、地图和来源链接需要联网。</p></div>
   <div class="card"><h2>共同约定</h2><textarea id="global-note" data-global-note placeholder="例如：饭店不用每顿预订。下雨不爬山。每天下午至少坐下来休息一次。">${esc(state.globalNote)}</textarea><p class="tiny muted" style="margin-top:9px">不用按“保存”，输入即存。导出给同行人后各自的修改不会自动合并。</p></div></div>
   <section class="section"><div class="section-head"><h2>已经选好的玩法与笔记</h2><button class="small" data-action="view" data-view="days">去改行程</button></div><div class="card">${D.days.map(d=>{const r=getRoute(d);return `<div class="mine-day"><h4>${dateShort(d.date)} ${esc(d.city)} · ${esc(r.title)} ${state.edits[d.date]?.[r.id]?'<span class="chip warm">已改时刻</span>':""}</h4>${state.dayNotes[d.date]?`<p>${esc(state.dayNotes[d.date])}</p>`:'<p class="tiny muted">还没有当天备注。</p>'}<button class="small ghost" data-action="day" data-day="${d.date}">打开这一天 →</button></div>`;}).join("")}</div></section>
   <section class="section"><div class="section-head"><h2>收藏的地点 <span class="muted">${state.favorites.length}</span></h2><button class="small" data-action="add-place">＋ 新增备选</button></div><div class="place-grid">${allPlaces().filter(p=>state.favorites.includes(p.id)).map(p=>placeCard(p)).join("")||'<div class="empty">还没有收藏。在备选卡片点 ☆，这里就会出现。</div>'}</div></section>
@@ -248,7 +250,12 @@ async function importFile(file){
 document.addEventListener("click",e=>{
   const b=e.target.closest("[data-action]");if(!b)return;
   const action=b.dataset.action;
-  if(action==="view"){e.preventDefault();setView(b.dataset.view);}
+  if(action==="city"){filter.city=b.dataset.city;filter.query="";filter.kind="全部类型";filter.weather="全部天气";setView("explore");}
+  else if(action==="category"){filter.category=b.dataset.category;refreshExploreResults();fitCityMap();}
+  else if(action==="map-fit")fitCityMap();
+  else if(action==="map-hotel")selectMapHotel(b.dataset.hotel);
+  else if(action==="show-place-map"){highlightMapPlace(b.dataset.place,true);document.getElementById("map-panel")?.scrollIntoView({behavior:"smooth",block:"start"});}
+  else if(action==="view"){e.preventDefault();setView(b.dataset.view);}
   else if(action==="day"){e.preventDefault();openDay(b.dataset.day);}
   else if(action==="route"){const d=getDay();if(d.routes.some(r=>r.id===b.dataset.route)){state.routes[d.date]=b.dataset.route;save();render();}}
   else if(action==="favorite"){
@@ -259,9 +266,9 @@ document.addEventListener("click",e=>{
       const active=state.favorites.includes(id);btn.classList.toggle("active",active);btn.setAttribute("aria-pressed",String(active));btn.textContent=active?"★":"☆";
       const p=allPlaces().find(x=>x.id===id);btn.setAttribute("aria-label",(active?"取消收藏 ":"收藏 ")+(p?.name||""));
     });
-    if(currentView==="mine"||(currentView==="explore"&&filter.favorites)){render();}
+    if(currentView==="mine"){render();}else if(currentView==="explore"){if(filter.favorites)refreshExploreResults();else refreshMapMarkers();}
   }
-  else if(action==="filter-favorites"){filter.favorites=!filter.favorites;document.getElementById("explore-results").innerHTML=resultHTML();}
+  else if(action==="filter-favorites"){filter.favorites=!filter.favorites;refreshExploreResults();}
   else if(action==="edit-day")openEditor("day");
   else if(action==="add-place")openEditor("place");
   else if(action==="close-dialog")modal.close();
@@ -285,11 +292,11 @@ document.addEventListener("input",e=>{
   if(el.matches("[data-note-day]")){state.dayNotes[el.dataset.noteDay]=clean(el.value,20000);save();}
   if(el.matches("[data-note-place]")){state.placeNotes[el.dataset.notePlace]=clean(el.value,10000);save();}
   if(el.matches("[data-global-note]")){state.globalNote=clean(el.value,30000);save();}
-  if(el.matches('[data-filter="query"]')){filter.query=el.value;document.getElementById("explore-results").innerHTML=resultHTML();}
+  if(el.matches('[data-filter="query"]')){filter.query=el.value;refreshExploreResults();}
 });
 document.addEventListener("change",e=>{
   const el=e.target;
-  if(el.matches("select[data-filter]")){filter[el.dataset.filter]=el.value;document.getElementById("explore-results").innerHTML=resultHTML();}
+  if(el.matches("select[data-filter]")){filter[el.dataset.filter]=el.value;refreshExploreResults();}
   if(el.matches("[data-check]")){
     state.checks[el.dataset.check]=el.checked;save();el.closest(".check-row").classList.toggle("done",el.checked);
     const n=D.checklist.filter(i=>state.checks[i.id]).length;
@@ -298,6 +305,7 @@ document.addEventListener("change",e=>{
   }
   if(el.id==="import-file"){importFile(el.files[0]);el.value="";}
 });
+document.addEventListener("error",e=>{if(e.target instanceof HTMLImageElement){e.target.hidden=true;e.target.closest(".photo-frame")?.classList.add("image-failed");}},true);
 modal.addEventListener("submit",submitEditor);
 modal.addEventListener("click",e=>{if(e.target===modal)modal.close();});
 render();

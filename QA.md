@@ -1,3 +1,22 @@
+# City explorer verification — 2026-09-25
+
+- JavaScript syntax: `node --check app.js` and `node --check map.js` passed.
+- Standalone bundle: `python3 scripts/build.py --check` passed.
+- Data preservation: all booked transport, original hotel fields, checklist, practical notes, daily route IDs/steps, and embedded personal-state seed match the original deployed commit. Map metadata and candidate content were added.
+- Data integrity: 55 unique candidates have booking/experience fields and regional coordinates; all internal source references resolve. All five hotels are mapped.
+- Independent review: city/category/favorites list and marker sets matched across 24 combinations in an isolated harness. Map creation/removal was balanced across repeated view transitions.
+- Real browser at a separate localhost origin: all four cities displayed matching card/marker counts (10/14/15/16) and their hotels (2/1/1/1). Map tiles loaded, desktop views had no horizontal overflow, and no JavaScript console errors were observed during these checks.
+- Card interaction highlighted the corresponding marker and displayed its hotel distance. Switching Budapest hotels updated the distance from about 954 m to 16.1 km for Palace Quarter; both were labeled straight-line distances. City cards do not carry stale hotel-origin navigation links.
+- Favorite changes updated marker styling and survived a page reload. The test favorite was toggled back individually; live-site browser storage was not cleared or reset.
+- Visual QA: inspected the destination landing page and desktop map/card view. At 390×844, inspected the mobile card and map view, confirmed no horizontal overflow, and verified that the map-location button reached the selected marker. Temporary viewport override was reset.
+- Original HTML/JSON backup logic was retained; it was reviewed for the added embedded map scripts. This update did not repeat the previous release's browser-download tests.
+
+Limitations: photos and tiles depend on external hosts; not every image was viewed in the live browser. Source photographs were checked during research, but seasons and actual visiting conditions vary. Reservations are recommendations and official requirements, not confirmed bookings. Coordinates for large parks, neighborhoods, and lakes are representative anchors. The app does not measure road routes or guarantee opening hours or availability.
+
+---
+
+## Original attachment verification record
+
 # 验证记录
 
 验证日期：2026-09-25

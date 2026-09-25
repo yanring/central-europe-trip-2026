@@ -4,8 +4,9 @@
     "subtitle": "Zijie & Hanyi · 2026 秋日旅行手册",
     "dates": "2026.09.26 — 10.06",
     "updated": "2026-09-25",
-    "version": "1.0",
-    "description": "三国、四个停留区、九晚。先守住已订交通，再按天气和胃口选择当天。"
+    "version": "1.2",
+    "description": "三国、四个停留区、九晚。先守住已订交通，再按天气和胃口选择当天。",
+    "visualUpdated": "2026-09-25"
   },
   "sources": {
     "bookings": {
@@ -391,6 +392,288 @@
       "url": "https://handwerkhaus.at/kalender/",
       "kind": "场馆官方",
       "note": "周一至周五 09:00–12:00、14:00–18:00；午间休息。"
+    },
+    "vienna-walk": {
+      "label": "Vienna Info｜Freihausviertel 街区步行",
+      "url": "https://www.wien.info/en/travel-info/ivie-app/walk-through-the-gusshausviertel-and-freihausviertel-with-ivie-583498",
+      "kind": "旅游局",
+      "note": "用于街区关系和步行体验参考；没有照搬全长路线。"
+    },
+    "prague-walk": {
+      "label": "Prague City Tourism｜官方步行路线",
+      "url": "https://prague.eu/en/walking-routes/",
+      "kind": "旅游局",
+      "note": "Vinohrady / Vršovice 的街区与坡地公园线索；当天只取一小段。"
+    },
+    "visual-pr-brewery-0": {
+      "label": "Pivovar Strahov · 步行可回酒店的晚餐｜地点与实景资料",
+      "url": "https://www.klasterni-pivovar.cz/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-pr-library-0": {
+      "label": "Strahov Library · 就近雨天备选｜地点与实景资料",
+      "url": "https://prague.eu/en/objevujte/strahov-library-theological-hall-philosophical-hall-strahovska-knihovna/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-pr-parlament-0": {
+      "label": "Vinohradský Parlament · 市集后的正餐｜地点与实景资料",
+      "url": "https://prague.eu/cs/objevujte/restaurace-vinohradsky-parlament/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-untersee-0": {
+      "label": "Untersee · 不去 Hallstatt 村的湖岸｜地点与实景资料",
+      "url": "https://dachstein.salzkammergut.at/oesterreich-poi/detail/200188/strandbad-untersee.html",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-ischl-0": {
+      "label": "Bad Ischl · 咖啡、河岸与小镇｜地点与实景资料",
+      "url": "https://badischl.salzkammergut.at/en/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-steeg-0": {
+      "label": "Steegwirt · 留一顿湖区认真吃的饭｜地点与实景资料",
+      "url": "https://www.steegwirt.at/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-wolfgang-0": {
+      "label": "Wolfgangsee · 船上看湖｜地点与实景资料",
+      "url": "https://www.5schaetze.at/en/wolfgangseeschifffahrt.html",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-dachstein-0": {
+      "label": "Krippenstein / 5 Fingers · 好天气加码｜地点与实景资料",
+      "url": "https://www.dachstein-salzkammergut.com/en/summer/above-ground/5fingers",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-goisern-0": {
+      "label": "Bad Goisern · 留一个不赶车的半天｜地点与实景资料",
+      "url": "https://presseservice.salzkammergut.at/en/oesterreich-stadt-ort/detail/430000966/bad-goisern-at-lake-hallstatt.html",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-goisern-1": {
+      "label": "Bad Goisern · 留一个不赶车的半天｜地点与实景资料",
+      "url": "https://dachstein.salzkammergut.at/fileadmin/user_upload/dachstein-salzkammergut/Pdf_Downloads/Ausflugszieleplaner/Erlebnisplaner2024_EN.pdf",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-handwerk-0": {
+      "label": "HAND.WERK.HAUS · 本地手工与小店｜地点与实景资料",
+      "url": "https://handwerkhaus.at/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-lk-handwerk-1": {
+      "label": "HAND.WERK.HAUS · 本地手工与小店｜地点与实景资料",
+      "url": "https://dachstein.salzkammergut.at/en/visitor-information/our-world-heritage/oesterreich-poi/detail/400272/hand-werk-haus-salzkammergut.html",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-bp-bartok-1": {
+      "label": "Bartók Béla Boulevard · 咖啡与画廊｜地点与实景资料",
+      "url": "https://bevasarloutca.hu/en/streets/bartok-bela-boulevard",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-bp-kelet-0": {
+      "label": "Kelet Kávézó · 书墙咖啡馆｜地点与实景资料",
+      "url": "https://bevasarloutca.hu/en/shops/kelet-cafe-and-gallery",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-bp-kelet-2": {
+      "label": "Kelet Kávézó · 书墙咖啡馆｜地点与实景资料",
+      "url": "https://kelet-cafe.eatbu.com/?lang=en",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-bp-kelet-3": {
+      "label": "Kelet Kávézó · 书墙咖啡馆｜地点与实景资料",
+      "url": "https://www.ujbuda.hu/sites/default/files/attachments/files/wwwujbudahu/2024_11/ub27_web.pdf",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-bp-rest-0": {
+      "label": "Párisi 酒店休息 + 一顿近距离晚餐｜地点与实景资料",
+      "url": "https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-bp-rest-1": {
+      "label": "Párisi 酒店休息 + 一顿近距离晚餐｜地点与实景资料",
+      "url": "https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel/faqs",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-vi-neubau-0": {
+      "label": "Neubau / Spittelberg · 店铺与小巷｜地点与实景资料",
+      "url": "https://www.wien.info/en/dine-drink/markets/spittelberg-wining-dining-359532",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "visual-vi-stockl-1": {
+      "label": "Stöckl im Park · 花园里的奥地利菜｜地点与实景资料",
+      "url": "https://www.stoecklimpark.at/gastgarten/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于地点介绍、外观与体验；推荐时段是行程建议。"
+    },
+    "city-pr-charles-kampa-0": {
+      "label": "查理大桥 + Kampa · 经典河景与桥下散步｜游玩与预约资料",
+      "url": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-pr-charles-kampa-1": {
+      "label": "查理大桥 + Kampa · 经典河景与桥下散步｜游玩与预约资料",
+      "url": "https://www.visitczechia.com/en-us/things-to-do/places/landmarks/urban-architecture/c-prague-kampa-island",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-pr-letna-0": {
+      "label": "Letná 公园 · 从高处看伏尔塔瓦河与桥｜游玩与预约资料",
+      "url": "https://prague.eu/en/objevujte/letna-park-letenske-sady/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-pr-vysehrad-0": {
+      "label": "Vyšehrad · 城墙上的河景公园｜游玩与预约资料",
+      "url": "https://prague.eu/en/objevujte/vysehrad-gardens-vysehradske-sady/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-pr-vysehrad-1": {
+      "label": "Vyšehrad · 城墙上的河景公园｜游玩与预约资料",
+      "url": "https://praha-vysehrad.cz/en/visit/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-pr-oldtown-0": {
+      "label": "老城广场 · 一眼看懂布拉格老城｜游玩与预约资料",
+      "url": "https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-lk-hallstatt-0": {
+      "label": "Hallstatt · 经典湖畔村落｜游玩与预约资料",
+      "url": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430003908/marketplace-hallstatt.html",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-lk-hallstatt-1": {
+      "label": "Hallstatt · 经典湖畔村落｜游玩与预约资料",
+      "url": "https://www.hallstatt.net/parking-in-hallstatt/cars/?source=breadcrumbs",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-lk-hallstatt-2": {
+      "label": "Hallstatt · 经典湖畔村落｜游玩与预约资料",
+      "url": "https://hallstatt.net/parking-in-hallstatt/?source=nav",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-lk-altaussee-0": {
+      "label": "Altaussee · 山脚下的湖岸｜游玩与预约资料",
+      "url": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001787/altaussee.html",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-lk-stgilgen-0": {
+      "label": "St. Gilgen · Wolfgangsee 湖畔村镇｜游玩与预约资料",
+      "url": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001365/st-gilgen.html",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-bp-castle-0": {
+      "label": "Fisherman’s Bastion · 渔人堡与城堡区｜游玩与预约资料",
+      "url": "https://www.budapestinfo.hu/en/10-best-viewpoints-in-budapest",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-bp-castle-1": {
+      "label": "Fisherman’s Bastion · 渔人堡与城堡区｜游玩与预约资料",
+      "url": "https://www.budapestinfo.hu/en/best-photo-spots-in-budapest",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-bp-danube-0": {
+      "label": "Danube Promenade · 河岸散步与 2 路电车｜游玩与预约资料",
+      "url": "https://bkk.hu/en/news/2021/09/autumn-season-of-heritage-transport-services-started-on-one-of-the-most-beautiful-tram-routes-of-the-world.6820/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-bp-danube-1": {
+      "label": "Danube Promenade · 河岸散步与 2 路电车｜游玩与预约资料",
+      "url": "https://visithungary.com/documents/2/24/24a/24abb36342219af30c387ea1a277a2c895b193b.pdf",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-bp-margaret-0": {
+      "label": "Margaret Island · 玛格丽特岛公园｜游玩与预约资料",
+      "url": "https://www.budapestinfo.hu/en/margaret-island",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-bp-szechenyi-0": {
+      "label": "Széchenyi Bath · 塞切尼温泉浴场｜游玩与预约资料",
+      "url": "https://www.szechenyibath.hu/en/",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-bp-szechenyi-1": {
+      "label": "Széchenyi Bath · 塞切尼温泉浴场｜游玩与预约资料",
+      "url": "https://www.szechenyibath.hu/faq",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-vi-schonbrunn-0": {
+      "label": "Schönbrunn Gardens · 美泉宫花园｜游玩与预约资料",
+      "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/gardens",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-vi-naschmarkt-0": {
+      "label": "Naschmarkt · 食材市集与午餐｜游玩与预约资料",
+      "url": "https://www.wien.info/en/dine-drink/markets/naschmarkt-353536",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-vi-prater-0": {
+      "label": "Prater · 游乐园散步与老摩天轮｜游玩与预约资料",
+      "url": "https://www.wien.info/en/see-do/prater/experience-prater-345598",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-vi-prater-1": {
+      "label": "Prater · 游乐园散步与老摩天轮｜游玩与预约资料",
+      "url": "https://www.praterwien.com/fileadmin/user_upload/pdf_dateien/Praterfolder_2026.pdf",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-vi-danube-0": {
+      "label": "Danube Canal · 运河步道与街头气氛｜游玩与预约资料",
+      "url": "https://www.wien.gv.at/umwelt/donaukanal",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "city-vi-danube-1": {
+      "label": "Danube Canal · 运河步道与街头气氛｜游玩与预约资料",
+      "url": "https://b2b.wien.info/en/newsroom/en-vienna-and-the-danube-922738",
+      "kind": "场馆 / 旅游资料",
+      "note": "用于候选地点、预约要求与地图位置；没有确认具体日期的可预订余量。"
+    },
+    "osm": {
+      "label": "OpenStreetMap｜地图与部分地点坐标",
+      "url": "https://www.openstreetmap.org/copyright",
+      "kind": "地图资料",
+      "note": "© OpenStreetMap contributors。地图图钉是代表位置；直线距离不等于实际交通里程。"
     }
   },
   "hotels": [
@@ -406,7 +689,13 @@
       "note": "提前入住和行李寄存均未确认，不当作既有权益。",
       "refs": [
         "bookings"
-      ]
+      ],
+      "coordinates": {
+        "lat": 47.493436,
+        "lng": 19.0549016,
+        "sourceUrl": "https://www.openstreetmap.org/way/24324025",
+        "label": "Párizsi udvar, 2-4, Petőfi Sándor utca, Pest, Belváros, V. kerület, Budapest, Közép-Magyarország, 1052, Magyarország"
+      }
     },
     {
       "id": "hyatt",
@@ -420,7 +709,13 @@
       "note": "使用地址确认，不被地图旧名称带走；酒店到站步行计入找站台时间。",
       "refs": [
         "bookings"
-      ]
+      ],
+      "coordinates": {
+        "lat": 48.1847748,
+        "lng": 16.3828055,
+        "sourceUrl": "https://www.openstreetmap.org/relation/20189132",
+        "label": "Hyatt Regency Vienna, 10, Arsenalstraße, Landstraße, Katastralgemeinde Landstraße, Landstraße, Wien, 1100, Österreich"
+      }
     },
     {
       "id": "jeffs",
@@ -438,7 +733,12 @@
         "bookings",
         "jeffs",
         "jeffsdistance"
-      ]
+      ],
+      "coordinates": {
+        "lat": 47.64712993,
+        "lng": 13.61212878,
+        "sourceUrl": "https://dachstein.salzkammergut.at/en/oesterreich-unterkunft/detail/430026972/jeff-s.html"
+      }
     },
     {
       "id": "lindner",
@@ -452,7 +752,12 @@
       "note": "替代旧 Comfort 酒店。周日必须先回这家酒店取行李，再去机场。",
       "refs": [
         "bookings"
-      ]
+      ],
+      "coordinates": {
+        "lat": 50.086208735092,
+        "lng": 14.387606130383,
+        "sourceUrl": "https://prague.eu/cs/ubytovani/lindner-hotel-prague-castle/"
+      }
     },
     {
       "id": "tribe",
@@ -469,7 +774,12 @@
       "refs": [
         "bookings",
         "tribe"
-      ]
+      ],
+      "coordinates": {
+        "lat": 47.430529,
+        "lng": 19.262399,
+        "sourceUrl": "https://all.accor.com/hotel/B925/index.en.shtml"
+      }
     }
   ],
   "trips": [
@@ -1066,7 +1376,7 @@
         {
           "id": "c",
           "title": "Leopold 一个馆 + 一顿维也纳饭",
-          "fit": "雨天替换",
+          "fit": "低优先级 · 仅对作品感兴趣时",
           "steps": [
             {
               "time": "10:30–13:00",
@@ -2044,7 +2354,7 @@
         {
           "id": "c",
           "title": "Strahov Library + 室内午餐",
-          "fit": "雨天 / 想极简",
+          "fit": "建筑空间特色 · 雨天备选",
           "steps": [
             {
               "time": "10:00–11:15",
@@ -2452,7 +2762,32 @@
         "palace"
       ],
       "map": "Mikszáth Kálmán tér Budapest",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "佩斯一侧由旧贵族宅邸、小广场和餐馆组成的生活街区；“宫殿区”指这片街区，不是一座需要买票进去的王宫。",
+      "appearance": "浅色石砌老楼、带装饰的门窗与街角露天座位；看的是街道和建筑外观。",
+      "highlights": [
+        "在 Mikszáth 广场坐下，看老楼包围的小广场",
+        "沿 Krúdy Gyula、Horánszky 两条街慢走，挑一家咖啡或晚餐"
+      ],
+      "bestTime": "下午到傍晚：先在天亮时看建筑，再顺路吃饭；这是落地日的安排建议，不保证街区人少。",
+      "tradeoff": "比跨河省力，但没有登高全景；不进入私人宅邸，也不默认含任何宫殿内参观。",
+      "photo": {
+        "url": "https://bevasarloutca.hu/uploads/gallery_images/small-img-9499-1513152048.webp",
+        "page": "https://bevasarloutca.hu/en/streets/palace-quarter",
+        "caption": "宫殿区街角建筑与餐馆外观",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "booking": {
+        "status": "户外散步无需预约",
+        "detail": "仅指街道或公共花园的开放部分；店铺、餐厅与付费内部参观另算。",
+        "url": "https://bevasarloutca.hu/en/streets/palace-quarter"
+      },
+      "coordinates": {
+        "lat": 47.489937,
+        "lng": 19.0664949,
+        "sourceUrl": "https://www.openstreetmap.org/relation/18802516",
+        "label": "Mikszáth Kálmán tér, Palotanegyed, VIII. kerület, Budapest, Közép-Magyarország, Magyarország"
+      }
     },
     {
       "id": "bp-bartok",
@@ -2468,10 +2803,36 @@
       "hours": "街区全天可走；周六小画廊不一定开到傍晚。",
       "caution": "它在河对岸。9/26 只与 Palace Quarter 二选一，不两条都跑。",
       "refs": [
-        "bartok"
+        "bartok",
+        "visual-bp-bartok-1"
       ],
       "map": "Gárdonyi tér Budapest",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "布达一侧的一条城市大道，沿街有咖啡馆、书店、小店和文化空间，适合边走边坐。",
+      "appearance": "电车经过的街道、老楼底层店面与小广场；主要是城市日常街景。",
+      "highlights": [
+        "从 Szent Gellért 广场走到 Gárdonyi 广场",
+        "在 Kelet 喝杯咖啡，比较两岸街区的生活气氛"
+      ],
+      "bestTime": "白天至下午：看清沿街店面，也方便把咖啡停留接在散步中；小店营业各自不同。",
+      "tradeoff": "比 Palace Quarter 多一次跨河；不是整条步行街，有车和电车，不适合期待完全安静的人。",
+      "photo": {
+        "url": "https://bevasarloutca.hu/uploads/gallery_images/small-mzs-4817-1563451147.webp",
+        "page": "https://bevasarloutca.hu/en/streets/bartok-bela-boulevard",
+        "caption": "Bartók Béla Boulevard 沿街店面与电车街景",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "booking": {
+        "status": "户外散步无需预约",
+        "detail": "仅指街道或公共花园的开放部分；店铺、餐厅与付费内部参观另算。",
+        "url": "https://www.budapestinfo.hu/en/discover-bartok-bela-boulevard-the-locals-favourite"
+      },
+      "coordinates": {
+        "lat": 47.4794007,
+        "lng": 19.0513112,
+        "sourceUrl": "https://www.openstreetmap.org/way/144653796",
+        "label": "Gárdonyi tér, Lágymányos, XI. kerület, Budapest, Közép-Magyarország, Magyarország"
+      }
     },
     {
       "id": "bp-lumen",
@@ -2490,7 +2851,31 @@
         "lumen"
       ],
       "map": "NagyLumen Horánszky utca 5 Budapest",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "NagyLumen 是兼做餐饮、咖啡、音乐演出的文化聚点，在 Horánszky utca 5；与另一家 KisLumen 区分。",
+      "appearance": "院落式露台里有绿植、遮阳布和简单桌椅，整体随意。",
+      "highlights": [
+        "在院子里吃一顿家常式餐点或喝咖啡",
+        "把它作为宫殿区散步的中途休息点"
+      ],
+      "bestTime": "想聊天就选午后或较早的晚餐；晚间节目可能改变气氛，先看当天活动。",
+      "tradeoff": "氛围随活动变化，演出夜可能热闹；露台体验受天气影响，不能保证安静。",
+      "photo": {
+        "url": "https://static.wixstatic.com/media/df24a0_3b99bca43eb648218612f4cbe042e1cf~mv2.jpg",
+        "page": "https://www.lumen.hu/nagylumen",
+        "caption": "NagyLumen 的庭院露台",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "coordinates": {
+        "lat": 47.492479,
+        "lng": 19.0674694,
+        "sourceUrl": "https://www.lumen.hu/nagylumen"
+      },
+      "booking": {
+        "status": "建议订位",
+        "detail": "这是订位建议，不是已订成功；想在固定时间吃饭，先联系餐厅并收到确认。",
+        "url": "https://www.lumen.hu/nagylumen"
+      }
     },
     {
       "id": "bp-ruben",
@@ -2509,7 +2894,32 @@
         "ruben"
       ],
       "map": "Ruben Restaurant Budapest",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "酒店附近一家提供匈牙利与国际风味的坐席餐厅，适合作为落地日晚餐。",
+      "appearance": "室内以整齐餐桌、软座和人物壁画营造较正式的用餐环境。",
+      "highlights": [
+        "从当日菜单选一道匈牙利主菜慢慢吃",
+        "饭后就近回酒店，不再额外跨城追餐"
+      ],
+      "bestTime": "落地日较早的晚餐：把体力留给吃饭和休息；周六先订位更稳妥。",
+      "tradeoff": "优势是位置与用餐方便，不是独有景点；菜品供应和座位仍以当天为准。",
+      "photo": {
+        "url": "https://rubenrestaurant.hu/assets/hero-restaurant-bg-DNnB8wcj.jpg",
+        "page": "https://rubenrestaurant.hu/",
+        "caption": "Ruben 餐厅室内",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "booking": {
+        "status": "建议订位",
+        "detail": "这是订位建议，不是已订成功；想在固定时间吃饭，先联系餐厅并收到确认。",
+        "url": "https://rubenrestaurant.hu/"
+      },
+      "coordinates": {
+        "lat": 47.493079,
+        "lng": 19.0598978,
+        "sourceUrl": "https://www.openstreetmap.org/node/3232789024",
+        "label": "Ruben Étterem, 12-14, Magyar utca, Pest, Belváros, V. kerület, Budapest, Közép-Magyarország, 1053, Magyarország"
+      }
     },
     {
       "id": "bp-kelet",
@@ -2526,10 +2936,33 @@
       "caution": "周末同样可能满座；没有座位就换附近咖啡馆，不排长队。",
       "refs": [
         "bartok",
-        "kelet"
+        "kelet",
+        "visual-bp-kelet-0",
+        "visual-bp-kelet-2",
+        "visual-bp-kelet-3"
       ],
       "map": "Kelet Kávézó Budapest",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "一间结合咖啡与换书功能的小店，可以坐着喝咖啡、吃简单餐点、翻看书。",
+      "appearance": "成排书架与咖啡桌构成像书房一样的室内空间。",
+      "highlights": [
+        "在书墙旁坐下喝意式或滤泡咖啡",
+        "作为 Bartók 街区的休息站，看看可交换的书"
+      ],
+      "bestTime": "接在 Bartók 白天散步之后最顺路；周六目录列 09:00 起营业，出发前仍复查。",
+      "tradeoff": "座位不是保证，不宜为了它单独跨河；书墙是特色，不代表这里能一直安静阅读。",
+      "photo": null,
+      "photoPage": "https://europeancoffeetrip.com/cafe/kelet-budapest/",
+      "coordinates": {
+        "lat": 47.4798356,
+        "lng": 19.0510626,
+        "sourceUrl": "https://kelet-cafe.eatbu.com/?lang=en"
+      },
+      "booking": {
+        "status": "通常可直接前往",
+        "detail": "咖啡短停可现场看座位；人数多或一定要坐下时先联系店家，不保证随到有桌。",
+        "url": "https://bevasarloutca.hu/en/shops/kelet-cafe-and-gallery"
+      }
     },
     {
       "id": "bp-rest",
@@ -2545,10 +2978,37 @@
       "hours": "入住 15:00 起，依据你提供的安排。",
       "caution": "大厅休息和行李寄存要问酒店，未提前确认；不把早入住写成已获批准。",
       "refs": [
-        "bookings"
+        "bookings",
+        "visual-bp-rest-0",
+        "visual-bp-rest-1"
       ],
       "map": "Párisi Udvar Hotel Budapest",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "你们已订的酒店本身也是建筑看点：历史商业拱廊修复成酒店与餐饮空间，可以少出门也看见有特色的内景。",
+      "appearance": "金色调拱廊、彩色玻璃穹顶、陶瓷和几何装饰，抬头就能看到细节。",
+      "highlights": [
+        "在拱廊看彩色玻璃与装饰，拍建筑细节",
+        "吃饭、短休后再决定是否外出"
+      ],
+      "bestTime": "抵达当天随体力安排；先问前台寄存与可用休息空间，入住仍按原订单 15:00 起。",
+      "tradeoff": "省体力、雨天也适用，但酒店消费另计；不能把提前到店等同于已获提前入住。",
+      "photo": {
+        "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2019/09/06/1254/Parisi-Udvar-Budapest-P055-Lobby.jpg/Parisi-Udvar-Budapest-P055-Lobby.16x9.jpg?imwidth=960",
+        "page": "https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel",
+        "caption": "Párisi Udvar 酒店历史拱廊内部",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "booking": {
+        "status": "住宿已订",
+        "detail": "沿用你们原酒店订单；餐厅、护理等额外消费另行预约，不包含在休息方案中。",
+        "url": "https://www.hyatt.com/unbound-collection/en-US/budub-parisi-udvar-hotel"
+      },
+      "coordinates": {
+        "lat": 47.493436,
+        "lng": 19.0549016,
+        "sourceUrl": "https://www.openstreetmap.org/way/24324025",
+        "label": "Párizsi udvar, 2-4, Petőfi Sándor utca, Pest, Belváros, V. kerület, Budapest, Közép-Magyarország, 1052, Magyarország"
+      }
     },
     {
       "id": "vi-gardens",
@@ -2567,7 +3027,32 @@
         "belvedere"
       ],
       "map": "Upper Belvedere Gardens Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "美景宫外部的巴洛克花园与旁边的 Schweizergarten 绿地；这条路线重在户外宫殿景色，不需要顺带参观画展。",
+      "appearance": "上下宫殿之间是对称花坛、修剪整齐的树篱、水池和台阶；上宫南侧另有倒影池。",
+      "highlights": [
+        "看上美景宫外观与对称花园轴线",
+        "沿花园缓慢走一段，在倒影池看宫殿映像"
+      ],
+      "bestTime": "晴或阴天的下午、晚餐前：适合接你们的到店安排。9 月主花园官网列 20:00 关门，天黑前结束更便于看景。",
+      "tradeoff": "主花园免费且顺路，但不含宫殿内展览；有坡度与台阶，大雨会明显降低体验。",
+      "photo": {
+        "url": "https://www.belvedere.at/sites/default/files/styles/full_content_width_no_crop/public/2024-08/Oberes_Belvedere_Nordseite_Blumen_Eva%20W%C3%BCrdinger.jpg.webp?itok=VXZcoh74",
+        "page": "https://www.belvedere.at/en/belvedere/gardens",
+        "caption": "上美景宫北侧外观与花园；照片为花期景象",
+        "credit": "Eva Würdinger / Belvedere, Vienna"
+      },
+      "booking": {
+        "status": "户外散步无需预约",
+        "detail": "仅指街道或公共花园的开放部分；店铺、餐厅与付费内部参观另算。",
+        "url": "https://www.belvedere.at/en/belvedere/gardens"
+      },
+      "coordinates": {
+        "lat": 48.1915415,
+        "lng": 16.3808882,
+        "sourceUrl": "https://www.openstreetmap.org/way/5887599",
+        "label": "Oberes Belvedere, 27, Prinz-Eugen-Straße, Wieden, Katastralgemeinde Landstraße, Landstraße, Wien, 1030, Österreich"
+      }
     },
     {
       "id": "vi-freihaus",
@@ -2587,7 +3072,32 @@
         "viennashops"
       ],
       "map": "Schleifmühlgasse Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "围绕 Schleifmühlgasse 的咖啡、古着和设计小店街区，逛的是街面和店铺，不必进画廊。",
+      "appearance": "19 世纪装饰立面下是尺度不大的沿街店面，路口与露天座位穿插其中。",
+      "highlights": [
+        "沿 Schleifmühlgasse 看古着、设计店的橱窗",
+        "选一家咖啡馆坐下，把逛街拆成短段"
+      ],
+      "bestTime": "9/28 周一的白天：比周日更适合购物；部分店和画廊周一仍休息，所以不把特定小店设为必达。",
+      "tradeoff": "适合慢逛和消费，缺少一眼震撼的大景；小店不开时主要只能看街景。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/467924/2x3/346/520/1dcb79355bf82339cabe28c0d29d573a/7B63764112836A8769D7F356062775AF/52002-freihausviertel-strassenansicht.webp",
+        "page": "https://www.wien.info/en/see-do/neighborhoods/freihausviertel-469812",
+        "caption": "Freihausviertel 街景，朝 Schleifmühlgasse 方向",
+        "credit": "WienTourismus / Mafalda Rakoš"
+      },
+      "booking": {
+        "status": "户外散步无需预约",
+        "detail": "仅指街道或公共花园的开放部分；店铺、餐厅与付费内部参观另算。",
+        "url": "https://www.wien.info/en/see-do/neighborhoods/freihausviertel-469812"
+      },
+      "coordinates": {
+        "lat": 48.196563,
+        "lng": 16.3664198,
+        "sourceUrl": "https://www.openstreetmap.org/way/195664624",
+        "label": "Schleifmühlgasse, Freihausviertel, Wieden, Wien, 1040, Österreich"
+      }
     },
     {
       "id": "vi-neubau",
@@ -2604,10 +3114,35 @@
       "caution": "这是受欢迎的街区，不保证人少；主购物大道不是本版重点。",
       "refs": [
         "neubau",
-        "viennashops"
+        "viennashops",
+        "visual-vi-neubau-0"
       ],
       "map": "Spittelberg Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Neubau 是有独立店铺的城区，Spittelberg 是其中靠近 MuseumsQuartier 的老街小片区，可把逛店与小巷散步组合。",
+      "appearance": "窄巷、保存良好的比德迈尔时期老屋、庭院餐馆和露天座位。",
+      "highlights": [
+        "沿 Neubaugasse、Kirchengasse 挑几家店看",
+        "转进 Spittelberg 小巷，找庭院或街边座位歇脚"
+      ],
+      "bestTime": "周一下午看店，晚餐前逛小巷；只有晚间去，商店选择会少。",
+      "tradeoff": "区域不小，不必全部走完；热门巷子和餐馆仍可能热闹，石板路拖行李不舒服。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/309808/19x10/1200/630/7c7be58571d7a34c0ed7b6d75ca7f8e6/034CA903875E3A992B59BA624E30E257/51343-spittelberg.jpg",
+        "page": "https://www.wien.info/en/dine-drink/markets/spittelberg-wining-dining-359532",
+        "caption": "Spittelberg 老街与街边座位；照片为春季景象",
+        "credit": "WienTourismus / Gregor Hofbauer"
+      },
+      "coordinates": {
+        "lat": 48.2034441,
+        "lng": 16.355195800000047,
+        "sourceUrl": "https://www.wien.info/en/dine-drink/markets/spittelberg-wining-dining-359532"
+      },
+      "booking": {
+        "status": "户外散步无需预约",
+        "detail": "仅指街道或公共花园的开放部分；店铺、餐厅与付费内部参观另算。",
+        "url": "https://www.wien.info/en/dine-drink/markets/spittelberg-wining-dining-359532"
+      }
     },
     {
       "id": "vi-serviten",
@@ -2627,7 +3162,32 @@
         "mercerie"
       ],
       "map": "Servitengasse Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "围绕 Servitengasse 与教堂的小街区，以步行街、街角咖啡和法式餐饮气氛见长。",
+      "appearance": "浅色老楼、巴洛克教堂、树木和广场露天桌椅；街道尺度紧凑。",
+      "highlights": [
+        "在教堂旁的步行区绕一小圈",
+        "到 La Mercerie 吃可颂、喝咖啡，留时间聊天"
+      ],
+      "bestTime": "工作日白天到下午：建筑与广场容易看清，也便于衔接咖啡；适合取代一整段购物路线。",
+      "tradeoff": "更适合安静地过半天，不是大景点集合；从你们酒店出发比美景宫远。",
+      "photo": {
+        "url": "https://b2b.wien.info/resource/image/291956/19x10/1200/630/af3887011ddd689d8d5dcb4efd7bfc2b/CF130FE4054501B61B94BBBDE39DA4F9/50824-spazieren-im-servitenviertel-paul-bauer-outdoor-draussen-fruehling-sommer-gehen-zu-fuss.jpg",
+        "page": "https://b2b.wien.info/en/newsroom/pressservice/en032024-french-graetzel-flair-in-the-servitenviertel-550958",
+        "caption": "Servitenviertel 教堂旁的步行街景",
+        "credit": "WienTourismus / Paul Bauer"
+      },
+      "booking": {
+        "status": "户外散步无需预约",
+        "detail": "仅指街道或公共花园的开放部分；店铺、餐厅与付费内部参观另算。",
+        "url": "https://b2b.wien.info/en/newsroom/pressservice/en032024-french-graetzel-flair-in-the-servitenviertel-550958"
+      },
+      "coordinates": {
+        "lat": 48.2206823,
+        "lng": 16.363638,
+        "sourceUrl": "https://www.openstreetmap.org/way/116761153",
+        "label": "Servitenkirche, 9, Servitengasse, Roßau, Katastralgemeinde Alsergrund, Alsergrund, Wien, 1090, Österreich"
+      }
     },
     {
       "id": "vi-stockl",
@@ -2643,10 +3203,36 @@
       "hours": "每日 11:30–23:30，厨房至 22:30。",
       "caution": "花园位取决于天气；知名大餐厅，不保证安静。建议订 9/27 18:30。",
       "refs": [
-        "stockl"
+        "stockl",
+        "visual-vi-stockl-1"
       ],
       "map": "Stöckl im Park Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "美景宫附近的一家餐厅兼自酿啤酒馆，有大面积花园座位，提供维也纳菜。",
+      "appearance": "绿树下的木桌椅、遮阳伞与酿酒馆建筑；室内另有用餐空间。",
+      "highlights": [
+        "点一份奥地利菜或当季餐点",
+        "天气合适时坐花园，想喝酒再选自酿啤酒"
+      ],
+      "bestTime": "花园散步后的较早晚餐：趁还有天光看绿荫环境；花园位需看天气与订位情况。",
+      "tradeoff": "接花园方便但规模较大，未必安静；只想小咖啡馆氛围的话它不合适。",
+      "photo": {
+        "url": "https://www.stoecklimpark.at/wp-content/uploads/2020/05/StoecklImPark_3563_RGB-1440x810.jpg",
+        "page": "https://www.stoecklimpark.at/gastgarten/",
+        "caption": "Stöckl im Park 花园用餐区；照片为温暖季节场景",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "booking": {
+        "status": "建议订位",
+        "detail": "这是订位建议，不是已订成功；想在固定时间吃饭，先联系餐厅并收到确认。",
+        "url": "https://www.stoecklimpark.at/"
+      },
+      "coordinates": {
+        "lat": 48.192456,
+        "lng": 16.3789812,
+        "sourceUrl": "https://www.openstreetmap.org/node/7297115939",
+        "label": "Stöckl im Park, 25, Prinz-Eugen-Straße, Wieden, Katastralgemeinde Landstraße, Landstraße, Wien, 1030, Österreich"
+      }
     },
     {
       "id": "vi-josef",
@@ -2665,7 +3251,32 @@
         "josef"
       ],
       "map": "Weinstube Josefstadt Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "藏在街门后的小葡萄酒馆，以绿植庭院和维也纳酒馆式冷、热食柜台为特色。",
+      "appearance": "绿色入口后是树木与绿植包围的庭院，坐下来像暂时离开城市街道。",
+      "highlights": [
+        "选区域葡萄酒、果汁或无酒精饮品",
+        "到冷、热食柜台挑菜，再在庭院慢慢吃"
+      ],
+      "bestTime": "15:00 开门后到傍晚：白天更容易看清庭院；想订位应选官网接受的较早时段。",
+      "tradeoff": "仅收现金，食物部分需到柜台挑；庭院受天气影响，不是远郊葡萄园景观。",
+      "photo": {
+        "url": "https://www.weinstube-josefstadt.at/images/hero.jpg",
+        "page": "https://www.weinstube-josefstadt.at/en",
+        "caption": "Weinstube Josefstadt 庭院中的绿植与葡萄酒场景",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "booking": {
+        "status": "建议订位",
+        "detail": "可在线申请较早时段，收到邮件确认才算订位；仅收现金。",
+        "url": "https://www.weinstube-josefstadt.at/en"
+      },
+      "coordinates": {
+        "lat": 48.2085785,
+        "lng": 16.3504207,
+        "sourceUrl": "https://www.openstreetmap.org/node/7468401023",
+        "label": "Weinstube Josefstadt, 27, Piaristengasse, Strozzigrund, Josefstadt, Katastralgemeinde Josefstadt, Josefstadt, Wien, 1080, Österreich"
+      }
     },
     {
       "id": "vi-goldegg",
@@ -2684,7 +3295,32 @@
         "goldegg"
       ],
       "map": "Café Goldegg Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "1910 年创办的传统维也纳咖啡馆，能吃早餐、喝咖啡、看报纸，也提供正餐。",
+      "appearance": "木镶板、带白纹的黑大理石桌、深绿色绒面卡座和黄铜吊灯，带有老咖啡馆的厚重感。",
+      "highlights": [
+        "点一杯咖啡配早餐或蛋糕",
+        "看看木作和老式室内细节，坐一会儿再出发"
+      ],
+      "bestTime": "火车日前的早餐仅在确认营业且时间充足时使用；其他日子的下午也适合专门坐一会儿。",
+      "tradeoff": "适合室内氛围而非户外风景；不值得为一顿早餐压缩取行李和上车余量。",
+      "photo": {
+        "url": "https://www.cafegoldegg.at/images/gallery/goldegg01_x480.jpg",
+        "page": "https://www.cafegoldegg.at/",
+        "caption": "Café Goldegg 室内，官网黑白照片",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "booking": {
+        "status": "通常可直接前往",
+        "detail": "咖啡短停可现场看座位；人数多或一定要坐下时先联系店家，不保证随到有桌。",
+        "url": "https://www.cafegoldegg.at/"
+      },
+      "coordinates": {
+        "lat": 48.189695,
+        "lng": 16.3761259,
+        "sourceUrl": "https://www.openstreetmap.org/node/1711057804",
+        "label": "Café Goldegg, 49, Argentinierstraße, Wieden, Wien, 1040, Österreich"
+      }
     },
     {
       "id": "vi-mercerie",
@@ -2703,7 +3339,31 @@
         "mercerie"
       ],
       "map": "La Mercerie Berggasse 25 Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Servitenviertel 的法式咖啡与小餐馆，适合可颂、奶咖和轻食停留。",
+      "appearance": "浅色街角店面、玻璃窗与门口的小圆桌，气氛接近日常巴黎咖啡馆。",
+      "highlights": [
+        "点咖啡、可颂或当日简单餐点",
+        "天气合适时坐街边，看周围生活街景"
+      ],
+      "bestTime": "街区组织列周一至周六白天营业，适合周一上午或下午接散步；当天时刻仍需复查。",
+      "tradeoff": "它提供的是法式咖啡体验，不是奥地利菜代表；座位与餐点不保证随到随有。",
+      "photo": {
+        "url": "https://servitenviertel.at/wp-content/uploads/2020/02/mercerie.jpg",
+        "page": "https://servitenviertel.at/mitglied/cafe-bistrot-la-mercerie/",
+        "caption": "La Mercerie 店面与街边座位",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "coordinates": {
+        "lat": 48.21913,
+        "lng": 16.36444,
+        "sourceUrl": "https://servitenviertel.at/mitglied/cafe-bistrot-la-mercerie/"
+      },
+      "booking": {
+        "status": "通常可直接前往",
+        "detail": "咖啡短停可现场看座位；人数多或一定要坐下时先联系店家，不保证随到有桌。",
+        "url": "https://servitenviertel.at/mitglied/cafe-bistrot-la-mercerie/"
+      }
     },
     {
       "id": "vi-schilling",
@@ -2722,7 +3382,31 @@
         "schilling"
       ],
       "map": "Alt Wiener Gastwirtschaft Schilling Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Burggasse 103 的传统维也纳馆子，主打维也纳菜与季节菜，适合坐下来吃一顿正餐。",
+      "appearance": "木质护墙、传统餐桌与暖色室内，另有户外用餐区。",
+      "highlights": [
+        "按当日菜单选传统主菜或季节菜",
+        "如果已在 Neubau 西侧，顺路安排午餐或晚餐"
+      ],
+      "bestTime": "午餐或晚餐时段，配合你们实际逛到的位置；不要为了凑路线再往返走。",
+      "tradeoff": "离 Spittelberg 小巷仍有一段路，不是出巷口就到；需确认订位，不把它当随到随吃兜底。",
+      "photo": {
+        "url": "https://static.wixstatic.com/media/77586a_bbbb2f47c06748bc82bdfd30ebeb5e0f~mv2.jpg",
+        "page": "https://www.schilling-wirt.at/",
+        "caption": "Schilling 木质内装用餐空间",
+        "credit": "来源网站，未标单独摄影者"
+      },
+      "coordinates": {
+        "lat": 48.2041839,
+        "lng": 16.3413841,
+        "sourceUrl": "https://www.schilling-wirt.at/"
+      },
+      "booking": {
+        "status": "建议订位",
+        "detail": "这是订位建议，不是已订成功；想在固定时间吃饭，先联系餐厅并收到确认。",
+        "url": "https://www.schilling-wirt.at/"
+      }
     },
     {
       "id": "vi-leopold",
@@ -2741,7 +3425,32 @@
         "leopold"
       ],
       "map": "Leopold Museum Vienna",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "以席勒、克里姆特和维也纳 1900 年前后艺术为重点的博物馆，保留为有明确兴趣时的雨天备选。",
+      "appearance": "MuseumsQuartier 内浅色石材的方盒子建筑，内部为现代展厅。",
+      "highlights": [
+        "只挑真正想看的席勒或克里姆特作品",
+        "看完后在 MuseumsQuartier 附近休息"
+      ],
+      "bestTime": "下雨且确实想看这类画时再选；官网通常周一 10:00–18:00 开放，周二闭馆。",
+      "tradeoff": "需要门票和持续看展的兴趣；你们不太爱艺术展，优先级低于街区、花园和咖啡体验。",
+      "photo": {
+        "url": "https://www.leopoldmuseum.org/media/image/c950x576/5365.jpg",
+        "page": "https://www.leopoldmuseum.org/en/visit/opening-hours",
+        "caption": "Leopold Museum 外观，屋顶为 MQ Libelle",
+        "credit": "Leopold Museum, Wien / Ouriel Morgensztern"
+      },
+      "booking": {
+        "status": "需购票，可提前买",
+        "detail": "普通参观需要门票；不是必须提前预约的承诺。先确认当天开放和想看的展区。",
+        "url": "https://www.leopoldmuseum.org/en/visit/tickets"
+      },
+      "coordinates": {
+        "lat": 48.2025896,
+        "lng": 16.3590667,
+        "sourceUrl": "https://www.openstreetmap.org/way/20411606",
+        "label": "Leopold Museum, 1, Museumsplatz, Sankt Ulrich, Spittelberg, Katastralgemeinde Neubau, Neubau, Wien, 1070, Österreich"
+      }
     },
     {
       "id": "lk-gosau",
@@ -2763,7 +3472,31 @@
         "bus542"
       ],
       "map": "Vorderer Gosausee Austria",
-      "effort": "中等"
+      "effort": "中等",
+      "intro": "一座被森林和岩壁围住的高山湖，抬头能看见 Dachstein 山体与冰川；主要体验就是沿湖走、看山和拍照。",
+      "appearance": "蓝绿湖水前是针叶林，两侧岩壁把视线引向远处山峰。无风时会有倒影；秋季水位与照片可能不同。",
+      "highlights": [
+        "沿确认开放的湖岸找山峰与湖水同框的位置，坐下来慢慢看。",
+        "不用爬到山顶，也能在湖边感受高山与冰川景观。"
+      ],
+      "bestTime": "建议留给能见度好的上午至午后，先查封闭与天气；比追日出日落更适合这次公共交通出行。",
+      "tradeoff": "景色最依赖天气，往返接驳耗时；阴雨、落石警报或湖岸封闭时收益明显下降。",
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/201074/74992249E5FF8F43250CB9735F5FE1188F31D9C81D913D0CF3BAF3AF2EA0265D/gosausee-mit-blick-auf-den-dachstein.jpg",
+        "page": "https://www.salzkammergut.at/en/search-accommodation/oesterreich-poi/detail/201041/lake-gosau.html",
+        "caption": "前 Gosausee 与 Dachstein 山景",
+        "credit": "RudiKainPhotografie"
+      },
+      "coordinates": {
+        "lat": 47.529372434,
+        "lng": 13.504343033,
+        "sourceUrl": "https://www.salzkammergut.at/en/search-accommodation/oesterreich-poi/detail/201041/lake-gosau.html"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "只在公共开放湖岸散步，无需预约；接驳车另约。先确认封闭公告，不能把预约与步道开放混为一谈。",
+        "url": "https://www.salzkammergut.at/en/search-accommodation/oesterreich-poi/detail/201041/lake-gosau.html"
+      }
     },
     {
       "id": "lk-untersee",
@@ -2779,10 +3512,35 @@
       "hours": "白天、天气适合时前往；不是安排秋季游泳。",
       "caution": "接 Steegwirt 可以，但还需核对餐厅与湖岸之间的步行或车辆，不是同一个门口。",
       "refs": [
-        "untersee"
+        "untersee",
+        "visual-lk-untersee-0"
       ],
       "map": "Untersee Bad Goisern",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Hallstättersee 北端、Bad Goisern 一侧的公共湖岸。来这里是坐看湖面与山谷，不是逛 Hallstatt 村。",
+      "appearance": "草地与低矮湖岸接着开阔水面，远处是两岸陡山和 Krippenstein；没有 Hallstatt 村那排贴山老房子。",
+      "highlights": [
+        "在公共湖岸短走、坐着看水和远山，拍一张开阔山湖照。",
+        "适合想看湖、又不想安排长线徒步的半天。"
+      ],
+      "bestTime": "建议白天雨停、能看清对岸山体时去；秋季以散步为主，配图为夏季实景，不代表游泳设施当日开放。",
+      "tradeoff": "景观变化比 Gosausee 少，附近私有草地和船屋不能随意进入；与 Steegwirt 之间仍要安排移动。",
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/200456/483A426B935524333F1185733610A981445C8FDCF7BDCCE1CAA49FB65C697CAE/strandbad-untersee-in-bad-goisern.jpg",
+        "page": "https://dachstein.salzkammergut.at/oesterreich-poi/detail/200188/strandbad-untersee.html",
+        "caption": "Untersee 公共湖岸，夏季实景",
+        "credit": "Torsten Kraft"
+      },
+      "coordinates": {
+        "lat": 47.60847775345513,
+        "lng": 13.646306991577148,
+        "sourceUrl": "https://dachstein.salzkammergut.at/oesterreich-poi/detail/200188/strandbad-untersee.html"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "公共湖岸短走无需预约；不含私人草地、船屋或包船。秋季不默认泳场服务仍开放。",
+        "url": "https://dachstein.salzkammergut.at/oesterreich-poi/detail/200188/strandbad-untersee.html"
+      }
     },
     {
       "id": "lk-ischl",
@@ -2799,10 +3557,37 @@
       "caution": "也是知名度假小镇，不假装绝对小众。当天不必再追另一个湖。",
       "refs": [
         "zauner",
-        "oebb"
+        "oebb",
+        "visual-lk-ischl-0"
       ],
       "map": "Esplanade Bad Ischl",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "湖区里一座有咖啡馆、商店和河岸步道的小镇。这半天以镇中心慢逛与甜点休息为主。",
+      "appearance": "街道两侧是浅色立面与店铺，镇中心有教堂尖塔；走到 Esplanade 则变成沿 Traun 河的散步景观。",
+      "highlights": [
+        "从 Pfarrgasse 逛到河岸，看店铺、街景和河水。",
+        "中途进 Zauner 吃甜点，天气反复时也有地方坐。"
+      ],
+      "bestTime": "建议晚上午到下午，把散步和咖啡安排在一起；小雨适合缩短户外段，别等商店关门后才来。",
+      "tradeoff": "是有人气的度假小镇，不能保证清静；自然景观的冲击感不如 Gosausee 或高山。",
+      "photo": {
+        "url": "https://badischl.salzkammergut.at/fileadmin/_processed_/3/3/csm_EinkaufsstrasseBadIschl_OberoesterreichTourismusBadIschlRobertJosipovic_121412445e.jpg",
+        "page": "https://badischl.salzkammergut.at/en/",
+        "caption": "Bad Ischl 镇中心购物街",
+        "credit": "Oberösterreich Tourismus / Bad Ischl / Robert Josipovic"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "逛公共街道和河岸无需预约；餐厅或收费场馆分别确认。",
+        "url": "https://badischl.salzkammergut.at/en/"
+      },
+      "coordinateNote": "图钉为 Esplanade 河岸步道的一处代表位置，不是整个 Bad Ischl 的唯一入口。",
+      "coordinates": {
+        "lat": 47.7099762,
+        "lng": 13.6198181,
+        "sourceUrl": "https://www.openstreetmap.org/way/4613187",
+        "label": "Esplanade, Steinbruch, Kaltenbach, Bad Ischl, Bezirk Gmunden, Oberösterreich, 4820, Österreich"
+      }
     },
     {
       "id": "lk-steeg",
@@ -2818,10 +3603,35 @@
       "hours": "周三至周日 10:00–22:00，热食 11:30–20:30；周一、周二休息。",
       "caution": "建议 9/30 或 10/1 18:00。只先锁定一个日期，另一日留给天气，不同时占两个订位。",
       "refs": [
-        "steegwirt"
+        "steegwirt",
+        "visual-lk-steeg-0"
       ],
       "map": "Steegwirt Au 12 Bad Goisern",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "一间有约 450 年历史的奥地利老客栈餐馆，曾接待运盐的船工；现在适合认真吃一顿区域料理。",
+      "appearance": "室内能看到厚重老木梁、木桌椅和传统装饰，是坐下用餐的老屋气氛。",
+      "highlights": [
+        "试试官网介绍的传统烤猪肉配卷心菜、面包团子，或按当天菜单选区域菜。",
+        "把湖区的一顿晚餐留给老屋空间与当地饮食，不用边赶路边吃。"
+      ],
+      "bestTime": "建议按原计划确认一晚 18:00 左右桌位，留出 1.5–2 小时；雨天同样适合，往返交通要先安排。",
+      "tradeoff": "花费与用餐时间都高于简单晚饭；不在住宿楼下，不能把湖边散步结束的位置当作餐厅门口。",
+      "photo": {
+        "url": "https://www.steegwirt.at/uploads/pZZTGWds/644x0_644x0/bild3__msi___jpg.webp",
+        "page": "https://www.steegwirt.at/",
+        "caption": "Steegwirt 室内：老木梁与餐桌",
+        "credit": "Steegwirt 官网；摄影署名未列出"
+      },
+      "coordinates": {
+        "lat": 47.612125,
+        "lng": 13.632213,
+        "sourceUrl": "https://www.steegwirt.at/"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "建议先确认两人桌位，收到回复才算订位。未替你们预约；午餐与晚餐按兴趣选一次。",
+        "url": "https://www.steegwirt.at/speis--trank/tischanfrage"
+      }
     },
     {
       "id": "lk-moser",
@@ -2840,7 +3650,31 @@
         "moser"
       ],
       "map": "Moserwirt Bad Goisern",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Bad Goisern 镇中心的传统客栈餐馆，适合抵达后吃一顿热饭，不再为了晚餐赶去另一个镇。",
+      "appearance": "明亮的用餐室配木桌椅和绿色瓷砖炉，保留老客栈的元素，又不是昏暗的山间小屋。",
+      "highlights": [
+        "入住后坐下来吃晚饭，把当天最后一段安排放轻松。",
+        "晴暖时可问花园位，天气不好就在传统用餐室休息。"
+      ],
+      "bestTime": "建议沿用抵达日约 18:30 的安排，列车晚点就联系店家；周三闭店，不能当作每天的备用晚餐。",
+      "tradeoff": "优势在镇内方便与稳定用餐，目的不是湖景；周四的特定晚餐需预约，选择不如普通营业日自由。",
+      "photo": {
+        "url": "https://www.moserwirt.at/wp-content/uploads/Moserwirt-07-2020-RK-Gaststube-B07-1920x1280WEB.jpg",
+        "page": "https://www.moserwirt.at/gasthof/",
+        "caption": "Moserwirt 用餐空间",
+        "credit": "Moserwirt 官网；摄影署名未列出"
+      },
+      "coordinates": {
+        "lat": 47.642577,
+        "lng": 13.617033,
+        "sourceUrl": "https://dachstein.salzkammergut.at/oesterreich-gastronomie/detail/101255/gasthof-hotel-moserwirt.html"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "正式晚餐建议联系店家确认桌位；周四特定晚餐尤其先问，不默认可以直接到店。",
+        "url": "https://www.moserwirt.at/kontakt/"
+      }
     },
     {
       "id": "lk-zauner",
@@ -2858,8 +3692,39 @@
       "refs": [
         "zauner"
       ],
-      "map": "Zauner Esplanade Bad Ischl",
-      "effort": "轻松"
+      "map": "Konditorei Zauner Pfarrgasse 7 Bad Ischl",
+      "effort": "轻松",
+      "intro": "Bad Ischl 的经典甜点店与咖啡馆，有 Pfarrgasse 老店和 Esplanade 河岸店；选一家休息就够。",
+      "appearance": "老店有金色装饰的玻璃甜点柜与吊灯；河岸店则适合把咖啡休息接到 Esplanade 散步里。",
+      "highlights": [
+        "看甜点柜挑一份蛋糕，配咖啡；也可试店家的 Zaunerstollen 招牌甜食。",
+        "天晴选河岸店衔接散步，下雨去老店看传统咖啡馆空间。"
+      ],
+      "bestTime": "建议午后当作散步间的休息站；Pfarrgasse 18:00 关门，想看老店不要留到晚餐后。",
+      "tradeoff": "是知名老店，可能要等位；两家都打卡会占掉慢逛时间，排队太久可外带。",
+      "photo": {
+        "url": "https://zauner.at/wp-content/uploads/2024/06/zauner-cafe-konditorei-verkauf-c-MatthiasHeschl-1196x1124-1.jpg",
+        "page": "https://zauner.at/en/contact/location-contact/",
+        "caption": "Zauner Pfarrgasse 老店甜点柜台",
+        "credit": "Matthias Heschl / Zauner"
+      },
+      "coordinates": {
+        "lat": 47.710919,
+        "lng": 13.621856,
+        "sourceUrl": "https://www.salzkammergut.at/oesterreich-gastronomie/detail/103885/konditorei-zauner.html"
+      },
+      "booking": {
+        "status": "座位待现场／电话确认",
+        "detail": "咖啡甜点可按现场情况选择；想保证座位或吃正餐，先联系具体分店。两家门店分别确认。",
+        "url": "https://zauner.at/en/contact/location-contact/"
+      },
+      "coordinateNote": "图钉为 Pfarrgasse 7 老店；Esplanade 河岸店是另一家分店，下面有单独地图入口。",
+      "relatedMaps": [
+        {
+          "label": "Esplanade 河岸分店",
+          "query": "Zauner Esplanade Bad Ischl"
+        }
+      ]
     },
     {
       "id": "lk-sirius",
@@ -2878,7 +3743,31 @@
         "sirius"
       ],
       "map": "Gasthaus Siriuskogl Bad Ischl",
-      "effort": "有爬坡"
+      "effort": "有爬坡",
+      "intro": "Bad Ischl 小山顶上的餐馆，靠步行上山，把俯瞰小镇与一顿午餐放在一起。",
+      "appearance": "山顶有老观景塔和餐馆，视野越过树梢看镇中心屋顶与四周山谷。",
+      "highlights": [
+        "先爬一段坡，再从高处辨认 Bad Ischl 的街区和山谷。",
+        "吃以季节和本地食材为基础、带现代做法的区域料理。"
+      ],
+      "bestTime": "建议晴朗干燥的一天订午餐，按原计划给上坡留 30–45 分钟；白天下坡更好掌握路况。",
+      "tradeoff": "景观靠实际爬坡换来，雨后湿滑或腿累时不划算；也可能遇到包场，必须先确认桌位。",
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/428868/0FE0000638E30AFD0C127DA71ADE707DE99F53B0014F3A4442CF807D99F787E7/ausblick-vom-siriuskogl.jpg",
+        "page": "https://badischl.salzkammergut.at/en/oesterreich-gastronomie/detail/102092/gasthaus-siriuskogl.html",
+        "caption": "从 Siriuskogl 俯瞰 Bad Ischl",
+        "credit": "cmvisuals / Salzkammergut Tourismus Marketing"
+      },
+      "coordinates": {
+        "lat": 47.70469335547975,
+        "lng": 13.617854118347168,
+        "sourceUrl": "https://badischl.salzkammergut.at/en/oesterreich-gastronomie/detail/102092/gasthaus-siriuskogl.html"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "上山前先联系餐厅确认桌位与营业，避免走到山顶才发现满座或包场；未替你们预约。",
+        "url": "https://badischl.salzkammergut.at/en/oesterreich-gastronomie/detail/102092/gasthaus-siriuskogl.html"
+      }
     },
     {
       "id": "lk-traunkirchen",
@@ -2899,7 +3788,32 @@
         "oebb"
       ],
       "map": "Traunkirchen Ort",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Traunsee 湖畔的小镇，最容易记住的是伸向湖面的岩石小山和山上的白色教堂。",
+      "appearance": "湖面前有帆船与临水房屋，Johannesberg 上的白教堂被树包围，背后是高大岩山。",
+      "highlights": [
+        "沿镇中心与湖岸慢走，找教堂、湖面和山体同框的角度。",
+        "挑一小段历史步道看小镇，不必把进入教堂当成完成目标。"
+      ],
+      "bestTime": "建议天气好、能看清山体的白天抵达，预留大半天往返；不是到傍晚才匆忙追加的一站。",
+      "tradeoff": "比留在 Bad Ischl 更费接驳时间；Johannesberg 的围挡限制必须保留，照片不代表可以走到教堂内。",
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/208999/11408FD0ABA445F838DF5D2F28AF232D48F06B1C2D0FC05C6D50452EA5E7EEFE/johannesberg-mit-johannesbergkapelle.jpg",
+        "page": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430001876/johannesberg-with-johannesberg-chapel.html",
+        "caption": "Traunkirchen 的 Johannesberg 与湖畔教堂外观",
+        "credit": "TVB Traunsee-Almtal / brainpark.traunsee"
+      },
+      "coordinates": {
+        "lat": 47.8446306264733,
+        "lng": 13.791092634201,
+        "sourceUrl": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430001876/johannesberg-with-johannesberg-chapel.html"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "公共湖岸与镇中心散步无需预约；教堂内部与围挡范围另看现场，不视为预约后即可进入。",
+        "url": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430001876/johannesberg-with-johannesberg-chapel.html"
+      },
+      "coordinateNote": "坐标代表 Johannesberg 湖畔景观点，不代表可越过围挡或进入教堂。"
     },
     {
       "id": "lk-wolfgang",
@@ -2916,10 +3830,36 @@
       "caution": "只作可替换整日方案。公共交通不顺、阴雨大风就删掉。",
       "refs": [
         "wolfgang",
-        "ooevv"
+        "ooevv",
+        "visual-lk-wolfgang-0"
       ],
       "map": "Strobl Wolfgangsee Austria",
-      "effort": "中等"
+      "effort": "中等",
+      "intro": "用游船看 Wolfgangsee 的湖面、村镇与山峰；船本身就是体验，不只是两地间的交通。",
+      "appearance": "蓝绿水面旁是岩壁、森林和湖边村镇，白色游船在山脚下行驶，视角会随航行变化。",
+      "highlights": [
+        "选一段能接上回程的船，在甲板或窗边看湖岸与山势。",
+        "只搭配一个村落短逛，把时间留在水面和岸边。"
+      ],
+      "bestTime": "建议无大风、能见度好的白天，按实际秋季船表选往返；先有回程班次，再决定停留多久。",
+      "tradeoff": "接火车、巴士和船更费心，需完整一天；大风阴雨时甲板体验差，不能随意错过回船。",
+      "photo": {
+        "url": "https://www.5schaetze.at/content/dam/tourism/bilder/bilder_neu/wolfgangseeschifffahrt/images/SBG_AG_230821_2430.jpg/_jcr_content/renditions/responsive.1020.640.noborder.scale.b68daaf13a303ed2.jpg",
+        "page": "https://www.5schaetze.at/en/wolfgangseeschifffahrt.html",
+        "caption": "Wolfgangsee 游船与 Falkenstein 岩壁",
+        "credit": "Salzburg AG Tourismus 官网；摄影署名未列出"
+      },
+      "coordinates": {
+        "lat": 47.7195752,
+        "lng": 13.4817924,
+        "sourceUrl": "https://www.5schaetze.at/en/wolfgangseeschifffahrt.html"
+      },
+      "booking": {
+        "status": "需船票，散客通常不用预约",
+        "detail": "运营方称少于 20 人无需团体预约，可船上或线上买票；仍要先查本次日期航线和回程，不能视为保证有任意班次。",
+        "url": "https://www.5schaetze.at/en/wolfgangseeschifffahrt.html"
+      },
+      "coordinateNote": "图钉为 Strobl 上船点，用来判断湖区位置；不同村镇有其他码头，选好后再核对船班。"
     },
     {
       "id": "lk-dachstein",
@@ -2935,10 +3875,43 @@
       "hours": "9 月中后工作日常规末班下山较早；官网显示上层约 17:00、下层约 17:10，必须当日复核。",
       "caution": "云雾、风大、早雪或体力一般就不去。Koppenbrüller 洞穴季节已于 9/27 结束，不放进你们的湖区三晚。",
       "refs": [
-        "dachstein"
+        "dachstein",
+        "visual-lk-dachstein-0"
       ],
-      "map": "Dachstein Krippenstein Seilbahn",
-      "effort": "较费体力"
+      "map": "5 Fingers Dachstein Krippenstein Obertraun",
+      "effort": "较费体力",
+      "intro": "坐缆车上 Krippenstein，再步行到 5 Fingers 悬空观景台，从高处俯看 Hallstättersee 与群山。",
+      "appearance": "五条金属平台像手指伸出崖边，脚下是陡落山壁，远处能看到狭长湖面、村落与层叠山峰。",
+      "highlights": [
+        "在安全开放的平台看山湖全景；喜欢拍照可用框景平台取景。",
+        "把缆车上升与高山短走连成一次体验，不必再叠加洞穴。"
+      ],
+      "bestTime": "建议早上先看山顶摄像头，确认清晰且风小再上山；给往返步行及末班缆车留足余量，不为日落赌末班。",
+      "tradeoff": "票价与接驳成本较高，雾里可能什么都看不到；恐高、寒冷大风或路面结冰时体验会打折。",
+      "photo": {
+        "url": "https://a.storyblok.com/f/243512/2048x1534/13cc91c59e/dachstein-five-fingers-totale-web-6.jpg/m/800x721/filters:focal(1057x1164:1058x1165)",
+        "page": "https://www.dachstein-salzkammergut.com/en/summer/above-ground/5fingers",
+        "caption": "Krippenstein 的 5 Fingers 悬空观景台",
+        "credit": "Dachstein Krippenstein 官网；摄影署名未列出"
+      },
+      "booking": {
+        "status": "需缆车票",
+        "detail": "观景台不单独等于一张缆车票：先选能到第二段山顶的票种，并查当天运营和天气；上站至平台仍须步行。",
+        "url": "https://www.dachstein-salzkammergut.com/en/summer/above-ground/5fingers"
+      },
+      "coordinateNote": "图钉标在山上的 5 Fingers 观景平台；实际先抵达山下 Krippenstein 缆车站，再乘缆车与步行。直线距离不能当作可直接步行的路程。",
+      "coordinates": {
+        "lat": 47.5286487,
+        "lng": 13.6920413,
+        "sourceUrl": "https://www.openstreetmap.org/way/123899642",
+        "label": "5 Fingers, Angeralm, Obertraun, Bezirk Gmunden, Oberösterreich, 4831, Österreich"
+      },
+      "relatedMaps": [
+        {
+          "label": "缆车山下站",
+          "query": "Dachstein Krippenstein Seilbahn Talstation Obertraun"
+        }
+      ]
     },
     {
       "id": "lk-goisern",
@@ -2956,10 +3929,36 @@
       "refs": [
         "jeffsdistance",
         "moser",
-        "handwerk"
+        "handwerk",
+        "visual-lk-goisern-0",
+        "visual-lk-goisern-1"
       ],
       "map": "Bad Goisern Markt",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "你们连住三晚的生活小镇，以山谷、传统房屋和地方手工文化为背景，适合安排一个不赶车的半天。",
+      "appearance": "山谷间铺开低矮房屋，镇中心有浅色立面和传统屋顶；住宿镇中心不是贴着湖岸的一排房子。",
+      "highlights": [
+        "在镇中心短走，看房屋和日常店铺，再找地方喝热饮。",
+        "把休息和晚餐留在住宿地，减轻跨城与山湖出游的疲劳。"
+      ],
+      "bestTime": "建议留在需要恢复体力的午后；若想顺便看店铺就在白天去，周三晚饭提前确定。",
+      "tradeoff": "适合生活感与休息，不是密集景点或震撼湖景；想看湖还得另去 Untersee。",
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/298197/FB98DC68C6FEDD7A4BB487C389D659BF01C6E3588D8DEA17A6133E9CB4A9F971/ausblick-ueber-bad-goisern.jpg",
+        "page": "https://presseservice.salzkammergut.at/en/oesterreich-stadt-ort/detail/430000966/bad-goisern-at-lake-hallstatt.html",
+        "caption": "Bad Goisern 山谷全景，非镇中心步行视角",
+        "credit": "Julian Elliot Photography"
+      },
+      "coordinates": {
+        "lat": 47.6421,
+        "lng": 13.6167,
+        "sourceUrl": "https://presseservice.salzkammergut.at/en/oesterreich-stadt-ort/detail/430000966/bad-goisern-at-lake-hallstatt.html"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "镇中心公共街道散步无需预约；吃饭和手工体验各自确认。",
+        "url": "https://presseservice.salzkammergut.at/en/oesterreich-stadt-ort/detail/430000966/bad-goisern-at-lake-hallstatt.html"
+      }
     },
     {
       "id": "pr-novysvet",
@@ -2979,7 +3978,31 @@
         "novycafe"
       ],
       "map": "Nový Svět Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "城堡旁的旧居民街区，原来住着为城堡工作的人；今天仍是有人生活的小巷。",
+      "appearance": "弯曲石板路、低矮彩色房子、红瓦屋顶和带名字的老门牌。",
+      "highlights": [
+        "边走边看小房子与门牌，不用买票",
+        "拐进小巷拍街景，再接一杯咖啡"
+      ],
+      "bestTime": "建议抵达后的下午至天黑前；有自然光看房子，也能顺路喝咖啡。",
+      "tradeoff": "重点是街巷气氛，没有一个必看的大景点；有坡和石板路，需尊重住户。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13062512/161104-pct-big-00032-novy-svet-scaled.jpg",
+        "page": "https://prague.eu/en/objevujte/novy-svet-new-world/",
+        "caption": "Nový Svět 街区的房屋与石板路（旅游局高处视角）",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.091291091598,
+        "lng": 14.389611758378,
+        "sourceUrl": "https://prague.eu/en/objevujte/novy-svet-new-world/"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "公共街巷散步不用订票；住户庭院不是开放参观点。",
+        "url": "https://prague.eu/en/objevujte/novy-svet-new-world/"
+      }
     },
     {
       "id": "pr-cafe",
@@ -2998,7 +4021,31 @@
         "novycafe"
       ],
       "map": "Kavárna Nový Svět Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Nový Svět 小巷里的家庭经营咖啡馆，适合把散步变成一段坐下来的休息。",
+      "appearance": "老房子的浅色外墙、拱形入口和小桌椅，门前有绿植。",
+      "highlights": [
+        "散步后喝杯咖啡",
+        "坐着看小巷，不必另跑市中心"
+      ],
+      "bestTime": "建议下午散步后；你们周五抵达可接原定 17:15 停留，别拖到关门前。",
+      "tradeoff": "店面小，座位不保证；适合咖啡休息，不应指望在这里吃完整晚餐。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/08/17161931/469660625_17886609789166291_5513697265495884750_n.jpg",
+        "page": "https://prague.eu/en/objevujte/kavarna-novy-svet-new-world-cafe/",
+        "caption": "Kavárna Nový Svět 咖啡馆外观",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.0911765,
+        "lng": 14.3905105,
+        "sourceUrl": "https://prague.eu/en/objevujte/kavarna-novy-svet-new-world-cafe/"
+      },
+      "booking": {
+        "status": "预约规则待确认",
+        "detail": "咖啡馆席位不保证；若一定要在特定时间坐下，先通过官方联系渠道询问。",
+        "url": "https://prague.eu/en/objevujte/kavarna-novy-svet-new-world-cafe/"
+      }
     },
     {
       "id": "pr-brewery",
@@ -3014,10 +4061,35 @@
       "hours": "每日 10:00–22:00。",
       "caution": "旅游者不少，绝不是 hidden gem。优点是方便；周五晚建议订位。",
       "refs": [
-        "brewery"
+        "brewery",
+        "visual-pr-brewery-0"
       ],
       "map": "Klášterní pivovar Strahov Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Strahov 修道院区域里的小型酿酒厂餐厅，提供自酿啤酒和餐食。",
+      "appearance": "历史建筑里的酒馆空间，可见酿酒设备、木桌和啤酒吧台。",
+      "highlights": [
+        "吃一顿捷克风格晚餐",
+        "想喝酒可试店内自酿啤酒，不喝酒也可用餐"
+      ],
+      "bestTime": "建议抵达布拉格当晚用餐；离酒店近，长途火车后不用再跨城。",
+      "tradeoff": "这是知名酒馆，会有游客；周五晚建议订位，不把它当安静秘境。",
+      "photo": {
+        "url": "https://static.wixstatic.com/media/bfdc02_d484766c1e3e4df49cd46c4eb20ad19e~mv2.jpg",
+        "page": "https://www.klasterni-pivovar.cz/",
+        "caption": "Pivovar Strahov 餐厅内部与酿酒设备",
+        "credit": "Pivovar Strahov"
+      },
+      "coordinates": {
+        "lat": 50.0868848,
+        "lng": 14.3885103,
+        "sourceUrl": "https://www.klasterni-pivovar.cz/contact"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "建议为周末正餐提前订桌；联系邮箱见官网，提交申请不等于已确认。",
+        "url": "https://www.klasterni-pivovar.cz/contact"
+      }
     },
     {
       "id": "pr-jirak",
@@ -3037,7 +4109,31 @@
         "jirakrules"
       ],
       "map": "Jiřího z Poděbrad Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Jiřího z Poděbrad 广场上的农夫市集，逛的是蔬果、面包、奶酪和手作摊位。",
+      "appearance": "露天帐篷摊、花束和食材陈列，背后是广场上的大钟教堂。",
+      "highlights": [
+        "挑少量面包、奶酪或当季食物",
+        "逛完继续走 Vinohrady 街区，看日常城市生活"
+      ],
+      "bestTime": "周六上午最合这次行程，沿用 10:30 左右到达；不要等到午后摊位陆续收走才来。",
+      "tradeoff": "热门市集不等于人少；吃的按现场摊位决定，不把零食代替唯一正餐。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/12/05092347/01jzp-1.jpg",
+        "page": "https://prague.eu/en/akce/farmers-martkets-at-jirak/",
+        "caption": "Jiřák 露天市集摊位与广场教堂",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.078405408562,
+        "lng": 14.45084001786,
+        "sourceUrl": "https://prague.eu/en/akce/farmers-martkets-at-jirak/"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "逛露天市集不用订位；需要按举办日期和实际营业时段前往。",
+        "url": "https://prague.eu/en/akce/farmers-martkets-at-jirak/"
+      }
     },
     {
       "id": "pr-grebovka",
@@ -3056,7 +4152,31 @@
         "grebovka"
       ],
       "map": "Havlíčkovy sady Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "建在山坡上的城市公园，把意大利风格园景、人工岩洞和葡萄园放在同一片步道里。",
+      "appearance": "可见拱洞与喷泉、别墅、台阶，以及顺坡排列的葡萄藤。",
+      "highlights": [
+        "看看岩洞与喷泉，再沿园路散步",
+        "走到葡萄园视野开阔处，再去木亭休息"
+      ],
+      "bestTime": "建议晴天或阴天的午后，接市集和午饭；留在白天更容易看清园景。",
+      "tradeoff": "有坡与台阶，景物分散；腿累就只选一小段，雨天别为凑全园反复上下。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13095552/160504-pct-big-00002-grota-sady-m.jpg",
+        "page": "https://prague.eu/en/objevujte/havlicek-gardens-grebovka-havlickovy-sady/",
+        "caption": "Grébovka 公园的人工岩洞与喷泉",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.069081150685,
+        "lng": 14.445300580908,
+        "sourceUrl": "https://prague.eu/en/objevujte/havlicek-gardens-grebovka-havlickovy-sady/"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "公共公园散步不用订票，园内餐饮另算。",
+        "url": "https://prague.eu/en/objevujte/havlicek-gardens-grebovka-havlickovy-sady/"
+      }
     },
     {
       "id": "pr-altan",
@@ -3075,7 +4195,31 @@
         "altan"
       ],
       "map": "Altán Grébovka Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Grébovka 葡萄园里的木制凉亭餐吧，是公园中坐下喝饮品、看葡萄藤的停留点。",
+      "appearance": "开放式木亭架在葡萄园坡上，木栏杆外就是一行行藤架。",
+      "highlights": [
+        "在葡萄园旁坐下喝一杯",
+        "把公园散步分成两段，边休息边看风景"
+      ],
+      "bestTime": "建议有日光的午后，和 Grébovka 公园一起去；好天气比专门卡时间更重要。",
+      "tradeoff": "景观席位受天气和到店情况影响；阴雨可跳过，不作为唯一正餐来源。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13084752/jpgtif-dsc6621-1.jpg",
+        "page": "https://prague.eu/en/objevujte/altan-grebovka/",
+        "caption": "Altán Grébovka 木亭与葡萄园",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.068729442503,
+        "lng": 14.444285283328,
+        "sourceUrl": "https://prague.eu/en/objevujte/altan-grebovka/"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "有确定用餐时段或想坐景观位时，建议提前联系；不保证能指定露台席位。",
+        "url": "https://prague.eu/en/objevujte/altan-grebovka/"
+      }
     },
     {
       "id": "pr-brevnov",
@@ -3094,7 +4238,31 @@
         "brevnov"
       ],
       "map": "Břevnov Monastery Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "始建于 993 年的本笃会修道院，今天看到的是巴洛克建筑群与向公众开放的花园。",
+      "appearance": "浅色教堂、绿色塔顶、修道院建筑和池塘，水边能看建筑倒影。",
+      "highlights": [
+        "只走花园与院落，看教堂外观和池塘",
+        "顺路去 Klášterní šenk 吃捷克午餐"
+      ],
+      "bestTime": "建议周日上午，午饭后还能从容回酒店取行李；内部导览不用硬塞进当天。",
+      "tradeoff": "花园散步和内部参观是两回事；内部有固定导览，普通庭院开放不代表所有空间可进。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/04/21132619/jpgtif_DSC4663.jpg",
+        "page": "https://prague.eu/en/objevujte/brevnov-monastery-brevnovsky-klaster/",
+        "caption": "Břevnov 修道院与池塘倒影",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.084750418499,
+        "lng": 14.356808668123,
+        "sourceUrl": "https://prague.eu/en/objevujte/brevnov-monastery-brevnovsky-klaster/"
+      },
+      "booking": {
+        "status": "花园无需预约",
+        "detail": "这里的候选是花园和外观；内部导览另有固定班次，英文导览需事先安排。",
+        "url": "https://prague.eu/en/objevujte/brevnov-monastery-brevnovsky-klaster/"
+      }
     },
     {
       "id": "pr-senk",
@@ -3113,7 +4281,31 @@
         "senk"
       ],
       "map": "Klášterní šenk Břevnov Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Břevnov 修道院内的传统捷克餐厅，适合把花园散步和一顿热午餐接在一起。",
+      "appearance": "老建筑里的木梁、木桌椅和吧台，整体是传统酒馆氛围。",
+      "highlights": [
+        "选汤和捷克主菜坐下来吃",
+        "吃完可继续院落短走，不用为餐厅额外跨城"
+      ],
+      "bestTime": "建议周日约 12:30，接修道院上午散步；先收到餐厅确认，再按订位安排。",
+      "tradeoff": "在线表单只是申请，未确认不算有桌；别套用工作日午间特价到周日。",
+      "photo": {
+        "url": "https://www.klasternisenk.cz/obr/galerie/obr/02.jpg",
+        "page": "https://www.klasternisenk.cz/de/galerie",
+        "caption": "Klášterní šenk 餐厅内部",
+        "credit": "Klášterní šenk"
+      },
+      "coordinates": {
+        "lat": 50.083808577516,
+        "lng": 14.3567160021,
+        "sourceUrl": "https://prague.eu/cs/objevujte/klasterni-senk/"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "官网要求收到餐厅电话或邮件确认才算订位成功；当天订位请致电，网上表单用于提前至少 24 小时申请。",
+        "url": "https://www.klasternisenk.cz/"
+      }
     },
     {
       "id": "pr-hvezda",
@@ -3132,7 +4324,31 @@
         "hvezda"
       ],
       "map": "Obora Hvězda Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "曾作王室狩猎场的大片林地公园，几条笔直林荫道通向六角星形平面的夏宫。",
+      "appearance": "高树围着宽阔步道，尽头是一座浅色、造型简洁的夏宫。",
+      "highlights": [
+        "沿一条林荫大道走到夏宫外，再原路返回",
+        "在树荫下走走坐坐，不需要进馆"
+      ],
+      "bestTime": "建议晴天的上午或早下午；你们飞行当天若已经超过 15:00，就按原计划跳过。",
+      "tradeoff": "亮点是树林和散步，不是密集景点；在 Břevnov 更西边，会增加往返时间，雨后可能泥泞。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13095307/obora-hvezda.jpg",
+        "page": "https://prague.eu/cs/objevujte/obora-hvezda/",
+        "caption": "Hvězda 林荫大道与夏宫外观",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.083287985517,
+        "lng": 14.327372564038,
+        "sourceUrl": "https://prague.eu/cs/objevujte/obora-hvezda/"
+      },
+      "booking": {
+        "status": "公园无需预约",
+        "detail": "森林公园全年自由进入；夏宫内部参观不包含在这项散步候选里。",
+        "url": "https://prague.eu/cs/objevujte/obora-hvezda/"
+      }
     },
     {
       "id": "pr-library",
@@ -3149,10 +4365,35 @@
       "caution": "10/2 抵达后不赶最后入场。想深入看书厅，先向官方确认特殊参观权限。",
       "refs": [
         "strahov",
-        "libraryexperience"
+        "libraryexperience",
+        "visual-pr-library-0"
       ],
       "map": "Strahov Library Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Strahov 修道院保存至今的历史图书馆；这一站主要看书厅建筑与天花装饰。",
+      "appearance": "高耸木书架、满墙古书、地球仪和绘满壁画的天花，是很直观的室内建筑看点。",
+      "highlights": [
+        "从门口观看神学厅与哲学厅的书架、壁画",
+        "沿走廊看珍奇柜和书籍相关展陈"
+      ],
+      "bestTime": "建议雨天上午，作为酒店附近约一小时的替代；10/2 抵达后不赶末场。",
+      "tradeoff": "普通票不能走进两座历史书厅，只能从入口观看；照片展示书厅全貌，不代表购票后可站到照片位置。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13100323/dsc-8589.jpg",
+        "page": "https://prague.eu/en/objevujte/strahov-library-theological-hall-philosophical-hall-strahovska-knihovna/",
+        "caption": "Strahov 图书馆神学厅全貌；普通参观从门口观看",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.086228643903,
+        "lng": 14.389210853442,
+        "sourceUrl": "https://prague.eu/en/objevujte/strahov-library-theological-hall-philosophical-hall-strahovska-knihovna/"
+      },
+      "booking": {
+        "status": "需购票",
+        "detail": "普通参观从入口观看两座历史书厅，不能走入书架间；票种、开放情况以购票时官网为准。",
+        "url": "https://www.strahovskyklaster.cz/en/for-visitors/visitors-rules"
+      }
     },
     {
       "id": "pr-kolkovna",
@@ -3171,7 +4412,31 @@
         "kolkovna"
       ],
       "map": "Kolkovna Výstaviště Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "位于 Výstaviště 展览园区的酿酒厂餐厅，结合店内酿酒与传统捷克菜。",
+      "appearance": "高窗、高挑用餐厅、夹层与可见的酿酒设备，是较大的啤酒餐厅。",
+      "highlights": [
+        "在北城游玩时吃捷克菜、喝饮品",
+        "对啤酒有兴趣可看酒单，导览另需确认安排"
+      ],
+      "bestTime": "仅建议作为北城路线的午餐或晚餐，跟着当天所在区域选。",
+      "tradeoff": "与默认 Vinohrady 路线不同方向；如果只想安静花园，不值得为吃一餐专门横穿城市。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2026/06/01124558/mg-4272-hdr-1-web_1920x0_0.jpg",
+        "page": "https://prague.eu/en/objevujte/kolkovna-brewery-and-restaurant/",
+        "caption": "Výstaviště Kolkovna 餐厅内部与酿酒设备",
+        "credit": "Prague City Tourism"
+      },
+      "coordinates": {
+        "lat": 50.1052717,
+        "lng": 14.4292055,
+        "sourceUrl": "https://prague.eu/en/objevujte/kolkovna-brewery-and-restaurant/"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "周末正餐建议先联系餐厅订桌；酿酒厂导览是额外活动，需单独确认场次。",
+        "url": "https://prague.eu/en/objevujte/kolkovna-brewery-and-restaurant/"
+      }
     },
     {
       "id": "pr-parlament",
@@ -3187,10 +4452,35 @@
       "hours": "官网捷克文列周六 11:30–24:00，周日 11:30–23:00。",
       "caution": "大店可能热闹，不是安静私房菜。工作日便宜午餐套餐不适用于这次周六。",
       "refs": [
-        "parlament"
+        "parlament",
+        "visual-pr-parlament-0"
       ],
       "map": "Vinohradský Parlament Prague",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "Vinohrady 的大型捷克餐厅，主打传统菜、捷克面团配菜和皮尔森啤酒；名字虽叫 Parlament，实际不是议会。",
+      "appearance": "高拱窗、挑高大厅与排开的长木桌，比小咖啡馆宽敞热闹。",
+      "highlights": [
+        "把捷克面团配菜配主菜，吃一顿完整午餐",
+        "接在 Jiřák 市集与 Grébovka 公园之间，减少绕路"
+      ],
+      "bestTime": "建议周六市集后约 12:30–13:30，用完午餐再慢走去公园。",
+      "tradeoff": "大店氛围可能热闹；周六不能按工作日优惠午餐来预算，菜品看当日菜单。",
+      "photo": {
+        "url": "https://www.vinohradskyparlament.cz/user/documents/upload/gallery/01-vinohradsky-parlament.jpg",
+        "page": "https://www.vinohradskyparlament.cz/galerie/",
+        "caption": "Vinohradský Parlament 餐厅挑高大厅",
+        "credit": "Vinohradský Parlament"
+      },
+      "coordinates": {
+        "lat": 50.075478084272,
+        "lng": 14.438338756484,
+        "sourceUrl": "https://prague.eu/cs/objevujte/restaurace-vinohradsky-parlament/"
+      },
+      "booking": {
+        "status": "建议预约",
+        "detail": "若选作固定午餐，建议通过官网订桌；未取得餐厅确认前不视为已经预订。",
+        "url": "https://www.vinohradskyparlament.cz/"
+      }
     },
     {
       "id": "lk-handwerk",
@@ -3206,10 +4496,708 @@
       "hours": "官方列周一至周五 09:00–12:00、14:00–18:00，周六上午；适合周三周四。",
       "caution": "12:00–14:00 午休不要扑空。具体展览/导览仍需询问。",
       "refs": [
-        "handwerk"
+        "handwerk",
+        "visual-lk-handwerk-0",
+        "visual-lk-handwerk-1"
       ],
       "map": "HAND.WERK.HAUS Bad Goisern",
-      "effort": "轻松"
+      "effort": "轻松",
+      "intro": "设在 Neuwildenstein 老建筑里的地方手工文化空间，结合手工作品展示与一楼小店。",
+      "appearance": "旧木梁、白墙与现代陈列混在一起，能看到布料、器物和各种日常手工作品。",
+      "highlights": [
+        "看看当地工匠如何把传统工艺用在日常用品里。",
+        "逛一楼 Lieblingswerk，挑喜欢的小物；不参加工作坊也能短停。"
+      ],
+      "bestTime": "建议雨天上午或 14:00 后前往，避开 12:00–14:00 午休；只保留原有短停安排，不新增展览行程。",
+      "tradeoff": "空间和体验偏小而细，需要对手工与小店有兴趣；工作坊与导览不保证随到随参加。",
+      "photo": {
+        "url": "https://handwerkhaus.at/wp-content/uploads/2026/03/lieblingswerk-004-20260210-130405-400x300.jpg",
+        "page": "https://handwerkhaus.at/",
+        "caption": "HAND.WERK.HAUS 内的 Lieblingswerk 商店",
+        "credit": "HAND.WERK.HAUS 官网；摄影署名未列出"
+      },
+      "coordinates": {
+        "lat": 47.640656067,
+        "lng": 13.617682457,
+        "sourceUrl": "https://dachstein.salzkammergut.at/en/visitor-information/our-world-heritage/oesterreich-poi/detail/400272/hand-werk-haus-salzkammergut.html"
+      },
+      "booking": {
+        "status": "小店可到访，导览另约",
+        "detail": "只逛小店可按营业时段到访；展览门票与导览另确认，工作坊不能默认随到随参加。",
+        "url": "https://handwerkhaus.at/"
+      }
+    },
+    {
+      "id": "pr-charles-kampa",
+      "name": "查理大桥 + Kampa · 经典河景与桥下散步",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "1.5–2 小时",
+      "budget": "桥面与公共街巷散步免费，饮食另计",
+      "intro": "查理大桥是跨越伏尔塔瓦河的中世纪石桥；桥西侧的 Kampa 有河边小巷、广场和绿地。",
+      "appearance": "石拱桥两侧排着圣人雕像，远处是城堡与教堂塔尖；下到 Kampa 能从河边回看桥拱。",
+      "highlights": [
+        "走一段桥面，看雕像、河流和城堡轮廓",
+        "从西侧下到 Kampa，在河边与小巷里慢走"
+      ],
+      "why": "如果你们只想选一个布拉格经典地标，这里同时有桥、河与街景，画面很容易理解。",
+      "do": "不必来回刷整座桥；选一段桥面，再到 Kampa 找河岸视角，累了就坐下喝饮品。",
+      "access": "从 Lindner 所在城堡区往小城区方向下行；可以先坐公共交通减少步行，下坡走完不等于回程同样轻松。",
+      "hours": "桥面与公共街巷不按博物馆场次参观；临时活动或现场管制以标识为准，桥塔另算。",
+      "caution": "热门地标可能拥挤，别把桥上拥挤段当作安静散步；石板路与桥下台阶注意脚下。",
+      "map": "Charles Bridge Prague",
+      "effort": "有石板路与台阶",
+      "bestTime": "建议上午较早，或下午后段有日光时；前者是避开忙碌时段的策略，不能保证无人。",
+      "tradeoff": "比 Nový Svět 更经典，也更容易遇到游客人流；若只要安静街巷，可优先选 Nový Svět。",
+      "city": "布拉格",
+      "refs": [
+        "city-pr-charles-kampa-0",
+        "city-pr-charles-kampa-1"
+      ],
+      "coordinates": {
+        "lat": 50.086500914579,
+        "lng": 14.411723613739,
+        "sourceUrl": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "这里推荐公共街巷或园区外观散步，不需预约；付费室内、登塔或导览另查。",
+        "url": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/"
+      },
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13103022/dsc-5690-1.jpg",
+        "page": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/",
+        "caption": "查理大桥的石拱与河景；Kampa 是桥西侧的延伸散步区",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "pr-letna",
+      "name": "Letná 公园 · 从高处看伏尔塔瓦河与桥",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1–2 小时",
+      "budget": "公共公园散步免费，饮品另计",
+      "intro": "河岸北侧高地上的大公园，主要价值是林荫道、草坪，以及俯看布拉格河流与桥梁的视野。",
+      "appearance": "高树和宽步道之间有草坪与长椅；向河的一侧能看城市屋顶，Hanavský 亭楼是醒目的铸铁建筑。",
+      "highlights": [
+        "沿河一侧找观景点，看桥梁和城市层次",
+        "林荫道散步、长椅休息；想喝东西再看附近店铺"
+      ],
+      "why": "适合想认识布拉格整体样子，又不想排队进馆的你们。",
+      "do": "以看河的观景点和一段林荫道为主，不用把整座公园走完；不要为了餐吧强行绕路。",
+      "access": "从 Lindner 可用公共交通到公园高地一侧，再步行；若从河岸进入通常要爬坡或台阶。",
+      "hours": "公共园区散步，未核实统一每日关门时刻；只建议白天，园内餐饮另查。",
+      "caution": "风大、阴雨或低能见度时全景价值下降；勿把季节性露天餐饮当全天候保证。",
+      "map": "Letenské sady Prague",
+      "effort": "入口可能有坡",
+      "bestTime": "建议能见度好的午后至日落前，留出白天下坡和返程时间；不必为了所谓最佳光线等很久。",
+      "tradeoff": "更擅长看城市全景，近处细节不如 Grébovka 的岩洞和葡萄园丰富；两座公园可按兴趣择一。",
+      "city": "布拉格",
+      "refs": [
+        "city-pr-letna-0"
+      ],
+      "coordinates": {
+        "lat": 50.09575877163,
+        "lng": 14.41585517666,
+        "sourceUrl": "https://prague.eu/en/objevujte/letna-park-letenske-sady/"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "这里推荐公共街巷或园区外观散步，不需预约；付费室内、登塔或导览另查。",
+        "url": "https://prague.eu/en/objevujte/letna-park-letenske-sady/"
+      },
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13095324/letenske-sady.jpg",
+        "page": "https://prague.eu/en/objevujte/letna-park-letenske-sady/",
+        "caption": "Letná 公园的草坪、林荫与 Hanavský 亭楼",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "pr-vysehrad",
+      "name": "Vyšehrad · 城墙上的河景公园",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1.5–2.5 小时",
+      "budget": "公共园区免费；教堂内部与特定导览另计",
+      "intro": "伏尔塔瓦河边的历史堡垒园区，今天可以沿城墙和公园步道散步，看河景与教堂外观。",
+      "appearance": "红砖城墙围着树林与草坪，圣彼得与圣保罗大教堂的双尖塔从树间露出来。",
+      "highlights": [
+        "沿开放城墙步道看河流与城市",
+        "在树荫里散步，看教堂外观后找长椅休息"
+      ],
+      "why": "比桥面散步更有“公园加城墙”的变化，适合愿意多花些交通时间换一个独立半天的人。",
+      "do": "选城墙河景段、教堂外观和一段园路即可；不把墓园、地道、教堂内部全部打包成任务。",
+      "access": "从 Lindner 需要公共交通转移；官方列 Vyšehrad 地铁站，以及河岸和 Albertov 一侧电车可达，最后仍有步行。",
+      "hours": "官方说明园区全年免费开放；各建筑、导览和售票空间另有时间表。",
+      "caution": "有高差和台阶；只走开放通道，教堂外观不等于内部随时免费进入。",
+      "map": "Vyšehrad Gardens Prague",
+      "effort": "有坡与台阶",
+      "bestTime": "建议上午后段或午后，留出连续 1.5–2.5 小时慢走；仅为城墙景观无需卡室内导览时段。",
+      "tradeoff": "距城堡区住宿较远，和 Letná 都有河景，和 Břevnov 都有宗教建筑外观；时间少时不必三处都选。",
+      "city": "布拉格",
+      "refs": [
+        "city-pr-vysehrad-0",
+        "city-pr-vysehrad-1"
+      ],
+      "coordinates": {
+        "lat": 50.064673621092,
+        "lng": 14.418499948431,
+        "sourceUrl": "https://prague.eu/en/objevujte/vysehrad-gardens-vysehradske-sady/"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "这里推荐公共街巷或园区外观散步，不需预约；付费室内、登塔或导览另查。",
+        "url": "https://prague.eu/en/objevujte/vysehrad-gardens-vysehradske-sady/"
+      },
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13094254/vysehrad-2.jpg",
+        "page": "https://prague.eu/en/objevujte/vysehrad-gardens-vysehradske-sady/",
+        "caption": "Vyšehrad 城墙、绿地与教堂双尖塔",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "pr-oldtown",
+      "name": "老城广场 · 一眼看懂布拉格老城",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "45–90 分钟",
+      "budget": "广场外观散步免费；登塔、室内参观和餐饮另计",
+      "intro": "布拉格历史中心的大广场，老市政厅、泰恩教堂与多种时代的建筑立面集中在周围。",
+      "appearance": "开阔石铺广场被彩色老楼围住，泰恩教堂双尖塔和胡斯纪念碑很容易认。",
+      "highlights": [
+        "绕广场看不同建筑立面和教堂双塔",
+        "看老市政厅与天文钟外观，不登塔也能认识地点"
+      ],
+      "why": "适合第一次来、想知道布拉格经典城市画面从何而来的人，一小段停留就有鲜明印象。",
+      "do": "从广场一侧慢慢走到另一侧，挑喜欢的立面看；若人多就从旁边街巷离开，不必等每一个表演或拍照点。",
+      "access": "从 Lindner 所在城堡区到老城，可乘公共交通后步行；与查理大桥同属经典中心区域，地图上可比较是否顺路。",
+      "hours": "公共广场外观不需要场次；市政厅、塔楼、教堂内部各自售票或开放，请单独核对。",
+      "caution": "游客核心区，拥挤与商业气氛是需要接受的取舍；不把广场上的餐厅默认当性价比最优选。",
+      "map": "Old Town Square Prague",
+      "effort": "主要为石板平路",
+      "bestTime": "建议上午较早或下午后段看立面；如果已经走查理大桥，可按体力选是否一起看，不强行等整点。",
+      "tradeoff": "典型、集中，但安静程度不如 Nový Svět；与查理大桥都是热门老城体验，不用为了打卡同时选满。",
+      "city": "布拉格",
+      "refs": [
+        "city-pr-oldtown-0"
+      ],
+      "coordinates": {
+        "lat": 50.087524890749,
+        "lng": 14.421104907924,
+        "sourceUrl": "https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/"
+      },
+      "booking": {
+        "status": "无需预约",
+        "detail": "这里推荐公共街巷或园区外观散步，不需预约；付费室内、登塔或导览另查。",
+        "url": "https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/"
+      },
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13101933/01-stm-radnice-0288ret-m.jpg",
+        "page": "https://prague.eu/en/objevujte/old-town-square-staromestske-namesti/",
+        "caption": "老城广场与泰恩教堂双塔，旅游局高处视角",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "lk-hallstatt",
+      "city": "湖区",
+      "name": "Hallstatt · 经典湖畔村落",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "村内约 2–3 小时，交通另计",
+      "budget": "公共街道散步不需村落门票；交通、餐饮和其他场馆另计",
+      "why": "想亲眼看湖边密集老屋与经典村落街景时，它与只看山水的 Untersee 是不同体验。",
+      "do": "沿公共湖岸街道慢走，到市场广场看彩色房屋，挑一处坐下来；不默认加盐矿或缆车。",
+      "access": "火车的 Hallstatt Bahnhof 在对岸，需再乘船到村内；公交到 Hallstatt Lahn。汽车游客不能直接开进历史中心。",
+      "hours": "公共街道按现场通行情况；店铺、教堂及其他场馆分别确认。",
+      "caution": "游客集中、空间窄，居民门口和私人台阶不要进入或堵路；停车位不能提前保证，别把停车耗时漏掉。",
+      "refs": [
+        "city-lk-hallstatt-0",
+        "city-lk-hallstatt-1",
+        "city-lk-hallstatt-2"
+      ],
+      "map": "Hallstatt Marktplatz Austria",
+      "effort": "轻至中等",
+      "intro": "夹在陡山与 Hallstättersee 之间的历史村落，主要看临湖老屋、市场广场和贴着山坡延伸的小街。",
+      "appearance": "彩色房屋围着小广场，木阳台与屋顶挤在山坡前，走到湖岸能看到湖水和山壁。",
+      "highlights": [
+        "看市场广场的彩色房屋，再沿公共湖岸看村落与山水同框。",
+        "街景、咖啡与临湖停留集中，想看经典“湖边小镇”时比纯湖岸更完整。"
+      ],
+      "bestTime": "建议留给有日光、能看清湖面的一段时间；愿意早到可增加停车与逛街余量，但不保证人少。",
+      "tradeoff": "知名度高、游客集中，购物与餐饮的旅游感明显；停车和渡船衔接都比在 Bad Goisern 镇里短走复杂。",
+      "booking": {
+        "status": "村内散步无需预约",
+        "detail": "公共街道不需要村落预约；渡船、其他场馆或导览分别购票。日访停车位不能预约，不等于抵达就一定有空位。",
+        "url": "https://www.hallstatt.net/parking-in-hallstatt/cars/?source=breadcrumbs"
+      },
+      "coordinates": {
+        "lat": 47.56239576822413,
+        "lng": 13.649241328239446,
+        "sourceUrl": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430003908/marketplace-hallstatt.html"
+      },
+      "coordinateNote": "官方页面地点锚点；代表广场或村镇入口，不是精确的湖岸拍照机位。",
+      "photo": {
+        "url": "https://assets.tourdata.at/660x495/211062/49F8D973819BF68619240CB47ADA8CC8F21B565DC0044F5AFEE67214DACF38A1/hallstatt-marktplatz.jpg",
+        "page": "https://www.salzkammergut.at/en/oesterreich-poi/detail/430003908/marketplace-hallstatt.html",
+        "caption": "Hallstatt 市场广场实景",
+        "credit": "Thomas Bichler"
+      }
+    },
+    {
+      "id": "lk-altaussee",
+      "city": "湖区",
+      "name": "Altaussee · 山脚下的湖岸",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "湖岸约 2–3 小时，来回接驳另留余量",
+      "budget": "湖岸散步为主，交通餐饮另计；不含船或盐矿",
+      "why": "喜欢山湖、想与 Gosausee 或 Hallstättersee 比较不同景色时，可收藏这一处；不是必去的第二个湖。",
+      "do": "从村边找公共湖岸走一小段，看看清水、岩山与船屋，坐下来休息；不要求完成环湖。",
+      "access": "从 Bad Goisern 前往需另查到 Altaussee 的完整接驳或询价预约车；不要把 Bad Aussee 车站当成湖边。",
+      "hours": "白天按天气与湖岸开放情况游览；餐饮、船与盐矿营业另查。",
+      "caution": "别占私人船屋和草地；低云会遮山，不为了多打卡一个湖付出过长往返。",
+      "refs": [
+        "city-lk-altaussee-0"
+      ],
+      "map": "Altaussee Austria",
+      "effort": "中等（主要是往返交通）",
+      "intro": "另一片被白色石灰岩山体和森林围住的蓝色湖水，村子贴近湖边；适合以湖岸散步为主的自然停留。",
+      "appearance": "湖面开阔、山脚有森林，背后露出浅色岩壁；与 Gosausee 的狭长高山取景不同。",
+      "highlights": [
+        "沿村边公共湖岸选短线，看岩山、湖水和岸边生活。",
+        "把时间花在一片湖边坐看景色，不需要再加盐矿或登山。"
+      ],
+      "bestTime": "建议选云层较高、无持续降雨的白天；先确认回程接驳，再决定在湖边停多久。",
+      "tradeoff": "从住宿地的接驳比留在 Bad Goisern 或 Untersee 更费事；如果只是想坐着看水，未必值得专程换湖。",
+      "booking": {
+        "status": "湖岸散步无需预约",
+        "detail": "只走公共湖岸通常无需预约；如加船、盐矿、餐厅或接送车，分别确认，不合并成免费开放承诺。",
+        "url": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001787/altaussee.html"
+      },
+      "coordinates": {
+        "lat": 47.64087293230039,
+        "lng": 13.765997886657706,
+        "sourceUrl": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001787/altaussee.html"
+      },
+      "coordinateNote": "官方页面地点锚点；代表广场或村镇入口，不是精确的湖岸拍照机位。",
+      "photo": {
+        "url": "https://assets.tourdata.at/660x495/244660/739C2811C2E4017344A74B8C21A862ED2F9D906B548CC5063A98577CD3D09541/altausseer-see.jpg",
+        "page": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001787/altaussee.html",
+        "caption": "Altaussee 湖岸与山景",
+        "credit": "Tourismusverband Ausseerland - Salzkammergut"
+      }
+    },
+    {
+      "id": "lk-stgilgen",
+      "city": "湖区",
+      "name": "St. Gilgen · Wolfgangsee 湖畔村镇",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "镇内和湖岸约 2–3 小时，交通另计",
+      "budget": "公共街道与湖岸散步为主，交通餐饮另计",
+      "why": "相比“船上看湖”，这项更适合想下船走走、看房屋与广场、坐湖边咖啡馆的人。",
+      "do": "镇中心短走，再到公共湖岸看 Wolfgangsee；坐一会儿即可，不默认加缆车。",
+      "access": "通常先接到 Bad Ischl 方向再转往 St. Gilgen 的交通；也可由已选的 Wolfgangsee 船线衔接，但必须核对停靠与回程。",
+      "hours": "公共街道白天游览；具体商店、餐厅和船班另查。",
+      "caution": "与 Wolfgangsee 游船属于同一片湖景，收藏两项不等于需要安排两次往返；照片是高处全景，非湖岸步行视角。",
+      "refs": [
+        "city-lk-stgilgen-0",
+        "visual-lk-wolfgang-0"
+      ],
+      "map": "St Gilgen Wolfgangsee Austria",
+      "effort": "中等（主要是往返交通）",
+      "intro": "Wolfgangsee 北岸的村镇，既有临湖散步空间，也有传统房屋与小街；它是岸上逛镇体验，不是另一座湖。",
+      "appearance": "教堂尖塔、浅色房屋和红褐屋顶集中在湖边，后面是绿色山坡；湖面向远处山谷展开。",
+      "highlights": [
+        "逛村镇街道和公共湖岸，把房屋、小广场与湖景放在一起看。",
+        "可作为 Wolfgangsee 游船的一处岸上停留；不坐船也能只逛镇。"
+      ],
+      "bestTime": "建议白天店铺与餐饮可用时慢逛；若搭船到达，先用班表确定回程，别为了傍晚湖景错过连接。",
+      "tradeoff": "从 Bad Goisern 过去比附近湖岸远；景观与 Wolfgangsee 船程有重叠，选它应是为了岸上生活感而非凑第三个湖。",
+      "booking": {
+        "status": "逛镇无需预约",
+        "detail": "公共街道与湖岸不需预约；搭船需船票、缆车需另购票，本卡不默认包含这些项目。",
+        "url": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001365/st-gilgen.html"
+      },
+      "coordinates": {
+        "lat": 47.76908473671826,
+        "lng": 13.359342813491821,
+        "sourceUrl": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001365/st-gilgen.html"
+      },
+      "coordinateNote": "官方页面地点锚点；代表广场或村镇入口，不是精确的湖岸拍照机位。",
+      "photo": {
+        "url": "https://assets.tourdata.at/260x195/397517/616387667C1060A4988E66DC79134971709FEAB4358FCC939897925D41807D4E/blickueberstgilgenunddenwolfgangseewolfgangseetourismusmirjageh-jpg.jpg",
+        "page": "https://www.salzkammergut.at/en/oesterreich-stadt-ort/detail/430001365/st-gilgen.html",
+        "caption": "St. Gilgen 镇中心与 Wolfgangsee 的高处全景（来源缩略图）",
+        "credit": "Mirja Geh / Wolfgangsee Tourismus"
+      }
+    },
+    {
+      "id": "bp-castle",
+      "city": "布达佩斯",
+      "name": "Fisherman’s Bastion · 渔人堡与城堡区",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1.5–3 小时",
+      "budget": "街区及下层露台免费；上层露台、教堂内部另付费",
+      "intro": "布达山上的观景露台和历史街区。渔人堡看着像童话城堡，主要用途是看多瑙河与佩斯全景。",
+      "appearance": "浅色石塔、拱廊和台阶，旁边是马加什教堂彩色屋顶；远处能看到河对岸的国会大厦。",
+      "highlights": [
+        "从下层露台看多瑙河、国会大厦与桥",
+        "在城堡区石板小街慢走，看马加什教堂外观"
+      ],
+      "why": "比普通街区更有明确的大景，适合第一次到布达佩斯、想看到代表性城市轮廓的人。",
+      "do": "先在渔人堡看全景，再选几条附近小街；不自动加教堂内部或博物馆。",
+      "access": "位于布达山上，需跨河并上坡；可结合公交减少爬坡，具体乘车查 BudapestGO。",
+      "hours": "户外街区可散步；上层收费露台及教堂的营业以官网当天为准。",
+      "caution": "有台阶、坡度和游客；露台景观不等于已包含马加什教堂内部。",
+      "map": "Fisherman's Bastion Budapest",
+      "effort": "有上坡",
+      "bestTime": "建议白天能见度好时看河岸全景；傍晚可看城市亮灯，但别为夜景压缩休息。",
+      "tradeoff": "景观辨识度强，但比酒店附近散步费体力，热门机位可能拥挤。",
+      "booking": {
+        "status": "户外无需预约",
+        "detail": "街区与下层露台不用预约；上层露台或教堂内部须按当天规则购票，非本条默认内容。",
+        "url": "https://www.budapestinfo.hu/en/10-best-viewpoints-in-budapest"
+      },
+      "refs": [
+        "city-bp-castle-0",
+        "city-bp-castle-1"
+      ],
+      "coordinates": {
+        "lat": 47.5023053,
+        "lng": 19.0346998,
+        "sourceUrl": "https://www.openstreetmap.org/relation/17948384",
+        "label": "Halászbástya, Gimnázium utca, Buda, Víziváros, I. kerület, Budapest, Közép-Magyarország, 1015, Magyarország"
+      },
+      "photo": {
+        "url": "https://budapestinfo.hu/storage/content-pages/1e9ZlOAZkMEsC3dQ9SKOpZNvKnItXE2MhG0K19Ua.jpg",
+        "page": "https://www.budapestinfo.hu/en/10-best-viewpoints-in-budapest",
+        "caption": "渔人堡的石拱廊与塔楼，黎明时拍摄",
+        "credit": "Krisztián Bódis / Budapestinfo"
+      }
+    },
+    {
+      "id": "bp-danube",
+      "city": "布达佩斯",
+      "name": "Danube Promenade · 河岸散步与 2 路电车",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1–2 小时",
+      "budget": "河岸散步免费；电车另需有效交通票",
+      "intro": "沿佩斯一侧的多瑙河岸看布达山与桥梁，也可坐一小段沿河的 2 路电车，让景色从窗边经过。",
+      "appearance": "河岸栏杆、桥梁、黄色电车与对岸高起的城堡轮廓，城市全景比小街更开阔。",
+      "highlights": [
+        "在 Vigadó tér 一带沿河走走，找对岸城堡角度",
+        "累了改坐一小段 2 路电车看河岸，站点按当天运行查询"
+      ],
+      "why": "不用把时间都花在走路上，也能很直接地理解布达佩斯为什么围着这条河展开。",
+      "do": "选一段河岸散步，或选择电车靠河侧看看窗外；不用坐完全程。",
+      "access": "可从酒店所在佩斯市中心走向 Vigadó tér；上下站与临时改道查 BudapestGO。",
+      "hours": "河岸为开放空间；电车按当天班次运行，不套用历史怀旧电车活动时刻。",
+      "caution": "2 路是日常交通，不是包车观光；不保证有座，街道与轨道过路需走指定通道。",
+      "map": "Vigadó tér Budapest",
+      "effort": "轻松",
+      "bestTime": "白天看建筑细节，傍晚看河岸和城市亮灯；风大或下雨时缩短步行。",
+      "tradeoff": "距离酒店近、随时可缩短，但河边风大，车窗反光和乘客可能影响拍照。",
+      "booking": {
+        "status": "无需预约，乘车需票",
+        "detail": "散步无需预约；电车使用有效 BKK 车票或通票，登车验票规则以官方说明为准。",
+        "url": "https://bkk.hu/en/"
+      },
+      "refs": [
+        "city-bp-danube-0",
+        "city-bp-danube-1",
+        "city-bp-castle-1"
+      ],
+      "coordinates": {
+        "lat": 47.4957076,
+        "lng": 19.0488096,
+        "sourceUrl": "https://www.openstreetmap.org/way/24051160",
+        "label": "Vigadó tér, Lipótváros, V. kerület, Budapest, Közép-Magyarország, Magyarország"
+      },
+      "photo": {
+        "url": "https://budapestinfo.hu/storage/media-library/7633/i-(5).jpg",
+        "page": "https://www.budapestinfo.hu/en/best-photo-spots-in-budapest",
+        "caption": "佩斯多瑙河岸步道、黄色电车与河对岸山景",
+        "credit": "Budapestinfo；页面未标独立摄影者"
+      }
+    },
+    {
+      "id": "bp-margaret",
+      "city": "布达佩斯",
+      "name": "Margaret Island · 玛格丽特岛公园",
+      "kind": "放空",
+      "weather": "晴阴",
+      "time": "1.5–3 小时",
+      "budget": "公共公园散步免费；园内特定设施另算",
+      "intro": "多瑙河中间的一座城市公园岛，主要体验是树荫、草地、河边步道与慢走。",
+      "appearance": "大片绿地与林荫道、喷泉和历史遗迹散落其中，河水在岛的两侧。",
+      "highlights": [
+        "选岛南部或中部的一小段树荫路走走",
+        "在草地或河边坐下，看船和城市远景"
+      ],
+      "why": "适合想从街区和店铺里换到绿地、给两人留出闲聊时间的半天。",
+      "do": "只挑一小段公园散步，不把走完整座岛作为目标；喷泉以当天实际运行作附加惊喜。",
+      "access": "可从 Margit híd 的岛上入口进入；岛内长度不短，返程别只按入口距离估计。",
+      "hours": "公共空间可散步；音乐喷泉与园内设施有季节、天气及各自时段限制。",
+      "caution": "不要把看到宣传图的喷泉表演当成已核实本次日程；有些设施另需购票。",
+      "map": "Margaret Island Budapest",
+      "effort": "轻松",
+      "bestTime": "建议天气舒适的白天，选树荫或河岸短走；不专门卡未经核实的喷泉时间。",
+      "tradeoff": "休息感强但不是紧凑地标路线；天冷下雨时吸引力下降，走深了仍要原路回或找车。",
+      "booking": {
+        "status": "散步无需预约",
+        "detail": "公共绿地不用预约；演出、水塔等独立设施另查门票与营业。",
+        "url": "https://www.budapestinfo.hu/en/margaret-island"
+      },
+      "refs": [
+        "city-bp-margaret-0"
+      ],
+      "coordinates": {
+        "lat": 47.5266408,
+        "lng": 19.0463939,
+        "sourceUrl": "https://budapestinfo.hu/en/margaret-island",
+        "note": "旅游局整座岛示意点，不是南端喷泉定位"
+      },
+      "photo": {
+        "url": "https://budapestinfo.hu/storage/content-pages/iRSBbtDfIhhnlGsTzoIlSYLq0RGrcCnezjYVneJ7.jpg",
+        "page": "https://www.budapestinfo.hu/en/margaret-island",
+        "caption": "玛格丽特岛音乐喷泉与树荫；是否喷水以当天为准",
+        "credit": "Soós Bertalan / Budapestinfo"
+      },
+      "coordinateNote": "图钉是岛内代表位置；音乐喷泉在岛南端，并非图钉位置。步行线路与喷泉场次之后再选。",
+      "relatedMaps": [
+        {
+          "label": "南端音乐喷泉",
+          "query": "Margaret Island Musical Fountain Budapest"
+        }
+      ]
+    },
+    {
+      "id": "bp-szechenyi",
+      "city": "布达佩斯",
+      "name": "Széchenyi Bath · 塞切尼温泉浴场",
+      "kind": "体验",
+      "weather": "雨天可用",
+      "time": "2–3 小时",
+      "budget": "需购浴场门票；票型与日期以官网为准",
+      "intro": "在城市公园里的一座历史温泉浴场，来这里是换泳衣泡池和休息，不只是站在外面拍建筑。",
+      "appearance": "黄色历史建筑围着大面积露天池，室内另有温泉池和不同设施。",
+      "highlights": [
+        "在确认开放的温泉池泡一会儿，感受露天浴场气氛",
+        "留足更衣、淋浴与休息时间，不把它塞成半小时打卡"
+      ],
+      "why": "它提供的是身体参与的旅行体验，比连续逛街更有变化；适合两人都愿意泡温泉时再选。",
+      "do": "先选适合的官方票型，带泳衣、毛巾与拖鞋，到场更衣后按浴场规则使用池区。",
+      "access": "位于城市公园，附近为 M1 Széchenyi fürdő 站；具体入口按所买票种确认。",
+      "hours": "营业与设施维护状态查看官网；不同票种可能限制入场时段。",
+      "caution": "官网建议提前买票；普通票不保证完全免排队，票种和退改条件先看清。",
+      "map": "Széchenyi Thermal Bath Budapest",
+      "effort": "轻松",
+      "bestTime": "建议留一段完整的上午或下午，别刚落地就硬塞；室内外设施是否开放先查官网。",
+      "tradeoff": "门票支出较高，有更衣与洗澡成本，热门浴场可能拥挤；不想下水的人不适合为陪同专程来。",
+      "booking": {
+        "status": "强烈建议提前购票",
+        "detail": "官网建议预购，满员时线上票优先；部分票型有入场时段，非所有票都免排队。",
+        "url": "https://tickets.szechenyibath.hu/"
+      },
+      "refs": [
+        "city-bp-szechenyi-0",
+        "city-bp-szechenyi-1"
+      ],
+      "coordinates": {
+        "lat": 47.5184354,
+        "lng": 19.0825223,
+        "sourceUrl": "https://www.openstreetmap.org/relation/19023",
+        "label": "Széchenyi Gyógyfürdő és Uszoda, 9-11, Állatkerti körút, Városliget, XIV. kerület, Budapest, Közép-Magyarország, 1146, Magyarország"
+      },
+      "photo": {
+        "url": "https://budapestgyogyfurdoi.synergyfox.app/public/16/fooldal/szechenyi_og.jpg",
+        "page": "https://www.szechenyibath.hu/en/",
+        "caption": "塞切尼温泉露天池与黄色历史建筑",
+        "credit": "Széchenyi Thermal Bath 官网；未标独立摄影者"
+      }
+    },
+    {
+      "id": "vi-schonbrunn",
+      "city": "维也纳",
+      "name": "Schönbrunn Gardens · 美泉宫花园",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "2–3 小时",
+      "budget": "主公园免费；迷宫、观景台等特别设施另购票",
+      "intro": "美泉宫后的大型宫廷花园，重点是宫殿外观、对称花坛、喷泉与通向 Gloriette 山坡的视线。",
+      "appearance": "宽阔轴线、几何花坛、修剪整齐的树篱和黄色宫殿，远处山坡上是柱廊建筑。",
+      "highlights": [
+        "沿大花坛看宫殿、喷泉和花园轴线",
+        "有体力再走向 Gloriette 山坡，回望宫殿与城市"
+      ],
+      "why": "不用进艺术展也有很直观的大尺度景观，适合喜欢建筑与花园的两个人。",
+      "do": "先走主花园，按体力决定是否上坡；本候选不包含宫殿内部和动物园。",
+      "access": "从市中心搭公共交通前往 Schönbrunn / Hietzing 一带；园区很大，入口与离开点先确认。",
+      "hours": "花园按季节开闭园；主公园免费，特别园区和观景台有独立开放与票务。",
+      "caution": "登高段要上坡；不要把免费主公园理解成所有园区、Gloriette 屋顶和宫殿都免费。",
+      "map": "Schönbrunn Palace Gardens Vienna",
+      "effort": "有上坡",
+      "bestTime": "建议天亮且天气稳定时，留出慢走时间；傍晚前回到出口，不为日落忽略关园时间。",
+      "tradeoff": "大景清楚、无需看展，但比酒店附近的 Belvedere 远且更耗步数；疲劳日只走平坦主花坛。",
+      "booking": {
+        "status": "主花园无需预约",
+        "detail": "免费主公园按开放时间进入；迷宫、特别花园与 Gloriette 观景台等另购票。",
+        "url": "https://www.schoenbrunn.at/en/about-schoenbrunn/gardens"
+      },
+      "refs": [
+        "city-vi-schonbrunn-0"
+      ],
+      "coordinates": {
+        "lat": 48.1849894,
+        "lng": 16.3115684,
+        "sourceUrl": "https://www.openstreetmap.org/way/8756754",
+        "label": "Schloss Schönbrunn, 47, Schönbrunner Schloßstraße, Katastralgemeinde Schönbrunn, Hietzing, Wien, 1130, Österreich"
+      },
+      "photo": {
+        "url": "https://www.schoenbrunn.at/fileadmin/_processed_/1/2/csm_csm_Grosses_Parterre__1__c_Koller_4e6d763759_90ab1821d7.jpg",
+        "page": "https://www.schoenbrunn.at/en/about-schoenbrunn/gardens",
+        "caption": "美泉宫大花坛与远处 Gloriette，高处俯视角度",
+        "credit": "Schloß Schönbrunn Kultur- und Betriebsges.m.b.H. / Alexander Eugen Koller"
+      }
+    },
+    {
+      "id": "vi-naschmarkt",
+      "city": "维也纳",
+      "name": "Naschmarkt · 食材市集与午餐",
+      "kind": "吃喝",
+      "weather": "晴阴",
+      "time": "1–2 小时",
+      "budget": "逛市场免费；买食物和用餐另计",
+      "intro": "由食材摊、熟食与餐厅组成的长条城市市场，适合看看食物、买少量零食、找一顿午饭。",
+      "appearance": "一排排摊棚、蔬果香料与餐厅露天座位，颜色和人流都比普通购物街丰富。",
+      "highlights": [
+        "沿摊位比较蔬果、香料、奶酪和熟食",
+        "按胃口选一家餐厅坐下，不需要把每种东西都尝遍"
+      ],
+      "why": "比只看店铺更有具体事情可做，也容易与附近 Freihausviertel 组合成一段城市散步。",
+      "do": "先走一遍看摊位再买，问清标价与计价单位；吃饱就不继续追餐。",
+      "access": "在 Karlsplatz 与 Kettenbrückengasse 之间，可与 Schleifmühlgasse 街区衔接。",
+      "hours": "市场主要周一至周六营业，周日通常只有部分餐厅；周六跳蚤市场是另一个内容。",
+      "caution": "你们维也纳停留若选周一可逛市场，但不能当成周六跳蚤市场；摊位可能早于最晚许可时刻收摊。",
+      "map": "Naschmarkt Vienna",
+      "effort": "轻松",
+      "bestTime": "想看市场选工作日白天，晚间更偏餐厅；周日不要按完整市场体验期待。",
+      "tradeoff": "热闹好吃但游客也多，餐饮不只奥地利菜；不适合寻找清静或把所有摊位都当本地农家直销。",
+      "booking": {
+        "status": "逛市场无需预约",
+        "detail": "摊位随到随逛；若锁定某一家餐厅和固定时间，可另订桌。",
+        "url": "https://www.wien.info/en/dine-drink/markets/naschmarkt-353536"
+      },
+      "refs": [
+        "city-vi-naschmarkt-0"
+      ],
+      "coordinates": {
+        "lat": 48.19786262729421,
+        "lng": 16.36220283074954,
+        "sourceUrl": "https://www.wien.info/en/dine-drink/markets/naschmarkt-353536"
+      },
+      "photo": {
+        "url": "https://www.wien.info/resource/image/305544/19x10/1200/630/e38767db7b6609cfc6339468d4e5b399/20E05319D4D670E585B6FDA24416ED8E/51483-naschmarkt-wiener-maerkte.jpg",
+        "page": "https://www.wien.info/en/dine-drink/markets/naschmarkt-353536",
+        "caption": "Naschmarkt 蔬果摊位",
+        "credit": "WienTourismus / Julius Hirtzberger"
+      }
+    },
+    {
+      "id": "vi-prater",
+      "city": "维也纳",
+      "name": "Prater · 游乐园散步与老摩天轮",
+      "kind": "体验",
+      "weather": "晴阴",
+      "time": "1.5–3 小时",
+      "budget": "园区可免费进入；摩天轮和游乐设施单独付费",
+      "intro": "维也纳的开放式游乐区，旁边连接大片绿地；可以只看灯光和散步，想登高再坐历史摩天轮。",
+      "appearance": "大摩天轮、旋转设施、彩色灯牌和小吃摊，走远一点会转成树木与草地。",
+      "highlights": [
+        "逛游乐区，看摩天轮与灯光，不玩项目也可以",
+        "可选乘坐 Wiener Riesenrad 从高处看城市"
+      ],
+      "why": "提供与咖啡馆、宫殿花园不同的轻松玩乐感，适合想要一点约会式体验的人。",
+      "do": "先逛一小段，只有双方都想坐时再买摩天轮票；绿地短走与游乐设施按兴趣二选一。",
+      "access": "从 Praterstern 公共交通站进入游乐区较方便；地图点标示游乐区，不是整片绿地中心。",
+      "hours": "开放区域与各游乐设施时段不同；摩天轮和项目按运营方当天信息。",
+      "caution": "无需购买统一园区门票，不代表每个游乐项目都免费；天气差时部分设施可能不运行。",
+      "map": "Wiener Prater Vienna",
+      "effort": "轻松",
+      "bestTime": "下午接傍晚适合从白天园景看到灯光；想坐摩天轮先确认当天营业，别临关门才到。",
+      "tradeoff": "气氛鲜明但热闹，有音乐与机械声；若只想安静自然，就改选旁边 Green Prater 短走。",
+      "booking": {
+        "status": "入园无需预约，项目另购票",
+        "detail": "散步可直接入园；摩天轮需单独买票，可在官方渠道预购，其他项目各自经营。",
+        "url": "https://www.wienerriesenrad.com/"
+      },
+      "refs": [
+        "city-vi-prater-0",
+        "city-vi-prater-1"
+      ],
+      "coordinates": {
+        "lat": 48.21626278936696,
+        "lng": 16.396246526953064,
+        "sourceUrl": "https://www.wien.info/en/see-do/prater/experience-prater-345598"
+      },
+      "photo": {
+        "url": "https://www.wien.info/resource/image/290054/19x10/1200/630/50f322f051bbd51b47b0e882fa5ec2f6/FFEC1230E03F165D0BD28434071855CD/26041-wiener-prater-mit-riesenrad.jpg",
+        "page": "https://www.wien.info/en/see-do/prater/experience-prater-345598",
+        "caption": "Prater 历史摩天轮与游乐区，夕照高处视角",
+        "credit": "WienTourismus / Peter Rigaud"
+      }
+    },
+    {
+      "id": "vi-danube",
+      "city": "维也纳",
+      "name": "Danube Canal · 运河步道与街头气氛",
+      "kind": "街区",
+      "weather": "晴阴",
+      "time": "1–1.5 小时",
+      "budget": "散步免费；河边餐饮另计",
+      "intro": "靠近老城的多瑙运河滨水步道，主要看水边日常生活、街头涂鸦和季节性餐饮，不是多瑙河主河道。",
+      "appearance": "低处步道沿水延伸，桥梁、涂鸦墙与露天座位相间，整体更现代随意。",
+      "highlights": [
+        "从 Schwedenplatz 一带下到运河边，选一小段慢走",
+        "天气合适时找开放的河边座位喝一杯，看行人和骑车的人"
+      ],
+      "why": "适合在老城附近换个气氛，活动很自由，走十几分钟或坐一小时都成立。",
+      "do": "只挑离你们当时位置近的一段，步行与骑车道注意让行；不追求走完运河。",
+      "access": "可从 Schwedenplatz / Schwedenbrücke 附近开始；上下河岸需要找台阶或坡道。",
+      "hours": "公共滨水步道可散步；露天酒吧和餐饮随季节、天气与店家营业，不保证秋夜都开。",
+      "caution": "河岸并非所有路段都同样热闹或有座位；不要把它与 Donauinsel 或多瑙河主流混为一处。",
+      "map": "Schwedenbrücke Vienna",
+      "effort": "轻松",
+      "bestTime": "建议下午到傍晚，既能看街头细节也有水边气氛；阴冷大风时不必特意来。",
+      "tradeoff": "免费随意，但景色偏日常，缺少宫殿式大景；部分路段骑车人多，入夜体验取决于店铺与天气。",
+      "booking": {
+        "status": "散步无需预约",
+        "detail": "公共步道不用预约；如指定河边餐厅，餐桌需另确认。",
+        "url": "https://www.wien.gv.at/umwelt/donaukanal"
+      },
+      "refs": [
+        "city-vi-danube-0",
+        "city-vi-danube-1"
+      ],
+      "coordinates": {
+        "lat": 48.2121101,
+        "lng": 16.3790257,
+        "sourceUrl": "https://www.openstreetmap.org/way/230483960",
+        "label": "Schwedenbrücke, Leopoldstadt, Katastralgemeinde Leopoldstadt, Leopoldstadt, Wien, 1020, Österreich"
+      },
+      "photo": {
+        "url": "https://www.wien.gv.at/bilder/_imager/bilder/ma45/4439452/donaukanal-daemmerung.4ebd99e199.1784955310.jpg",
+        "page": "https://www.wien.gv.at/umwelt/donaukanal",
+        "caption": "多瑙运河滨水步道、桥梁与露天餐饮，暖季傍晚场景",
+        "credit": "Wiener Gewässer (MA 45) / Christian Fürthner"
+      }
     }
   ],
   "checklist": [
