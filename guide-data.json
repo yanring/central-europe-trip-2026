@@ -4,7 +4,7 @@
     "subtitle": "Zijie & Hanyi · 2026 秋日旅行手册",
     "dates": "2026.09.26 — 10.06",
     "updated": "2026-09-25",
-    "version": "1.2",
+    "version": "1.3",
     "description": "三国、四个停留区、九晚。先守住已订交通，再按天气和胃口选择当天。",
     "visualUpdated": "2026-09-25"
   },
@@ -674,6 +674,330 @@
       "url": "https://www.openstreetmap.org/copyright",
       "kind": "地图资料",
       "note": "© OpenStreetMap contributors。地图图钉是代表位置；直线距离不等于实际交通里程。"
+    },
+    "outdoors-bp-citypark-0": {
+      "label": "Városliget · 城市公园与童话城堡｜官方游玩 / 步道资料",
+      "url": "https://ligetbudapest.hu/en/visitor-information",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-citypark-1": {
+      "label": "Városliget · 城市公园与童话城堡｜官方游玩 / 步道资料",
+      "url": "https://ligetbudapest.hu/en/visitor-information/access-and-transport",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-citypark-2": {
+      "label": "Városliget · 城市公园与童话城堡｜官方游玩 / 步道资料",
+      "url": "https://ligetbudapest.hu/storage/44293/Liget_terkep_2026_szoro_EN_DE_online.pdf",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-normafa-0": {
+      "label": "Normafa · 林荫山脊轻徒步｜官方游玩 / 步道资料",
+      "url": "https://normafapark.hu/turautvonalak/setany-gerincen",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-normafa-1": {
+      "label": "Normafa · 林荫山脊轻徒步｜官方游玩 / 步道资料",
+      "url": "https://normafapark.hu/empty-260507",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-normafa-2": {
+      "label": "Normafa · 林荫山脊轻徒步｜官方游玩 / 步道资料",
+      "url": "https://bkk.hu/en/travel-information/special-and-heritage-transport-services/chairlift/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-kopaszi-0": {
+      "label": "Kopaszi-gát · 河湾公园慢走｜官方游玩 / 步道资料",
+      "url": "https://visithungary.com/articles/spring-activities-by-the-water-from-budapest-to-the-danube-bend",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-kopaszi-1": {
+      "label": "Kopaszi-gát · 河湾公园慢走｜官方游玩 / 步道资料",
+      "url": "https://www.budapart.hu/assets/uploads/BUDAPART_POLICY_2023.pdf",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-kopaszi-2": {
+      "label": "Kopaszi-gát · 河湾公园慢走｜官方游玩 / 步道资料",
+      "url": "https://www.budapart.hu/assets/uploads/BUDAPART_HAZIREND_2023.pdf",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-kopaszi-3": {
+      "label": "Kopaszi-gát · 河湾公园慢走｜官方游玩 / 步道资料",
+      "url": "https://provertes.hu/vedett_teruletek_pdf/budapest/adatlap_4790.pdf",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-palvolgyi-0": {
+      "label": "Pál-völgyi Cave · 地下洞穴探险｜官方游玩 / 步道资料",
+      "url": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-childrenrail-0": {
+      "label": "Children’s Railway · 穿过森林的小火车｜官方游玩 / 步道资料",
+      "url": "https://gyermekvasut.hu/en/home/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-childrenrail-1": {
+      "label": "Children’s Railway · 穿过森林的小火车｜官方游玩 / 步道资料",
+      "url": "https://gyermekvasut.hu/en/timetables/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-bp-childrenrail-2": {
+      "label": "Children’s Railway · 穿过森林的小火车｜官方游玩 / 步道资料",
+      "url": "https://gyermekvasut.hu/en/prices/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-kahlenberg-0": {
+      "label": "Kahlenberg · 葡萄园与森林环线｜官方游玩 / 步道资料",
+      "url": "https://www.wien.gv.at/en/leisure/hiking-path1",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-kahlenberg-1": {
+      "label": "Kahlenberg · 葡萄园与森林环线｜官方游玩 / 步道资料",
+      "url": "https://www.wien.info/en/livable-vienna/parks-green-spaces/kahlenberg-337908",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-lainzer-0": {
+      "label": "Lainzer Tiergarten · 森林与 Hermesvilla 轻松环线｜官方游玩 / 步道资料",
+      "url": "https://www.wien.gv.at/freizeit/lainzer-tiergarten-naturerlebnisweg-hermesvillapark",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-lainzer-1": {
+      "label": "Lainzer Tiergarten · 森林与 Hermesvilla 轻松环线｜官方游玩 / 步道资料",
+      "url": "https://www.lainzer-tiergarten.at/freizeitangebot.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-lainzer-2": {
+      "label": "Lainzer Tiergarten · 森林与 Hermesvilla 轻松环线｜官方游玩 / 步道资料",
+      "url": "https://www.wien.gv.at/freizeit/lainzer-tiergarten-besucherinformationen",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-lainzer-3": {
+      "label": "Lainzer Tiergarten · 森林与 Hermesvilla 轻松环线｜官方游玩 / 步道资料",
+      "url": "https://www.wien.info/en/see-do/families/outdoor/lainz-game-preserve-350650",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-stadtpark-0": {
+      "label": "Stadtpark · 池塘、树影与金色施特劳斯｜官方游玩 / 步道资料",
+      "url": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/stadtpark-955832",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-stadtpark-1": {
+      "label": "Stadtpark · 池塘、树影与金色施特劳斯｜官方游玩 / 步道资料",
+      "url": "https://www.wien.gv.at/english/environment/parks/stadtpark.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-augarten-0": {
+      "label": "Augarten · 长林荫道与巨大防空塔｜官方游玩 / 步道资料",
+      "url": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/augarten-955840",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-augarten-1": {
+      "label": "Augarten · 长林荫道与巨大防空塔｜官方游玩 / 步道资料",
+      "url": "https://www.bundesgaerten.at/augarten/oeffnungszeiten.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-old-danube-0": {
+      "label": "Alte Donau · 湖边散步与双人小船｜官方游玩 / 步道资料",
+      "url": "https://www.wien.info/en/livable-vienna/water-in-vienna/summer-at-old-danube-360430",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-old-danube-1": {
+      "label": "Alte Donau · 湖边散步与双人小船｜官方游玩 / 步道资料",
+      "url": "https://marina-hofbauer.at/bootsvermietung/index.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-old-danube-2": {
+      "label": "Alte Donau · 湖边散步与双人小船｜官方游玩 / 步道资料",
+      "url": "https://marina-hofbauer.at/bootsvermietung/oeffnungszeiten/default.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-old-danube-3": {
+      "label": "Alte Donau · 湖边散步与双人小船｜官方游玩 / 步道资料",
+      "url": "https://marina-hofbauer.at/bootsvermietung/tarife/index.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-central-cemetery-0": {
+      "label": "Zentralfriedhof · 树荫大道与音乐家长眠地｜官方游玩 / 步道资料",
+      "url": "https://www.wien.info/de/sehen-erleben/sehenswuerdigkeiten-a-z/zentralfriedhof-366576",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-vi-central-cemetery-1": {
+      "label": "Zentralfriedhof · 树荫大道与音乐家长眠地｜官方游玩 / 步道资料",
+      "url": "https://www2.friedhoefewien.at/zentralfriedhof",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-ewige-0": {
+      "label": "Ewige Wand · 森林、岩壁隧道与山谷全景｜官方游玩 / 步道资料",
+      "url": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/430007280/bad-goisern-mountain-and-legend-trail.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-ewige-1": {
+      "label": "Ewige Wand · 森林、岩壁隧道与山谷全景｜官方游玩 / 步道资料",
+      "url": "https://dachstein.salzkammergut.at/en/oesterreich-poi/detail/430024646/parkplatz-rathlucken-huette.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-koppenwinkel-0": {
+      "label": "Koppenwinkel · 森林溪流与小湖环线｜官方游玩 / 步道资料",
+      "url": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/100359/through-the-koppenwinkel.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-koppenwinkel-1": {
+      "label": "Koppenwinkel · 森林溪流与小湖环线｜官方游玩 / 步道资料",
+      "url": "https://www.salzkammergut.at/fileadmin/user_upload/salzkammergut/0_Prospekte_PDFs/Radkarte/Salzkammergut_Radweg.pdf",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-jainzen-0": {
+      "label": "Jainzen · 有一点挑战的森林登高｜官方游玩 / 步道资料",
+      "url": "https://badischl.salzkammergut.at/oesterreich-tour/detail/430002396/rundweg-ueber-den-jainzen-814-m.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-kaiserpark-0": {
+      "label": "Kaiserpark · 皇帝别墅外的花园慢走｜官方游玩 / 步道资料",
+      "url": "https://badischl.salzkammergut.at/oesterreich-poi/detail/430002121/kaiservilla.html",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-kaiserpark-1": {
+      "label": "Kaiserpark · 皇帝别墅外的花园慢走｜官方游玩 / 步道资料",
+      "url": "https://www.kaiservilla.at/index.php/de/oeffnungszeiten-und-preise",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-katrin-0": {
+      "label": "Katrin · 复古小缆车与山上看景｜官方游玩 / 步道资料",
+      "url": "https://en.katrinseilbahn.com/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-katrin-1": {
+      "label": "Katrin · 复古小缆车与山上看景｜官方游玩 / 步道资料",
+      "url": "https://en.katrinseilbahn.com/betriebszeiten",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-katrin-2": {
+      "label": "Katrin · 复古小缆车与山上看景｜官方游玩 / 步道资料",
+      "url": "https://en.katrinseilbahn.com/tarife",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-lk-katrin-3": {
+      "label": "Katrin · 复古小缆车与山上看景｜官方游玩 / 步道资料",
+      "url": "https://en.katrinseilbahn.com/kontakt-anfahrt",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-stromovka-0": {
+      "label": "Stromovka · 池塘、草坪与大树下散步｜官方游玩 / 步道资料",
+      "url": "https://prague.eu/cs/objevujte/kralovska-obora-stromovka/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-divoka-sarka-0": {
+      "label": "Divoká Šárka · 坐电车就能到的岩谷散步｜官方游玩 / 步道资料",
+      "url": "https://prague.eu/cs/objevujte/divoka-sarka/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-divoka-sarka-1": {
+      "label": "Divoká Šárka · 坐电车就能到的岩谷散步｜官方游玩 / 步道资料",
+      "url": "https://www.praha-priroda.cz/priloha/51e5274b3c4c2/nahled-2017-divokasarka.pdf",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-petrin-0": {
+      "label": "Petřín 山坡花园 · 果树间看红屋顶｜官方游玩 / 步道资料",
+      "url": "https://prague.eu/en/objevujte/petrin-gardens-petrinske-sady/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-petrin-1": {
+      "label": "Petřín 山坡花园 · 果树间看红屋顶｜官方游玩 / 步道资料",
+      "url": "https://pid.cz/en/funicular/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-petrin-2": {
+      "label": "Petřín 山坡花园 · 果树间看红屋顶｜官方游玩 / 步道资料",
+      "url": "https://www.dpp.cz/en/company/for-media/press-news/detail/580_3466-petrin-funicular-resumes-operation-after-two-years",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-waldstein-0": {
+      "label": "Waldstein 花园 · 孔雀、倒影与奇怪的岩洞墙｜官方游玩 / 步道资料",
+      "url": "https://prague.eu/en/objevujte/wallenstein-garden-valdstejnska-zahrada/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-waldstein-1": {
+      "label": "Waldstein 花园 · 孔雀、倒影与奇怪的岩洞墙｜官方游玩 / 步道资料",
+      "url": "https://www.senat.cz/informace/pro_verejnost/valdstejnska_zahrada/index.php",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-troja-botanical-0": {
+      "label": "Troja 植物园 · 日本园、葡萄坡与热带温室｜官方游玩 / 步道资料",
+      "url": "https://prague.eu/cs/objevujte/botanicka-zahrada-hl-m-prahy-sklenik-fata-morgana/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-troja-botanical-1": {
+      "label": "Troja 植物园 · 日本园、葡萄坡与热带温室｜官方游玩 / 步道资料",
+      "url": "https://www.botanicka.cz/en/for-visitors/basic-info/how-to-get-to-us",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-troja-botanical-2": {
+      "label": "Troja 植物园 · 日本园、葡萄坡与热带温室｜官方游玩 / 步道资料",
+      "url": "https://www.botanicka.cz/en/for-visitors/basic-info/opening-hours",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-troja-botanical-3": {
+      "label": "Troja 植物园 · 日本园、葡萄坡与热带温室｜官方游玩 / 步道资料",
+      "url": "https://www.botanicka.cz/en/for-visitors/our-expositions/venkovni-expozice",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
+    },
+    "outdoors-pr-naplavka-0": {
+      "label": "Náplavka 河岸 · 买点吃的，坐在水边看船｜官方游玩 / 步道资料",
+      "url": "https://prague.eu/en/objevujte/naplavka-farmers-market/",
+      "kind": "场馆 / 官方旅游资料",
+      "note": "用于地点、步道与预约信息；开放状况和未来日期的可预订余量仍需临行核对。"
     }
   },
   "hotels": [
@@ -2745,6 +3069,1064 @@
     }
   ],
   "places": [
+    {
+      "id": "bp-citypark",
+      "city": "布达佩斯",
+      "name": "Városliget · 城市公园与童话城堡",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "建议 2–3 小时，随时可缩短",
+      "budget": "公园散步免费；城堡内部、热气球等另付费",
+      "why": "第一次来想看漂亮建筑，又不想把下午交给展览，选这里最均衡：树荫、草地与瓦伊达奇城堡外观能一起看。",
+      "do": "在 Vajdahunyad 城堡周边看尖塔、桥与庭院，再走一段树荫小路或去植物园休息；不用进美术馆，也不用把整个大公园走完。",
+      "access": "可从 M1 地铁 Hősök tere 或 Széchenyi fürdő 进入；这是原有塞切尼温泉附近的户外选项，不包含泡温泉。",
+      "hours": "公园公共区域可自由散步；植物园、城堡内部和付费项目各有开放时间。",
+      "caution": "水池会随季节和活动调整，不保证到访时有水上划船；公园内有建设项目，按现场围挡绕行。",
+      "refs": [
+        "outdoors-bp-citypark-0",
+        "outdoors-bp-citypark-1",
+        "outdoors-bp-citypark-2"
+      ],
+      "map": "Vajdahunyad Castle Budapest",
+      "effort": "轻松",
+      "intro": "布达佩斯的大型城市绿地，分布着草坪、林间步道、湖区与历史主义城堡。",
+      "appearance": "大树包围的尖塔城堡、桥与开阔草坪；新旧建筑散布在绿地中。",
+      "highlights": [
+        "城堡外观很有童话感，不靠读展板也容易欣赏",
+        "树荫、草地和园中座椅适合慢慢走、随时停"
+      ],
+      "bestTime": "午后至日落前：有充分天光看城堡，也不需要早起。",
+      "tradeoff": "优点是玩法自由、休息点多；缺点是热门节点游客多、园区很大，想追求荒野感会失望。",
+      "booking": {
+        "status": "散步无需预约",
+        "detail": "付费内部参观、导览及空中项目另外购票；本条默认只逛公园。",
+        "url": "https://ligetbudapest.hu/en/visitor-information"
+      },
+      "coordinates": {
+        "lat": 47.5153549,
+        "lng": 19.0818753,
+        "sourceUrl": "https://www.openstreetmap.org/node/275019091"
+      },
+      "coordinateNote": "图钉在 Vajdahunyad 城堡建筑一带，用作公园散步的起点；实际入口与园内路口按现场标识找。",
+      "photo": {
+        "url": "https://ligetbudapest.hu/storage/BnEhkyktbIQGzIr7Sanio5vceErm2swgwlbGSbo9.jpg",
+        "page": "https://ligetbudapest.hu/en/visitor-information",
+        "caption": "城市公园官方航拍：城堡、林地与新建筑的分布",
+        "credit": "Liget Budapest 官方网站，页面未标单独摄影者"
+      }
+    },
+    {
+      "id": "bp-normafa",
+      "city": "布达佩斯",
+      "name": "Normafa · 林荫山脊轻徒步",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "建议 2–3 小时；不含往返市区交通",
+      "budget": "步道免费；吊椅缆车另付费",
+      "why": "想离开街道、真正走进林子，又不想一上来就爬大山，这条平缓的山脊路最合适。",
+      "do": "沿官方 Normafa → Anna-rét → Libegő 上站步道慢走。单程 2 公里；想省心可原路返回约 4 公里。若搭吊椅下山，须另查营业与返城交通。",
+      "access": "先乘公交到 Normafa 一带，再步行到路线起点；地图标的是官方轨迹起点，不是山顶或缆车下站。",
+      "hours": "森林步道建议白天走；缆车可能因天气、维护停运，不能当作固定返程。",
+      "caution": "官方公告：Erzsébet 瞭望塔暂时关闭，重开日期未知；这条推荐不包含登塔。",
+      "refs": [
+        "outdoors-bp-normafa-0",
+        "outdoors-bp-normafa-1",
+        "outdoors-bp-normafa-2"
+      ],
+      "map": "Normafa Budapest",
+      "effort": "轻松",
+      "intro": "布达山上的林间散步道，连接草甸和吊椅缆车上站。",
+      "appearance": "宽而平整的林荫碎石路，沿途有长椅，树间草甸能坐下来休息。",
+      "highlights": [
+        "官方单程仅 2 公里、累计爬升 35 米，容易判断体力成本",
+        "森林、草甸和城市远景，与河岸城区很不一样"
+      ],
+      "bestTime": "午后天气晴朗、能见度好时；日落前结束林间步行。",
+      "tradeoff": "优点是低爬升、可随时折返；缺点是往返城区耗时，阴雾天远景差，周末不一定安静。",
+      "booking": {
+        "status": "步道无需预约",
+        "detail": "若选吊椅下山，出发前检查运营方当天公告；登塔当前不可用。",
+        "url": "https://normafapark.hu/turautvonalak/setany-gerincen"
+      },
+      "coordinates": {
+        "lat": 47.501485,
+        "lng": 18.969118,
+        "sourceUrl": "https://normafapark.hu/turautvonalak/setany-gerincen"
+      },
+      "coordinateNote": "官方路线页面内嵌 GPX 的第一轨迹点；对应 Normafa 起点。",
+      "photo": {
+        "url": "https://normafapark.hu/site/upload/images/nature/60b77054a75783efe1c76e596280025f.jpg",
+        "page": "https://normafapark.hu/turautvonalak/setany-gerincen",
+        "caption": "Normafa 官方山脊步道照片：林荫碎石路与休息椅",
+        "credit": "Normafa Park 官方网站，页面未标单独摄影者"
+      },
+      "trail": {
+        "distance": "2 公里单程；原路往返约 4 公里",
+        "ascent": "35 米（官方单程累计爬升）",
+        "duration": "官方单程约 30 分钟；慢走拍照另加",
+        "difficulty": "官方难度 1，平缓易走",
+        "terrain": "稳定碎石铺面、路面较平整",
+        "routeType": "线形路线；可原路往返",
+        "note": "35 米与 30 分钟仅指官方单程，不是往返数据；返程累计爬升未核实。未包含登塔及缆车。"
+      }
+    },
+    {
+      "id": "bp-kopaszi",
+      "city": "布达佩斯",
+      "name": "Kopaszi-gát · 河湾公园慢走",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "建议 1.5–2 小时",
+      "budget": "公园免费；饮食另付费",
+      "why": "想找一个能坐着聊天、沿水慢走的地方，这里比高密度古迹打卡更适合放空。",
+      "do": "沿 Lágymányos 河湾的步道走一段，挑湖湾边长椅坐下；愿意的话在公园餐饮点喝点东西，不把它当游泳或水上项目预约。",
+      "access": "位于布达南侧；可查看 Infopark、BudaPart 周边公交/电车，再步行进入公园。",
+      "hours": "运营方现有规则：4/15–10/15 为 06:00–02:00，10/16–4/14 为 06:00–22:00；这是 2023 版规则，到访以现场为准。",
+      "caution": "河边风凉；水上项目及沙滩另有经营季节，不因公园开放就默认可游泳。",
+      "refs": [
+        "outdoors-bp-kopaszi-0",
+        "outdoors-bp-kopaszi-1",
+        "outdoors-bp-kopaszi-2",
+        "outdoors-bp-kopaszi-3"
+      ],
+      "map": "Kopaszi-gát Budapest",
+      "effort": "轻松",
+      "intro": "伸入河湾的狭长绿地，原有堤岸被改造为公共散步公园。",
+      "appearance": "树荫下的木质临水步道、草坪、平静河湾与对岸现代楼群。",
+      "highlights": [
+        "靠近水面散步，不必跨越很大的公园",
+        "可以把主要活动简化成聊天、看水与野餐式休息"
+      ],
+      "bestTime": "晴天下午到傍晚；河边风大时体验会明显打折。",
+      "tradeoff": "优点是平坦、容易坐下休息；缺点是离老城较远，视野里有新楼，缺少经典地标，专程来需喜欢水边放空。",
+      "booking": {
+        "status": "散步无需预约",
+        "detail": "运营规则注明普通公园访问免费；特定活动与餐饮另算。",
+        "url": "https://www.budapart.hu/assets/uploads/BUDAPART_POLICY_2023.pdf"
+      },
+      "coordinates": {
+        "lat": 47.46409,
+        "lng": 19.06205,
+        "sourceUrl": "https://provertes.hu/vedett_teruletek_pdf/budapest/adatlap_4790.pdf"
+      },
+      "coordinateNote": "自然保护地调查页列出的园区 GPS 点；不是大门，导航时选择公园入口。",
+      "photo": {
+        "url": "https://visithungary.com/media/e/ee/ee0d7cf2ef3b08d66bdba0ef13fa6593.jpg",
+        "page": "https://visithungary.com/articles/spring-activities-by-the-water-from-budapest-to-the-danube-bend",
+        "caption": "Kopaszi 河湾的临水步道；官方旅游文章封面标注为此地",
+        "credit": "Visit Hungary，页面未标单独摄影者"
+      }
+    },
+    {
+      "id": "bp-palvolgyi",
+      "city": "布达佩斯",
+      "name": "Pál-völgyi Cave · 地下洞穴探险",
+      "kind": "体验",
+      "weather": "雨天可用",
+      "time": "导览约 1 小时；建议连等候留 1.5–2 小时",
+      "budget": "官网成人普通票 3,900 HUF，出发前复核",
+      "why": "想要真正换一种体验而不是再看一栋楼，可跟着导览走进岩壁与晶体之间；不用参加需要匍匐爬行的专业洞探。",
+      "do": "参加约 500 米的已铺设洞穴导览；观察岩壁形状、钟乳石和方解石晶体。需爬 400 多级台阶及一段梯子。",
+      "access": "官方指引：从 Kolosy tér 乘 65 路，在 Pál-völgyi cseppkőbarlang 下；入口地址 Szépvölgyi út 162。",
+      "hours": "通常周二至周日，每小时 15 分发团，10:15–16:15；周一关闭（公共假日例外）。",
+      "caution": "全年约 11°C，带保暖衣、防滑鞋；普通讲解为匈牙利语，可下载英语语音导览。",
+      "refs": [
+        "outdoors-bp-palvolgyi-0"
+      ],
+      "map": "Pál-völgyi Cave Budapest",
+      "effort": "台阶较多",
+      "intro": "布达丘陵地下的天然洞穴，可在固定导览中走已建设的参观段。",
+      "appearance": "狭窄高岩壁、起伏楼梯与暖色灯光；不是宽敞平路型展馆。",
+      "highlights": [
+        "能在城市范围内体验真正的地下地貌",
+        "下雨也能玩，体验与公园和古迹差异很大"
+      ],
+      "bestTime": "雨天午后很合适；按导览发团时间到达，至少提前 10 分钟购票。",
+      "tradeoff": "优点是有探索感、天气影响小；缺点是台阶多、通道窄且低温，不适合膝盖不舒服或怕封闭空间的人。",
+      "booking": {
+        "status": "普通团现场购票；英语私团需提前联系",
+        "detail": "普通团最多 35 人，满员需等下一团；至少提前 10 分钟买票。私人英语导览需至少提前 3 天联系且另收费。",
+        "url": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave"
+      },
+      "coordinates": {
+        "lat": 47.53284,
+        "lng": 19.01613,
+        "sourceUrl": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave"
+      },
+      "coordinateNote": "国家公园官网嵌入地图的坐标，标示访客入口区域。",
+      "photo": {
+        "url": "https://www.dunaipoly.hu/uploads/cache/default/uploads/2019-03/20190307142143-img-3550-1lbb6l72.jpg",
+        "page": "https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave",
+        "caption": "Pál-völgyi 洞穴已建设参观段，可见真实通道宽度",
+        "credit": "Berentés Ágnes / Duna–Ipoly National Park"
+      }
+    },
+    {
+      "id": "bp-childrenrail",
+      "city": "布达佩斯",
+      "name": "Children’s Railway · 穿过森林的小火车",
+      "kind": "体验",
+      "weather": "晴阴",
+      "time": "全线单程约 40–50 分钟；建议连进山交通留半天",
+      "budget": "官网成人单程 1,000 HUF；两程票 1,800 HUF，怀旧列车另加费",
+      "why": "它是正常运行的窄轨铁路，售票、查票等工作由孩子参与完成；坐火车看森林，本身就很有趣，不限带小孩的家庭。",
+      "do": "从 Hűvösvölgy 或 Széchenyihegy 乘一段林间列车；先选体验，再决定是否中途下车。中途停留需选适合的票种。",
+      "access": "地图标 Hűvösvölgy 终点站，可乘市内交通到 Hűvösvölgy 后步行换乘；另一端是 Széchenyihegy，不是同一站。",
+      "hours": "官方 2026 年 9–10 月日历显示 9/28、10/5 周一停运；其他日期仍需打开对应时刻表。",
+      "caution": "不要误以为普通市内交通票通用。备福林现金；官方票价页不同段落对刷卡车站描述不一致。",
+      "refs": [
+        "outdoors-bp-childrenrail-0",
+        "outdoors-bp-childrenrail-1",
+        "outdoors-bp-childrenrail-2"
+      ],
+      "map": "Hűvösvölgy Children’s Railway Station Budapest",
+      "effort": "轻松",
+      "intro": "穿行布达山林的窄轨铁路，由专业运营方管理，儿童参与乘务与站务。",
+      "appearance": "红白车厢、林间小站、穿制服的儿童乘务员；秋季树色以当时为准。",
+      "highlights": [
+        "坐着看森林，体力负担低",
+        "看孩子认真查票、发车，比单纯通勤更有故事感"
+      ],
+      "bestTime": "白天至午后，提前看返程末班；不需要追早班。",
+      "tradeoff": "优点是有地方特色且适合慢节奏；缺点是进山耗时，视野多为林地，错过一班可能等很久；与 Normafa 可择一，也可之后再考虑串联。",
+      "booking": {
+        "status": "普通散客现场买票，无需提前预约",
+        "detail": "官方写普通票不能提前购买；单程票不含中途下车再上车。怀旧列车另加费且不是每天有。",
+        "url": "https://gyermekvasut.hu/en/prices/"
+      },
+      "coordinates": {
+        "lat": 47.5414643,
+        "lng": 18.9639456,
+        "sourceUrl": "https://maps.app.goo.gl/xeLhMHb2BUavPhZ7A"
+      },
+      "coordinateNote": "官网页脚 Google Maps 链接解析出的 Hűvösvölgy 车站地点坐标（非地图视图中心）。",
+      "photo": {
+        "url": "https://gyermekvasut.hu/wp-content/uploads/2026/02/IMG_3485-min-1.jpg",
+        "page": "https://gyermekvasut.hu/en/home/",
+        "caption": "儿童铁路官方照片：林间车站与红白列车",
+        "credit": "MÁV / Children’s Railway 官方网站，页面未标单独摄影者"
+      }
+    },
+    {
+      "id": "vi-kahlenberg",
+      "city": "维也纳",
+      "name": "Kahlenberg · 葡萄园与森林环线",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "完整环线步行 3.5–4 小时；含停留预留半天",
+      "budget": "步道免费；餐饮与登塔另计",
+      "why": "可以把葡萄园、森林和维也纳全景放在同一次户外活动里；比只坐车上观景台更有参与感。",
+      "do": "沿官方 City Hiking Path 1 从 Nußdorf 出发，走森林上山、经 Kahlenberg 再循葡萄园返回；酒馆只作为可选休息点。",
+      "access": "D 线电车 Nußdorf 终点站起步；想省力可另选 38A 巴士上山看景，但那不是本卡的完整徒步环线。",
+      "hours": "步道为户外路线；观景塔、酒馆各有营业时间。",
+      "caution": "雨后林地可能泥滑；晴天山顶仍可能有风。不要为了日落走到天黑才下山。",
+      "refs": [
+        "outdoors-vi-kahlenberg-0",
+        "outdoors-vi-kahlenberg-1"
+      ],
+      "map": "Nußdorf Beethovengang tram D Vienna",
+      "effort": "中等",
+      "intro": "维也纳北侧的一条正式标记环线，穿过维也纳森林与葡萄坡，能远看多瑙河及城市。",
+      "appearance": "成排葡萄藤、树荫山路和开阔的城市天际线；沿路景观会从森林切换到坡地。",
+      "highlights": [
+        "沿葡萄园步道看城市与多瑙河，而不只在观景台拍一张照",
+        "山林徒步后在营业的 Heuriger 酒馆吃点东西"
+      ],
+      "bestTime": "干燥、能见度好的上午出发；下午看景也合适，但完整环线要留够 4 小时以上。秋色随天气变化，不保证出行时全黄。",
+      "tradeoff": "完整 11 km 有持续爬坡，不是轻松饭后散步；如果只想坐下来喝咖啡，巴士上山更省力。",
+      "booking": {
+        "status": "徒步无需预约",
+        "detail": "登塔与餐厅另查。酒馆并非沿途全部每天开门；周末指定餐馆可提前订位。",
+        "url": "https://www.wien.gv.at/en/leisure/hiking-path1"
+      },
+      "coordinates": {
+        "lat": 48.259742,
+        "lng": 16.3628405,
+        "sourceUrl": "https://www.openstreetmap.org/way/164445559"
+      },
+      "coordinateNote": "图钉为 D 线 Nußdorf / Beethovengang 终点站，官方环线从这里开始，不是 Kahlenberg 山顶。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/301968/3x2/520/346/f7e2657cd1707ca75615406639c044d/32591137FAE95BC14E0FC20DFB30749F/kahlenberg-wienerwald-wandern-wiener-hausberg-berg-wanderung-route-weinberge-weingaerten-ausblick-aussicht.webp",
+        "page": "https://www.wien.info/en/livable-vienna/parks-green-spaces/kahlenberg-337908",
+        "caption": "Kahlenberg 葡萄坡与山上的建筑，实景参考；照片不是当天叶色",
+        "credit": "© Österreich Werbung/Diejun"
+      },
+      "trail": {
+        "distance": "11 km",
+        "ascent": "未核实（官方路线页未给累计爬升；484 m 是山顶海拔，不是爬升）",
+        "duration": "约 3.5–4 小时，未含长时间用餐",
+        "difficulty": "有持续上坡；官方未给难度等级",
+        "terrain": "葡萄园道路、林间步道与部分铺装路",
+        "routeType": "环线；Nußdorf 起终点"
+      }
+    },
+    {
+      "id": "vi-lainzer",
+      "city": "维也纳",
+      "name": "Lainzer Tiergarten · 森林与 Hermesvilla 轻松环线",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "纯步行约 45 分钟；建议慢逛 1.5–2 小时",
+      "budget": "自然保护区免费；别墅室内另计",
+      "why": "适合想进森林、又不想爬一整座山的半日出游；树林、池塘和林中别墅在一条短线上。",
+      "do": "从 Lainzer Tor 游客中心出发，走官方自然环线到 Hermesvilla 外部花园，经 Hohenauer Teich 返回。",
+      "access": "官方指引：U4 Hietzing 换 56B 到 Lainzer Tor；市区往返交通需另留时间。",
+      "hours": "2026 年 9/28–10/11 园区 08:00–18:30；其他日期按园方季节表。Hermesvilla 室内独立开放。",
+      "caution": "闭园后不能进出；不喂野生动物，也不要把偶遇野猪或鹿当作保证。室内别墅可能季节关闭，此选项以户外为主。",
+      "refs": [
+        "outdoors-vi-lainzer-0",
+        "outdoors-vi-lainzer-1",
+        "outdoors-vi-lainzer-2",
+        "outdoors-vi-lainzer-3"
+      ],
+      "map": "Lainzer Tor Vienna",
+      "effort": "轻松",
+      "intro": "原皇家猎场如今是自然保护区；这里推荐入口附近的短环线，不是走遍整个大森林。",
+      "appearance": "宽阔林间道路、草地池塘，以及树木包围的浅色尖顶别墅。",
+      "highlights": [
+        "沿维护好的林路慢走，停下看池塘和树木",
+        "看 Hermesvilla 外观与花园，不需要为展览专程买票"
+      ],
+      "bestTime": "上午或下午较早时段；阴天也能看森林，雨后穿防滑鞋。秋叶时间取决于当季气温。",
+      "tradeoff": "位置偏西，往返交通可能比走路本身更久；短线看不到保护区所有远处观景点。",
+      "booking": {
+        "status": "户外无需预约",
+        "detail": "园区免费开放；Hermesvilla 室内参观另查，不含在这条散步建议内。",
+        "url": "https://www.wien.gv.at/freizeit/lainzer-tiergarten-besucherinformationen"
+      },
+      "coordinates": {
+        "lat": 48.1669582,
+        "lng": 16.2570919,
+        "sourceUrl": "https://www.openstreetmap.org/node/1017958980"
+      },
+      "coordinateNote": "图钉为 Lainzer Tor 入口，Hermesvilla 自然短环线从这一带开始，不是保护区中心。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/299682/3x2/520/346/31f8010292189913ced0499821142924/300598D05823F3864F6CA09FDE30A35F/hermesvilla-park-garten.webp",
+        "page": "https://www.wien.info/en/see-do/families/outdoor/lainz-game-preserve-350650",
+        "caption": "Hermesvilla 与外部花园实景；本项不默认进入室内展览",
+        "credit": "© Österreich Werbung/Wilfried Gredler-Oxenbauer"
+      },
+      "trail": {
+        "distance": "约 2.5 km",
+        "ascent": "未核实（官方未给累计爬升）",
+        "duration": "约 45 分钟纯步行",
+        "difficulty": "官方说明可无障碍通行的自然步道",
+        "terrain": "全程有维护的硬化路面",
+        "routeType": "环线；Lainzer Tor 游客中心起终点"
+      }
+    },
+    {
+      "id": "vi-stadtpark",
+      "city": "维也纳",
+      "name": "Stadtpark · 池塘、树影与金色施特劳斯",
+      "kind": "放空",
+      "weather": "晴阴",
+      "time": "45–90 分钟",
+      "budget": "公园散步免费；咖啡另计",
+      "why": "无需专门跑远，就能在市中心找一段真正舒服的绿地散步；池塘和河道比纯建筑打卡更放松。",
+      "do": "绕池塘慢走，看金色 Johann Strauss 雕像，再走到维也纳河与老地铁站外观；累了就找长椅坐。",
+      "access": "靠 Stadtpark / Wien Mitte 一带；可与市中心活动顺路，不必单独塞满半天。",
+      "hours": "公共公园户外散步；餐厅和设施各自营业。",
+      "caution": "雕像前可能有旅行团；公园不大，别预期荒野徒步或大片湖泊。",
+      "refs": [
+        "outdoors-vi-stadtpark-0",
+        "outdoors-vi-stadtpark-1"
+      ],
+      "map": "Stadtpark Vienna Johann Strauss Monument",
+      "effort": "轻松",
+      "intro": "市中心的英式景观公园，有池塘、草坪、音乐家纪念像和穿园而过的维也纳河。",
+      "appearance": "树木环抱的小池塘、弯曲步道、金色小提琴家雕像和新艺术风格河道建筑。",
+      "highlights": [
+        "沿池塘找倒影、看水鸟，在长椅上休息",
+        "看金色施特劳斯与河道建筑，轻松获取很维也纳的画面"
+      ],
+      "bestTime": "早上光线柔和、适合静静散步；傍晚也好。图中秋色仅供风貌参考，不保证具体日期叶色。",
+      "tradeoff": "方便、省力，但不属于值得单独坐长途车来看的壮观自然景点。",
+      "booking": {
+        "status": "散步无需预约",
+        "detail": "公园本身无需订位；如果选园内餐厅，按餐厅要求预约。",
+        "url": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/stadtpark-955832"
+      },
+      "coordinates": {
+        "lat": 48.203804,
+        "lng": 16.379166,
+        "sourceUrl": "https://www.openstreetmap.org/node/262932599"
+      },
+      "coordinateNote": "图钉为 Johann Strauss 金色雕像，作为 Stadtpark 的散步参考点；公园有多个入口。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/434732/3x2/520/346/5fdeff44d8bc64c2c0f29ceb9686262d/EFD37D6755A03A77BAFA449F5FE47594/51542-stadtpark.webp",
+        "page": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/stadtpark-955832",
+        "caption": "Stadtpark 池塘与秋季树影实景",
+        "credit": "© WienTourismus/Julius Hirtzberger"
+      }
+    },
+    {
+      "id": "vi-augarten",
+      "city": "维也纳",
+      "name": "Augarten · 长林荫道与巨大防空塔",
+      "kind": "放空",
+      "weather": "晴阴",
+      "time": "1–1.5 小时",
+      "budget": "公园免费；餐饮另计",
+      "why": "长长的树列很适合两个人边走边聊；巨大混凝土防空塔与精致花园并置，比普通公园多一层特别的历史感。",
+      "do": "从 Augartenspitz 方向进入，沿林荫道慢走、看两座防空塔外观，再选草地或咖啡座休息。",
+      "access": "位于多瑙运河北侧第二区；地图标南端 Augartenspitz，便于判断与酒店距离。",
+      "hours": "官方常规表：9 月 06:30–20:00；10 月 06:30–19:00；临时关闭以园方为准。",
+      "caution": "防空塔不是可默认进入的观景楼；本项不含瓷器馆或音乐会。",
+      "refs": [
+        "outdoors-vi-augarten-0",
+        "outdoors-vi-augarten-1"
+      ],
+      "map": "Augartenspitz Vienna",
+      "effort": "轻松",
+      "intro": "维也纳最古老的巴洛克花园，宽阔草坪和笔直树列中保留着二战防空塔。",
+      "appearance": "对称林荫大道、开阔草地，远处是一整块粗犷的灰色高塔。",
+      "highlights": [
+        "沿笔直树列散步，拍出很有纵深感的画面",
+        "近看防空塔外观与园林的强烈反差"
+      ],
+      "bestTime": "下午到傍晚，树影有层次；出发前看当月闭园时间。是否已进入金黄秋色需看天气。",
+      "tradeoff": "不是华丽宫殿花园；如果不喜欢战争遗迹，塔楼可能觉得压抑，纯赏花也受季节影响。",
+      "booking": {
+        "status": "公园无需预约",
+        "detail": "户外免费；园内演出、餐饮和瓷器相关活动另查，本项不包含。",
+        "url": "https://www.bundesgaerten.at/augarten/oeffnungszeiten.html"
+      },
+      "coordinates": {
+        "lat": 48.220282,
+        "lng": 16.3800575,
+        "sourceUrl": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/augarten-955840"
+      },
+      "coordinateNote": "坐标来自旅游局正文：公园南端 Augartenspitz 的城市地理中心参考点，非防空塔。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/291696/3x2/520/346/3e7a7505f2debc3c761460b0c16e7754/C412015EFBB4AC78D77C5876D2B7E50B/50620-flakturm-im-augarten-allee-gruenes-wien-park-outdoor-sport.webp",
+        "page": "https://www.wien.info/de/lebenswertes-wien/parks-gruenflaechen/augarten-955840",
+        "caption": "Augarten 林荫道与防空塔实景；秋色不代表出行当天",
+        "credit": "© WienTourismus / Paul Bauer"
+      }
+    },
+    {
+      "id": "vi-old-danube",
+      "city": "维也纳",
+      "name": "Alte Donau · 湖边散步与双人小船",
+      "kind": "体验",
+      "weather": "晴天限定",
+      "time": "1.5–3 小时；租船可只选 30–60 分钟",
+      "budget": "岸边散步免费；船按每船计费。运营商网页现列 2025 价格，2026 需再确认",
+      "why": "想从看建筑切换成一起做点什么，这比普通游船更自由：自己划或开小电船，在水上慢慢看维也纳另一面。",
+      "do": "沿老多瑙河公共岸线散步；当天暖和、无大风且船行营业时，再选脚踏船或小电船。",
+      "access": "U1 Alte Donau 附近；参考租船点 Marina Hofbauer 位于 Wagramer Straße 49。",
+      "hours": "Marina Hofbauer 称一般 4 月至 10 月营业，但另页写季末视天气；9 月底/10 月必须先电话确认当天是否开。",
+      "caution": "不把夏季游泳场景当秋季保证。风大或冷雨天体验明显下降，船型与船位也需当天确认。",
+      "refs": [
+        "outdoors-vi-old-danube-0",
+        "outdoors-vi-old-danube-1",
+        "outdoors-vi-old-danube-2",
+        "outdoors-vi-old-danube-3"
+      ],
+      "map": "Marina Hofbauer Wagramer Strasse 49 Vienna",
+      "effort": "轻松",
+      "intro": "老多瑙河是已与主河道分离的平静水域，湖畔有船屋、餐厅和租船点；不同于市中心的 Danube Canal。",
+      "appearance": "低矮岸边绿树与小码头，水上有小船，远处能看到现代城区。",
+      "highlights": [
+        "两人租小船，自选节奏看水面和城市天际线",
+        "不租船也能在公共岸段慢走，找水边餐厅休息"
+      ],
+      "bestTime": "选暖和、少风的下午；秋季不要为了日落拖到停航或闭店后。只在确认营业后安排租船。",
+      "tradeoff": "旅游局宣传以夏天为主，秋季可能冷或停租；岸线有私人码头，不能假设处处都能通行。",
+      "booking": {
+        "status": "散步无需预约；租船先确认",
+        "detail": "运营商未在已查页面明确常规船预约规则；想租指定船型先电话 +43 1 203 11 11 确认。网页要求带有照片的身份证件。",
+        "url": "https://marina-hofbauer.at/bootsvermietung/index.html"
+      },
+      "coordinates": {
+        "lat": 48.2377621,
+        "lng": 16.4256031,
+        "sourceUrl": "https://www.openstreetmap.org/way/579497368"
+      },
+      "coordinateNote": "图钉为 Marina Hofbauer 租船点，只是一个具体上船参考点，不是湖中央。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/291646/3x2/520/346/fabf1a3b85ef8ab9408da2798746886a/7436A44E4CADFF8F7F1318E6069E3155/50595-bootfahren-alte-donau-sommer-outdoor-wasser.webp",
+        "page": "https://www.wien.info/en/livable-vienna/water-in-vienna/summer-at-old-danube-360430",
+        "caption": "Alte Donau 小船实景，夏季拍摄；秋季是否开租取决于天气",
+        "credit": "© WienTourismus/Paul Bauer"
+      }
+    },
+    {
+      "id": "vi-central-cemetery",
+      "city": "维也纳",
+      "name": "Zentralfriedhof · 树荫大道与音乐家长眠地",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1.5–2 小时",
+      "budget": "户外步行免费；导览或馆内另计",
+      "why": "如果你们不排斥墓园，这里提供一种很特别的维也纳体验：安静的树荫大道、宏伟教堂，以及熟悉音乐家名字变成真实地点。",
+      "do": "从 Tor 2 主门进入，沿主轴看 Karl Borromäus 教堂，再在名人墓区找贝多芬、舒伯特等墓位；不必走遍全园。",
+      "access": "主入口 Tor 2 地址 Simmeringer Hauptstraße 234；不是老城中心，需给往返交通留时间。",
+      "hours": "园区 4–9 月 07:00–19:00；10/1–11/2 07:00–18:00。教堂 3 月至 11/2 通常至 16:30；侧门可能提早关闭。",
+      "caution": "仍是使用中的墓地，遇葬礼避让并保持安静；莫扎特这里只是纪念碑，不是他的安葬处。",
+      "refs": [
+        "outdoors-vi-central-cemetery-0",
+        "outdoors-vi-central-cemetery-1"
+      ],
+      "map": "Zentralfriedhof Tor 2 Vienna",
+      "effort": "轻松",
+      "intro": "规模很大的城市墓园，也是林荫步道与新艺术风格建筑组成的安静绿地。",
+      "appearance": "笔直树荫大道通向浅色圆顶教堂，两侧分布石刻、墓碑与绿树。",
+      "highlights": [
+        "走主轴大道看圆顶教堂，感受不同于热闹老城的空间",
+        "在音乐家墓区认识名字和故事，不需要看艺术展"
+      ],
+      "bestTime": "上午或下午较早时段；想进教堂需在 16:30 前留出时间，秋日树影好看但叶色随季节变化。",
+      "tradeoff": "气氛安静甚至肃穆，不是欢乐游乐项目；若对墓园不自在，直接跳过。园子很大，随意走容易超时。",
+      "booking": {
+        "status": "自由散步无需预约",
+        "detail": "白天自行步行不必预约；夜间团和专门导览需另订，未纳入本项。",
+        "url": "https://www2.friedhoefewien.at/zentralfriedhof"
+      },
+      "coordinates": {
+        "lat": 48.1545672,
+        "lng": 16.4424241,
+        "sourceUrl": "https://www.openstreetmap.org/node/9870495463"
+      },
+      "coordinateNote": "图钉标在 Tor 2 主入口附近，使用 OpenStreetMap 的同名参考点；不是范围很大的墓园中心。",
+      "photo": {
+        "url": "https://www.wien.info/resource/image/291974/3x2/520/346/ca391ba7da868967f0b74d2dd576dbd/52DABAF6B8BF991CB137DD682A1C852B/50837-friedhof-zentralfriedhof-allee-friedhofskirche-kirche-zum-heiligen-karl-borromaeus-lueger-kirche.webp",
+        "page": "https://www.wien.info/de/sehen-erleben/sehenswuerdigkeiten-a-z/zentralfriedhof-366576",
+        "caption": "中央公墓主轴大道与 Karl Borromäus 教堂实景",
+        "credit": "© WienTourismus/Gregor Hofbauer"
+      }
+    },
+    {
+      "id": "lk-ewige",
+      "city": "湖区",
+      "name": "Ewige Wand · 森林、岩壁隧道与山谷全景",
+      "kind": "徒步",
+      "weather": "晴阴",
+      "time": "起点往返约 1.5–2 小时含拍照；上山接送另计",
+      "budget": "步道免费；预约出租车往返另询价",
+      "why": "想走一点山路又想有新鲜感时，比单纯湖边散步多了穿岩壁隧道的体验。",
+      "do": "从 Rathlucken Hütte 停车场沿传说步道走到岩壁与两条隧道，再原路返回。",
+      "access": "建议预约车到 Rathlucken Hütte 并约定接回，报价待询；官方说不用车到起点另需约 1.5 小时步行，公交只到山脚，不能把短步道当成酒店出门即到。",
+      "hours": "无固定检票时段；积雪较多时关闭。2026 页面仍列木雕更换警示，出发前看最新公告。",
+      "caution": "有树根、岩石和临崖段，栏索不等于封闭护栏；恐高、湿滑、冰雪天跳过，不进入同名攀岩线路。木雕维修期间别攀爬木雕。",
+      "refs": [
+        "outdoors-lk-ewige-0",
+        "outdoors-lk-ewige-1"
+      ],
+      "map": "Rathlucken Hütte Bad Goisern",
+      "effort": "轻至中等（需接送）",
+      "intro": "Bad Goisern 上方贴着岩壁开的步道，先穿森林，再过两个短隧道，从崖边看山谷。",
+      "appearance": "灰白岩壁紧贴小路，隧道出口露出绿色山谷与远山，视角与在湖边完全不同。",
+      "highlights": [
+        "穿过岩壁中的两条隧道，近看石壁并俯瞰住宿地所在的山谷。",
+        "森林短走与开阔观景交替，适合拍照和小段徒步。"
+      ],
+      "bestTime": "下午光线可照到面向山谷的岩壁；以干燥、能见度好为先，天黑前返回。",
+      "tradeoff": "最麻烦的是上到起点：叫车增加费用，自己上山则增加体力和时间；临崖段不适合明显恐高的人。",
+      "booking": {
+        "status": "步道无需预约，接送需约",
+        "detail": "步道不收门票；提前预约往返出租车并确认最新开放，山屋用餐另查。",
+        "url": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/430007280/bad-goisern-mountain-and-legend-trail.html"
+      },
+      "coordinates": {
+        "lat": 47.65297,
+        "lng": 13.6267,
+        "sourceUrl": "https://dachstein.salzkammergut.at/en/oesterreich-poi/detail/430024646/parkplatz-rathlucken-huette.html"
+      },
+      "coordinateNote": "图钉在 Rathlucken Hütte 停车场步道起点，不在悬崖观景点。",
+      "trail": {
+        "distance": "官方轨迹单程 1.1 km；正文约 1.5 km，往返按约 2.2–3 km 留量",
+        "ascent": "官方单程上升 116 m、下降 89 m；往返累计上升约 205 m（据同路折返估算）",
+        "duration": "官方单程 37 分钟；往返建议留 1.5–2 小时含停留",
+        "difficulty": "官方 easy；有临崖段，恐高需谨慎",
+        "terrain": "林间自然路面、树根、石块、岩壁通道与短隧道",
+        "routeType": "往返线，不含山脚到起点的接近路"
+      },
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/247458/FBAED0B82F26BF74D0A73B91803104C5AB892C84DF13E5C8224B284DEF9FC6F1/die-ewige-wand-ist-perfekt-um-die-sonne-bis-abends-zu-geniessen.jpg",
+        "page": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/430007280/bad-goisern-mountain-and-legend-trail.html",
+        "caption": "Ewige Wand 岩壁步道实景",
+        "credit": "Best of Wandern Thomas Bichler"
+      }
+    },
+    {
+      "id": "lk-koppenwinkel",
+      "city": "湖区",
+      "name": "Koppenwinkel · 森林溪流与小湖环线",
+      "kind": "徒步",
+      "weather": "晴阴",
+      "time": "徒步含停留约 3–3.5 小时；交通另留余量",
+      "budget": "步道免费，往返火车另计",
+      "why": "不想上高山、又愿意认真走半天时，森林、溪流和岩壁盆地比再逛一个商业化小镇更合适。",
+      "do": "从 Obertraun Dachsteinhöhlen 站走官方环线，经过森林、Koppenwinkelsee 与牧场区域，再沿 Traun 河返回。",
+      "access": "Bad Goisern 乘火车到 Obertraun Dachsteinhöhlen，起终点同站，不必再约出租车；当天班次、票价和酒店接站时间另查。交通省接驳成本，但步行本身约 8.3 km。",
+      "hours": "官方列 5–10 月适合走；本次查看线路页未列封闭公告，不代表 9/30 或 10/1 保证开放，出发前复查。",
+      "caution": "不加入 Koppenbrüller 洞穴：原攻略记录其季节已于 9/27 结束。雨后注意湿滑；小湖水量季节变化大，可能水少，别只为蓝湖照片而来。",
+      "refs": [
+        "outdoors-lk-koppenwinkel-0",
+        "outdoors-lk-koppenwinkel-1"
+      ],
+      "map": "Obertraun Dachsteinhöhlen Bahnhof",
+      "effort": "中等（距离较长、爬升少）",
+      "intro": "Obertraun 山脚的一条谷地环线，重点是林荫小路、清溪和陡峭山壁下的自然盆地。",
+      "appearance": "森林包住浅浅的小湖和溪流，背后是高耸岩壁；丰水与少水时会像不同的地方。",
+      "highlights": [
+        "比湖畔打卡更像在森林里走一趟，穿过溪流、牧场与林间小路。",
+        "从火车站出发又回到同一站，不依赖山顶缆车或停车场接送。"
+      ],
+      "bestTime": "建议上午开始，下午不赶末班；阴天也能看森林和水，但大雨、暴涨或封闭时取消。",
+      "tradeoff": "全线 8.3 km 不是饭后小散步；小湖可能水少，部分路段视野在树林内，不是全程大山湖景。",
+      "booking": {
+        "status": "无需预约",
+        "detail": "普通步道无需预约；列车、餐厅与任何洞穴项目分别确认。本卡不含洞穴入内。",
+        "url": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/100359/through-the-koppenwinkel.html"
+      },
+      "coordinates": {
+        "lat": 47.55772596775735,
+        "lng": 13.683922290802002,
+        "sourceUrl": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/100359/through-the-koppenwinkel.html"
+      },
+      "coordinateNote": "图钉为官方路线起点 Obertraun Dachsteinhöhlen 火车站，不是小湖。",
+      "trail": {
+        "distance": "8.3 km（官方当前徒步线路）",
+        "ascent": "累计上升 155 m、下降 152 m（官方）",
+        "duration": "官方纯步行 2 小时 19 分；含停留建议 3–3.5 小时",
+        "difficulty": "官方 easy，体能要求 medium",
+        "terrain": "部分柏油路、林间步道、林道与河岸路",
+        "routeType": "环线，起终点均为 Obertraun Dachsteinhöhlen 站"
+      },
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/237802/ED0BA34EED5BF56D7663B4D62690FEE8B74FC7997DAD9DF013FB14575E02211F/koppenwinklsee.jpg",
+        "page": "https://dachstein.salzkammergut.at/en/oesterreich-tour/detail/100359/through-the-koppenwinkel.html",
+        "caption": "Koppenwinkelsee 丰水时实景，水量会随季节变化",
+        "credit": "RudiKainPhotografie"
+      }
+    },
+    {
+      "id": "lk-jainzen",
+      "city": "湖区",
+      "name": "Jainzen · 有一点挑战的森林登高",
+      "kind": "徒步",
+      "weather": "晴天限定",
+      "time": "环线含停留约 2.5–3 小时；到起点接近路与火车另计",
+      "budget": "步道免费；火车与可选起点接送另计",
+      "why": "如果想要一次真正爬坡、而非仅沿湖走路，这座低山能用半天换取向 Dachstein 与 Wolfgangsee 方向的景观。",
+      "do": "走官方 13 号 Jainzen 环线，在山顶休息看景后沿标记下山；不从 Kaiserpark 内随意找穿越口。",
+      "access": "先乘火车到 Bad Ischl，再步行接往 Jainzen 起点（额外距离未核定）；想省接近路可询价短途车。官方 3.9 km 不含车站往返。",
+      "hours": "官方推荐春夏秋；查看线路页未见当期封闭提示，出发前仍需确认路况。",
+      "caution": "官方分级中等：最后有辅助绳、下山有陡峭折返。雨后、落叶湿滑或不想爬坡就选 Koppenwinkel；不是无门槛公园散步。",
+      "refs": [
+        "outdoors-lk-jainzen-0"
+      ],
+      "map": "47.725, 13.623888889",
+      "effort": "中等（持续上坡、陡下坡）",
+      "intro": "Bad Ischl 北侧、皇帝别墅后方的一座林山；推荐的是山林徒步与顶端远景，不是室内宫殿参观。",
+      "appearance": "大部分路在森林里，靠近顶端才露出远山和谷地；下山有连续弯折的坡道。",
+      "highlights": [
+        "通过一段约 300 米累计上升获得与平地完全不同的远景。",
+        "把森林徒步与 Bad Ischl 的午餐或咖啡接在一起，不需再跨到远处湖泊。"
+      ],
+      "bestTime": "选路面干燥的上午或中午，给下山和回程留足白天；别为落日临近天黑上山。",
+      "tradeoff": "树林内景色较重复，精彩视野集中在上部；下坡比照片看起来更费膝盖，初次徒步且怕陡的人不优先。",
+      "booking": {
+        "status": "无需预约",
+        "detail": "公共徒步线路无需预约，出租车另约；当天遇封闭以现场标记为准。",
+        "url": "https://badischl.salzkammergut.at/oesterreich-tour/detail/430002396/rundweg-ueber-den-jainzen-814-m.html"
+      },
+      "coordinates": {
+        "lat": 47.725,
+        "lng": 13.623888889,
+        "sourceUrl": "https://badischl.salzkammergut.at/oesterreich-tour/detail/430002396/rundweg-ueber-den-jainzen-814-m.html"
+      },
+      "coordinateNote": "使用官方描述明确给出的起点 DMS 47°43′30″N、13°37′26″E；不是山顶。",
+      "trail": {
+        "distance": "3.9 km（官方当前轨迹；不含车站接近路）",
+        "ascent": "累计上升 313 m、下降 313 m（官方当前轨迹）",
+        "duration": "官方 1 小时 54 分；含停留建议 2.5–3 小时",
+        "difficulty": "官方 medium；含辅助绳与陡坡",
+        "terrain": "柏油接近段、砾石林道和山径；下坡多折返",
+        "routeType": "环线，Jainzen 起点出发并返回"
+      },
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/242665/E59CA19C695D81E9D06B400FD60CA9B8F120678FAA709A5E53E0C0C008ADD4FE/ueber-den-jainzen.jpg",
+        "page": "https://badischl.salzkammergut.at/oesterreich-tour/detail/430002396/rundweg-ueber-den-jainzen-814-m.html",
+        "caption": "官方 Jainzen 徒步线路实景",
+        "credit": "www.badischl.at"
+      }
+    },
+    {
+      "id": "lk-kaiserpark",
+      "city": "湖区",
+      "name": "Kaiserpark · 皇帝别墅外的花园慢走",
+      "kind": "公园",
+      "weather": "晴阴",
+      "time": "1–1.5 小时",
+      "budget": "2026 成人仅公园 €6.70；不需买 €24 的别墅联票",
+      "why": "想看漂亮绿地、老树与别墅外观，又不爱艺术展时，只买公园票就能把重点放在户外。",
+      "do": "在花园和林荫路散步，看别墅外观与园林；不默认参观别墅房间或 Marmorschlössl 展览。",
+      "access": "Bad Goisern 乘火车到 Bad Ischl 后步行到 Jainzen 38；可与镇中心咖啡结合，不需要跨湖交通。",
+      "hours": "2026 年 9 月每天 09:30–17:00，10 月每天 10:00–16:00，公园同场馆时段。",
+      "caution": "园地有上坡，不是全园平坦无障碍；10 月关门比 9 月早一小时，别当全天公共公园。",
+      "refs": [
+        "outdoors-lk-kaiserpark-0",
+        "outdoors-lk-kaiserpark-1"
+      ],
+      "map": "Kaiserpark Austria",
+      "effort": "轻松（可按体力缩短）",
+      "intro": "围绕 Kaiservilla 的收费历史园林，适合赏树、看建筑外观和散步；不需要对宫廷展览有兴趣。",
+      "appearance": "浅色别墅前是草坪、花圃与喷泉，往外走有大树和坡地林荫路径。",
+      "highlights": [
+        "只看室外也能享受别墅与花园同框，拍照后坐下休息。",
+        "比登山更好控制强度，适合当天不想走太久的选择。"
+      ],
+      "bestTime": "建议上午至午后，光线柔和时看建筑与绿地；10 月尽量 14:30 前入园以免匆忙。",
+      "tradeoff": "需要门票，花园规模和“戏剧性”不如高山景观；如果只想免费坐树下，镇内公共公园也够用。",
+      "booking": {
+        "status": "需门票，普通散客未见强制预约要求",
+        "detail": "成人仅公园票 €6.70；按门口售票及当天开放进入。官网线上主推别墅联票，不必为散步买更贵的室内导览。",
+        "url": "https://www.kaiservilla.at/index.php/de/oeffnungszeiten-und-preise"
+      },
+      "coordinates": {
+        "lat": 47.715020529241734,
+        "lng": 13.620761632919317,
+        "sourceUrl": "https://badischl.salzkammergut.at/oesterreich-poi/detail/430002121/kaiservilla.html"
+      },
+      "coordinateNote": "图钉为官方 Kaiservilla 园区地点，不是公园每一扇入口；抵达后找售票入口。",
+      "photo": {
+        "url": "https://assets.tourdata.at/x550/209309/895F7144B4D5EFCB87CC0A67281675E646D89D88BB86E94D3FB4059C44CA2F3B/kaiservilla-bad-ischl.jpg",
+        "page": "https://badischl.salzkammergut.at/oesterreich-poi/detail/430002121/kaiservilla.html",
+        "caption": "Kaiservilla 与园林外观实景（广角全景照片）",
+        "credit": "Oberösterreich Tourismus/Steininger"
+      }
+    },
+    {
+      "id": "lk-katrin",
+      "city": "湖区",
+      "name": "Katrin · 复古小缆车与山上看景",
+      "kind": "体验",
+      "weather": "晴天限定",
+      "time": "山上及缆车约 2–3 小时；门到门按半天以上留量",
+      "budget": "2026 成人缆车往返 €28；餐饮、火车及公交另计",
+      "why": "想上山看远景，又不想完成登顶长线时，小缆车本身就有趣；可以只在上站周围看景、喝东西。",
+      "do": "坐约 15 分钟缆车到约 1,400 米高处，在开放的上站周边停留看山；体力好再现场挑短路，不默认加七湖环线或攀岩。",
+      "access": "先火车到 Bad Ischl，工作日可接 552 到 Kaltenbach-Katrinseilbahn；官方称周末及节假日无此市区公交。镇中心步行到下站约 30 分钟，可省公交等待但多走路。",
+      "hours": "2026 夏季至 11/9，每天 09:00–17:00；末班上行 16:30、下行 17:00。天气或运营可能临时变动。",
+      "caution": "山顶低云时上去可能只看雾；上站附近也会冷和有坡度。不要把海拔 1,400 米写成徒步爬升，也不把完整七湖环线当平坦散步。",
+      "refs": [
+        "outdoors-lk-katrin-0",
+        "outdoors-lk-katrin-1",
+        "outdoors-lk-katrin-2",
+        "outdoors-lk-katrin-3"
+      ],
+      "map": "Katrin Austria",
+      "effort": "轻至中等（仅上站周边）",
+      "intro": "从 Bad Ischl 山脚乘小型复古缆车上 Katrin，以乘坐体验、高山空气和远景为主。",
+      "appearance": "小车厢沿林坡上升，山上视线越过草坡与树林望向层叠群山；不同位置能看到不同方向的湖和山。",
+      "highlights": [
+        "慢慢升高的缆车让景色逐步展开，本身就是值得体验的一段。",
+        "不必挑战登顶，也能在上站周围欣赏山景并安排山上休息。"
+      ],
+      "bestTime": "上午先看实时山顶天气再决定；能见度比日落更重要，提前于末班下山。",
+      "tradeoff": "比免费步道花钱；云雾、风或停运都会影响价值，公交与缆车要衔接。若已选 Krippenstein，可把它当替代而非两座山都上。",
+      "booking": {
+        "status": "需缆车票",
+        "detail": "可按官方售票渠道购票；普通乘坐未见强制时段预约要求。先看天气与当天运营，再决定上山。",
+        "url": "https://en.katrinseilbahn.com/tarife"
+      },
+      "coordinates": {
+        "lat": 47.698333333,
+        "lng": 13.6075,
+        "sourceUrl": "https://en.katrinseilbahn.com/kontakt-anfahrt"
+      },
+      "coordinateNote": "图钉为下站（官方 DMS 坐标），实际观景在乘缆车抵达的上站；图上直线距离不是步行到山顶距离。",
+      "photo": {
+        "url": "https://images.squarespace-cdn.com/content/v1/5fbb908d3c97a8499ab47dfb/1c26e47f-dbf9-40d6-9dca-044760e2c32c/katrinseilbahn-aussicht%C2%A9bettinagangl002.jpg",
+        "page": "https://en.katrinseilbahn.com/",
+        "caption": "Katrin 缆车官方山景实景；非保证上站每处都有同一视角",
+        "credit": "Bettina Gangl / Katrin Seilbahn"
+      }
+    },
+    {
+      "id": "pr-stromovka",
+      "name": "Stromovka · 池塘、草坪与大树下散步",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1.5–2.5 小时（建议停留）",
+      "budget": "公园散步免费，餐饮另计",
+      "intro": "由王室猎场改成的大型城市公园；核心是湖塘、草地和成熟树木，适合没有打卡任务地慢慢走。",
+      "appearance": "弯曲池岸倒映大树，宽阔草坪与林荫路交替；不是俯瞰老城的高处观景台。",
+      "highlights": [
+        "围着湖塘走一段，看水面倒影和水鸟",
+        "带一点点心坐长椅，或沿林荫道继续走"
+      ],
+      "why": "想要轻松散步时值得优先挑：相较城堡区和山坡花园，中央池塘区更适合少爬坡、边走边休息。",
+      "do": "从方便的入口到中央池塘区，自选一小圈；只想歇脚就停在湖边，不必把整座公园走遍。",
+      "access": "在布拉格北部、Výstaviště 展览园旁；公共交通到入口后仍需步行。与现有 Výstaviště Kolkovna 餐厅属于同一方向。",
+      "hours": "公共城市公园；未查到统一每日关门时刻，建议白天游览。",
+      "caution": "秋色取决于天气，9 月底、10 月初不保证满园金黄；雨后草地可能湿软。",
+      "map": "Královská obora Stromovka Prague",
+      "effort": "中央池塘区较轻松",
+      "bestTime": "有日光的上午或午后；晴天看倒影、阴天走林荫都合适，野餐则挑温暖少风的时候。",
+      "tradeoff": "放松价值高，但没有密集历史地标或标志性河桥全景；若你们只想拍经典布拉格，Letná 更直接。",
+      "booking": {
+        "status": "无需预约",
+        "detail": "公共公园不需要预约；餐厅和其他付费活动各自另算。",
+        "url": "https://prague.eu/cs/objevujte/kralovska-obora-stromovka/"
+      },
+      "city": "布拉格",
+      "refs": [
+        "outdoors-pr-stromovka-0"
+      ],
+      "coordinates": {
+        "lat": 50.106494451475,
+        "lng": 14.419288404199,
+        "sourceUrl": "https://prague.eu/cs/objevujte/kralovska-obora-stromovka/"
+      },
+      "coordinateNote": "旅游局页面的官方导航点，用于判断所在区域；大型公园不是唯一入口。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13095400/stromovka2-scaled-e1730720562378.jpg",
+        "page": "https://prague.eu/cs/objevujte/kralovska-obora-stromovka/",
+        "caption": "Stromovka 的池塘、草坪与树木倒影；秋叶颜色随天气变化",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "pr-divoka-sarka",
+      "name": "Divoká Šárka · 坐电车就能到的岩谷散步",
+      "kind": "徒步",
+      "weather": "晴阴",
+      "time": "2–3 小时（短程往返的建议预留，不含交通）",
+      "budget": "自然保护区步道免费",
+      "intro": "布拉格西北的岩石峡谷与自然保护区，溪流穿过岩壁、树林和草地；比整齐城市公园更有走进自然的感觉。",
+      "appearance": "灰色岩壁从林间突起，谷底有溪流与步道；主图是高处看谷地，不代表短线会登上这个拍摄点。",
+      "highlights": [
+        "沿标记步道进谷，近看岩壁和溪流",
+        "走累就原路返回，不必为登顶离开正规步道"
+      ],
+      "why": "若这次想给老城街景换一种体验，这是布拉格候选里最像小型自然徒步的一项，公共交通也能接近。",
+      "do": "从 Divoká Šárka 电车站附近进谷，优先沿红色标记的溪谷步道走一段再折返；看地图和剩余体力决定折返点，暂不指定山脊环线。",
+      "access": "乘电车到 Divoká Šárka，再按官方导览图找谷口；电车站不是所有线路的终点，查实时交通即可。",
+      "hours": "自然步道只建议白天走，天黑前出谷；沿途夏季泳池不作为这次秋游内容。",
+      "caution": "路面有坡和不平整处，雨后湿滑；穿有抓地力的鞋。不以高处宣传照片为由走到悬崖边或未标记小径。",
+      "map": "Divoká Šárka tram stop Prague",
+      "effort": "轻至中等，按折返点调整",
+      "bestTime": "选干燥天气的上午到早下午，给往返和停留留足白天；阴天也可看峡谷，不推荐天黑才入谷。",
+      "tradeoff": "自然感比城市公园强，但往返更花时间，休息和补给没有市中心密集；如果只想平路闲逛，选 Stromovka 更合适。",
+      "booking": {
+        "status": "无需预约",
+        "detail": "自然保护区标记步道自由进入；遵守现场封路与保护区规定。",
+        "url": "https://prague.eu/cs/objevujte/divoka-sarka/"
+      },
+      "city": "布拉格",
+      "refs": [
+        "outdoors-pr-divoka-sarka-0",
+        "outdoors-pr-divoka-sarka-1"
+      ],
+      "coordinates": {
+        "lat": 50.0926979,
+        "lng": 14.3226889,
+        "sourceUrl": "https://www.openstreetmap.org/node/11282180218"
+      },
+      "coordinateNote": "图钉为 Divoká Šárka 电车停靠点，入谷后沿红色标记步道走；不是岩顶观景机位。具体入口跟随现场步道标识。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13075523/divoka-sarka.jpg",
+        "page": "https://prague.eu/cs/objevujte/divoka-sarka/",
+        "caption": "Divoká Šárka 的岩壁与林谷；这是高处视角，推荐谷底短线不保证同款视野",
+        "credit": "Prague City Tourism"
+      },
+      "trail": {
+        "distance": "按折返点决定，短线总里程尚未测定",
+        "ascent": "累计爬升尚未核实",
+        "duration": "建议预留 2–3 小时；不是官方定长路线用时",
+        "difficulty": "谷底短线较轻松，有坡和不平整路面；不含岩顶线路",
+        "terrain": "沿溪标记步道，部分硬化路及自然路面",
+        "routeType": "往返，可随时提前折返",
+        "note": "市政府资料推荐从电车站沿红色步道入溪谷；本候选仅取一段往返，不把保护区约 2 km 长度或另一条 9.3 km 全线当成此路线里程。选中后再定折返点、测距与爬升。"
+      }
+    },
+    {
+      "id": "pr-petrin",
+      "name": "Petřín 山坡花园 · 果树间看红屋顶",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "1.5–3 小时（建议停留，登塔另计）",
+      "budget": "公共花园免费；缆车、登塔和镜宫另购票",
+      "intro": "Strahov 与小城区之间连成片的山坡花园，串着果树林、长椅和能看城市的园路，不登塔也能散步。",
+      "appearance": "草坡上散布果树，树间露出城堡和红屋顶；山顶还有铁塔与花园，秋季不要按春天满树开花来期待。",
+      "highlights": [
+        "沿 Seminary Garden 一带的果树林园路，看屋顶与城堡",
+        "想加一点趣味可另选缆车或镜宫，不必把所有付费项目都买齐"
+      ],
+      "why": "你们住 Strahov 附近，这片绿地更容易与住宿周边一起考虑；是“散步本身就有景”的候选。",
+      "do": "先挑一个方向走花园和果树林，看到喜欢的长椅就停；如想省上坡再考虑缆车，登塔和镜宫以后单独取舍。",
+      "access": "从 Lindner 所在 Strahov 区可步行接山顶园区，再按体力选是否下到小城区；若从 Újezd 上山，缆车也可作为付费选项。",
+      "hours": "花园建议白天游览。PID 列缆车每日 07:00–22:15、约 10 分钟一班；2026-09-22 起恢复载客试运营，临行查即时状态。",
+      "caution": "有持续坡道，下坡也会累；恢复运营初期仍应查缆车状态。园内并非所有花园都开放，例如使馆所属 Lobkowicz 花园不可自由进入。",
+      "map": "Petřín Gardens Prague",
+      "effort": "有明显坡度，可只走上部园区",
+      "bestTime": "能见度好的午后到日落前，留时间走出园区；如果只走树下小路，不必为了所谓最佳光线特意等日落。",
+      "tradeoff": "比平地公园多坡、走完整山很费腿；部分经典全景来自付费登塔，花园散步不等于拥有塔顶 360° 视野。",
+      "booking": {
+        "status": "花园无需预约",
+        "detail": "缆车另购票，PID 当前列单程 100 CZK；不是所有普通交通票都适用。登塔、镜宫票种另查。",
+        "url": "https://pid.cz/en/funicular/"
+      },
+      "city": "布拉格",
+      "refs": [
+        "outdoors-pr-petrin-0",
+        "outdoors-pr-petrin-1",
+        "outdoors-pr-petrin-2"
+      ],
+      "coordinates": {
+        "lat": 50.082931915424,
+        "lng": 14.398217936865,
+        "sourceUrl": "https://prague.eu/en/objevujte/petrin-gardens-petrinske-sady/"
+      },
+      "coordinateNote": "旅游局页面的官方导航点，用于判断所在区域；大型公园不是唯一入口。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/14103810/jpgtif_dsc1033.jpg",
+        "page": "https://prague.eu/en/objevujte/petrin-gardens-petrinske-sady/",
+        "caption": "Petřín 山坡果树与园路，远处是布拉格城堡",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "pr-waldstein",
+      "name": "Waldstein 花园 · 孔雀、倒影与奇怪的岩洞墙",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "45–75 分钟（建议停留）",
+      "budget": "免费",
+      "intro": "小城区宫殿旁的封闭式巴洛克花园，把整齐绿篱、池塘、巨大拱廊与人工钟乳石墙装在一个不大的空间里。",
+      "appearance": "对称绿篱通向三联高拱廊，一侧是造型怪异的灰色岩洞墙；园内可遇见孔雀，但不保证靠近或开屏。",
+      "highlights": [
+        "沿池塘和绿篱看建筑倒影、拱廊与雕塑",
+        "找人工岩洞墙里的细节，远距离观察孔雀"
+      ],
+      "why": "不用懂艺术史也能直接觉得好看、有点古怪；适合给小城区散步加一段短而有变化的花园休息。",
+      "do": "绕池塘与主花坛，走到岩洞墙前看纹理，再找长椅坐一会儿；不需要进宫殿或参加展览。",
+      "access": "靠 Malostranská 地铁站和电车站；从酒店方向到小城区后可步行进入，注意围墙入口位置。",
+      "hours": "参议院官网：4 月 1 日至 10 月 31 日开放；周一至周五 07:00–19:00，周末及节假日 09:00–19:00。",
+      "caution": "不要走进草坪、投喂或触摸动物；不保证见到孔雀开屏。临时官方活动可能影响入园，以现场为准。",
+      "map": "Wallenstein Garden Prague",
+      "effort": "轻松短走",
+      "bestTime": "上午开放后或下午有日光时；秋天早晚较凉，想坐久一点可挑午后，不必赶拍夕阳。",
+      "tradeoff": "精致但面积不大，不适合期待长距离徒步的人；周边热门，安静程度随人流变化，11 月起常规季节关闭。",
+      "booking": {
+        "status": "无需预约",
+        "detail": "常规花园参观免费，依季节和开放时间入园；宫殿内部不是这项花园散步的内容。",
+        "url": "https://www.senat.cz/informace/pro_verejnost/valdstejnska_zahrada/index.php"
+      },
+      "city": "布拉格",
+      "refs": [
+        "outdoors-pr-waldstein-0",
+        "outdoors-pr-waldstein-1"
+      ],
+      "coordinates": {
+        "lat": 50.090236437208,
+        "lng": 14.407702663477,
+        "sourceUrl": "https://prague.eu/en/objevujte/wallenstein-garden-valdstejnska-zahrada/"
+      },
+      "coordinateNote": "图钉为旅游局给出的花园位置，具体开放入口以当日现场标识为准。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13094759/valdstejnska-zahrada-scaled.jpg",
+        "page": "https://prague.eu/en/objevujte/wallenstein-garden-valdstejnska-zahrada/",
+        "caption": "Waldstein 花园的几何绿篱、雕像与高拱廊",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "pr-troja-botanical",
+      "name": "Troja 植物园 · 日本园、葡萄坡与热带温室",
+      "kind": "风景",
+      "weather": "晴阴",
+      "time": "2.5–4 小时（建议停留）",
+      "budget": "需购票，按官网当日票种；园内餐饮另计",
+      "intro": "Troja 山坡上的大植物园，既有日本园与葡萄园，也有不同气候植物区和 Fata Morgana 热带温室。",
+      "appearance": "室外是小径、树木和顺坡排列的葡萄藤；温室里变成繁密叶片、岩壁与水景，走起来像换了一个气候。",
+      "highlights": [
+        "在日本园与室外植物区慢走，再看圣克拉拉葡萄坡视野",
+        "愿意多逛时加 Fata Morgana 温室，看热带植物与水景"
+      ],
+      "why": "比单纯坐公园多一点探索感，又无需看展解说；适合想把自然、花园和有趣室内体验放在同一次出门的人。",
+      "do": "在室外区选日本园、葡萄园与一段园路；温室作为可加项目，别为“票都买了”强行走遍所有分区。",
+      "access": "官方列从 Nádraží Holešovice 换公交到 Troja 一带；园区有多个入口，先决定室外区还是温室再选入口，二者不是同一个门。",
+      "hours": "官网列 3–10 月室外区每日 09:00–19:00；Fata Morgana 周二至周日及假日 09:00–19:00，周一闭馆，末次入温室 18:30。",
+      "caution": "日本园曾有 2026-09-23–25 拍摄限制，不等于 10 月也关闭；出发前复查当日公告。园区有坡，秋色和花量随季节变化。",
+      "map": "Prague Botanical Garden Troja",
+      "effort": "园区大且有坡，可缩短",
+      "bestTime": "建议上午后段开始，给室外区和温室留足时间；晴天先看葡萄坡，小雨可把重心放在温室，不能当全程室内。",
+      "tradeoff": "需门票且离酒店较远，走全部区域会累；若只是想散步一小时，免费公园更省事；10 月不应期待春季花海。",
+      "booking": {
+        "status": "需购票，普通参观通常无需预约时段",
+        "detail": "可从官网查看门票并线上购买；是否包含温室按实际票种确认，特别活动与导览另算。",
+        "url": "https://www.botanicka.cz/en/for-visitors/basic-info/entrance-fees"
+      },
+      "city": "布拉格",
+      "refs": [
+        "outdoors-pr-troja-botanical-0",
+        "outdoors-pr-troja-botanical-1",
+        "outdoors-pr-troja-botanical-2",
+        "outdoors-pr-troja-botanical-3"
+      ],
+      "coordinates": {
+        "lat": 50.12424118818707,
+        "lng": 14.419494797354377,
+        "sourceUrl": "https://www.botanicka.cz/en/for-visitors/basic-info/how-to-get-to-us"
+      },
+      "coordinateNote": "植物园官网交通页给出的园区 GPS；请按已选分区另选具体入口，不能直接当温室门口。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/03/13094022/bz-fata-sukulentni-m.jpg",
+        "page": "https://prague.eu/cs/objevujte/botanicka-zahrada-hl-m-prahy-sklenik-fata-morgana/",
+        "caption": "Fata Morgana 温室里的植物与步道；不是室外日本园照片",
+        "credit": "Prague City Tourism"
+      }
+    },
+    {
+      "id": "pr-naplavka",
+      "name": "Náplavka 河岸 · 买点吃的，坐在水边看船",
+      "kind": "体验",
+      "weather": "晴阴",
+      "time": "1–2 小时（建议停留）",
+      "budget": "河岸和市集免费，吃喝另计",
+      "intro": "Rašínovo 河岸下层的步行空间，沿着伏尔塔瓦河看船、坐一会儿；周六早上还有农夫市集。",
+      "appearance": "石铺河堤紧贴水面，一边是停泊的船、一边是沿岸老楼；市集日有连续摊位与端着食物聊天的人。",
+      "highlights": [
+        "沿水边走走看船，买一杯饮品坐下来",
+        "周六上午可逛面包、奶酪和当季食物摊位"
+      ],
+      "why": "如果你们喜欢把旅行当成散步和吃东西，这里有很直接的生活气氛；比只在桥上拍照多了停下来消磨时间的理由。",
+      "do": "先走一段河岸再按胃口买一点食物；若不逛市集，选好天气坐水边也成立，不用把它包装成必到地标。",
+      "access": "位于新城南部河岸、Palackého 广场至铁路桥一带；要下到低层河岸，留意入口坡道或台阶。",
+      "hours": "市集官方列 2–12 月每周六 08:00–14:00；重大河岸活动时可能迁至附近 Palackého 广场，普通河岸散步不等于每天有市集。",
+      "caution": "天冷或刮风时久坐体验下降，石板路不平且紧邻水边；市集是否举办、是否迁址应查当周公告。",
+      "map": "Náplavka Farmers Market Prague",
+      "effort": "轻松，河岸石板路",
+      "bestTime": "冲市集就选周六上午，临近收摊选择会减少；只看河景可选晴天午后，但不能期待摊位还在。",
+      "tradeoff": "市集热闹时未必安静，吃喝和逛摊与已有 Jiřák 有重叠；若只挑一个，想要河景选这里，想看 Vinohrady 居民街区选 Jiřák。",
+      "booking": {
+        "status": "无需预约",
+        "detail": "公共河岸与农夫市集不用预约；船上餐厅、航游或活动不包含在这项候选内。",
+        "url": "https://prague.eu/en/objevujte/naplavka-farmers-market/"
+      },
+      "city": "布拉格",
+      "refs": [
+        "outdoors-pr-naplavka-0"
+      ],
+      "coordinates": {
+        "lat": 50.070383330231,
+        "lng": 14.414038038623,
+        "sourceUrl": "https://prague.eu/en/objevujte/naplavka-farmers-market/"
+      },
+      "coordinateNote": "图钉为 Náplavka 农夫市集的河岸参考位置；非市集时间仍可散步，但不会一直有摊位。",
+      "photo": {
+        "url": "https://cdn.praguecitytourism.city/2024/12/31085859/Naplavka_3.jpg",
+        "page": "https://prague.eu/en/objevujte/naplavka-farmers-market/",
+        "caption": "Náplavka 河岸的市集摊位与停泊船只；市集并非每天举办",
+        "credit": "Prague City Tourism"
+      }
+    },
     {
       "id": "bp-palace",
       "city": "布达佩斯",

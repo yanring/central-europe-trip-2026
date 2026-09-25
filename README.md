@@ -29,8 +29,8 @@ The guide is published on GitHub Pages at https://yanring.github.io/central-euro
 
 ## 内容范围
 
-11 天；55 个地点；27 个原日方案参考；5 家酒店；6 段已提供的长途交通；
-17 项准备事项；9 组实用信息；111 条来源或用户依据。
+11 天；77 个地点；27 个原日方案参考；5 家酒店；6 段已提供的长途交通；
+17 项准备事项；9 组实用信息；165 条来源或用户依据。
 所有酒店和长途交通以用户最新版文字为准，没有假装重新读取订单。
 游玩时刻、接驳耗时、预算均为建议，不是实时预订或运营保证。
 
@@ -62,12 +62,20 @@ Edit `guide-data.json`, `styles.css`, `app.js`, and `map.js`, then run `python3 
 
 ## City selection and map
 
-The main flow is destination → place comparison → favorites. It does not assign new places to dates or automatically plan routes. There are 55 candidates across Budapest (10), Vienna (14), the lake region (15), and Prague (16), including food and rest stops. Outdoors, neighborhoods, and local experiences take priority; the existing art museum is optional.
+The main flow is destination → place comparison → favorites. It does not assign new places to dates or automatically plan routes. There are 77 candidates across Budapest (15), Vienna (20), the lake region (20), and Prague (22), including food and rest stops. Outdoors, neighborhoods, and local experiences take priority; the existing art museum is optional.
 
 Every place has an introduction, appearance, highlights, recommendation, tradeoffs, suggested timing, booking guidance, and a sourced representative map position. All five booked hotels have coordinates. Hovering or focusing a card highlights the matching marker; selecting a marker scrolls to the card. On mobile, use the map-location and return-to-card buttons. Hotel distances are explicitly straight-line distances, not walking/driving routes. Subvenues such as Zauner's branches and the Krippenstein cable-car base have distinct labels and map links.
 
-54 places have visually checked real photos from venue or tourism sources. Kelet uses a photo-page link. Photos remain external URLs with source links and credits; no redistribution license is claimed. One St. Gilgen image is a small source thumbnail. Maps use OpenStreetMap standard tiles with visible attribution, default browser caching, and ordinary browser referrers. Only the visible viewport is requested; no tile prefetch or offline tile download is implemented. Static coordinates come from venue/tourism sources or a cached, rate-limited, one-time OpenStreetMap lookup; the website does not call a geocoding API.
+76 places have visually checked real photos from venue or tourism sources. Kelet uses a photo-page link. Photos remain external URLs with source links and credits; no redistribution license is claimed. One St. Gilgen image is a small source thumbnail. Maps use OpenStreetMap standard tiles with visible attribution, default browser caching, and ordinary browser referrers. Only the visible viewport is requested; no tile prefetch or offline tile download is implemented. Static coordinates come from venue/tourism sources or a cached, rate-limited, one-time OpenStreetMap lookup; the website does not call a geocoding API.
 
 The HTML embeds Leaflet, application code, styles, and guide data. Images, map tiles, and external pages require internet access. Image or map failure leaves the written guide and external source links usable. Personal edits remain local to each browser, with the original storage key and backup format preserved. New shared editing or cloud synchronization is outside this change.
 
 Use a separate localhost origin for browser testing. Do not clear or reset the live website's browser storage as part of QA.
+
+## Walks and experiences expansion
+
+22 additional candidates appear before the previous entries in each city. They cover parks, walking neighborhoods, forest and vineyard trails, caves, a forest railway, cable-car scenery, gardens, and riverside markets. They are choices, not additions to the daily itinerary.
+
+Seven trail cards show route length, accumulated ascent, indicative duration, difficulty, terrain, and route type. They distinguish one-way figures, estimated returns, approach walking, and transport. Missing official ascent figures remain explicitly unknown. The Divoká Šárka short variant has no measured total distance; it does not reuse the separate 9.3 km trail's figures. Search includes trail details, so searching for 徒步 can find the trail cards.
+
+Important operating details were checked against primary sources: the Erzsébet lookout closure is preserved on the Normafa card; the Petřín funicular card uses the operator's September 2026 restart notice; the forest railway and seasonal garden/boat operations have their own cautions. Future opening and reservation availability are not guaranteed.

@@ -1,3 +1,19 @@
+# Candidate expansion verification — 2026-09-25
+
+- Added 22 candidates from four destination-specific research agents: Budapest +5, Vienna +6, lake region +5, Prague +6. Total: 77 candidates and 76 real-place photographs.
+- Original 55 candidate objects, hotels, transport, daily routes, checklist, practical notes, and personal-state seed remain unchanged. New candidates are displayed before previous entries within each city.
+- Every new record has booking guidance, a sourced map position, a real image, experience/tradeoff/timing text, and valid source references. All 22 photos were visually checked during research or integration.
+- Seven walking-route cards distinguish route length, accumulated ascent, indicative time, difficulty, terrain, and route type. Unknown values and unmeasured short variants are explicitly labeled; mountain elevation is not presented as ascent.
+- The map and external-map links use the documented trail starts or explicitly labeled representative positions.
+- JavaScript syntax, standalone bundle synchronization, whitespace checks, unique IDs, source integrity, and expected weather-filter categories passed.
+- Real browser at a separate localhost origin: all-candidate card/marker counts matched 15/20/20/22; hotel counts remained 2/1/1/1; no horizontal overflow or JavaScript console errors were observed.
+- At 390×844, the long Ewige Wand hiking facts rendered without overflow. Its real image loaded successfully. Temporary viewport override was reset.
+- A newly added Stromovka favorite survived reload and appeared in the favorites filter and map; it was then individually toggled off. Live-site browser storage was not reset or cleared.
+
+This verifies content structure and UI behavior, not future trail opening, weather, transport connections, or reservation availability. Original-release and city-explorer checks below are historical records.
+
+---
+
 # City explorer verification — 2026-09-25
 
 - JavaScript syntax: `node --check app.js` and `node --check map.js` passed.
