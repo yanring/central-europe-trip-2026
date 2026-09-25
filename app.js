@@ -5,7 +5,7 @@ const SEED = JSON.parse(document.getElementById("guide-state").textContent);
 const STORE = "slow-central-europe-v1-" + (SEED.revision || "original");
 const dates = new Set(D.days.map(x=>x.date));
 const knownPlaces = new Set(D.places.map(x=>x.id));
-const allowedViews = ["overview","days","explore","logistics","prepare","mine","sources"];
+const allowedViews = ["overview","days","explore","logistics","prepare","mine","sources","weather"];
 const ALLTRAILS_MATCH_LABELS={close:"路线基本对应",variant:"不同走法 · 仅供参考",unconfirmed:"未确认对应路线"};
 const esc = s => String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const clean = (s,n=6000) => typeof s==="string" ? s.slice(0,n) : "";
@@ -92,7 +92,7 @@ function render(){
   removeCityMap();
   app.classList.toggle("explorer-content",currentView==="explore");
   document.querySelectorAll("[data-nav]").forEach(b=>b.classList.toggle("active",b.dataset.nav===currentView));
-  const renders={overview:renderHome,days:renderDay,explore:renderExplore,logistics:renderLogistics,prepare:renderPrepare,mine:renderMine,sources:renderSources};
+  const renders={overview:renderHome,days:renderDay,explore:renderExplore,logistics:renderLogistics,prepare:renderPrepare,mine:renderMine,sources:renderSources,weather:renderWeather};
   app.innerHTML=renders[currentView]()+footer();
   updateStatus();
   if(currentView==="explore")setupCityMap();
@@ -101,8 +101,43 @@ function render(){
     if(active)active.scrollIntoView({block:"nearest",inline:"center",behavior:"instant"});
   }
 }
+const WEATHER_CODES={0:["晴","☀","sun"],1:["大部晴朗","☀","sun"],2:["晴间多云","☁","cloud"],3:["阴 / 云量较多","☁","cloud"],45:["有雾","≋","fog"],48:["雾凇","≋","fog"],51:["小毛毛雨","☂","rain"],53:["毛毛雨","☂","rain"],55:["较强毛毛雨","☂","rain"],56:["轻微冻毛毛雨","❄","snow"],57:["较强冻毛毛雨","❄","snow"],61:["小雨","☂","rain"],63:["中雨","☂","rain"],65:["大雨","☂","rain"],66:["轻微冻雨","❄","snow"],67:["较强冻雨","❄","snow"],71:["小雪","❄","snow"],73:["中雪","❄","snow"],75:["大雪","❄","snow"],77:["雪粒","❄","snow"],80:["小阵雨","☂","rain"],81:["阵雨","☂","rain"],82:["强阵雨","☂","rain"],85:["小阵雪","❄","snow"],86:["较强阵雪","❄","snow"],95:["雷阵雨","ϟ","storm"],96:["雷雨伴小冰雹","ϟ","storm"],97:["强雷雨","ϟ","storm"],99:["雷雨伴较大冰雹","ϟ","storm"]};
+function weatherValue(value,unit,digits=0){return Number.isFinite(value)?value.toFixed(digits)+unit:"暂缺";}
+function weatherUpdateLabel(){
+  if(!D.weather?.fetchedAt)return "尚未查询";
+  return new Date(D.weather.fetchedAt).toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",hour12:false});
+}
+function weatherHint(f){
+  if(!f)return "目前没有这一地点和日期的可用预报，临近日期再查。";
+  if(f.leadDays>7)return "远期只看趋势，临近日期再决定户外安排。";
+  if([95,96,97,99].includes(f.code))return "有雷雨信号，山脊、临崖与水上活动先留作备选。";
+  if([45,48].includes(f.code))return "可能有雾；观景体验取决于能见度，出门前看实况。";
+  if((Number.isFinite(f.code)&&f.code>=51)||(f.precipitationProbabilityPct??0)>=40||(f.precipitationMm??0)>=1)return "有降水可能，带雨具，户外活动留出调整余地。";
+  if((f.gustMaxMs??0)>=10)return "有阵风，带防风外层；高处的风况需另外确认。";
+  if(Number.isFinite(f.lowC)&&f.lowC<=10)return "早晚偏凉，带一件保暖外层；白天可按体感增减。";
+  if(!Number.isFinite(f.precipitationProbabilityPct)&&!Number.isFinite(f.precipitationMm))return "降水信息暂缺，出门前另查最新预报。";
+  return "本次预报降水信号较少，户外散步可先保留，出门前再核对。";
+}
+function weatherDayCard(day,compact=false){
+  const stops=day.weatherLocations||[];
+  const forecasts=stops.map(s=>D.weather?.locations[s.id]?.forecasts?.[day.date]).filter(Boolean);
+  const lead=forecasts.length?Math.max(...forecasts.map(f=>f.leadDays)):null;
+  const horizon=lead===null?"暂无有效预报":lead>7?"远期趋势":lead>3?"中期预报":"近期预报";
+  return `<article class="weather-day ${compact?"compact-weather":""} ${lead>7?"long-range":""}" data-weather-date="${day.date}"><header><div><div class="wx-day">${dateShort(day.date)} <small>${esc(day.weekday)}</small></div><h3>${esc(day.city)}</h3></div><span class="wx-horizon">${horizon}</span></header><div class="wx-locations">${stops.map(stop=>{
+    const loc=D.weather?.locations[stop.id],f=loc?.forecasts?.[day.date],condition=WEATHER_CODES[f?.code]||["天气现象暂缺","—","unknown"];
+    if(!f)return `<section class="wx-location"><h4>${esc(loc?.name||stop.id)}</h4><p class="wx-missing">暂无这一日期的有效预报</p></section>`;
+    return `<section class="wx-location" data-weather-location="${stop.id}"><div class="wx-place"><h4>${esc(loc.name)}</h4><span>${esc(stop.period)}</span></div><div class="wx-main"><span class="wx-icon ${condition[2]}" aria-hidden="true">${condition[1]}</span><div><strong>${condition[0]}</strong><span class="wx-temperature">${weatherValue(f.lowC,"°")} <span>—</span> ${weatherValue(f.highC,"°C")}</span></div></div><dl class="wx-details"><div><dt>最高降水概率</dt><dd>${weatherValue(f.precipitationProbabilityPct,"%")}</dd></div><div><dt>全天降水量</dt><dd>${weatherValue(f.precipitationMm," mm",1)}</dd></div><div><dt>最大风速</dt><dd>${weatherValue(f.windMaxMs," m/s",1)}</dd></div><div><dt>最大阵风</dt><dd>${weatherValue(f.gustMaxMs," m/s",1)}</dd></div></dl><p class="wx-advice">${weatherHint(f)}</p><a class="wx-source" href="${esc(loc.forecastUrl)}" target="_blank" rel="noopener noreferrer">预报数据 ↗</a></section>`;
+  }).join("")}</div>${compact?'<button class="small" data-action="view" data-view="weather">查看全部日期与预报说明 →</button>':""}</article>`;
+}
+function renderWeather(){
+  const weather=D.weather;
+  if(!weather?.fetchedAt)return heading("WEATHER","每日天气","暂未取得可用天气预报。");
+  const ageHours=Math.max(0,Math.floor((Date.now()-Date.parse(weather.fetchedAt))/3600000));
+  return heading("WEATHER FOR YOUR TRIP","每天的天气，放在一起看","9/26–10/6 · 按原有城市移动与住宿安排查询，不替你们分配景点。")+`<div class="weather-source-bar"><span>本次更新：${esc(weatherUpdateLabel())}（北京时间）</span><a href="${esc(weather.sourceUrl)}" target="_blank" rel="noopener noreferrer">来源：${esc(weather.sourceName)} ↗</a></div>${ageHours>=24?`<div class="callout weather-stale"><h3>这份预报已超过 ${Math.floor(ageHours/24)} 天</h3><p>页面保留的是上次查询结果，不会自动刷新天气。请重新核对最新预报后再决定当天安排。</p></div>`:""}<p class="weather-overview-note">温度为当地全天最低—最高；10/3 起只看远期趋势。湖区是 Bad Goisern 镇里预报，山上天气另查。</p><div class="weather-grid">${D.days.map(d=>weatherDayCard(d)).join("")}</div><div class="weather-method"><strong>这些数字怎么读</strong><p>欧洲日期按当地时间，10/6 按北京时间；转城日分别列出两地。湖区的 Gosausee、Katrin、Krippenstein 等高处不能直接套用镇里的预报。</p><p>每个地点显示当地全天最低—最高温，不是抵达那一刻的气温；“最高降水概率”是当天逐小时概率的最大值，全天降水量与风速来自同一次查询。天气文字代表当天预报中较强的天气现象，不表示整天持续。</p><p>低降水概率不保证山径干燥，山地能见度和缆车运行仍需临近出行确认。远期数据不适合用来锁定徒步日期；本站不会自动更新这份预报。</p><a href="${esc(weather.documentationUrl)}" target="_blank" rel="noopener noreferrer">Open-Meteo 预报与指标说明 ↗</a></div>`;
+}
+
 function renderHome(){
-  return `<section class="selection-hero"><div class="eyebrow">CENTRAL EUROPE · YOUR SHORTLIST</div><h1>先挑喜欢的地方，<br>再把它们串成旅程。</h1><p>不急着填满每一天。先看看四个地方有什么好玩的、需要接受什么取舍，收藏你们真正想去的。</p><div class="selection-steps"><span><b>01</b> 看实景与亮点</span><span><b>02</b> 对照地图和酒店</span><span><b>03</b> 收藏，再安排交通</span></div></section><section class="city-door-grid">${Object.entries(CITY_GUIDES).map(([city,c])=>{const p=D.places.find(p=>p.id===c.cover),count=D.places.filter(p=>p.city===city).length;return `<button class="city-door" data-action="city" data-city="${city}">${p?.photo?.url?`<img src="${esc(p.photo.url)}" alt="${esc(p.photo.caption)}" loading="lazy" referrerpolicy="no-referrer">`:""}<span class="city-door-copy"><small>${esc(c.label)}</small><strong>${city}</strong><span>${count} 个游玩、吃喝与休息候选</span><b>打开地点与地图 ↗</b></span></button>`}).join("")}</section><div class="selection-note"><strong>你们先做选择，我们再排路线。</strong><p>公共花园、小镇、街区、湖景与当地体验优先；艺术馆只是少量可跳过的备选。已订酒店与交通继续保留在侧栏，原有日程仅作参考。</p><button data-action="view" data-view="mine">看已经收藏的 ${state.favorites.length} 个地点 →</button></div>`;
+  return `<section class="selection-hero"><div class="eyebrow">CENTRAL EUROPE · YOUR SHORTLIST</div><h1>先挑喜欢的地方，<br>再把它们串成旅程。</h1><p>不急着填满每一天。先看看四个地方有什么好玩的、需要接受什么取舍，收藏你们真正想去的。</p><div class="selection-steps"><span><b>01</b> 看实景与亮点</span><span><b>02</b> 对照地图和酒店</span><span><b>03</b> 收藏，再安排交通</span></div></section><div class="weather-entry"><div><strong>出发前，先看看天气</strong><span>9/26–10/6 · 最近查询 ${esc(weatherUpdateLabel())}（北京时间）</span></div><button data-action="view" data-view="weather">查看每日天气 →</button></div><section class="city-door-grid">${Object.entries(CITY_GUIDES).map(([city,c])=>{const p=D.places.find(p=>p.id===c.cover),count=D.places.filter(p=>p.city===city).length;return `<button class="city-door" data-action="city" data-city="${city}">${p?.photo?.url?`<img src="${esc(p.photo.url)}" alt="${esc(p.photo.caption)}" loading="lazy" referrerpolicy="no-referrer">`:""}<span class="city-door-copy"><small>${esc(c.label)}</small><strong>${city}</strong><span>${count} 个游玩、吃喝与休息候选</span><b>打开地点与地图 ↗</b></span></button>`}).join("")}</section><div class="selection-note"><strong>你们先做选择，我们再排路线。</strong><p>公共花园、小镇、街区、湖景与当地体验优先；艺术馆只是少量可跳过的备选。已订酒店与交通继续保留在侧栏，原有日程仅作参考。</p><button data-action="view" data-view="mine">看已经收藏的 ${state.favorites.length} 个地点 →</button></div>`;
 }
 function timeValue(s){const m=/(\d{1,2}):(\d{2})/.exec(s);return m?Number(m[1])*60+Number(m[2]):1500;}
 function timelineHTML(events){
@@ -121,6 +156,7 @@ function renderDay(){
   <div class="day-title"><div><div class="eyebrow">DAY ${D.days.indexOf(d)+1} / ${dateShort(d.date)} ${d.weekday} · ${esc(d.city)}</div><h1 style="margin-top:8px">${esc(dayTitle(d))}</h1></div><div class="actions"><button class="small" data-action="edit-day">编辑当天</button><button class="small ghost" data-action="print">打印</button></div></div>
   <p class="day-intro">${esc(d.intro)}</p>
   <div class="chips"><span class="chip">起床 ${esc(dayWake(d))}</span><span class="chip">${esc(d.pace)}</span><span class="chip outline">活动时间为建议，不是预约</span>${edited?'<span class="chip warm">此玩法已修改</span>':""}</div>
+  ${D.weather?.fetchedAt?weatherDayCard(d,true):""}
   <div class="anchor-box"><h3>先守住这些时间与条件</h3><div class="chips">${d.anchors.map(t=>`<span class="chip">${esc(t)}</span>`).join("")}</div></div>
   <div class="day-layout"><section><div class="section-head"><h2>今天怎么过</h2><span class="tiny muted">选一个，不是全都做</span></div><div class="route-choices">${d.routes.map(x=>`<button class="route-choice ${x.id===r.id?"active":""}" data-action="route" data-route="${x.id}" aria-pressed="${x.id===r.id}"><span class="radio"></span><span><b>${esc(x.title)}</b><small>${esc(x.fit)}</small></span></button>`).join("")}</div><p class="route-reason">${esc(r.why)}</p>${timelineHTML(events)}<div class="section"><div class="section-head"><h2>这条路线上可以选择</h2><span class="tiny muted">详细营业与交通在卡片里</span></div><div class="stack">${r.spots.map(id=>allPlaces().find(p=>p.id===id)).filter(Boolean).map(p=>placeCard(p,true)).join("")||'<p class="muted">今天不安排新景点。</p>'}</div></div></section>
   <aside class="day-aside">${hotel?`<div class="card aside-card"><div class="eyebrow">TONIGHT</div><h3 style="margin-top:9px">${esc(hotel.name)}</h3><p>${esc(hotel.nights)}</p><p><strong>入住</strong> ${esc(hotel.checkin)}<br><strong>退房</strong> ${esc(hotel.checkout)}</p><p class="address">${esc(hotel.address)}</p>${mapLink(hotel.address,"酒店定位 ↗")}<p class="tiny muted" style="margin-top:12px">${esc(hotel.note)}</p></div>`:""}

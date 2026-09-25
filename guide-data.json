@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "走慢一点，去中欧",
-    "subtitle": "Zijie & Hanyi · 2026 秋日旅行手册",
+    "subtitle": "中欧旅行手册 · 2026 秋日",
     "dates": "2026.09.26 — 10.06",
     "updated": "2026-09-25",
-    "version": "1.4",
+    "version": "1.5",
     "description": "三国、四个停留区、九晚。先守住已订交通，再按天气和胃口选择当天。",
     "visualUpdated": "2026-09-25"
   },
@@ -1028,6 +1028,12 @@
       "url": "https://www.alltrails.com/trail/czech-republic/prague/divoka-sarka-nebusicka-skala?utm_source=chatgpt&utm_campaign=open_ai_widgets_launch_2025&utm_medium=mcp_widget&utm_content=tool_get_trail_details",
       "kind": "路线社区评分",
       "note": "2026-09-25 通过 AllTrails 官方 MCP 核对。这是其他走法的评分，不能直接套用到攻略中的短线。"
+    },
+    "daily-weather": {
+      "label": "Open-Meteo｜逐日天气预报",
+      "url": "https://open-meteo.com/en/docs",
+      "kind": "天气预报",
+      "note": "气温、降水与风速采用同一提供方的逐日预报；更新时间见每日天气页。日期按地点当地时区划分，远期预报仅供趋势参考，镇里预报不代表山顶天气。"
     }
   },
   "hotels": [
@@ -1459,6 +1465,12 @@
         "ruben",
         "bkk",
         "budtaxi"
+      ],
+      "weatherLocations": [
+        {
+          "id": "budapest",
+          "period": "白天抵达后"
+        }
       ]
     },
     {
@@ -1596,6 +1608,16 @@
         "stockl",
         "viennashops",
         "winehike"
+      ],
+      "weatherLocations": [
+        {
+          "id": "budapest",
+          "period": "上午出发"
+        },
+        {
+          "id": "vienna",
+          "period": "下午抵达"
+        }
       ]
     },
     {
@@ -1791,6 +1813,12 @@
         "mercerie",
         "leopold",
         "anzengruber"
+      ],
+      "weatherLocations": [
+        {
+          "id": "vienna",
+          "period": "全天"
+        }
       ]
     },
     {
@@ -1959,6 +1987,16 @@
         "taxigoisern",
         "moser",
         "steegwirt"
+      ],
+      "weatherLocations": [
+        {
+          "id": "vienna",
+          "period": "白天出发"
+        },
+        {
+          "id": "goisern",
+          "period": "傍晚抵达"
+        }
       ]
     },
     {
@@ -2163,6 +2201,12 @@
         "handwerk",
         "shuttle",
         "moser"
+      ],
+      "weatherLocations": [
+        {
+          "id": "goisern",
+          "period": "湖区活动参考"
+        }
       ]
     },
     {
@@ -2399,6 +2443,12 @@
         "steegwirt",
         "moser",
         "taxigoisern"
+      ],
+      "weatherLocations": [
+        {
+          "id": "goisern",
+          "period": "湖区活动参考"
+        }
       ]
     },
     {
@@ -2566,6 +2616,16 @@
         "novysvet",
         "brewery",
         "strahov"
+      ],
+      "weatherLocations": [
+        {
+          "id": "goisern",
+          "period": "上午出发"
+        },
+        {
+          "id": "prague",
+          "period": "下午抵达"
+        }
       ]
     },
     {
@@ -2762,6 +2822,12 @@
         "senk",
         "hvezda",
         "strahov"
+      ],
+      "weatherLocations": [
+        {
+          "id": "prague",
+          "period": "全天"
+        }
       ]
     },
     {
@@ -2973,6 +3039,16 @@
         "prgbud",
         "ryanair",
         "tribe"
+      ],
+      "weatherLocations": [
+        {
+          "id": "prague",
+          "period": "白天"
+        },
+        {
+          "id": "budapest-airport",
+          "period": "深夜抵达"
+        }
       ]
     },
     {
@@ -3046,6 +3122,12 @@
       "refs": [
         "bookings",
         "tribe"
+      ],
+      "weatherLocations": [
+        {
+          "id": "budapest-airport",
+          "period": "上午离境"
+        }
       ]
     },
     {
@@ -3095,6 +3177,12 @@
       "food": "按实际抵达情况安排早餐。",
       "refs": [
         "bookings"
+      ],
+      "weatherLocations": [
+        {
+          "id": "shanghai",
+          "period": "北京时间早晨抵达"
+        }
       ]
     }
   ],
@@ -6983,5 +7071,224 @@
       ],
       "refs": []
     }
-  ]
+  ],
+  "weather": {
+    "sourceName": "Open-Meteo",
+    "sourceUrl": "https://open-meteo.com/",
+    "documentationUrl": "https://open-meteo.com/en/docs",
+    "locations": {
+      "budapest": {
+        "name": "布达佩斯市区",
+        "latitude": 47.493436,
+        "longitude": 19.0549016,
+        "timezone": "Europe/Budapest",
+        "forecasts": {
+          "2026-09-26": {
+            "code": 1,
+            "highC": 22.9,
+            "lowC": 12.9,
+            "precipitationMm": 0.0,
+            "windMaxMs": 1.8,
+            "gustMaxMs": 5.6,
+            "leadDays": 1,
+            "precipitationProbabilityPct": 0
+          },
+          "2026-09-27": {
+            "code": 3,
+            "highC": 23.7,
+            "lowC": 13.6,
+            "precipitationMm": 0.0,
+            "windMaxMs": 1.6,
+            "gustMaxMs": 4.9,
+            "leadDays": 2,
+            "precipitationProbabilityPct": 0
+          }
+        },
+        "elevationMeters": 128.0,
+        "forecastUrl": "https://api.open-meteo.com/v1/forecast?latitude=47.493436&longitude=19.0549016&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max&timezone=Europe%2FBudapest&forecast_days=16"
+      },
+      "vienna": {
+        "name": "维也纳",
+        "latitude": 48.1847748,
+        "longitude": 16.3828055,
+        "timezone": "Europe/Vienna",
+        "forecasts": {
+          "2026-09-27": {
+            "code": 3,
+            "highC": 21.3,
+            "lowC": 9.9,
+            "precipitationMm": 0.0,
+            "windMaxMs": 4.1,
+            "gustMaxMs": 10.3,
+            "leadDays": 2,
+            "precipitationProbabilityPct": 0
+          },
+          "2026-09-28": {
+            "code": 1,
+            "highC": 22.4,
+            "lowC": 11.7,
+            "precipitationMm": 0.0,
+            "windMaxMs": 4.2,
+            "gustMaxMs": 10.7,
+            "leadDays": 3,
+            "precipitationProbabilityPct": 0
+          },
+          "2026-09-29": {
+            "code": 0,
+            "highC": 22.3,
+            "lowC": 11.2,
+            "precipitationMm": 0.0,
+            "windMaxMs": 3.9,
+            "gustMaxMs": 9.9,
+            "leadDays": 4,
+            "precipitationProbabilityPct": 0
+          }
+        },
+        "elevationMeters": 201.0,
+        "forecastUrl": "https://api.open-meteo.com/v1/forecast?latitude=48.1847748&longitude=16.3828055&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max&timezone=Europe%2FVienna&forecast_days=16"
+      },
+      "goisern": {
+        "name": "Bad Goisern · 湖区镇里",
+        "latitude": 47.64712993,
+        "longitude": 13.61212878,
+        "timezone": "Europe/Vienna",
+        "forecasts": {
+          "2026-09-29": {
+            "code": 0,
+            "highC": 23.5,
+            "lowC": 11.7,
+            "precipitationMm": 0.0,
+            "windMaxMs": 1.4,
+            "gustMaxMs": 3.8,
+            "leadDays": 4,
+            "precipitationProbabilityPct": 0
+          },
+          "2026-09-30": {
+            "code": 1,
+            "highC": 23.1,
+            "lowC": 12.2,
+            "precipitationMm": 0.0,
+            "windMaxMs": 2.7,
+            "gustMaxMs": 8.9,
+            "leadDays": 5,
+            "precipitationProbabilityPct": 0
+          },
+          "2026-10-01": {
+            "code": 0,
+            "highC": 25.2,
+            "lowC": 14.6,
+            "precipitationMm": 0.0,
+            "windMaxMs": 2.7,
+            "gustMaxMs": 8.9,
+            "leadDays": 6,
+            "precipitationProbabilityPct": 0
+          },
+          "2026-10-02": {
+            "code": 3,
+            "highC": 20.4,
+            "lowC": 11.8,
+            "precipitationMm": 0.0,
+            "windMaxMs": 2.5,
+            "gustMaxMs": 8.8,
+            "leadDays": 7,
+            "precipitationProbabilityPct": 41
+          }
+        },
+        "elevationMeters": 496.0,
+        "forecastUrl": "https://api.open-meteo.com/v1/forecast?latitude=47.64712993&longitude=13.61212878&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max&timezone=Europe%2FVienna&forecast_days=16"
+      },
+      "prague": {
+        "name": "布拉格",
+        "latitude": 50.086208735092,
+        "longitude": 14.387606130383,
+        "timezone": "Europe/Prague",
+        "forecasts": {
+          "2026-10-02": {
+            "code": 3,
+            "highC": 20.1,
+            "lowC": 6.2,
+            "precipitationMm": 0.0,
+            "windMaxMs": 3.9,
+            "gustMaxMs": 9.4,
+            "leadDays": 7,
+            "precipitationProbabilityPct": 22
+          },
+          "2026-10-03": {
+            "code": 3,
+            "highC": 20.4,
+            "lowC": 10.1,
+            "precipitationMm": 0.0,
+            "windMaxMs": 1.7,
+            "gustMaxMs": 7.0,
+            "leadDays": 8,
+            "precipitationProbabilityPct": 16
+          },
+          "2026-10-04": {
+            "code": 2,
+            "highC": 20.3,
+            "lowC": 9.8,
+            "precipitationMm": 0.0,
+            "windMaxMs": 2.0,
+            "gustMaxMs": 5.5,
+            "leadDays": 9,
+            "precipitationProbabilityPct": 12
+          }
+        },
+        "elevationMeters": 294.0,
+        "forecastUrl": "https://api.open-meteo.com/v1/forecast?latitude=50.086208735092&longitude=14.387606130383&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max&timezone=Europe%2FPrague&forecast_days=16"
+      },
+      "budapest-airport": {
+        "name": "布达佩斯机场周边",
+        "latitude": 47.430529,
+        "longitude": 19.262399,
+        "timezone": "Europe/Budapest",
+        "forecasts": {
+          "2026-10-04": {
+            "code": 3,
+            "highC": 24.2,
+            "lowC": 11.8,
+            "precipitationMm": 0.0,
+            "windMaxMs": 2.9,
+            "gustMaxMs": 7.0,
+            "leadDays": 9,
+            "precipitationProbabilityPct": 9
+          },
+          "2026-10-05": {
+            "code": 3,
+            "highC": 23.9,
+            "lowC": 12.7,
+            "precipitationMm": 0.0,
+            "windMaxMs": 3.2,
+            "gustMaxMs": 8.7,
+            "leadDays": 10,
+            "precipitationProbabilityPct": 10
+          }
+        },
+        "elevationMeters": 140.0,
+        "forecastUrl": "https://api.open-meteo.com/v1/forecast?latitude=47.430529&longitude=19.262399&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max&timezone=Europe%2FBudapest&forecast_days=16"
+      },
+      "shanghai": {
+        "name": "上海市区",
+        "latitude": 31.2304,
+        "longitude": 121.4737,
+        "timezone": "Asia/Shanghai",
+        "forecasts": {
+          "2026-10-06": {
+            "code": 3,
+            "highC": 22.3,
+            "lowC": 15.9,
+            "precipitationMm": 0.0,
+            "windMaxMs": 2.6,
+            "gustMaxMs": 8.0,
+            "leadDays": 11,
+            "precipitationProbabilityPct": 20
+          }
+        },
+        "elevationMeters": 5.0,
+        "forecastUrl": "https://api.open-meteo.com/v1/forecast?latitude=31.2304&longitude=121.4737&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max&timezone=Asia%2FShanghai&forecast_days=16"
+      }
+    },
+    "fetchedAt": "2026-09-25T12:07:20+00:00",
+    "queryUrl": "https://api.open-meteo.com/v1/forecast?latitude=47.493436%2C48.1847748%2C47.64712993%2C50.086208735092%2C47.430529%2C31.2304&longitude=19.0549016%2C16.3828055%2C13.61212878%2C14.387606130383%2C19.262399%2C121.4737&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_probability_max%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_gusts_10m_max&timezone=auto&forecast_days=16"
+  }
 }

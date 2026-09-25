@@ -1,6 +1,6 @@
 # 走慢一点，去中欧
 
-Zijie & Hanyi · 2026-09-26 至 2026-10-06
+中欧旅行手册 · 2026-09-26 至 2026-10-06
 研究快照：2026-09-25
 
 ## 打开
@@ -30,7 +30,7 @@ The guide is published on GitHub Pages at https://yanring.github.io/central-euro
 ## 内容范围
 
 11 天；77 个地点；27 个原日方案参考；5 家酒店；6 段已提供的长途交通；
-17 项准备事项；9 组实用信息；170 条来源或用户依据。
+17 项准备事项；9 组实用信息；171 条来源或用户依据。
 所有酒店和长途交通以用户最新版文字为准，没有假装重新读取订单。
 游玩时刻、接驳耗时、预算均为建议，不是实时预订或运营保证。
 
@@ -91,3 +91,15 @@ Seven hiking cards include an AllTrails comparison checked on 25 September 2026 
 Two entries broadly correspond to the described walks: Vienna City Hiking Trail 1 and Naturlehrpfad Hermesvillapark. Three are explicitly labeled different itineraries: Normafa's 5.1 km loop, the 9.3 km Anzenauer Ewige Wand loop, and the 8.4 km Divoká Šárka–Nebušická skála out-and-back. Their ratings must not be presented as ratings for this guide's shorter variants. Koppenwinkel and Jainzen remain unconfirmed and have no numeric rating, rather than zero stars or a borrowed nearby score.
 
 Favorites copied to the clipboard include the provider route, rating/count, match explanation, and verification date. The original official trail measurements and booking warnings remain unchanged.
+
+## Daily weather
+
+The weather page covers all 11 itinerary dates, using 15 date/location forecasts across six locations. Transfer days show both places. The Budapest airport point is used for the late arrival on 4 October and departure on 5 October; Shanghai is a city forecast for the local arrival date on 6 October. Lake-region data refer to Bad Goisern in the valley, not an alpine summit.
+
+Open-Meteo is the single source for displayed daily low/high temperatures, maximum precipitation probability, precipitation totals, maximum wind, and gusts. Source daily codes indicate the most severe predicted weather condition during the day, not continuous all-day conditions. Temperatures are whole-day extrema rather than arrival-time temperatures. Wind is converted from km/h to m/s. Missing values are kept distinct from zero.
+
+Dates are interpreted in each location's time zone. Each forecast stores its lead time when queried: 1–3 days are labeled near-term, 4–7 days medium-range, and more than 7 days a distant trend. These labels are guidance rather than numerical confidence estimates. A warning appears when the saved snapshot is more than 24 hours old. There is no automatic update or background task.
+
+To refresh manually, run `python3 scripts/update_weather.py`, followed by `python3 scripts/build.py` and `python3 scripts/build.py --check`. The update script validates location order, time zones, units, dates, and numeric ranges before replacing the data file. It preserves the prior file on retrieval/validation failure. If some itinerary dates leave the provider's current forecast range, those dates show as unavailable; no historical normals or fabricated values are substituted.
+
+The site title, subtitle, sidebar, and README now use neutral travel-guide branding. The browser-state seed and local-storage identity are unchanged.

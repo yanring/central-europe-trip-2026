@@ -1,3 +1,17 @@
+# Daily weather and branding verification — 2026-09-25
+
+- Retrieved six Open-Meteo locations in one batch and saved 15 matching local-date forecasts for all 11 itinerary days. Time zones, coordinate proximity, returned units, array lengths, temperature order, precipitation probabilities, and nonnegative wind/precipitation values were validated.
+- Weather values are from one provider; the initial comparison weather lookup was not mixed into the displayed data. Wind values were converted from km/h to m/s.
+- Targeted checks exercised zero versus missing values, rain-code hints, missing forecast fallback, distant-trend labels, and the warning after 24 hours. Transfer-day tests verified Prague and Budapest airport on 4 October.
+- Real browser at an isolated localhost origin rendered 11 weather cards and 15 location blocks; the last four dates were labeled distant trends. The original daily-reference page also displayed the correct two weather locations on 4 October.
+- At 390×844, inspected the mobile weather page: daily low/high temperatures were visible in the first card, all six mobile navigation entries fit, and no horizontal overflow was observed. The viewport override was reset. No JavaScript console errors were observed.
+- Personal-name branding was absent from app.js, index.html, guide-data.json, and README. All 77 place records, hotels, transport, checklist, practical notes, original day content, and the personal-state seed were preserved; days only gained weather-location references.
+- JavaScript and Python syntax, standalone bundle synchronization, and whitespace checks passed. Live-site browser data was not reset or cleared.
+
+Limitations: the forecast is a dated snapshot, distant dates are less reliable, city data do not represent mountain conditions, and daily extrema do not give arrival-time temperatures.
+
+---
+
 # AllTrails comparison verification — 2026-09-25
 
 - Official MCP search and detail tools provided five exact provider IDs and their current returned rating/count values. Route names, descriptions and lengths were compared with this guide before classifying matches.
